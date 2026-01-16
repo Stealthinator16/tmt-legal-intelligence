@@ -1,0 +1,1094 @@
+{
+  "tier": 5,
+  "name": "Periodic Sources",
+  "check_frequency": "monthly",
+  "description": "Monthly monitoring - specialized sectors, research, and niche sources",
+  "source_count": 248,
+  "categories": {
+    "specialized_drones": 18,
+    "specialized_space": 15,
+    "specialized_blockchain": 22,
+    "specialized_cybersecurity": 24,
+    "specialized_ai_ml": 28,
+    "specialized_autonomous": 12,
+    "specialized_quantum": 8,
+    "specialized_biotech": 14,
+    "academic_additional": 40,
+    "research_repositories": 25,
+    "niche_international": 22,
+    "state_level_india": 20
+  },
+  "sources": [
+    {
+      "id": "dgca_drones",
+      "name": "DGCA Drone Rules",
+      "url": "https://www.dgca.gov.in",
+      "type": "regulator",
+      "method": "websearch",
+      "search_query": "site:dgca.gov.in (drone OR RPAS OR UAV OR unmanned)",
+      "focus_areas": ["Drones-eVTOL"],
+      "enabled": true
+    },
+    {
+      "id": "digitalsky",
+      "name": "Digital Sky Platform",
+      "url": "https://digitalsky.dgca.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": ["Drones-eVTOL"],
+      "enabled": true
+    },
+    {
+      "id": "drone_federation",
+      "name": "Drone Federation of India",
+      "url": "https://www.dronefederation.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Drones-eVTOL"],
+      "enabled": true
+    },
+    {
+      "id": "ficci_drones",
+      "name": "FICCI Drones Committee",
+      "url": "https://ficci.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:ficci.in drone",
+      "focus_areas": ["Drones-eVTOL"],
+      "enabled": true
+    },
+    {
+      "id": "suas_news",
+      "name": "sUAS News",
+      "url": "https://www.suasnews.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:suasnews.com India",
+      "focus_areas": ["Drones-eVTOL"],
+      "enabled": true
+    },
+    {
+      "id": "drone_life",
+      "name": "DroneLife",
+      "url": "https://dronelife.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:dronelife.com India regulation",
+      "focus_areas": ["Drones-eVTOL"],
+      "enabled": true
+    },
+    {
+      "id": "evtol_insights",
+      "name": "eVTOL Insights",
+      "url": "https://evtolinsights.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:evtolinsights.com India",
+      "focus_areas": ["Drones-eVTOL"],
+      "enabled": true
+    },
+    {
+      "id": "faa_drones",
+      "name": "FAA UAS",
+      "url": "https://www.faa.gov/uas",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Drones-eVTOL", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "easa_drones",
+      "name": "EASA Drones",
+      "url": "https://www.easa.europa.eu/en/domains/civil-drones",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Drones-eVTOL", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "in_space",
+      "name": "IN-SPACe",
+      "url": "https://www.inspace.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": ["Space-Technology"],
+      "enabled": true
+    },
+    {
+      "id": "isro_news",
+      "name": "ISRO",
+      "url": "https://www.isro.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": ["Space-Technology"],
+      "enabled": true
+    },
+    {
+      "id": "indian_space_assoc",
+      "name": "Indian Space Association",
+      "url": "https://www.indianspaceassociation.com",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Space-Technology"],
+      "enabled": true
+    },
+    {
+      "id": "space_news",
+      "name": "SpaceNews",
+      "url": "https://spacenews.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:spacenews.com India",
+      "focus_areas": ["Space-Technology"],
+      "enabled": true
+    },
+    {
+      "id": "space_policy_online",
+      "name": "Space Policy Online",
+      "url": "https://spacepolicyonline.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:spacepolicyonline.com India",
+      "focus_areas": ["Space-Technology", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "un_oosa",
+      "name": "UN OOSA",
+      "url": "https://www.unoosa.org",
+      "type": "international_organization",
+      "method": "webfetch",
+      "focus_areas": ["Space-Technology", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "bacc_india",
+      "name": "BACC (Blockchain Association)",
+      "url": "https://bacc.co.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Blockchain-Crypto"],
+      "enabled": true
+    },
+    {
+      "id": "nasscom_blockchain",
+      "name": "NASSCOM Blockchain",
+      "url": "https://nasscom.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:nasscom.in blockchain OR Web3",
+      "focus_areas": ["Blockchain-Crypto"],
+      "enabled": true
+    },
+    {
+      "id": "coindesk_india",
+      "name": "CoinDesk India",
+      "url": "https://www.coindesk.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:coindesk.com India (regulation OR policy OR RBI)",
+      "focus_areas": ["Blockchain-Crypto"],
+      "enabled": true
+    },
+    {
+      "id": "cointelegraph_india",
+      "name": "Cointelegraph India",
+      "url": "https://cointelegraph.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:cointelegraph.com India (regulation OR policy)",
+      "focus_areas": ["Blockchain-Crypto"],
+      "enabled": true
+    },
+    {
+      "id": "the_block",
+      "name": "The Block - India",
+      "url": "https://www.theblock.co",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:theblock.co India",
+      "focus_areas": ["Blockchain-Crypto"],
+      "enabled": true
+    },
+    {
+      "id": "crypto_briefing",
+      "name": "Crypto Briefing",
+      "url": "https://cryptobriefing.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:cryptobriefing.com India regulation",
+      "focus_areas": ["Blockchain-Crypto"],
+      "enabled": true
+    },
+    {
+      "id": "rbi_crypto",
+      "name": "RBI Crypto/CBDC",
+      "url": "https://www.rbi.org.in",
+      "type": "regulator",
+      "method": "websearch",
+      "search_query": "site:rbi.org.in (cryptocurrency OR CBDC OR digital rupee OR virtual digital asset)",
+      "focus_areas": ["Blockchain-Crypto"],
+      "enabled": true
+    },
+    {
+      "id": "fatf_virtual",
+      "name": "FATF Virtual Assets",
+      "url": "https://www.fatf-gafi.org",
+      "type": "international_organization",
+      "method": "websearch",
+      "search_query": "site:fatf-gafi.org virtual assets OR cryptocurrency",
+      "focus_areas": ["Blockchain-Crypto", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "bis_cbdc",
+      "name": "BIS CBDC",
+      "url": "https://www.bis.org",
+      "type": "international_organization",
+      "method": "websearch",
+      "search_query": "site:bis.org CBDC OR digital currency",
+      "focus_areas": ["Blockchain-Crypto", "Fintech", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "cert_in_advisories",
+      "name": "CERT-In Advisories",
+      "url": "https://www.cert-in.org.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": ["Cybersecurity"],
+      "enabled": true
+    },
+    {
+      "id": "nciipc",
+      "name": "NCIIPC",
+      "url": "https://nciipc.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": ["Cybersecurity", "Critical-Infrastructure"],
+      "enabled": true
+    },
+    {
+      "id": "dsci_reports",
+      "name": "DSCI Reports",
+      "url": "https://www.dsci.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:dsci.in report OR study OR survey",
+      "focus_areas": ["Cybersecurity", "Data-Protection"],
+      "enabled": true
+    },
+    {
+      "id": "nasscom_cyber",
+      "name": "NASSCOM Cybersecurity",
+      "url": "https://nasscom.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:nasscom.in cybersecurity",
+      "focus_areas": ["Cybersecurity"],
+      "enabled": true
+    },
+    {
+      "id": "krebs_security",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com",
+      "type": "blog",
+      "method": "websearch",
+      "search_query": "site:krebsonsecurity.com India",
+      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "dark_reading",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:darkreading.com India",
+      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "threatpost",
+      "name": "Threatpost",
+      "url": "https://threatpost.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:threatpost.com India",
+      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "bleeping_computer",
+      "name": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:bleepingcomputer.com India",
+      "focus_areas": ["Cybersecurity"],
+      "enabled": true
+    },
+    {
+      "id": "security_week",
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:securityweek.com India",
+      "focus_areas": ["Cybersecurity"],
+      "enabled": true
+    },
+    {
+      "id": "enisa_reports",
+      "name": "ENISA Reports",
+      "url": "https://www.enisa.europa.eu",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "site:enisa.europa.eu report OR threat landscape",
+      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "niti_aayog_ai",
+      "name": "NITI Aayog AI",
+      "url": "https://www.niti.gov.in",
+      "type": "government",
+      "method": "websearch",
+      "search_query": "site:niti.gov.in (AI OR artificial intelligence OR responsible AI)",
+      "focus_areas": ["AI-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "nvidia_ai_india",
+      "name": "NVIDIA AI India",
+      "url": "https://www.nvidia.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "NVIDIA AI India policy OR regulation",
+      "focus_areas": ["AI-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "google_ai_india",
+      "name": "Google AI India",
+      "url": "https://ai.google",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "Google AI India policy OR responsible AI",
+      "focus_areas": ["AI-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "microsoft_ai_india",
+      "name": "Microsoft AI India",
+      "url": "https://www.microsoft.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "Microsoft AI India responsible OR policy",
+      "focus_areas": ["AI-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "openai_blog",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "anthropic_blog",
+      "name": "Anthropic Blog",
+      "url": "https://www.anthropic.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "deepmind_blog",
+      "name": "DeepMind Blog",
+      "url": "https://deepmind.com/blog",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "mit_tech_review_ai",
+      "name": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:technologyreview.com AI (regulation OR policy OR governance)",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "wired_ai",
+      "name": "Wired AI",
+      "url": "https://www.wired.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:wired.com AI (regulation OR policy)",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "venture_beat_ai",
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:venturebeat.com AI (regulation OR policy OR governance)",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "the_gradient",
+      "name": "The Gradient",
+      "url": "https://thegradient.pub",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "distill_pub",
+      "name": "Distill",
+      "url": "https://distill.pub",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "morth_av",
+      "name": "MoRTH - Autonomous Vehicles",
+      "url": "https://morth.nic.in",
+      "type": "ministry",
+      "method": "websearch",
+      "search_query": "site:morth.nic.in (autonomous OR connected OR electric vehicle)",
+      "focus_areas": ["Autonomous-Vehicles"],
+      "enabled": true
+    },
+    {
+      "id": "siam_india",
+      "name": "SIAM",
+      "url": "https://www.siam.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:siam.in (autonomous OR connected OR EV)",
+      "focus_areas": ["Autonomous-Vehicles"],
+      "enabled": true
+    },
+    {
+      "id": "nhtsa_av",
+      "name": "NHTSA AV",
+      "url": "https://www.nhtsa.gov",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "site:nhtsa.gov automated vehicles",
+      "focus_areas": ["Autonomous-Vehicles", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "autonomous_vehicle_intl",
+      "name": "Autonomous Vehicle International",
+      "url": "https://www.autonomousvehicleinternational.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:autonomousvehicleinternational.com India",
+      "focus_areas": ["Autonomous-Vehicles"],
+      "enabled": true
+    },
+    {
+      "id": "dst_quantum",
+      "name": "DST - Quantum",
+      "url": "https://dst.gov.in",
+      "type": "ministry",
+      "method": "websearch",
+      "search_query": "site:dst.gov.in quantum",
+      "focus_areas": ["Quantum-Computing"],
+      "enabled": true
+    },
+    {
+      "id": "qci_india",
+      "name": "Quantum Computing India",
+      "url": "https://www.google.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "India quantum computing policy OR mission OR regulation",
+      "focus_areas": ["Quantum-Computing"],
+      "enabled": true
+    },
+    {
+      "id": "nist_quantum",
+      "name": "NIST Quantum",
+      "url": "https://www.nist.gov",
+      "type": "international_standards",
+      "method": "websearch",
+      "search_query": "site:nist.gov quantum",
+      "focus_areas": ["Quantum-Computing", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "dbt_biotech",
+      "name": "DBT",
+      "url": "https://dbtindia.gov.in",
+      "type": "ministry",
+      "method": "webfetch",
+      "focus_areas": ["Biotechnology"],
+      "enabled": true
+    },
+    {
+      "id": "birac",
+      "name": "BIRAC",
+      "url": "https://birac.nic.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": ["Biotechnology"],
+      "enabled": true
+    },
+    {
+      "id": "able_india",
+      "name": "ABLE India",
+      "url": "https://ableindia.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Biotechnology"],
+      "enabled": true
+    },
+    {
+      "id": "geac",
+      "name": "GEAC",
+      "url": "https://geacindia.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": ["Biotechnology"],
+      "enabled": true
+    },
+    {
+      "id": "fssai_gm",
+      "name": "FSSAI - GM Foods",
+      "url": "https://www.fssai.gov.in",
+      "type": "regulator",
+      "method": "websearch",
+      "search_query": "site:fssai.gov.in (GM OR genetically modified OR biotechnology)",
+      "focus_areas": ["Biotechnology"],
+      "enabled": true
+    },
+    {
+      "id": "jstor_law",
+      "name": "JSTOR Law",
+      "url": "https://www.jstor.org",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:jstor.org India (technology law OR cyber law OR data protection)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "heinonline",
+      "name": "HeinOnline",
+      "url": "https://heinonline.org",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:heinonline.org India technology law",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "westlaw_india",
+      "name": "Westlaw India",
+      "url": "https://www.westlawindia.com",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:westlawindia.com (technology OR cyber OR data)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "lexis_india",
+      "name": "LexisNexis India",
+      "url": "https://www.lexisnexis.in",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:lexisnexis.in (technology OR cyber OR data)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "indian_kanoon",
+      "name": "Indian Kanoon",
+      "url": "https://indiankanoon.org",
+      "type": "legal_database",
+      "method": "websearch",
+      "search_query": "site:indiankanoon.org (IT Act OR cyber OR data protection OR intermediary)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "cambridge_jolt",
+      "name": "Cambridge Journal of Law & Technology",
+      "url": "https://www.cambridge.org",
+      "type": "academic_journal",
+      "method": "websearch",
+      "search_query": "Cambridge Journal Law Technology India",
+      "focus_areas": ["all", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "yale_jolt",
+      "name": "Yale Journal of Law & Technology",
+      "url": "https://www.yjolt.org",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "stanford_tech_lr",
+      "name": "Stanford Technology Law Review",
+      "url": "https://law.stanford.edu/stanford-technology-law-review/",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "berkeley_tech_lj",
+      "name": "Berkeley Technology Law Journal",
+      "url": "https://btlj.org",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "harvard_jolt",
+      "name": "Harvard Journal of Law & Technology",
+      "url": "https://jolt.law.harvard.edu",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "columbia_stlr",
+      "name": "Columbia Science & Technology Law Review",
+      "url": "https://stlr.org",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "nyu_jipel",
+      "name": "NYU Journal of IP & Entertainment Law",
+      "url": "https://jipel.law.nyu.edu",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["IP-Copyright", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "oxford_jiplp",
+      "name": "Journal of IP Law & Practice (Oxford)",
+      "url": "https://academic.oup.com/jiplp",
+      "type": "academic_journal",
+      "method": "websearch",
+      "search_query": "Journal IP Law Practice India",
+      "focus_areas": ["IP-Copyright", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "idpl_oxford",
+      "name": "International Data Privacy Law (Oxford)",
+      "url": "https://academic.oup.com/idpl",
+      "type": "academic_journal",
+      "method": "websearch",
+      "search_query": "International Data Privacy Law India",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "cmlj_oxford",
+      "name": "Computer Law & Security Review",
+      "url": "https://www.sciencedirect.com/journal/computer-law-and-security-review",
+      "type": "academic_journal",
+      "method": "websearch",
+      "search_query": "Computer Law Security Review India",
+      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "google_scholar_tmt",
+      "name": "Google Scholar - TMT Law",
+      "url": "https://scholar.google.com",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:scholar.google.com India (\"technology law\" OR \"data protection\" OR \"cyber law\")",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "researchgate_tmt",
+      "name": "ResearchGate TMT",
+      "url": "https://www.researchgate.net",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:researchgate.net India (technology law OR cyber law OR data protection)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "academia_edu_tmt",
+      "name": "Academia.edu TMT",
+      "url": "https://www.academia.edu",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:academia.edu India (technology law OR cyber law OR data protection)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "karnataka_it_dept",
+      "name": "Karnataka IT Department",
+      "url": "https://itbt.karnataka.gov.in",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "maharashtra_it",
+      "name": "Maharashtra IT Department",
+      "url": "https://www.maharashtra.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Maharashtra IT policy OR technology policy",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "telangana_it",
+      "name": "Telangana IT Department",
+      "url": "https://it.telangana.gov.in",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "tamil_nadu_it",
+      "name": "Tamil Nadu IT Department",
+      "url": "https://www.tn.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Tamil Nadu IT policy OR technology policy",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "kerala_it",
+      "name": "Kerala IT Department",
+      "url": "https://www.keralait.org",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "gujarat_it",
+      "name": "Gujarat IT Department",
+      "url": "https://dst.gujarat.gov.in",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "up_it",
+      "name": "UP IT & Electronics",
+      "url": "https://investup.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Uttar Pradesh IT policy OR technology startup",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "delhi_it",
+      "name": "Delhi IT Department",
+      "url": "https://doitc.delhi.gov.in",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "rajasthan_it",
+      "name": "Rajasthan IT Department",
+      "url": "https://rajasthan.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Rajasthan IT policy OR technology",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "mp_it",
+      "name": "MP IT Department",
+      "url": "https://mpsedc.mp.gov.in",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "goa_it",
+      "name": "Goa IT Department",
+      "url": "https://www.goa.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Goa IT policy",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "wb_it",
+      "name": "West Bengal IT Department",
+      "url": "https://wb.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "West Bengal IT policy OR technology",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "odisha_it",
+      "name": "Odisha IT Department",
+      "url": "https://odisha.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Odisha IT policy",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "andhra_it",
+      "name": "Andhra Pradesh IT Department",
+      "url": "https://it.ap.gov.in",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "assam_it",
+      "name": "Assam IT Department",
+      "url": "https://it.assam.gov.in",
+      "type": "state_government",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "argentina_dp",
+      "name": "Argentina Data Protection",
+      "url": "https://www.argentina.gob.ar",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Argentina data protection regulation",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "chile_dp",
+      "name": "Chile Data Protection",
+      "url": "https://www.gob.cl",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Chile data protection regulation",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "colombia_dp",
+      "name": "Colombia SIC",
+      "url": "https://www.sic.gov.co",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Colombia data protection SIC",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "mexico_inai",
+      "name": "Mexico INAI",
+      "url": "https://home.inai.org.mx",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "israel_ppa",
+      "name": "Israel PPA",
+      "url": "https://www.gov.il/en/departments/the_privacy_protection_authority",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "turkey_kvkk",
+      "name": "Turkey KVKK",
+      "url": "https://www.kvkk.gov.tr",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Turkey KVKK data protection",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "egypt_dp",
+      "name": "Egypt Data Protection",
+      "url": "https://www.google.com",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Egypt data protection law regulation",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "ghana_dp",
+      "name": "Ghana Data Protection",
+      "url": "https://www.dataprotection.org.gh",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "rwanda_dp",
+      "name": "Rwanda Data Protection",
+      "url": "https://www.google.com",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Rwanda data protection regulation",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "mauritius_dp",
+      "name": "Mauritius DPO",
+      "url": "https://dataprotection.govmu.org",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "switzerland_fdpic",
+      "name": "Switzerland FDPIC",
+      "url": "https://www.edoeb.admin.ch",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "norway_datatilsynet",
+      "name": "Norway Datatilsynet",
+      "url": "https://www.datatilsynet.no",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "sweden_imy",
+      "name": "Sweden IMY",
+      "url": "https://www.imy.se",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "denmark_datatilsynet",
+      "name": "Denmark Datatilsynet",
+      "url": "https://www.datatilsynet.dk",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "finland_dpa",
+      "name": "Finland DPA",
+      "url": "https://tietosuoja.fi",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "poland_uodo",
+      "name": "Poland UODO",
+      "url": "https://uodo.gov.pl",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "czech_uoou",
+      "name": "Czech Republic UOOU",
+      "url": "https://www.uoou.cz",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "hungary_naih",
+      "name": "Hungary NAIH",
+      "url": "https://www.naih.hu",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "romania_anspdcp",
+      "name": "Romania ANSPDCP",
+      "url": "https://www.dataprotection.ro",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "greece_dpa",
+      "name": "Greece HDPA",
+      "url": "https://www.dpa.gr",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "portugal_cnpd",
+      "name": "Portugal CNPD",
+      "url": "https://www.cnpd.pt",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    }
+  ]
+}

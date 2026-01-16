@@ -1,0 +1,199 @@
+{
+  "date": "2026-01-13",
+  "tier": 1,
+  "sources_checked": 25,
+  "sources_successful": 15,
+  "sources_failed": 10,
+  "executive_summary": "Key developments today include India's proposed smartphone security standards requiring source code access, new cryptocurrency KYC mandates, MeitY notices to X over AI-generated content, and ongoing DPDP Rules 2025 implementation. TRAI consultation on interconnection regulations continues with Dec 2025 deadline. IP developments include Madras HC restricting patent appeals and Delhi HC domain name regulation concerns.",
+  "findings": {
+    "critical_developments": [
+      {
+        "title": "Indian Govt Proposes 83 Security Standards for Smartphones Including Source Code Access",
+        "source": "MediaNama",
+        "date": "2026-01-12",
+        "url": "https://www.medianama.com/2026/01/223-indian-govt-smartphone-source-code-sharing-plan/",
+        "focus_areas": ["Data-Protection", "Cybersecurity", "Privacy"],
+        "summary": "Government proposes mandatory source code access, jailbreak detection, and security log retention for smartphones - raising significant privacy and IP concerns.",
+        "priority": "HIGH"
+      },
+      {
+        "title": "India Mandates Live Selfies, Geotracking for Cryptocurrency Transactions",
+        "source": "MediaNama",
+        "date": "2026-01-12",
+        "url": "https://www.medianama.com/2026/01/223-india-kyc-anti-money-laundering-cryptocurrency-transactions/",
+        "focus_areas": ["Fintech", "Data-Protection", "Cryptocurrency"],
+        "summary": "FIU-IND implements stricter biometric KYC including live selfies and geotracking for crypto exchanges under PMLA provisions.",
+        "priority": "HIGH"
+      },
+      {
+        "title": "MeitY Directs X To Curb AI-Generated Sexual Content",
+        "source": "MediaNama",
+        "date": "2026-01-12",
+        "url": "https://www.medianama.com/2026/01/223-india-directs-x-curb-ai-generated-sexual-content/",
+        "focus_areas": ["Platform-Regulation", "AI-Regulation", "Intermediary-Liability"],
+        "summary": "MeitY issues notice to X threatening safe harbor revocation over AI-generated CSAM and non-consensual imagery via Grok.",
+        "priority": "HIGH"
+      }
+    ],
+    "regulatory_updates": [
+      {
+        "title": "DPDP Rules 2025 Implementation Timeline",
+        "source": "Multiple",
+        "focus_areas": ["Data-Protection", "DPDP-Act"],
+        "summary": "Data Protection Board constituted Nov 13, 2025. Consent Manager registration from Nov 2026. Penalty powers effective May 2027.",
+        "key_dates": {
+          "dpb_constituted": "2025-11-13",
+          "consent_managers": "2026-11-13",
+          "penalties_effective": "2027-05-13"
+        }
+      },
+      {
+        "title": "TRAI Interconnection Regulations Review",
+        "source": "TRAI",
+        "url": "http://www.trai.gov.in/release-publication/consultation",
+        "focus_areas": ["Telecommunications", "5G", "Satellite"],
+        "summary": "TRAI reviewing 9 interconnection regulations. Comments due Dec 8, 2025. Focus on IP-based interconnection for 4G/5G and satellite networks.",
+        "deadline": "2025-12-22"
+      },
+      {
+        "title": "IT Rules 2025 Draft Amendments - Synthetic Media",
+        "source": "MeitY",
+        "date": "2025-10-22",
+        "focus_areas": ["AI-Regulation", "Platform-Regulation", "Intermediary-Liability"],
+        "summary": "Draft amendments address AI-generated/synthetic content, imposing new obligations on intermediaries for content verification and labeling."
+      }
+    ],
+    "court_developments": [
+      {
+        "title": "Karnataka HC X Corp Decision - Digital Censorship Analysis",
+        "source": "IndConLaw",
+        "url": "https://indconlawphil.wordpress.com/2025/12/01/facilitating-digital-censorship-iv-the-use-and-abuse-of-history-in-the-karnataka-high-courts-decision-in-x-corp-v-union-of-india-guest-post/",
+        "focus_areas": ["Platform-Regulation", "Free-Speech", "Intermediary-Liability"],
+        "summary": "Critical analysis of Karnataka HC ruling supporting intermediary regulation using historical reasoning."
+      },
+      {
+        "title": "Delhi HC on Domain Name Regulation - Ex Ante Turn",
+        "source": "SpicyIP",
+        "url": "https://spicyip.com/2026/01/regulating-domain-name-system-dhcs-ex-ante-turn.html",
+        "date": "2026-01-07",
+        "focus_areas": ["IP-Copyright", "Platform-Regulation"],
+        "summary": "Delhi HC decisions raise concerns about overbroad ex ante domain name regulation and data privacy implications."
+      },
+      {
+        "title": "Madras HC Bars LPAs in Patent Disputes",
+        "source": "SpicyIP",
+        "url": "https://spicyip.com/2026/01/one-chance-or-two-madras-hc-bars-lpas-in-patent-disputes-deepening-high-court-parity.html",
+        "date": "2026-01-12",
+        "focus_areas": ["IP-Patents"],
+        "summary": "Madras HC restricts Letters Patent Appeals in patent matters, creating jurisdictional divergence."
+      }
+    ],
+    "ip_developments": [
+      {
+        "title": "DPIIT AI Training Framework - Lawful Access Requirement",
+        "source": "SpicyIP",
+        "url": "https://spicyip.com/2026/01/the-jugaad-of-blanket-licensing-while-ignoring-copyright-law.html",
+        "date": "2026-01-09",
+        "focus_areas": ["AI-Regulation", "IP-Copyright"],
+        "summary": "DPIIT framework requires lawful access for AI training, potentially undermining fair dealing protections."
+      },
+      {
+        "title": "Copyright vs AI Labor Displacement Analysis",
+        "source": "SpicyIP",
+        "url": "https://spicyip.com/2026/01/part-1-copyright-is-the-wrong-answer.html",
+        "date": "2026-01-07",
+        "focus_areas": ["AI-Regulation", "IP-Copyright"],
+        "summary": "Analysis argues copyright expansion cannot address GenAI labor displacement, proposes alternative frameworks."
+      }
+    ],
+    "international_developments": [
+      {
+        "title": "Iran Internet Shutdown - 84+ Hours",
+        "source": "MediaNama",
+        "url": "https://www.medianama.com/2026/01/223-iran-internet-shutdown-84-hours-deadly-protests/",
+        "date": "2026-01-12",
+        "focus_areas": ["Internet-Shutdowns", "Digital-Rights"],
+        "summary": "Amnesty International declares internet blackout a human rights violation during deadly protests."
+      },
+      {
+        "title": "Vietnam Bans Unskippable Online Ads",
+        "source": "MediaNama",
+        "url": "https://www.medianama.com/2026/01/223-vietnam-unskippable-online-ads-india-ott-disclaimers/",
+        "date": "2026-01-09",
+        "focus_areas": ["Platform-Regulation", "Content-Regulation"],
+        "summary": "Vietnam mandates skip buttons after 5 seconds; India proposes 30-second OTT health disclaimers."
+      },
+      {
+        "title": "Indonesia/Malaysia Block Grok Over CSAM",
+        "source": "MediaNama",
+        "date": "2026-01-12",
+        "focus_areas": ["AI-Regulation", "Platform-Regulation"],
+        "summary": "Multiple countries taking action against X's Grok over AI-generated harmful imagery."
+      }
+    ],
+    "think_tank_publications": [
+      {
+        "title": "Policy Prescriptions for Balancing AI and Copyright Concerns",
+        "source": "The Dialogue",
+        "date": "2025-12",
+        "url": "https://thedialogue.co/publication/policy-brief-policy-prescriptions-for-balancing-ai-and-copyright-concerns/",
+        "focus_areas": ["AI-Regulation", "IP-Copyright"]
+      },
+      {
+        "title": "Regulating AI Across Borders: EU AI Act and India's Approach",
+        "source": "The Dialogue",
+        "date": "2025-11",
+        "url": "https://thedialogue.co/publication/research-paper-regulating-ai-across-borders-the-eu-ai-act-stakeholder-perspectives-and-indias-approach/",
+        "focus_areas": ["AI-Regulation", "International-Comparative"]
+      },
+      {
+        "title": "India's AI Landscape: An Overview",
+        "source": "The Dialogue",
+        "date": "2025-11",
+        "url": "https://thedialogue.co/publication/research-paper-indias-ai-landscape-an-overview/",
+        "focus_areas": ["AI-Regulation"]
+      },
+      {
+        "title": "Mapping Ad-Tech Legal Frameworks in India",
+        "source": "CIS India",
+        "date": "2025-04-24",
+        "url": "https://cis-india.org/internet-governance/blog/mapping-the-legal-and-regulatory-frameworks-of-the-ad-tech-ecosystem-in-india",
+        "focus_areas": ["Platform-Regulation", "Data-Protection"]
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "item": "Monitor smartphone security standards consultation",
+      "deadline": "TBD",
+      "priority": "HIGH"
+    },
+    {
+      "item": "Track TRAI interconnection consultation responses",
+      "deadline": "2025-12-22",
+      "priority": "MEDIUM"
+    },
+    {
+      "item": "Review IT Rules 2025 draft amendment implications for clients",
+      "deadline": "TBD",
+      "priority": "HIGH"
+    },
+    {
+      "item": "Monitor DPDP Rules implementation - DPO appointment guidance",
+      "deadline": "2026-11-13",
+      "priority": "HIGH"
+    }
+  ],
+  "sources_with_errors": [
+    "IFF RSS (404)",
+    "Live Law RSS (500)",
+    "E-Gazette WebSearch (API overload)",
+    "Supreme Court WebSearch (API overload)",
+    "RBI WebSearch (API overload)",
+    "CCI WebSearch (API overload)",
+    "CERT-In WebSearch (API overload)",
+    "EDPB WebSearch (API overload)",
+    "FTC WebSearch (API overload)",
+    "Vidhi Centre (SSL certificate error)"
+  ]
+}

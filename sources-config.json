@@ -1,0 +1,82 @@
+{
+    "government_sources": {
+        "e_gazette": {
+            "url": "https://egazette.gov.in",
+            "check_frequency": "daily",
+            "search_method": "keyword",
+            "keywords": [
+                "information technology",
+                "data protection",
+                "DPDP",
+                "telecommunication",
+                "AI",
+                "drone",
+                "cyber security"
+            ]
+        },
+        "meity": {
+            "url": "https://www.meity.gov.in",
+            "check_frequency": "daily",
+            "sections": [
+                "press-releases",
+                "policies",
+                "consultations",
+                "notifications"
+            ]
+        },
+        "trai": {
+            "url": "https://www.trai.gov.in",
+            "check_frequency": "daily",
+            "sections": [
+                "regulations",
+                "recommendations",
+                "consultation-papers"
+            ]
+        },
+        "rbi": {
+            "url": "https://www.rbi.org.in",
+            "check_frequency": "daily",
+            "sections": [
+                "circulars",
+                "notifications"
+            ],
+            "filter": [
+                "fintech",
+                "digital payments",
+                "cryptocurrency"
+            ]
+        }
+    },
+    "legal_analysis_sources": {
+        "medianama": {
+            "url": "https://www.medianama.com",
+            "rss": "https://www.medianama.com/feed/",
+            "check_frequency": "daily",
+            "priority": "critical"
+        },
+        "iff": {
+            "url": "https://internetfreedom.in",
+            "check_frequency": "daily"
+        },
+        "indconlaw": {
+            "url": "https://indconlawphil.wordpress.com",
+            "rss": "https://indconlawphil.wordpress.com/feed/",
+            "check_frequency": "daily"
+        },
+        "nlsiu_blog": {
+            "url": "https://blog.nlsiu.ac.in/technology-law/",
+            "check_frequency": "daily"
+        }
+    },
+    "judicial_sources": {
+        "supreme_court": {
+            "url": "https://main.sci.gov.in",
+            "search_url": "https://main.sci.gov.in/daily-orders",
+            "check_frequency": "daily"
+        },
+        "delhi_hc": {
+            "url": "https://delhihighcourt.nic.in",
+            "check_frequency": "daily"
+        }
+    }
+}

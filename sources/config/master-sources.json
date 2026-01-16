@@ -1,0 +1,41 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-01-12",
+  "total_sources_implemented": 383,
+  "total_sources_planned": 738,
+  "note": "Initial implementation with core sources. Additional sources can be added to each tier JSON file following the same format.",
+  "tier_summary": {
+    "tier1_critical": 25,
+    "tier2_high": 64,
+    "tier3_standard": 90,
+    "tier4_regular": 92,
+    "tier5_periodic": 112
+  },
+  "categories": {
+    "indian_government_legislative": 52,
+    "indian_regulators": 28,
+    "indian_judiciary": 32,
+    "indian_legal_news": 42,
+    "indian_think_tanks": 18,
+    "indian_industry_bodies": 16,
+    "indian_law_firms": 14,
+    "international_eu": 35,
+    "international_us": 28,
+    "international_uk_apac": 25,
+    "international_organizations": 18,
+    "global_academic": 105,
+    "global_advocacy": 22,
+    "business_news": 32,
+    "specialized_fintech": 24,
+    "specialized_gaming": 16,
+    "specialized_drones": 18,
+    "specialized_ai": 28,
+    "specialized_healthtech": 18,
+    "specialized_ott": 14,
+    "specialized_space": 15,
+    "specialized_blockchain": 22,
+    "specialized_cybersecurity": 24,
+    "specialized_other": 42
+  },
+  "sources": []
+}

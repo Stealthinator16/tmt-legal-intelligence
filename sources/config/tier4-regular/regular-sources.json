@@ -1,0 +1,902 @@
+{
+  "tier": 4,
+  "name": "Regular Priority Sources",
+  "check_frequency": "weekly",
+  "description": "Weekly monitoring - comprehensive academic, law firm, and industry coverage",
+  "source_count": 220,
+  "categories": {
+    "academic_journals": 45,
+    "law_firms_india": 25,
+    "law_firms_international": 20,
+    "industry_bodies": 30,
+    "specialized_fintech": 24,
+    "specialized_gaming": 16,
+    "specialized_healthtech": 18,
+    "specialized_edtech": 12,
+    "specialized_ott": 14,
+    "additional_international": 16
+  },
+  "sources": [
+    {
+      "id": "ssrn_law",
+      "name": "SSRN - Law",
+      "url": "https://www.ssrn.com",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:ssrn.com (India technology law OR India data protection OR India cyber law OR India AI regulation)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "ssrn_tech",
+      "name": "SSRN - Technology",
+      "url": "https://www.ssrn.com",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:ssrn.com (India fintech OR India digital regulation OR India platform regulation)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "arxiv_cs_cy",
+      "name": "arXiv - CS/CY",
+      "url": "https://arxiv.org",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:arxiv.org (AI governance OR technology regulation OR privacy) India",
+      "focus_areas": ["AI-Regulation", "Data-Protection"],
+      "enabled": true
+    },
+    {
+      "id": "stanford_hai",
+      "name": "Stanford HAI",
+      "url": "https://hai.stanford.edu",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "harvard_berkman",
+      "name": "Harvard Berkman Klein Center",
+      "url": "https://cyber.harvard.edu",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["Platform-Regulation", "Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "oxford_internet",
+      "name": "Oxford Internet Institute",
+      "url": "https://www.oii.ox.ac.uk",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["Platform-Regulation", "AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "mit_media_lab",
+      "name": "MIT Media Lab",
+      "url": "https://www.media.mit.edu",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "site:media.mit.edu (AI ethics OR privacy OR governance)",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "yale_isp",
+      "name": "Yale ISP",
+      "url": "https://law.yale.edu/isp",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["Platform-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "nyu_engelberg",
+      "name": "NYU Engelberg Center",
+      "url": "https://www.law.nyu.edu/engelberg",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["IP-Copyright", "AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "georgetown_cdt",
+      "name": "Georgetown CDT",
+      "url": "https://cdt.org",
+      "type": "advocacy",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "Platform-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "carnegie_mellon",
+      "name": "Carnegie Mellon - CyLab",
+      "url": "https://www.cylab.cmu.edu",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["Cybersecurity", "AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "eff",
+      "name": "Electronic Frontier Foundation",
+      "url": "https://www.eff.org",
+      "type": "advocacy",
+      "method": "websearch",
+      "search_query": "site:eff.org (India OR privacy OR surveillance OR encryption)",
+      "focus_areas": ["Data-Protection", "Constitutional-Rights", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "access_now",
+      "name": "Access Now",
+      "url": "https://www.accessnow.org",
+      "type": "advocacy",
+      "method": "websearch",
+      "search_query": "site:accessnow.org India",
+      "focus_areas": ["Data-Protection", "Constitutional-Rights", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "article_19",
+      "name": "Article 19",
+      "url": "https://www.article19.org",
+      "type": "advocacy",
+      "method": "websearch",
+      "search_query": "site:article19.org India",
+      "focus_areas": ["Constitutional-Rights", "Platform-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "privacy_international",
+      "name": "Privacy International",
+      "url": "https://privacyinternational.org",
+      "type": "advocacy",
+      "method": "websearch",
+      "search_query": "site:privacyinternational.org India",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "future_of_life",
+      "name": "Future of Life Institute",
+      "url": "https://futureoflife.org",
+      "type": "advocacy",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "ai_now",
+      "name": "AI Now Institute",
+      "url": "https://ainowinstitute.org",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "partnership_ai",
+      "name": "Partnership on AI",
+      "url": "https://partnershiponai.org",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "iapp",
+      "name": "IAPP",
+      "url": "https://iapp.org",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:iapp.org India",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "journal_ilr_delhi",
+      "name": "Indian Law Review (Delhi)",
+      "url": "https://www.tandfonline.com/toc/rilw20/current",
+      "type": "academic_journal",
+      "method": "websearch",
+      "search_query": "\"Indian Law Review\" technology OR digital OR cyber",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "journal_nujs",
+      "name": "NUJS Law Review",
+      "url": "https://nujslawreview.org",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "journal_nlsir",
+      "name": "NLSIR",
+      "url": "https://www.nlsir.com",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "journal_jili",
+      "name": "Journal of Indian Law Institute",
+      "url": "https://www.ili.ac.in",
+      "type": "academic_journal",
+      "method": "websearch",
+      "search_query": "\"Journal of Indian Law Institute\" technology OR cyber OR digital",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "journal_ijlt",
+      "name": "Indian Journal of Law & Technology",
+      "url": "https://www.ijlt.in",
+      "type": "academic_journal",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "journal_clpr",
+      "name": "CLPR - Centre for Law & Policy Research",
+      "url": "https://clpr.org.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": ["Constitutional-Rights", "Data-Protection"],
+      "enabled": true
+    },
+    {
+      "id": "journal_scc",
+      "name": "SCC Online Blog",
+      "url": "https://www.scconline.com/blog",
+      "type": "legal_news",
+      "method": "websearch",
+      "search_query": "site:scconline.com/blog (technology OR data OR cyber OR IT Act)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "journal_manupatra",
+      "name": "Manupatra Articles",
+      "url": "https://www.manupatrafast.com",
+      "type": "legal_news",
+      "method": "websearch",
+      "search_query": "site:manupatrafast.com (technology OR data protection OR cyber)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "trilegal",
+      "name": "Trilegal",
+      "url": "https://trilegal.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:trilegal.com (technology OR data OR digital OR cyber OR telecom)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "azbpartners",
+      "name": "AZB & Partners",
+      "url": "https://www.azbpartners.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:azbpartners.com (technology OR data OR digital OR fintech)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "cyrilshroff",
+      "name": "Cyril Amarchand Mangaldas",
+      "url": "https://www.cyrilshroff.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:cyrilshroff.com (technology OR data OR digital OR TMT)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "khaitan",
+      "name": "Khaitan & Co",
+      "url": "https://www.khaitanco.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:khaitanco.com (technology OR data OR digital)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "jsalaw",
+      "name": "JSA Law",
+      "url": "https://www.jsalaw.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:jsalaw.com (technology OR data OR digital)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "luthra",
+      "name": "Luthra & Luthra",
+      "url": "https://www.luthra.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:luthra.com (technology OR data OR digital)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "singhania",
+      "name": "Singhania & Partners",
+      "url": "https://www.singhania.in",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:singhania.in (technology OR data OR digital)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "nishith_desai",
+      "name": "Nishith Desai Associates",
+      "url": "https://www.nishithdesai.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:nishithdesai.com (technology OR data OR digital OR AI)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "ikigai",
+      "name": "Ikigai Law",
+      "url": "https://www.ikigailaw.com",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "sng_partners",
+      "name": "SNG & Partners",
+      "url": "https://www.sngpartners.in",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:sngpartners.in (technology OR data OR IP)",
+      "focus_areas": ["IP-Copyright", "Data-Protection"],
+      "enabled": true
+    },
+    {
+      "id": "anand_anand",
+      "name": "Anand and Anand",
+      "url": "https://www.anandandanand.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:anandandanand.com (technology OR AI OR digital)",
+      "focus_areas": ["IP-Copyright"],
+      "enabled": true
+    },
+    {
+      "id": "lakshmikumaran",
+      "name": "Lakshmikumaran & Sridharan",
+      "url": "https://www.lakshmisri.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:lakshmisri.com (technology OR data OR digital)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "samvad_partners",
+      "name": "Samvad Partners",
+      "url": "https://www.samvadpartners.com",
+      "type": "law_firm",
+      "method": "websearch",
+      "search_query": "site:samvadpartners.com (technology OR data OR fintech)",
+      "focus_areas": ["Fintech", "Data-Protection"],
+      "enabled": true
+    },
+    {
+      "id": "dla_piper",
+      "name": "DLA Piper",
+      "url": "https://www.dlapiper.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:dlapiper.com India (technology OR data OR digital)",
+      "focus_areas": ["International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "clifford_chance",
+      "name": "Clifford Chance",
+      "url": "https://www.cliffordchance.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:cliffordchance.com India (technology OR data)",
+      "focus_areas": ["International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "linklaters",
+      "name": "Linklaters",
+      "url": "https://www.linklaters.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:linklaters.com India (technology OR fintech)",
+      "focus_areas": ["International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "freshfields",
+      "name": "Freshfields",
+      "url": "https://www.freshfields.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:freshfields.com India technology",
+      "focus_areas": ["International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "baker_mckenzie",
+      "name": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:bakermckenzie.com India (technology OR data)",
+      "focus_areas": ["International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "white_case",
+      "name": "White & Case",
+      "url": "https://www.whitecase.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:whitecase.com India technology",
+      "focus_areas": ["International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "nasscom",
+      "name": "NASSCOM",
+      "url": "https://nasscom.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["AI-Regulation", "Data-Protection", "E-Commerce"],
+      "enabled": true
+    },
+    {
+      "id": "iamai",
+      "name": "IAMAI",
+      "url": "https://www.iamai.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Platform-Regulation", "E-Commerce", "Digital-Payments"],
+      "enabled": true
+    },
+    {
+      "id": "ficci",
+      "name": "FICCI",
+      "url": "https://ficci.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:ficci.in (technology OR digital OR cyber OR AI)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "cii",
+      "name": "CII",
+      "url": "https://www.cii.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:cii.in (technology OR digital OR cyber OR AI)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "assocham",
+      "name": "ASSOCHAM",
+      "url": "https://www.assocham.org",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:assocham.org (technology OR digital OR fintech)",
+      "focus_areas": ["all"],
+      "enabled": true
+    },
+    {
+      "id": "coai",
+      "name": "COAI",
+      "url": "https://www.coai.com",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Telecommunications"],
+      "enabled": true
+    },
+    {
+      "id": "isp_association",
+      "name": "ISPAI",
+      "url": "https://www.ispai.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Telecommunications"],
+      "enabled": true
+    },
+    {
+      "id": "dsci",
+      "name": "DSCI",
+      "url": "https://www.dsci.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "Cybersecurity"],
+      "enabled": true
+    },
+    {
+      "id": "payments_council",
+      "name": "Payments Council of India",
+      "url": "https://www.paymentscouncil.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Fintech", "Digital-Payments"],
+      "enabled": true
+    },
+    {
+      "id": "fintech_convergence",
+      "name": "Fintech Convergence Council",
+      "url": "https://www.fintechcc.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Fintech"],
+      "enabled": true
+    },
+    {
+      "id": "rbi_fintech_dept",
+      "name": "RBI Fintech Department",
+      "url": "https://www.rbi.org.in",
+      "type": "regulator",
+      "method": "websearch",
+      "search_query": "site:rbi.org.in (fintech OR digital lending OR NBFC-AA OR account aggregator)",
+      "focus_areas": ["Fintech", "Digital-Payments"],
+      "enabled": true
+    },
+    {
+      "id": "npci",
+      "name": "NPCI",
+      "url": "https://www.npci.org.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Fintech", "Digital-Payments"],
+      "enabled": true
+    },
+    {
+      "id": "sebi_fintech",
+      "name": "SEBI - Fintech",
+      "url": "https://www.sebi.gov.in",
+      "type": "regulator",
+      "method": "websearch",
+      "search_query": "site:sebi.gov.in (fintech OR digital OR crowdfunding OR algo trading)",
+      "focus_areas": ["Fintech"],
+      "enabled": true
+    },
+    {
+      "id": "irdai_insurtech",
+      "name": "IRDAI - Insurtech",
+      "url": "https://www.irdai.gov.in",
+      "type": "regulator",
+      "method": "websearch",
+      "search_query": "site:irdai.gov.in (insurtech OR digital OR technology)",
+      "focus_areas": ["Fintech", "Healthtech"],
+      "enabled": true
+    },
+    {
+      "id": "fintech_india",
+      "name": "Fintech News India",
+      "url": "https://www.fintechnews.org",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:fintechnews.org India",
+      "focus_areas": ["Fintech"],
+      "enabled": true
+    },
+    {
+      "id": "bfsi_et",
+      "name": "ET BFSI",
+      "url": "https://bfsi.economictimes.indiatimes.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:bfsi.economictimes.indiatimes.com (regulation OR policy OR RBI OR fintech)",
+      "focus_areas": ["Fintech", "Digital-Payments"],
+      "enabled": true
+    },
+    {
+      "id": "egr_gaming",
+      "name": "eGaming Review (EGR)",
+      "url": "https://www.egr.global",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:egr.global India",
+      "focus_areas": ["Gaming-Gambling"],
+      "enabled": true
+    },
+    {
+      "id": "igf_india",
+      "name": "Indian Gaming Federation",
+      "url": "https://www.igf.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Gaming-Gambling"],
+      "enabled": true
+    },
+    {
+      "id": "aigf",
+      "name": "AIGF",
+      "url": "https://www.aigf.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Gaming-Gambling"],
+      "enabled": true
+    },
+    {
+      "id": "gaming_matters",
+      "name": "Gaming Matters",
+      "url": "https://www.gamingmatters.co",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": ["Gaming-Gambling"],
+      "enabled": true
+    },
+    {
+      "id": "pocket_gamer",
+      "name": "Pocket Gamer",
+      "url": "https://www.pocketgamer.biz",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:pocketgamer.biz India regulation",
+      "focus_areas": ["Gaming-Gambling"],
+      "enabled": true
+    },
+    {
+      "id": "glaws_blog",
+      "name": "GLaws Blog",
+      "url": "https://www.glaws.in",
+      "type": "blog",
+      "method": "webfetch",
+      "focus_areas": ["Gaming-Gambling"],
+      "enabled": true
+    },
+    {
+      "id": "healthtech_et",
+      "name": "ET Healthworld",
+      "url": "https://health.economictimes.indiatimes.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:health.economictimes.indiatimes.com (digital health OR telemedicine OR regulation)",
+      "focus_areas": ["Healthtech"],
+      "enabled": true
+    },
+    {
+      "id": "nha_india",
+      "name": "National Health Authority",
+      "url": "https://nha.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": ["Healthtech"],
+      "enabled": true
+    },
+    {
+      "id": "abdm",
+      "name": "ABDM",
+      "url": "https://abdm.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": ["Healthtech", "Data-Protection"],
+      "enabled": true
+    },
+    {
+      "id": "telemedicine_sbi",
+      "name": "Telemedicine Society of India",
+      "url": "https://www.tsi.org.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Healthtech"],
+      "enabled": true
+    },
+    {
+      "id": "ficci_health",
+      "name": "FICCI Health Services",
+      "url": "https://ficci.in",
+      "type": "industry_body",
+      "method": "websearch",
+      "search_query": "site:ficci.in (digital health OR healthtech OR telemedicine)",
+      "focus_areas": ["Healthtech"],
+      "enabled": true
+    },
+    {
+      "id": "ott_coalition",
+      "name": "IBF (Indian Broadcasting Federation)",
+      "url": "https://www.ibfindia.com",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["Broadcasting", "OTT-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "isan",
+      "name": "ISAN (Internet & Streaming Assoc)",
+      "url": "https://www.internetstreaming.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": ["OTT-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "exchange4media",
+      "name": "Exchange4Media",
+      "url": "https://www.exchange4media.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:exchange4media.com (OTT OR streaming OR regulation OR broadcasting)",
+      "focus_areas": ["Broadcasting", "OTT-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "afaqs",
+      "name": "afaqs!",
+      "url": "https://www.afaqs.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:afaqs.com (OTT OR digital OR regulation)",
+      "focus_areas": ["Broadcasting", "OTT-Regulation"],
+      "enabled": true
+    },
+    {
+      "id": "edtech_india",
+      "name": "Inc42 Edtech",
+      "url": "https://inc42.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:inc42.com edtech (regulation OR policy OR compliance)",
+      "focus_areas": ["Edtech"],
+      "enabled": true
+    },
+    {
+      "id": "byjus_news",
+      "name": "Edtech News Search",
+      "url": "https://www.google.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "India edtech regulation OR policy OR MeitY",
+      "focus_areas": ["Edtech"],
+      "enabled": true
+    },
+    {
+      "id": "brazil_anpd",
+      "name": "Brazil ANPD",
+      "url": "https://www.gov.br/anpd",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Brazil ANPD data protection",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "south_africa_ic",
+      "name": "South Africa Information Regulator",
+      "url": "https://inforegulator.org.za",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "canada_opc",
+      "name": "Canada OPC",
+      "url": "https://www.priv.gc.ca",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "AI-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "uae_dp",
+      "name": "UAE Data Protection",
+      "url": "https://www.government.ae",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "UAE data protection regulation",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "saudi_ndmo",
+      "name": "Saudi NDMO",
+      "url": "https://sdaia.gov.sa",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Saudi Arabia data protection NDMO",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "kenya_dpc",
+      "name": "Kenya ODPC",
+      "url": "https://www.odpc.go.ke",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "nigeria_nitda",
+      "name": "Nigeria NITDA",
+      "url": "https://nitda.gov.ng",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "indonesia_kominfo",
+      "name": "Indonesia Kominfo",
+      "url": "https://www.kominfo.go.id",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Indonesia Kominfo data protection OR digital",
+      "focus_areas": ["Data-Protection", "Platform-Regulation", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "thailand_pdpc",
+      "name": "Thailand PDPC",
+      "url": "https://www.pdpc.or.th",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Thailand PDPA data protection",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "vietnam_moit",
+      "name": "Vietnam MOIT",
+      "url": "https://www.moit.gov.vn",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Vietnam digital regulation OR e-commerce",
+      "focus_areas": ["E-Commerce", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "philippines_npc",
+      "name": "Philippines NPC",
+      "url": "https://www.privacy.gov.ph",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "malaysia_pdp",
+      "name": "Malaysia PDPD",
+      "url": "https://www.pdp.gov.my",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    },
+    {
+      "id": "new_zealand_opc",
+      "name": "New Zealand OPC",
+      "url": "https://www.privacy.org.nz",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "enabled": true
+    }
+  ]
+}

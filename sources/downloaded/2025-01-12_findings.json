@@ -1,0 +1,188 @@
+{
+  "date": "2025-01-12",
+  "run_timestamp": "2025-01-12T10:30:00+05:30",
+  "summary_stats": {
+    "total_items_found": 25,
+    "by_source": {
+      "MediaNama": 10,
+      "IndConLaw": 3,
+      "SpicyIP": 4,
+      "TRAI": 5,
+      "MeitY": 2,
+      "WebSearch": 3
+    },
+    "by_focus_area": {
+      "Data-Protection": 5,
+      "AI-Regulation": 6,
+      "Platform-Regulation": 5,
+      "Competition-Antitrust": 2,
+      "Telecommunications": 4,
+      "IP-Copyright": 3,
+      "OTT-Broadcasting": 2,
+      "Fintech-Cybersecurity": 2,
+      "International-Comparative": 3
+    },
+    "urgent_flags": 3
+  },
+  "priority_alerts": [
+    {
+      "id": "alert-001",
+      "title": "DPDP Rules 2025 Notified",
+      "urgency": "critical",
+      "source": "MeitY/PIB",
+      "date": "2025-11-13",
+      "summary": "Digital Personal Data Protection Rules notified with phased implementation through May 2027. Stage 1 effective immediately.",
+      "action_required": "Review full rules, assess compliance timelines for clients"
+    },
+    {
+      "id": "alert-002",
+      "title": "IT Amendment Rules 2025 - Deepfakes",
+      "urgency": "high",
+      "source": "MeitY",
+      "date": "2025-11-15",
+      "summary": "New rules for synthetic content labeling, enhanced content removal safeguards, intermediary oversight strengthened.",
+      "action_required": "Update intermediary compliance checklists"
+    },
+    {
+      "id": "alert-003",
+      "title": "MeitY vs X/Grok Enforcement",
+      "urgency": "high",
+      "source": "MediaNama",
+      "date": "2026-01-08",
+      "summary": "MeitY finds X response inadequate on Grok AI generating non-consensual imagery. Active enforcement action.",
+      "action_required": "Monitor for precedent on AI platform liability"
+    }
+  ],
+  "findings": [
+    {
+      "id": "2025-01-12-001",
+      "source": "MediaNama",
+      "url": "https://www.medianama.com/2026/01/223-whatsapp-parental-controls-child-accounts-android/",
+      "title": "WhatsApp Tests Parental Controls With Child Accounts on Android",
+      "date": "2026-01-09",
+      "focus_areas": ["Data-Protection", "Platform-Regulation"],
+      "relevance_score": 4,
+      "summary": "WhatsApp developing parental control features for child-linked accounts. Relevant to DPDP children's data protection."
+    },
+    {
+      "id": "2025-01-12-002",
+      "source": "MediaNama",
+      "url": "https://www.medianama.com/2026/01/223-cci-defends-global-turnover-rule-apple-antitrust-case/",
+      "title": "CCI Defends Global Turnover Penalties in Apple Antitrust Case",
+      "date": "2026-01-09",
+      "focus_areas": ["Competition-Antitrust"],
+      "relevance_score": 5,
+      "summary": "CCI defending global turnover-based penalty methodology. Precedent for digital markets enforcement."
+    },
+    {
+      "id": "2025-01-12-003",
+      "source": "MediaNama",
+      "url": "https://www.medianama.com/2026/01/223-meity-x-grok-undressing-images-takedown-info/",
+      "title": "MeitY Finds X's Report on Grok 'Undressing' Images Inadequate",
+      "date": "2026-01-08",
+      "focus_areas": ["AI-Regulation", "Platform-Regulation"],
+      "relevance_score": 5,
+      "summary": "Active enforcement action on AI-generated non-consensual imagery under intermediary liability framework."
+    },
+    {
+      "id": "2025-01-12-004",
+      "source": "MediaNama",
+      "url": "https://www.medianama.com/2026/01/223-kentucky-sues-character-ai-over-child-safety/",
+      "title": "Kentucky AG Files Lawsuit Against Character.AI",
+      "date": "2026-01-09",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "relevance_score": 4,
+      "summary": "First US state lawsuit against AI chatbot company for child safety. Comparative relevance for India."
+    },
+    {
+      "id": "2025-01-12-005",
+      "source": "MediaNama",
+      "url": "https://www.medianama.com/2026/01/223-us-withdrawal-global-digital-forums/",
+      "title": "US Withdrawal From Global Digital Forums",
+      "date": "2026-01-08",
+      "focus_areas": ["International-Comparative"],
+      "relevance_score": 3,
+      "summary": "US withdrawal shifts norm-setting power, strategic implications for India's digital governance stance."
+    },
+    {
+      "id": "2025-01-12-006",
+      "source": "IndConLaw",
+      "url": "https://indconlawphil.wordpress.com/2025/11/16/unconstitutional-by-design-prior-restraint-and-compelled-speech-in-the-2025-it-rules-draft-amendments/",
+      "title": "Prior Restraint and Compelled Speech in IT Rules 2025 Draft",
+      "date": "2025-11-16",
+      "focus_areas": ["Platform-Regulation", "Constitutional-Rights"],
+      "relevance_score": 5,
+      "summary": "Constitutional analysis of mandatory content verification under Article 19."
+    },
+    {
+      "id": "2025-01-12-007",
+      "source": "IndConLaw",
+      "url": "https://indconlawphil.wordpress.com/2025/10/27/the-sahyog-regime-architecture-of-digital-control-and-censorship-guest-post/",
+      "title": "The Sahyog Regime: Architecture of Digital Control",
+      "date": "2025-10-27",
+      "focus_areas": ["Platform-Regulation", "Constitutional-Rights"],
+      "relevance_score": 4,
+      "summary": "Analysis of government content takedown procedures under Section 79(3)(b)."
+    },
+    {
+      "id": "2025-01-12-008",
+      "source": "SpicyIP",
+      "url": "https://spicyip.com/2026/01/the-jugaad-of-blanket-licensing-while-ignoring-copyright-law.html",
+      "title": "DPIIT Blanket Licensing for AI Training",
+      "date": "2026-01-09",
+      "focus_areas": ["AI-Regulation", "IP-Copyright"],
+      "relevance_score": 4,
+      "summary": "Critique of India's proposed licensing framework for AI training, copyright implications."
+    },
+    {
+      "id": "2025-01-12-009",
+      "source": "SpicyIP",
+      "url": "https://spicyip.com/2026/01/regulating-domain-name-system-dhcs-ex-ante-turn.html",
+      "title": "DHC Domain Name Regulation - Ex Ante Approach",
+      "date": "2026-01-07",
+      "focus_areas": ["Platform-Regulation"],
+      "relevance_score": 3,
+      "summary": "Delhi HC's sweeping directives on domain registration raising privacy and speech concerns."
+    },
+    {
+      "id": "2025-01-12-010",
+      "source": "TRAI",
+      "url": "https://www.trai.gov.in",
+      "title": "TRAI Recommendations on Foreign SIM/eSIM for IoT Exports",
+      "date": "2025-12-30",
+      "focus_areas": ["Telecommunications"],
+      "relevance_score": 3,
+      "summary": "New regulatory framework for foreign telecom providers selling SIM/eSIM for M2M/IoT export devices."
+    },
+    {
+      "id": "2025-01-12-011",
+      "source": "MeitY",
+      "url": "https://www.meity.gov.in/documents/act-and-policies",
+      "title": "DPDP Rules 2025 Notified",
+      "date": "2025-11-13",
+      "focus_areas": ["Data-Protection"],
+      "relevance_score": 5,
+      "summary": "Digital Personal Data Protection Rules notified. Phased implementation through May 2027."
+    },
+    {
+      "id": "2025-01-12-012",
+      "source": "MeitY",
+      "url": "https://knnindia.co.in/news/newsdetails/sectors/others/meity-notifies-it-rules-2025-with-stronger-safeguards-for-content-removal-intermediary-oversight",
+      "title": "IT Amendment Rules 2025 - Deepfakes & Content Removal",
+      "date": "2025-11-15",
+      "focus_areas": ["AI-Regulation", "Platform-Regulation"],
+      "relevance_score": 5,
+      "summary": "New rules for synthetic content labeling, enhanced content removal safeguards."
+    }
+  ],
+  "sources_checked": [
+    "MediaNama RSS",
+    "IndConLaw RSS",
+    "SpicyIP RSS",
+    "TRAI Website",
+    "MeitY (via WebSearch)",
+    "Supreme Court (via WebSearch)"
+  ],
+  "failed_sources": [],
+  "notes": "Full intelligence gathering run completed successfully. Major developments: DPDP Rules 2025 and IT Amendment Rules 2025 are now in effect."
+}

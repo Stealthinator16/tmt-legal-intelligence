@@ -1,0 +1,62 @@
+{
+    "daily_intelligence": {
+        "time": "09:00",
+        "timezone": "Asia/Kolkata",
+        "agent": "agents/intelligence-gathering.md",
+        "enabled": true
+    },
+    "daily_processing": {
+        "time": "09:30",
+        "timezone": "Asia/Kolkata",
+        "agent": "agents/document-processor.md",
+        "enabled": true,
+        "depends_on": "daily_intelligence"
+    },
+    "daily_repository_update": {
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "agent": "agents/legal-repository.md",
+        "enabled": true,
+        "depends_on": "daily_processing"
+    },
+    "daily_summary": {
+        "time": "10:30",
+        "timezone": "Asia/Kolkata",
+        "agent": "gemini.md",
+        "action": "generate_daily_summary",
+        "enabled": true,
+        "depends_on": "daily_repository_update"
+    },
+    "weekly_summary": {
+        "day": "Sunday",
+        "time": "18:00",
+        "timezone": "Asia/Kolkata",
+        "agent": "gemini.md",
+        "action": "generate_weekly_summary",
+        "enabled": true
+    },
+    "monthly_summary": {
+        "day": 1,
+        "time": "18:00",
+        "timezone": "Asia/Kolkata",
+        "agent": "gemini.md",
+        "action": "generate_monthly_summary",
+        "enabled": true
+    },
+    "weekly_blog_ideas": {
+        "day": "Friday",
+        "time": "17:00",
+        "timezone": "Asia/Kolkata",
+        "agent": "agents/research-assistant.md",
+        "action": "generate_blog_ideas",
+        "enabled": true
+    },
+    "weekly_trend_report": {
+        "day": "Friday",
+        "time": "17:30",
+        "timezone": "Asia/Kolkata",
+        "agent": "agents/research-assistant.md",
+        "action": "generate_trend_report",
+        "enabled": true
+    }
+}

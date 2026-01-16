@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-12",
+  "indices": {
+    "by_focus_area": "by-focus-area.json",
+    "by_court": "by-court.json",
+    "by_year": "by-year.json",
+    "landmark_cases": "landmark-cases.json"
+  },
+  "statistics": {
+    "total_judgments": 0,
+    "landmark_cases": 0,
+    "courts_covered": []
+  },
+  "judgments": []
+}

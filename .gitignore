@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Project specific - don't commit large binary files
+*.pdf
+*.doc
+*.docx
+
+# Keep state files tracked (needed for automation)
+# But ignore SQLite write-ahead logs
+sources/state/*.db-wal
+sources/state/*.db-shm
+
+# Logs
+logs/*.log
+
+# Temporary files
+*.tmp
+*.temp
