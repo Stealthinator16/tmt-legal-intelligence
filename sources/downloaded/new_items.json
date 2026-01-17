@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-17T03:55:53.535420+00:00",
+  "fetched_at": "2026-01-17T09:22:30.189114+00:00",
   "tiers": [
     1
   ],
@@ -7,11 +7,72 @@
     "total_sources": 6,
     "successful": 3,
     "failed": 3,
-    "total_items": 29,
-    "new_items": 0
+    "total_items": 28,
+    "new_items": 5
   },
-  "new_items_count": 0,
-  "items": [],
+  "new_items_count": 5,
+  "items": [
+    {
+      "title": "CAT has jurisdiction to decide disputes relating to recruitment process of armed forces: Delhi High Court",
+      "url": "https://www.barandbench.com/news/cat-has-jurisdiction-to-decide-disputes-relating-to-recruitment-process-of-armed-forces-delhi-high-court",
+      "published": "2026-01-17T08:40:44.726Z",
+      "snippet": "",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "barandbench",
+      "source_name": "Bar & Bench",
+      "method": "rss"
+    },
+    {
+      "title": "Legal Notes by Arvind Datar: Article 21 and the haunting words of Vivian Bose",
+      "url": "https://www.barandbench.com/columns/legal-notes-by-arvind-datar-article-21-and-the-haunting-words-of-vivian-bose",
+      "published": "2026-01-17T06:58:54.668Z",
+      "snippet": "",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "barandbench",
+      "source_name": "Bar & Bench",
+      "method": "rss"
+    },
+    {
+      "title": "Who will the Tiger really bite?",
+      "url": "https://www.barandbench.com/columns/who-will-the-tiger-really-bite",
+      "published": "2026-01-17T06:19:00.551Z",
+      "snippet": "",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "barandbench",
+      "source_name": "Bar & Bench",
+      "method": "rss"
+    },
+    {
+      "title": "Even if Justice Yashwant Varma is acquitted, nobody will believe he is an honest judge: Mukul Rohatgi on media trials",
+      "url": "https://www.barandbench.com/news/even-if-justice-yashwant-varma-is-acquitted-nobody-will-believe-he-is-an-honest-judge-mukul-rohatgi-on-media-trials",
+      "published": "2026-01-17T06:02:31.467Z",
+      "snippet": "",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "barandbench",
+      "source_name": "Bar & Bench",
+      "method": "rss"
+    },
+    {
+      "title": "Supreme Court seeks Centre's response to plea seeking constitution of Arbitration Council of India",
+      "url": "https://www.barandbench.com/news/litigation/supreme-court-seeks-centres-response-to-plea-seeking-constitution-of-arbitration-council-of-india",
+      "published": "2026-01-17T04:37:00.672Z",
+      "snippet": "",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "barandbench",
+      "source_name": "Bar & Bench",
+      "method": "rss"
+    }
+  ],
   "page_changes": [
     {
       "source_id": "trai_main",
@@ -97,89 +158,7 @@
           "url": "https://www.trai.gov.in/consultation-paper-regulatory-framework-sale-foreign-telecom-service-providers-simesim-cards-use"
         }
       ],
-      "last_checked": "2026-01-17T03:56:10.622093+00:00"
-    },
-    {
-      "source_id": "prs_legislative",
-      "source_name": "PRS Legislative Research",
-      "section": "main",
-      "url": "https://prsindia.org",
-      "change_detected": true,
-      "notable_links": [
-        {
-          "text": "Switch to Hindi (\u0939\u093f\u0902\u0926\u0940)",
-          "url": "https://hi.prsindia.org"
-        },
-        {
-          "text": "MPs & MLAs",
-          "url": "https://prsindia.org"
-        },
-        {
-          "text": "Parliament",
-          "url": "https://prsindia.org/mptrack"
-        },
-        {
-          "text": "States",
-          "url": "https://prsindia.org/mlatrack"
-        },
-        {
-          "text": "2024 Elections",
-          "url": "https://prsindia.org/general-election-2024"
-        },
-        {
-          "text": "Legislatures",
-          "url": "https://prsindia.org"
-        },
-        {
-          "text": "Parliament",
-          "url": "https://prsindia.org"
-        },
-        {
-          "text": "Session\nTrack",
-          "url": "https://prsindia.org/sessiontrack"
-        },
-        {
-          "text": "Parliament Diary",
-          "url": "https://prsindia.org/media/media-updates/2026"
-        },
-        {
-          "text": "Parliament\nCommittees",
-          "url": "https://prsindia.org/parliamentary-committees/agriculture"
-        },
-        {
-          "text": "Primer",
-          "url": "https://prsindia.org/parliamenttrack/primers"
-        },
-        {
-          "text": "Vital Stats",
-          "url": "https://prsindia.org/parliamenttrack/vital-stats"
-        },
-        {
-          "text": "States",
-          "url": "https://prsindia.org/legislatures/states"
-        },
-        {
-          "text": "Legislature Track",
-          "url": "https://prsindia.org/legislatures/states"
-        },
-        {
-          "text": "Vital Stats",
-          "url": "https://prsindia.org/legislatures/state/vital-stats"
-        },
-        {
-          "text": "Discussion Papers",
-          "url": "https://prsindia.org/legislatures/discussion-papers"
-        },
-        {
-          "text": "Bills & Acts",
-          "url": "https://prsindia.org"
-        },
-        {
-          "text": "Bills\nParliament",
-          "url": "https://prsindia.org/billtrack"
-        }
-      ],
-      "last_checked": "2026-01-17T03:57:01.095819+00:00"
+      "last_checked": "2026-01-17T09:22:45.611854+00:00"
     }
   ],
   "websearch_pending": [
@@ -194,6 +173,6 @@
     "total_pages": 22,
     "successful": 17,
     "failed": 5,
-    "changes_detected": 2
+    "changes_detected": 1
   }
 }
