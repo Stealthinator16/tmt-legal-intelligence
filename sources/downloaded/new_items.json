@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-16T22:26:00.410719+00:00",
+  "fetched_at": "2026-01-17T03:55:53.535420+00:00",
   "tiers": [
     1
   ],
@@ -12,7 +12,176 @@
   },
   "new_items_count": 0,
   "items": [],
-  "page_changes": [],
+  "page_changes": [
+    {
+      "source_id": "trai_main",
+      "source_name": "TRAI",
+      "section": "Consultation Papers",
+      "url": "https://www.trai.gov.in/release-publication/consultation",
+      "change_detected": true,
+      "notable_links": [
+        {
+          "text": "LIST VIEW",
+          "url": "https://www.trai.gov.in/release-publication/consultation#table-view"
+        },
+        {
+          "text": "GRID VIEW",
+          "url": "https://www.trai.gov.in/release-publication/consultation#grid-view"
+        },
+        {
+          "text": "Download(25.89 MB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-11/CP_10112025.pdf"
+        },
+        {
+          "text": "Download(464.49 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-12/PR_No.146of2025_0.pdf"
+        },
+        {
+          "text": "Add/View Comments",
+          "url": "https://www.trai.gov.in/consultation-paper-review-existing-trai-regulations-interconnection-matters"
+        },
+        {
+          "text": "Download(160.51 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-10/Draft_Tariff_16102025.pdf"
+        },
+        {
+          "text": "Download(841.33 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-10/PR_No.126of2025_0.pdf"
+        },
+        {
+          "text": "Add/View Comments",
+          "url": "https://www.trai.gov.in/draft-telecommunication-tariff-seventy-second-amendment-order-2025"
+        },
+        {
+          "text": "Download(142.27 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-10/Draft_ASR_Regulation_16102025.pdf"
+        },
+        {
+          "text": "Download(841.33 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-10/PR_No.126of2025_1.pdf"
+        },
+        {
+          "text": "Add/View Comments",
+          "url": "https://www.trai.gov.in/reporting-system-accounting-separation-amendment-regulations-2025"
+        },
+        {
+          "text": "Download(16.41 MB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-09/CP_30092025.pdf"
+        },
+        {
+          "text": "Download(477.77 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-10/PR_No.119of2025_0.pdf"
+        },
+        {
+          "text": "Add/View Comments",
+          "url": "https://www.trai.gov.in/consultation-paper-auction-radio-frequency-spectrum-frequency-bands-identified-international-mobile"
+        },
+        {
+          "text": "Download(491.41 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-09/Draft_Regulation_22092025_0.pdf"
+        },
+        {
+          "text": "Download(196.96 KB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-10/PR_No._105_of_2025.pdf_0.pdf"
+        },
+        {
+          "text": "Add/View Comments",
+          "url": "https://www.trai.gov.in/draft-telecommunication-broadcasting-and-cable-services-interconnection-addressable-systems-seventh"
+        },
+        {
+          "text": "Download(7.17 MB)",
+          "url": "https://www.trai.gov.in/sites/default/files/2025-07/CP_04072025.pdf"
+        },
+        {
+          "text": "Add/View Comments",
+          "url": "https://www.trai.gov.in/consultation-paper-regulatory-framework-sale-foreign-telecom-service-providers-simesim-cards-use"
+        }
+      ],
+      "last_checked": "2026-01-17T03:56:10.622093+00:00"
+    },
+    {
+      "source_id": "prs_legislative",
+      "source_name": "PRS Legislative Research",
+      "section": "main",
+      "url": "https://prsindia.org",
+      "change_detected": true,
+      "notable_links": [
+        {
+          "text": "Switch to Hindi (\u0939\u093f\u0902\u0926\u0940)",
+          "url": "https://hi.prsindia.org"
+        },
+        {
+          "text": "MPs & MLAs",
+          "url": "https://prsindia.org"
+        },
+        {
+          "text": "Parliament",
+          "url": "https://prsindia.org/mptrack"
+        },
+        {
+          "text": "States",
+          "url": "https://prsindia.org/mlatrack"
+        },
+        {
+          "text": "2024 Elections",
+          "url": "https://prsindia.org/general-election-2024"
+        },
+        {
+          "text": "Legislatures",
+          "url": "https://prsindia.org"
+        },
+        {
+          "text": "Parliament",
+          "url": "https://prsindia.org"
+        },
+        {
+          "text": "Session\nTrack",
+          "url": "https://prsindia.org/sessiontrack"
+        },
+        {
+          "text": "Parliament Diary",
+          "url": "https://prsindia.org/media/media-updates/2026"
+        },
+        {
+          "text": "Parliament\nCommittees",
+          "url": "https://prsindia.org/parliamentary-committees/agriculture"
+        },
+        {
+          "text": "Primer",
+          "url": "https://prsindia.org/parliamenttrack/primers"
+        },
+        {
+          "text": "Vital Stats",
+          "url": "https://prsindia.org/parliamenttrack/vital-stats"
+        },
+        {
+          "text": "States",
+          "url": "https://prsindia.org/legislatures/states"
+        },
+        {
+          "text": "Legislature Track",
+          "url": "https://prsindia.org/legislatures/states"
+        },
+        {
+          "text": "Vital Stats",
+          "url": "https://prsindia.org/legislatures/state/vital-stats"
+        },
+        {
+          "text": "Discussion Papers",
+          "url": "https://prsindia.org/legislatures/discussion-papers"
+        },
+        {
+          "text": "Bills & Acts",
+          "url": "https://prsindia.org"
+        },
+        {
+          "text": "Bills\nParliament",
+          "url": "https://prsindia.org/billtrack"
+        }
+      ],
+      "last_checked": "2026-01-17T03:57:01.095819+00:00"
+    }
+  ],
   "websearch_pending": [
     "egazette_india",
     "supreme_court",
@@ -23,8 +192,8 @@
   ],
   "page_monitor_stats": {
     "total_pages": 22,
-    "successful": 14,
-    "failed": 8,
-    "changes_detected": 0
+    "successful": 17,
+    "failed": 5,
+    "changes_detected": 2
   }
 }
