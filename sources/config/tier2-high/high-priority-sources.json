@@ -12,7 +12,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Karnataka High Court\" (IT Act OR data protection OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -22,7 +24,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Bombay High Court\" (IT Act OR data protection OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -32,7 +36,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Madras High Court\" (IT Act OR data protection OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -41,7 +47,9 @@
       "url": "https://calcuttahighcourt.gov.in",
       "type": "court",
       "method": "websearch",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -50,7 +58,9 @@
       "url": "https://tshc.gov.in",
       "type": "court",
       "method": "websearch",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -59,7 +69,10 @@
       "url": "https://tdsat.gov.in",
       "type": "tribunal",
       "method": "webfetch",
-      "focus_areas": ["Telecommunications-Act-2023", "TRAI-Regulations"],
+      "focus_areas": [
+        "Telecommunications-Act-2023",
+        "TRAI-Regulations"
+      ],
       "enabled": true
     },
     {
@@ -68,8 +81,15 @@
       "url": "https://nclat.nic.in",
       "type": "tribunal",
       "method": "webfetch",
-      "filter_keywords": ["technology", "digital", "platform", "e-commerce"],
-      "focus_areas": ["Competition-Antitrust"],
+      "filter_keywords": [
+        "technology",
+        "digital",
+        "platform",
+        "e-commerce"
+      ],
+      "focus_areas": [
+        "Competition-Antitrust"
+      ],
       "enabled": true
     },
     {
@@ -78,8 +98,18 @@
       "url": "https://www.sebi.gov.in",
       "type": "regulator",
       "method": "webfetch",
-      "filter_keywords": ["digital", "fintech", "blockchain", "cryptocurrency", "crowdfunding", "online"],
-      "focus_areas": ["Fintech", "Blockchain-Crypto"],
+      "filter_keywords": [
+        "digital",
+        "fintech",
+        "blockchain",
+        "cryptocurrency",
+        "crowdfunding",
+        "online"
+      ],
+      "focus_areas": [
+        "Fintech",
+        "Blockchain-Crypto"
+      ],
       "enabled": true
     },
     {
@@ -88,8 +118,16 @@
       "url": "https://www.irdai.gov.in",
       "type": "regulator",
       "method": "webfetch",
-      "filter_keywords": ["digital", "insurtech", "telematics", "online"],
-      "focus_areas": ["Fintech", "Insurtech"],
+      "filter_keywords": [
+        "digital",
+        "insurtech",
+        "telematics",
+        "online"
+      ],
+      "focus_areas": [
+        "Fintech",
+        "Insurtech"
+      ],
       "enabled": true
     },
     {
@@ -98,7 +136,11 @@
       "url": "https://asci.online",
       "type": "self_regulatory",
       "method": "webfetch",
-      "focus_areas": ["Platform-Regulation", "Content-Moderation", "Influencer-Marketing"],
+      "focus_areas": [
+        "Platform-Regulation",
+        "Content-Moderation",
+        "Influencer-Marketing"
+      ],
       "enabled": true
     },
     {
@@ -107,8 +149,15 @@
       "url": "https://www.dgca.gov.in",
       "type": "regulator",
       "method": "webfetch",
-      "filter_keywords": ["drone", "UAV", "RPAS", "unmanned"],
-      "focus_areas": ["Drones-eVTOL"],
+      "filter_keywords": [
+        "drone",
+        "UAV",
+        "RPAS",
+        "unmanned"
+      ],
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
       "enabled": true
     },
     {
@@ -117,7 +166,11 @@
       "url": "https://mib.gov.in",
       "type": "ministry",
       "method": "webfetch",
-      "focus_areas": ["Broadcasting-OTT", "Content-Moderation", "News-Media"],
+      "focus_areas": [
+        "Broadcasting-OTT",
+        "Content-Moderation",
+        "News-Media"
+      ],
       "enabled": true
     },
     {
@@ -126,8 +179,15 @@
       "url": "https://www.mca.gov.in",
       "type": "ministry",
       "method": "webfetch",
-      "filter_keywords": ["digital", "technology", "data"],
-      "focus_areas": ["Corporate-Governance", "ESG-Digital"],
+      "filter_keywords": [
+        "digital",
+        "technology",
+        "data"
+      ],
+      "focus_areas": [
+        "Corporate-Governance",
+        "ESG-Digital"
+      ],
       "enabled": true
     },
     {
@@ -136,8 +196,15 @@
       "url": "https://www.mha.gov.in",
       "type": "ministry",
       "method": "webfetch",
-      "filter_keywords": ["cyber", "security", "crime"],
-      "focus_areas": ["Cybersecurity", "Cyber-Crime"],
+      "filter_keywords": [
+        "cyber",
+        "security",
+        "crime"
+      ],
+      "focus_areas": [
+        "Cybersecurity",
+        "Cyber-Crime"
+      ],
       "enabled": true
     },
     {
@@ -146,8 +213,16 @@
       "url": "https://www.niti.gov.in",
       "type": "government",
       "method": "webfetch",
-      "filter_keywords": ["AI", "technology", "digital", "data"],
-      "focus_areas": ["AI-Regulation", "Digital-India"],
+      "filter_keywords": [
+        "AI",
+        "technology",
+        "digital",
+        "data"
+      ],
+      "focus_areas": [
+        "AI-Regulation",
+        "Digital-India"
+      ],
       "enabled": true
     },
     {
@@ -156,7 +231,9 @@
       "url": "https://indiaai.gov.in",
       "type": "government",
       "method": "webfetch",
-      "focus_areas": ["AI-Regulation"],
+      "focus_areas": [
+        "AI-Regulation"
+      ],
       "enabled": true
     },
     {
@@ -165,7 +242,9 @@
       "url": "https://digitalindia.gov.in",
       "type": "government",
       "method": "webfetch",
-      "focus_areas": ["Digital-India"],
+      "focus_areas": [
+        "Digital-India"
+      ],
       "enabled": true
     },
     {
@@ -175,8 +254,15 @@
       "rss": "https://feeds.feedburner.com/LegallyIndia",
       "type": "legal_news",
       "method": "rss",
-      "filter_keywords": ["technology", "TMT", "data", "cyber"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "TMT",
+        "data",
+        "cyber"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -186,8 +272,17 @@
       "rss": "https://prod-qt-images.s3.amazonaws.com/production/theleaflet/feed.xml",
       "type": "legal_news",
       "method": "rss",
-      "filter_keywords": ["technology", "privacy", "surveillance", "digital"],
-      "focus_areas": ["Constitutional-Rights", "Privacy", "Surveillance"],
+      "filter_keywords": [
+        "technology",
+        "privacy",
+        "surveillance",
+        "digital"
+      ],
+      "focus_areas": [
+        "Constitutional-Rights",
+        "Privacy",
+        "Surveillance"
+      ],
       "enabled": true
     },
     {
@@ -197,8 +292,15 @@
       "rss": "https://lawtrend.in/feed/",
       "type": "legal_news",
       "method": "rss",
-      "filter_keywords": ["technology", "IT", "data", "cyber"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "IT",
+        "data",
+        "cyber"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -206,10 +308,13 @@
       "name": "iPleaders Blog",
       "url": "https://blog.ipleaders.in",
       "type": "blog",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:blog.ipleaders.in (technology OR data protection OR cyber OR IT Act)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://blog.ipleaders.in/feed/"
     },
     {
       "id": "orf_cyber",
@@ -217,8 +322,18 @@
       "url": "https://www.orfonline.org",
       "type": "think_tank",
       "method": "webfetch",
-      "filter_keywords": ["cyber", "technology", "digital", "AI", "data"],
-      "focus_areas": ["Cybersecurity", "AI-Regulation", "Digital-Policy"],
+      "filter_keywords": [
+        "cyber",
+        "technology",
+        "digital",
+        "AI",
+        "data"
+      ],
+      "focus_areas": [
+        "Cybersecurity",
+        "AI-Regulation",
+        "Digital-Policy"
+      ],
       "enabled": true
     },
     {
@@ -226,29 +341,51 @@
       "name": "ICRIER - Digital Economy",
       "url": "https://icrier.org",
       "type": "think_tank",
-      "method": "webfetch",
-      "filter_keywords": ["digital", "technology", "e-commerce", "fintech"],
-      "focus_areas": ["Digital-Economy", "E-Commerce"],
-      "enabled": true
+      "method": "rss",
+      "filter_keywords": [
+        "digital",
+        "technology",
+        "e-commerce",
+        "fintech"
+      ],
+      "focus_areas": [
+        "Digital-Economy",
+        "E-Commerce"
+      ],
+      "enabled": true,
+      "rss": "https://icrier.org/feed/"
     },
     {
       "id": "cuts",
       "name": "CUTS International",
       "url": "https://cuts-international.org",
       "type": "think_tank",
-      "method": "webfetch",
-      "filter_keywords": ["digital", "consumer", "competition", "e-commerce"],
-      "focus_areas": ["Consumer-Protection", "Competition-Antitrust"],
-      "enabled": true
+      "method": "rss",
+      "filter_keywords": [
+        "digital",
+        "consumer",
+        "competition",
+        "e-commerce"
+      ],
+      "focus_areas": [
+        "Consumer-Protection",
+        "Competition-Antitrust"
+      ],
+      "enabled": true,
+      "rss": "https://cuts-international.org/feed/"
     },
     {
       "id": "it_for_change",
       "name": "IT for Change",
       "url": "https://itforchange.net",
       "type": "think_tank",
-      "method": "webfetch",
-      "focus_areas": ["Digital-Rights", "Platform-Regulation"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Digital-Rights",
+        "Platform-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://itforchange.net/rss.xml"
     },
     {
       "id": "data_governance_network",
@@ -256,7 +393,10 @@
       "url": "https://datagovernance.org",
       "type": "think_tank",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "Data-Governance"],
+      "focus_areas": [
+        "Data-Protection",
+        "Data-Governance"
+      ],
       "enabled": true
     },
     {
@@ -265,8 +405,17 @@
       "url": "https://takshashila.org.in",
       "type": "think_tank",
       "method": "webfetch",
-      "filter_keywords": ["technology", "cyber", "digital", "AI"],
-      "focus_areas": ["Cybersecurity", "AI-Regulation", "Tech-Policy"],
+      "filter_keywords": [
+        "technology",
+        "cyber",
+        "digital",
+        "AI"
+      ],
+      "focus_areas": [
+        "Cybersecurity",
+        "AI-Regulation",
+        "Tech-Policy"
+      ],
       "enabled": true
     },
     {
@@ -274,9 +423,14 @@
       "name": "EU Digital Strategy",
       "url": "https://digital-strategy.ec.europa.eu",
       "type": "international_government",
-      "method": "webfetch",
-      "focus_areas": ["International-Comparative", "AI-Regulation", "Platform-Regulation"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "International-Comparative",
+        "AI-Regulation",
+        "Platform-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://digital-strategy.ec.europa.eu/en/rss.xml"
     },
     {
       "id": "eur_lex",
@@ -285,7 +439,9 @@
       "type": "international_legal",
       "method": "websearch",
       "search_query": "site:eur-lex.europa.eu (GDPR OR DSA OR DMA OR AI Act OR Data Act)",
-      "focus_areas": ["International-Comparative"],
+      "focus_areas": [
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -293,9 +449,13 @@
       "name": "CNIL (France DPA)",
       "url": "https://www.cnil.fr/en",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "dpc_ireland",
@@ -303,7 +463,10 @@
       "url": "https://www.dataprotection.ie",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -312,7 +475,11 @@
       "url": "https://www.fcc.gov",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Telecommunications", "Net-Neutrality", "International-Comparative"],
+      "focus_areas": [
+        "Telecommunications",
+        "Net-Neutrality",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -322,7 +489,11 @@
       "type": "international_standards",
       "method": "websearch",
       "search_query": "site:nist.gov (AI risk OR cybersecurity framework OR privacy)",
-      "focus_areas": ["AI-Regulation", "Cybersecurity", "International-Comparative"],
+      "focus_areas": [
+        "AI-Regulation",
+        "Cybersecurity",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -330,10 +501,14 @@
       "name": "California AG - Privacy",
       "url": "https://oag.ca.gov",
       "type": "international_regulator",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:oag.ca.gov (CCPA OR privacy OR data)",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
-      "enabled": true
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://oag.ca.gov/news/feed"
     },
     {
       "id": "singapore_pdpc",
@@ -342,7 +517,10 @@
       "rss": "https://www.pdpc.gov.sg/rss/news",
       "type": "international_regulator",
       "method": "rss",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -351,7 +529,10 @@
       "url": "https://www.oaic.gov.au",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -360,7 +541,11 @@
       "url": "https://www.ofcom.org.uk",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Platform-Regulation", "Broadcasting-OTT", "International-Comparative"],
+      "focus_areas": [
+        "Platform-Regulation",
+        "Broadcasting-OTT",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -370,8 +555,20 @@
       "rss": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms",
       "type": "news",
       "method": "rss",
-      "filter_keywords": ["regulation", "policy", "government", "law", "legal", "RBI", "SEBI", "MeitY", "DPDP"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law",
+        "legal",
+        "RBI",
+        "SEBI",
+        "MeitY",
+        "DPDP"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -381,8 +578,19 @@
       "rss": "https://www.livemint.com/rss/technology",
       "type": "news",
       "method": "rss",
-      "filter_keywords": ["regulation", "policy", "government", "law", "legal", "RBI", "SEBI", "MeitY"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law",
+        "legal",
+        "RBI",
+        "SEBI",
+        "MeitY"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -392,8 +600,22 @@
       "rss": "https://inc42.com/feed/",
       "type": "news",
       "method": "rss",
-      "filter_keywords": ["regulation", "policy", "government", "law", "legal", "compliance", "DPDP", "RBI", "SEBI"],
-      "focus_areas": ["Fintech", "E-Commerce", "Startups"],
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law",
+        "legal",
+        "compliance",
+        "DPDP",
+        "RBI",
+        "SEBI"
+      ],
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce",
+        "Startups"
+      ],
       "enabled": true
     },
     {
@@ -403,8 +625,20 @@
       "rss": "https://yourstory.com/feed",
       "type": "news",
       "method": "rss",
-      "filter_keywords": ["regulation", "policy", "government", "law", "compliance", "RBI", "SEBI", "MeitY"],
-      "focus_areas": ["Startups", "Tech-Policy"],
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law",
+        "compliance",
+        "RBI",
+        "SEBI",
+        "MeitY"
+      ],
+      "focus_areas": [
+        "Startups",
+        "Tech-Policy"
+      ],
       "enabled": true
     },
     {
@@ -414,8 +648,17 @@
       "rss": "https://www.business-standard.com/rss/technology-102.rss",
       "type": "news",
       "method": "rss",
-      "filter_keywords": ["regulation", "policy", "government", "law", "RBI", "SEBI"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law",
+        "RBI",
+        "SEBI"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -423,18 +666,28 @@
       "name": "NASSCOM",
       "url": "https://nasscom.in",
       "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": ["IT-Industry", "AI-Regulation", "Data-Protection"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "IT-Industry",
+        "AI-Regulation",
+        "Data-Protection"
+      ],
+      "enabled": true,
+      "rss": "https://nasscom.in/rss.xml"
     },
     {
       "id": "iamai",
       "name": "IAMAI (Internet & Mobile Association)",
       "url": "https://www.iamai.in",
       "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": ["Platform-Regulation", "E-Commerce", "Digital-Advertising"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Platform-Regulation",
+        "E-Commerce",
+        "Digital-Advertising"
+      ],
+      "enabled": true,
+      "rss": "https://www.iamai.in/rss.xml"
     },
     {
       "id": "dsci",
@@ -442,7 +695,10 @@
       "url": "https://www.dsci.in",
       "type": "industry_body",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "Cybersecurity"],
+      "focus_areas": [
+        "Data-Protection",
+        "Cybersecurity"
+      ],
       "enabled": true
     },
     {
@@ -451,7 +707,11 @@
       "url": "https://www.coai.in",
       "type": "industry_body",
       "method": "webfetch",
-      "focus_areas": ["Telecommunications", "5G", "Spectrum"],
+      "focus_areas": [
+        "Telecommunications",
+        "5G",
+        "Spectrum"
+      ],
       "enabled": true
     },
     {
@@ -459,30 +719,56 @@
       "name": "Trilegal - TMT Practice",
       "url": "https://trilegal.com",
       "type": "law_firm",
-      "method": "webfetch",
-      "filter_keywords": ["technology", "media", "telecom", "data", "privacy"],
-      "focus_areas": ["all"],
-      "enabled": true
+      "method": "rss",
+      "filter_keywords": [
+        "technology",
+        "media",
+        "telecom",
+        "data",
+        "privacy"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://trilegal.com/feed/"
     },
     {
       "id": "azb_tmt",
       "name": "AZB & Partners - TMT",
       "url": "https://www.azbpartners.com",
       "type": "law_firm",
-      "method": "webfetch",
-      "filter_keywords": ["technology", "media", "telecom", "data", "privacy"],
-      "focus_areas": ["all"],
-      "enabled": true
+      "method": "rss",
+      "filter_keywords": [
+        "technology",
+        "media",
+        "telecom",
+        "data",
+        "privacy"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.azbpartners.com/feed/"
     },
     {
       "id": "cam_tmt",
       "name": "Cyril Amarchand Mangaldas - Tech",
       "url": "https://www.cyrilshroff.com",
       "type": "law_firm",
-      "method": "webfetch",
-      "filter_keywords": ["technology", "data", "privacy", "cyber"],
-      "focus_areas": ["all"],
-      "enabled": true
+      "method": "rss",
+      "filter_keywords": [
+        "technology",
+        "data",
+        "privacy",
+        "cyber"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.cyrilshroff.com/feed/"
     },
     {
       "id": "khaitan_tech",
@@ -490,8 +776,15 @@
       "url": "https://www.khaitanco.com",
       "type": "law_firm",
       "method": "webfetch",
-      "filter_keywords": ["technology", "data", "privacy", "digital"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "data",
+        "privacy",
+        "digital"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -500,7 +793,9 @@
       "url": "https://www.ikigailaw.com",
       "type": "law_firm",
       "method": "webfetch",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -510,7 +805,9 @@
       "type": "legal_database",
       "method": "websearch",
       "search_query": "site:indiankanoon.org (\"IT Act\" OR \"data protection\" OR \"intermediary\" OR \"cyber\")",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -520,8 +817,19 @@
       "rss": "https://techcrunch.com/feed/",
       "type": "international_news",
       "method": "rss",
-      "filter_keywords": ["India", "regulation", "policy", "law", "government", "privacy", "antitrust"],
-      "focus_areas": ["International-Comparative", "Startups"],
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy",
+        "law",
+        "government",
+        "privacy",
+        "antitrust"
+      ],
+      "focus_areas": [
+        "International-Comparative",
+        "Startups"
+      ],
       "enabled": true
     },
     {
@@ -531,8 +839,19 @@
       "rss": "https://www.theverge.com/rss/index.xml",
       "type": "international_news",
       "method": "rss",
-      "filter_keywords": ["India", "regulation", "policy", "antitrust", "privacy", "EU", "FTC"],
-      "focus_areas": ["International-Comparative", "Platform-Regulation"],
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy",
+        "antitrust",
+        "privacy",
+        "EU",
+        "FTC"
+      ],
+      "focus_areas": [
+        "International-Comparative",
+        "Platform-Regulation"
+      ],
       "enabled": true
     },
     {
@@ -542,8 +861,17 @@
       "rss": "https://www.wired.com/feed/",
       "type": "international_news",
       "method": "rss",
-      "filter_keywords": ["India", "regulation", "policy", "privacy", "surveillance", "AI regulation"],
-      "focus_areas": ["International-Comparative"],
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy",
+        "privacy",
+        "surveillance",
+        "AI regulation"
+      ],
+      "focus_areas": [
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -553,8 +881,17 @@
       "rss": "https://restofworld.org/feed/latest",
       "type": "international_news",
       "method": "rss",
-      "filter_keywords": ["India", "regulation", "policy", "government", "law"],
-      "focus_areas": ["International-Comparative", "Global-South"],
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy",
+        "government",
+        "law"
+      ],
+      "focus_areas": [
+        "International-Comparative",
+        "Global-South"
+      ],
       "enabled": true
     },
     {
@@ -562,9 +899,13 @@
       "name": "Politico Tech",
       "url": "https://www.politico.eu/section/technology/",
       "type": "international_news",
-      "method": "webfetch",
-      "focus_areas": ["International-Comparative", "EU-Policy"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "enabled": true,
+      "rss": "https://www.politico.eu/feed/"
     },
     {
       "id": "ssrn_india",
@@ -573,7 +914,9 @@
       "type": "academic",
       "method": "websearch",
       "search_query": "site:ssrn.com (India data protection OR India AI regulation OR India platform liability)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -583,8 +926,17 @@
       "rss": "https://www.eff.org/rss/updates.xml",
       "type": "international_advocacy",
       "method": "rss",
-      "filter_keywords": ["India", "surveillance", "privacy", "encryption"],
-      "focus_areas": ["Digital-Rights", "Privacy", "Free-Speech"],
+      "filter_keywords": [
+        "India",
+        "surveillance",
+        "privacy",
+        "encryption"
+      ],
+      "focus_areas": [
+        "Digital-Rights",
+        "Privacy",
+        "Free-Speech"
+      ],
       "enabled": true
     },
     {
@@ -594,8 +946,14 @@
       "rss": "https://www.accessnow.org/feed/",
       "type": "international_advocacy",
       "method": "rss",
-      "filter_keywords": ["India"],
-      "focus_areas": ["Digital-Rights", "Privacy", "Surveillance"],
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Digital-Rights",
+        "Privacy",
+        "Surveillance"
+      ],
       "enabled": true
     },
     {
@@ -605,8 +963,16 @@
       "rss": "https://privacyinternational.org/rss.xml",
       "type": "international_advocacy",
       "method": "rss",
-      "filter_keywords": ["India", "surveillance", "privacy", "data protection"],
-      "focus_areas": ["Privacy", "Surveillance"],
+      "filter_keywords": [
+        "India",
+        "surveillance",
+        "privacy",
+        "data protection"
+      ],
+      "focus_areas": [
+        "Privacy",
+        "Surveillance"
+      ],
       "enabled": true
     },
     {
@@ -615,8 +981,14 @@
       "url": "https://cyber.harvard.edu",
       "type": "academic",
       "method": "webfetch",
-      "filter_keywords": ["India", "global south"],
-      "focus_areas": ["Internet-Governance", "Digital-Rights"],
+      "filter_keywords": [
+        "India",
+        "global south"
+      ],
+      "focus_areas": [
+        "Internet-Governance",
+        "Digital-Rights"
+      ],
       "enabled": true
     },
     {
@@ -624,9 +996,14 @@
       "name": "Stanford Internet Observatory",
       "url": "https://cyber.fsi.stanford.edu/io",
       "type": "academic",
-      "method": "webfetch",
-      "focus_areas": ["Platform-Regulation", "Misinformation", "Content-Moderation"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Platform-Regulation",
+        "Misinformation",
+        "Content-Moderation"
+      ],
+      "enabled": true,
+      "rss": "https://cyber.fsi.stanford.edu/rss.xml"
     },
     {
       "id": "oxford_internet_institute",
@@ -635,8 +1012,13 @@
       "rss": "https://www.oii.ox.ac.uk/feed/",
       "type": "academic",
       "method": "rss",
-      "filter_keywords": ["India"],
-      "focus_areas": ["Internet-Governance", "Platform-Regulation"],
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Internet-Governance",
+        "Platform-Regulation"
+      ],
       "enabled": true
     }
   ]

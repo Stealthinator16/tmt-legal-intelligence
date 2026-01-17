@@ -22,7 +22,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Calcutta High Court\" (IT Act OR data protection OR technology OR cyber OR intermediary)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -32,7 +34,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Gujarat High Court\" (IT Act OR data protection OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -42,7 +46,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Madhya Pradesh High Court\" (IT Act OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -52,7 +58,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Allahabad High Court\" (IT Act OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -62,7 +70,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Punjab Haryana High Court\" (IT Act OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -72,7 +82,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Kerala High Court\" (IT Act OR technology OR cyber OR data)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -82,7 +94,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Rajasthan High Court\" (IT Act OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -92,7 +106,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Orissa High Court\" (IT Act OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -102,7 +118,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Andhra Pradesh High Court\" (IT Act OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -112,7 +130,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Telangana High Court\" (IT Act OR technology OR cyber)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -122,7 +142,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Jharkhand High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -132,7 +154,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Patna High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -142,7 +166,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Chhattisgarh High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -152,7 +178,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Uttarakhand High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -162,7 +190,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Himachal Pradesh High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -172,7 +202,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Jammu Kashmir High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -182,7 +214,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Gauhati High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -192,7 +226,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Manipur High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -202,7 +238,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Meghalaya High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -212,7 +250,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Tripura High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -222,7 +262,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Sikkim High Court\" (IT Act OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -232,7 +274,12 @@
       "type": "international_regulator",
       "method": "websearch",
       "search_query": "site:eur-lex.europa.eu (AI Act OR DSA OR DMA OR GDPR OR data governance)",
-      "focus_areas": ["Data-Protection", "AI-Regulation", "Platform-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation",
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -240,37 +287,56 @@
       "name": "EU Commission Digital Strategy",
       "url": "https://digital-strategy.ec.europa.eu",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["AI-Regulation", "Platform-Regulation", "Data-Protection", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "AI-Regulation",
+        "Platform-Regulation",
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://digital-strategy.ec.europa.eu/en/rss.xml"
     },
     {
       "id": "eu_ai_office",
       "name": "EU AI Office",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
       "type": "international_regulator",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:digital-strategy.ec.europa.eu AI Office",
-      "focus_areas": ["AI-Regulation", "International-Comparative"],
-      "enabled": true
+      "focus_areas": [
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://digital-strategy.ec.europa.eu/en/rss.xml"
     },
     {
       "id": "cnil_france",
       "name": "CNIL (France DPA)",
       "url": "https://www.cnil.fr",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["Data-Protection", "AI-Regulation", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "bfdi_germany",
       "name": "BfDI (Germany DPA)",
       "url": "https://www.bfdi.bund.de",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.bfdi.bund.de/SiteGlobals/Functions/RSSFeed/Allgemein/rssnewsfeed.xml?nn=252136"
     },
     {
       "id": "dpc_ireland",
@@ -278,7 +344,11 @@
       "url": "https://www.dataprotection.ie",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "Platform-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -286,9 +356,14 @@
       "name": "Garante (Italy DPA)",
       "url": "https://www.garanteprivacy.it",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["Data-Protection", "AI-Regulation", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.garanteprivacy.it/o/gpdp-rss/rss?t=news"
     },
     {
       "id": "aepd_spain",
@@ -296,7 +371,10 @@
       "url": "https://www.aepd.es",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -304,9 +382,13 @@
       "name": "AP (Netherlands DPA)",
       "url": "https://autoriteitpersoonsgegevens.nl",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
     },
     {
       "id": "apd_belgium",
@@ -314,7 +396,10 @@
       "url": "https://www.autoriteprotectiondonnees.be",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -323,7 +408,10 @@
       "url": "https://cnpd.public.lu",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -332,7 +420,10 @@
       "url": "https://www.dsb.gv.at",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -340,9 +431,14 @@
       "name": "European Data Protection Supervisor",
       "url": "https://edps.europa.eu",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["Data-Protection", "AI-Regulation", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.edps.europa.eu/feed/news_en"
     },
     {
       "id": "enisa",
@@ -351,7 +447,10 @@
       "rss": "https://www.enisa.europa.eu/rss.xml",
       "type": "international_regulator",
       "method": "rss",
-      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "focus_areas": [
+        "Cybersecurity",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -359,9 +458,13 @@
       "name": "BEREC (EU Telecom Regulators)",
       "url": "https://www.berec.europa.eu",
       "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": ["Telecommunications", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Telecommunications",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.berec.europa.eu/en/rss.xml"
     },
     {
       "id": "fcc_us",
@@ -370,7 +473,10 @@
       "type": "international_regulator",
       "method": "websearch",
       "search_query": "site:fcc.gov (broadband OR 5G OR spectrum OR net neutrality)",
-      "focus_areas": ["Telecommunications", "International-Comparative"],
+      "focus_areas": [
+        "Telecommunications",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -380,7 +486,11 @@
       "type": "international_regulator",
       "method": "websearch",
       "search_query": "site:sec.gov (cryptocurrency OR digital assets OR blockchain)",
-      "focus_areas": ["Blockchain-Crypto", "Fintech", "International-Comparative"],
+      "focus_areas": [
+        "Blockchain-Crypto",
+        "Fintech",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -388,10 +498,15 @@
       "name": "US CFPB",
       "url": "https://www.consumerfinance.gov",
       "type": "international_regulator",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:consumerfinance.gov (fintech OR digital OR data)",
-      "focus_areas": ["Fintech", "Data-Protection", "International-Comparative"],
-      "enabled": true
+      "focus_areas": [
+        "Fintech",
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.consumerfinance.gov/about-us/blog/feed/"
     },
     {
       "id": "nist_us",
@@ -400,7 +515,11 @@
       "type": "international_standards",
       "method": "websearch",
       "search_query": "site:nist.gov (AI framework OR cybersecurity framework OR privacy)",
-      "focus_areas": ["AI-Regulation", "Cybersecurity", "International-Comparative"],
+      "focus_areas": [
+        "AI-Regulation",
+        "Cybersecurity",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -410,7 +529,11 @@
       "type": "international_legislative",
       "method": "websearch",
       "search_query": "site:congress.gov (AI OR privacy OR technology OR data) bill",
-      "focus_areas": ["AI-Regulation", "Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "AI-Regulation",
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -418,10 +541,15 @@
       "name": "California Attorney General",
       "url": "https://oag.ca.gov",
       "type": "international_regulator",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:oag.ca.gov (CCPA OR CPRA OR privacy OR AI)",
-      "focus_areas": ["Data-Protection", "AI-Regulation", "International-Comparative"],
-      "enabled": true
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://oag.ca.gov/news/feed"
     },
     {
       "id": "ny_ag",
@@ -430,7 +558,11 @@
       "type": "international_regulator",
       "method": "websearch",
       "search_query": "site:ag.ny.gov (technology OR privacy OR AI OR platform)",
-      "focus_areas": ["Platform-Regulation", "AI-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Platform-Regulation",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -440,7 +572,10 @@
       "rss": "https://www.cisa.gov/news.xml",
       "type": "international_regulator",
       "method": "rss",
-      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "focus_areas": [
+        "Cybersecurity",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -449,7 +584,12 @@
       "url": "https://www.ofcom.org.uk",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Telecommunications", "Broadcasting", "Platform-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Telecommunications",
+        "Broadcasting",
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -457,20 +597,30 @@
       "name": "UK CMA",
       "url": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
       "type": "international_regulator",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:gov.uk/cma (digital markets OR platform OR AI OR technology)",
-      "focus_areas": ["Competition-Antitrust", "Platform-Regulation", "International-Comparative"],
-      "enabled": true
+      "focus_areas": [
+        "Competition-Antitrust",
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.gov.uk/government/organisations/competition-and-markets-authority.atom"
     },
     {
       "id": "fca_uk",
       "name": "UK FCA",
       "url": "https://www.fca.org.uk",
       "type": "international_regulator",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:fca.org.uk (fintech OR crypto OR digital)",
-      "focus_areas": ["Fintech", "Blockchain-Crypto", "International-Comparative"],
-      "enabled": true
+      "focus_areas": [
+        "Fintech",
+        "Blockchain-Crypto",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.fca.org.uk/news/rss.xml"
     },
     {
       "id": "ncsc_uk",
@@ -479,7 +629,10 @@
       "rss": "https://www.ncsc.gov.uk/feeds/reports.xml",
       "type": "international_regulator",
       "method": "rss",
-      "focus_areas": ["Cybersecurity", "International-Comparative"],
+      "focus_areas": [
+        "Cybersecurity",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -488,7 +641,11 @@
       "url": "https://www.pdpc.gov.sg",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "AI-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -497,7 +654,11 @@
       "url": "https://www.imda.gov.sg",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Telecommunications", "AI-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Telecommunications",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -506,7 +667,10 @@
       "url": "https://www.oaic.gov.au",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -515,7 +679,11 @@
       "url": "https://www.acma.gov.au",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Telecommunications", "Broadcasting", "International-Comparative"],
+      "focus_areas": [
+        "Telecommunications",
+        "Broadcasting",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -525,7 +693,10 @@
       "type": "international_regulator",
       "method": "websearch",
       "search_query": "Japan Personal Information Protection Commission",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -535,7 +706,10 @@
       "type": "international_regulator",
       "method": "websearch",
       "search_query": "Korea Personal Information Protection Commission",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -544,7 +718,10 @@
       "url": "https://www.pcpd.org.hk",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -553,7 +730,11 @@
       "url": "https://www.itu.int",
       "type": "international_organization",
       "method": "webfetch",
-      "focus_areas": ["Telecommunications", "AI-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Telecommunications",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -563,7 +744,12 @@
       "type": "international_organization",
       "method": "websearch",
       "search_query": "site:oecd.org (AI OR digital OR privacy OR platform)",
-      "focus_areas": ["AI-Regulation", "Data-Protection", "Platform-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "AI-Regulation",
+        "Data-Protection",
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -573,7 +759,11 @@
       "type": "international_organization",
       "method": "websearch",
       "search_query": "site:wipo.int (AI OR technology OR digital)",
-      "focus_areas": ["IP-Copyright", "AI-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "IP-Copyright",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -582,7 +772,10 @@
       "url": "https://www.icann.org",
       "type": "international_organization",
       "method": "webfetch",
-      "focus_areas": ["Platform-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -590,9 +783,13 @@
       "name": "UN Tech Envoy",
       "url": "https://www.un.org/techenvoy",
       "type": "international_organization",
-      "method": "webfetch",
-      "focus_areas": ["AI-Regulation", "International-Comparative"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.un.org/rss.xml"
     },
     {
       "id": "world_bank_digital",
@@ -601,7 +798,9 @@
       "type": "international_organization",
       "method": "websearch",
       "search_query": "site:worldbank.org digital development",
-      "focus_areas": ["International-Comparative"],
+      "focus_areas": [
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -609,9 +808,13 @@
       "name": "ASCI (Advertising Standards)",
       "url": "https://ascionline.in",
       "type": "regulator",
-      "method": "webfetch",
-      "focus_areas": ["Platform-Regulation", "Broadcasting"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Platform-Regulation",
+        "Broadcasting"
+      ],
+      "enabled": true,
+      "rss": "https://www.ascionline.in/feed/"
     },
     {
       "id": "dgca_india",
@@ -620,7 +823,9 @@
       "type": "regulator",
       "method": "websearch",
       "search_query": "site:dgca.gov.in (drone OR UAV OR RPAS)",
-      "focus_areas": ["Drones-eVTOL"],
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
       "enabled": true
     },
     {
@@ -630,7 +835,9 @@
       "type": "regulator",
       "method": "websearch",
       "search_query": "site:isro.gov.in OR site:inspace.gov.in policy OR regulation",
-      "focus_areas": ["Space-Technology"],
+      "focus_areas": [
+        "Space-Technology"
+      ],
       "enabled": true
     },
     {
@@ -639,7 +846,10 @@
       "url": "https://mib.gov.in",
       "type": "ministry",
       "method": "webfetch",
-      "focus_areas": ["Broadcasting", "OTT-Regulation"],
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
       "enabled": true
     },
     {
@@ -648,7 +858,10 @@
       "url": "https://dpiit.gov.in",
       "type": "ministry",
       "method": "webfetch",
-      "focus_areas": ["IP-Copyright", "E-Commerce"],
+      "focus_areas": [
+        "IP-Copyright",
+        "E-Commerce"
+      ],
       "enabled": true
     },
     {
@@ -658,7 +871,10 @@
       "type": "ministry",
       "method": "websearch",
       "search_query": "site:consumeraffairs.nic.in (e-commerce OR digital OR online)",
-      "focus_areas": ["E-Commerce", "Consumer-Protection"],
+      "focus_areas": [
+        "E-Commerce",
+        "Consumer-Protection"
+      ],
       "enabled": true
     },
     {
@@ -666,10 +882,13 @@
       "name": "Economic Times Tech",
       "url": "https://economictimes.indiatimes.com/tech",
       "type": "business_news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:economictimes.indiatimes.com/tech (regulation OR policy OR law OR government)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://economictimes.indiatimes.com/rssfeeds/13357270.cms"
     },
     {
       "id": "mint_tech",
@@ -678,7 +897,9 @@
       "type": "business_news",
       "method": "websearch",
       "search_query": "site:livemint.com/technology (regulation OR policy OR law)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -686,60 +907,82 @@
       "name": "Inc42",
       "url": "https://inc42.com",
       "type": "business_news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:inc42.com (regulation OR policy OR compliance OR law)",
-      "focus_areas": ["Fintech", "E-Commerce", "AI-Regulation"],
-      "enabled": true
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce",
+        "AI-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://inc42.com/feed/"
     },
     {
       "id": "techcrunch_india",
       "name": "TechCrunch India",
       "url": "https://techcrunch.com",
       "type": "business_news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:techcrunch.com India (regulation OR policy OR law)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://techcrunch.com/feed/"
     },
     {
       "id": "entrackr",
       "name": "Entrackr",
       "url": "https://entrackr.com",
       "type": "business_news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:entrackr.com (regulation OR policy OR compliance)",
-      "focus_areas": ["Fintech", "E-Commerce"],
-      "enabled": true
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce"
+      ],
+      "enabled": true,
+      "rss": "https://entrackr.com/rss"
     },
     {
       "id": "yourstory",
       "name": "YourStory",
       "url": "https://yourstory.com",
       "type": "business_news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:yourstory.com (regulation OR policy OR compliance OR law)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://yourstory.com/feed"
     },
     {
       "id": "legally_india",
       "name": "Legally India",
       "url": "https://www.legallyindia.com",
       "type": "legal_news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:legallyindia.com (technology OR data OR cyber OR telecom)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://feeds.feedburner.com/LegallyIndia/"
     },
     {
       "id": "the_leaflet",
       "name": "The Leaflet",
       "url": "https://theleaflet.in",
       "type": "legal_news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:theleaflet.in (technology OR privacy OR digital OR cyber)",
-      "focus_areas": ["Constitutional-Rights", "Platform-Regulation"],
-      "enabled": true
+      "focus_areas": [
+        "Constitutional-Rights",
+        "Platform-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://prod-qt-images.s3.amazonaws.com/production/theleaflet/feed.xml"
     },
     {
       "id": "scroll_tech",
@@ -748,7 +991,9 @@
       "type": "news",
       "method": "websearch",
       "search_query": "site:scroll.in (technology regulation OR privacy OR digital policy)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -758,7 +1003,9 @@
       "type": "news",
       "method": "websearch",
       "search_query": "site:thewire.in/tech (regulation OR policy OR law OR privacy)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -768,8 +1015,18 @@
       "rss": "https://www.thequint.com/stories.rss",
       "type": "news",
       "method": "rss",
-      "filter_keywords": ["technology", "regulation", "policy", "data", "privacy", "cyber", "AI"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "regulation",
+        "policy",
+        "data",
+        "privacy",
+        "cyber",
+        "AI"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -779,7 +1036,10 @@
       "type": "business_news",
       "method": "websearch",
       "search_query": "site:moneycontrol.com/technology (regulation OR policy)",
-      "focus_areas": ["Fintech", "E-Commerce"],
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce"
+      ],
       "enabled": true
     },
     {
@@ -789,7 +1049,9 @@
       "type": "business_news",
       "method": "websearch",
       "search_query": "site:business-standard.com/technology (regulation OR policy OR law)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     },
     {
@@ -799,7 +1061,11 @@
       "type": "think_tank",
       "method": "websearch",
       "search_query": "site:orfonline.org (technology OR digital OR cyber OR AI OR data)",
-      "focus_areas": ["AI-Regulation", "Cybersecurity", "International-Comparative"],
+      "focus_areas": [
+        "AI-Regulation",
+        "Cybersecurity",
+        "International-Comparative"
+      ],
       "enabled": true
     },
     {
@@ -807,20 +1073,28 @@
       "name": "ICRIER",
       "url": "https://icrier.org",
       "type": "think_tank",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:icrier.org (digital OR technology OR trade)",
-      "focus_areas": ["E-Commerce", "International-Comparative"],
-      "enabled": true
+      "focus_areas": [
+        "E-Commerce",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://icrier.org/feed/"
     },
     {
       "id": "cuts_international",
       "name": "CUTS International",
       "url": "https://cuts-international.org",
       "type": "think_tank",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:cuts-international.org (digital OR competition OR technology)",
-      "focus_areas": ["Competition-Antitrust", "E-Commerce"],
-      "enabled": true
+      "focus_areas": [
+        "Competition-Antitrust",
+        "E-Commerce"
+      ],
+      "enabled": true,
+      "rss": "https://cuts-international.org/feed/"
     },
     {
       "id": "data_governance_network",
@@ -828,7 +1102,10 @@
       "url": "https://datagovernance.org",
       "type": "think_tank",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "AI-Regulation"],
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation"
+      ],
       "enabled": true
     },
     {
@@ -836,39 +1113,52 @@
       "name": "IT for Change",
       "url": "https://itforchange.net",
       "type": "advocacy",
-      "method": "webfetch",
-      "focus_areas": ["Platform-Regulation", "Data-Protection"],
-      "enabled": true
+      "method": "rss",
+      "focus_areas": [
+        "Platform-Regulation",
+        "Data-Protection"
+      ],
+      "enabled": true,
+      "rss": "https://itforchange.net/rss.xml"
     },
     {
       "id": "nlu_delhi_ccl",
       "name": "NLU Delhi CCL",
       "url": "https://nludelhi.ac.in",
       "type": "academic",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:nludelhi.ac.in (technology OR cyber OR data OR digital)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://nludelhi.ac.in/feed/"
     },
     {
       "id": "nalsar_clt",
       "name": "NALSAR Centre for Law & Technology",
       "url": "https://nalsar.ac.in",
       "type": "academic",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:nalsar.ac.in (technology OR digital OR cyber)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://nalsar.ac.in/rss.xml"
     },
     {
       "id": "nujs_blog",
       "name": "NUJS Law Review Blog",
       "url": "https://nujslawreview.org",
       "type": "academic",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:nujslawreview.org (technology OR digital OR data OR cyber)",
-      "focus_areas": ["all"],
-      "enabled": true
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://nujslawreview.org/feed/"
     },
     {
       "id": "iitb_tech_policy",
@@ -877,7 +1167,9 @@
       "type": "academic",
       "method": "websearch",
       "search_query": "IIT Bombay technology policy OR AI ethics",
-      "focus_areas": ["AI-Regulation"],
+      "focus_areas": [
+        "AI-Regulation"
+      ],
       "enabled": true
     },
     {
@@ -887,7 +1179,9 @@
       "type": "academic",
       "method": "websearch",
       "search_query": "IIIT Bangalore IT law OR cyber law",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "enabled": true
     }
   ]

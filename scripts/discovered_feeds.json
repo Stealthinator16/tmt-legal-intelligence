@@ -1,0 +1,842 @@
+[
+  {
+    "id": "trai_main",
+    "url": "https://www.trai.gov.in",
+    "status": "found",
+    "rss": "https://www.trai.gov.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "the_dialogue",
+    "url": "https://thedialogue.co",
+    "status": "found",
+    "rss": "https://thedialogue.co/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "sflc_india",
+    "url": "https://sflc.in",
+    "status": "found",
+    "rss": "https://sflc.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "nlsiu_blog",
+    "url": "https://www.nls.ac.in",
+    "status": "found",
+    "rss": "https://www.nls.ac.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "ipleaders",
+    "url": "https://blog.ipleaders.in",
+    "status": "found",
+    "rss": "https://blog.ipleaders.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "icrier",
+    "url": "https://icrier.org",
+    "status": "found",
+    "rss": "https://icrier.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "cuts",
+    "url": "https://cuts-international.org",
+    "status": "found",
+    "rss": "https://cuts-international.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "it_for_change",
+    "url": "https://itforchange.net",
+    "status": "found",
+    "rss": "https://itforchange.net/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "eu_digital_strategy",
+    "url": "https://digital-strategy.ec.europa.eu",
+    "status": "found",
+    "rss": "https://digital-strategy.ec.europa.eu/en/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "cnil_france",
+    "url": "https://www.cnil.fr/en",
+    "status": "found",
+    "rss": "https://www.cnil.fr/fr/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "california_ag",
+    "url": "https://oag.ca.gov",
+    "status": "found",
+    "rss": "https://oag.ca.gov/news/feed",
+    "method": "discovered"
+  },
+  {
+    "id": "iamai",
+    "url": "https://www.iamai.in",
+    "status": "found",
+    "rss": "https://www.iamai.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "nasscom",
+    "url": "https://nasscom.in",
+    "status": "found",
+    "rss": "https://nasscom.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "trilegal_tmt",
+    "url": "https://trilegal.com",
+    "status": "found",
+    "rss": "https://trilegal.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "azb_tmt",
+    "url": "https://www.azbpartners.com",
+    "status": "found",
+    "rss": "https://www.azbpartners.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "cam_tmt",
+    "url": "https://www.cyrilshroff.com",
+    "status": "found",
+    "rss": "https://www.cyrilshroff.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "politico_tech",
+    "url": "https://www.politico.eu/section/technology/",
+    "status": "found",
+    "rss": "https://www.politico.eu/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "stanford_internet_observatory",
+    "url": "https://cyber.fsi.stanford.edu/io",
+    "status": "found",
+    "rss": "https://cyber.fsi.stanford.edu/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "eu_commission_digital",
+    "url": "https://digital-strategy.ec.europa.eu",
+    "status": "found",
+    "rss": "https://digital-strategy.ec.europa.eu/en/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "cnil_france",
+    "url": "https://www.cnil.fr",
+    "status": "found",
+    "rss": "https://www.cnil.fr/fr/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "eu_ai_office",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+    "status": "found",
+    "rss": "https://digital-strategy.ec.europa.eu/en/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "garante_italy",
+    "url": "https://www.garanteprivacy.it",
+    "status": "found",
+    "rss": "https://www.garanteprivacy.it/o/gpdp-rss/rss?t=news",
+    "method": "discovered"
+  },
+  {
+    "id": "bfdi_germany",
+    "url": "https://www.bfdi.bund.de",
+    "status": "found",
+    "rss": "https://www.bfdi.bund.de/SiteGlobals/Functions/RSSFeed/Allgemein/rssnewsfeed.xml?nn=252136",
+    "method": "discovered"
+  },
+  {
+    "id": "ap_netherlands",
+    "url": "https://autoriteitpersoonsgegevens.nl",
+    "status": "found",
+    "rss": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "edps",
+    "url": "https://edps.europa.eu",
+    "status": "found",
+    "rss": "https://www.edps.europa.eu/feed/news_en",
+    "method": "discovered"
+  },
+  {
+    "id": "berec",
+    "url": "https://www.berec.europa.eu",
+    "status": "found",
+    "rss": "https://www.berec.europa.eu/en/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "cfpb_us",
+    "url": "https://www.consumerfinance.gov",
+    "status": "found",
+    "rss": "https://www.consumerfinance.gov/about-us/blog/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "ca_ag",
+    "url": "https://oag.ca.gov",
+    "status": "found",
+    "rss": "https://oag.ca.gov/news/feed",
+    "method": "discovered"
+  },
+  {
+    "id": "cma_uk",
+    "url": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+    "status": "found",
+    "rss": "https://www.gov.uk/government/organisations/competition-and-markets-authority.atom",
+    "method": "discovered"
+  },
+  {
+    "id": "fca_uk",
+    "url": "https://www.fca.org.uk",
+    "status": "found",
+    "rss": "https://www.fca.org.uk/news/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "un_tech_envoy",
+    "url": "https://www.un.org/techenvoy",
+    "status": "found",
+    "rss": "https://www.un.org/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "asci_india",
+    "url": "https://ascionline.in",
+    "status": "found",
+    "rss": "https://www.ascionline.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "et_tech",
+    "url": "https://economictimes.indiatimes.com/tech",
+    "status": "found",
+    "rss": "https://economictimes.indiatimes.com/rssfeeds/13357270.cms",
+    "method": "discovered"
+  },
+  {
+    "id": "techcrunch_india",
+    "url": "https://techcrunch.com",
+    "status": "found",
+    "rss": "https://techcrunch.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "inc42",
+    "url": "https://inc42.com",
+    "status": "found",
+    "rss": "https://inc42.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "entrackr",
+    "url": "https://entrackr.com",
+    "status": "found",
+    "rss": "https://entrackr.com/rss",
+    "method": "discovered"
+  },
+  {
+    "id": "yourstory",
+    "url": "https://yourstory.com",
+    "status": "found",
+    "rss": "https://yourstory.com/feed",
+    "method": "discovered"
+  },
+  {
+    "id": "the_leaflet",
+    "url": "https://theleaflet.in",
+    "status": "found",
+    "rss": "https://prod-qt-images.s3.amazonaws.com/production/theleaflet/feed.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "legally_india",
+    "url": "https://www.legallyindia.com",
+    "status": "found",
+    "rss": "https://feeds.feedburner.com/LegallyIndia/",
+    "method": "discovered"
+  },
+  {
+    "id": "icrier",
+    "url": "https://icrier.org",
+    "status": "found",
+    "rss": "https://icrier.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "cuts_international",
+    "url": "https://cuts-international.org",
+    "status": "found",
+    "rss": "https://cuts-international.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "nlu_delhi_ccl",
+    "url": "https://nludelhi.ac.in",
+    "status": "found",
+    "rss": "https://nludelhi.ac.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "it_for_change",
+    "url": "https://itforchange.net",
+    "status": "found",
+    "rss": "https://itforchange.net/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "nalsar_clt",
+    "url": "https://nalsar.ac.in",
+    "status": "found",
+    "rss": "https://nalsar.ac.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "nujs_blog",
+    "url": "https://nujslawreview.org",
+    "status": "found",
+    "rss": "https://nujslawreview.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "oxford_internet",
+    "url": "https://www.oii.ox.ac.uk",
+    "status": "found",
+    "rss": "https://www.oii.ox.ac.uk/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "mit_media_lab",
+    "url": "https://www.media.mit.edu",
+    "status": "found",
+    "rss": "https://www.media.mit.edu/feed.rss",
+    "method": "discovered"
+  },
+  {
+    "id": "georgetown_cdt",
+    "url": "https://cdt.org",
+    "status": "found",
+    "rss": "https://cdt.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "eff",
+    "url": "https://www.eff.org",
+    "status": "found",
+    "rss": "https://www.eff.org/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "article_19",
+    "url": "https://www.article19.org",
+    "status": "found",
+    "rss": "https://www.article19.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "harvard_berkman",
+    "url": "https://cyber.harvard.edu",
+    "status": "found",
+    "rss": "https://cyber.harvard.edu/news/feed",
+    "method": "discovered"
+  },
+  {
+    "id": "access_now",
+    "url": "https://www.accessnow.org",
+    "status": "found",
+    "rss": "https://www.accessnow.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "future_of_life",
+    "url": "https://futureoflife.org",
+    "status": "found",
+    "rss": "https://futureoflife.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "ai_now",
+    "url": "https://ainowinstitute.org",
+    "status": "found",
+    "rss": "https://ainowinstitute.org/feed",
+    "method": "discovered"
+  },
+  {
+    "id": "privacy_international",
+    "url": "https://privacyinternational.org",
+    "status": "found",
+    "rss": "https://privacyinternational.org/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "partnership_ai",
+    "url": "https://partnershiponai.org",
+    "status": "found",
+    "rss": "https://partnershiponai.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "journal_nujs",
+    "url": "https://nujslawreview.org",
+    "status": "found",
+    "rss": "https://nujslawreview.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "journal_ijlt",
+    "url": "https://www.ijlt.in",
+    "status": "found",
+    "rss": "https://ijlt.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "journal_clpr",
+    "url": "https://clpr.org.in",
+    "status": "found",
+    "rss": "https://clpr.org.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "journal_scc",
+    "url": "https://www.scconline.com/blog",
+    "status": "found",
+    "rss": "https://www.scconline.com/blog/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "trilegal",
+    "url": "https://trilegal.com",
+    "status": "found",
+    "rss": "https://trilegal.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "azbpartners",
+    "url": "https://www.azbpartners.com",
+    "status": "found",
+    "rss": "https://www.azbpartners.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "cyrilshroff",
+    "url": "https://www.cyrilshroff.com",
+    "status": "found",
+    "rss": "https://www.cyrilshroff.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "jsalaw",
+    "url": "https://www.jsalaw.com",
+    "status": "found",
+    "rss": "https://www.jsalaw.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "luthra",
+    "url": "https://www.luthra.com",
+    "status": "found",
+    "rss": "https://luthra.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "sng_partners",
+    "url": "https://www.sngpartners.in",
+    "status": "found",
+    "rss": "https://sngpartners.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "samvad_partners",
+    "url": "https://www.samvadpartners.com",
+    "status": "found",
+    "rss": "https://www.samvadpartners.com/blog-feed.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "freshfields",
+    "url": "https://www.freshfields.com",
+    "status": "found",
+    "rss": "https://www.freshfields.com/en/rss/news/",
+    "method": "discovered"
+  },
+  {
+    "id": "iamai",
+    "url": "https://www.iamai.in",
+    "status": "found",
+    "rss": "https://www.iamai.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "nasscom",
+    "url": "https://nasscom.in",
+    "status": "found",
+    "rss": "https://nasscom.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "fintech_india",
+    "url": "https://www.fintechnews.org",
+    "status": "found",
+    "rss": "https://www.fintechnews.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "egr_gaming",
+    "url": "https://www.egr.global",
+    "status": "found",
+    "rss": "https://www.egr.global/intel/comments/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "pocket_gamer",
+    "url": "https://www.pocketgamer.biz",
+    "status": "found",
+    "rss": "https://www.pocketgamer.biz/index.rss",
+    "method": "discovered"
+  },
+  {
+    "id": "ott_coalition",
+    "url": "https://www.ibfindia.com",
+    "status": "found",
+    "rss": "https://www.ibdf.com/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "afaqs",
+    "url": "https://www.afaqs.com",
+    "status": "found",
+    "rss": "https://www.afaqs.com/rss",
+    "method": "discovered"
+  },
+  {
+    "id": "edtech_india",
+    "url": "https://inc42.com",
+    "status": "found",
+    "rss": "https://inc42.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "south_africa_ic",
+    "url": "https://inforegulator.org.za",
+    "status": "found",
+    "rss": "https://inforegulator.org.za/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "brazil_anpd",
+    "url": "https://www.gov.br/anpd",
+    "status": "found",
+    "rss": "https://www.gov.br/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "kenya_dpc",
+    "url": "https://www.odpc.go.ke",
+    "status": "found",
+    "rss": "https://www.odpc.go.ke/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "new_zealand_opc",
+    "url": "https://www.privacy.org.nz",
+    "status": "found",
+    "rss": "https://www.privacy.org.nz/home/rss/",
+    "method": "discovered"
+  },
+  {
+    "id": "malaysia_pdp",
+    "url": "https://www.pdp.gov.my",
+    "status": "found",
+    "rss": "https://www.pdp.gov.my/ppdpv1/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "suas_news",
+    "url": "https://www.suasnews.com",
+    "status": "found",
+    "rss": "https://www.suasnews.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "drone_life",
+    "url": "https://dronelife.com",
+    "status": "found",
+    "rss": "https://dronelife.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "evtol_insights",
+    "url": "https://evtolinsights.com",
+    "status": "found",
+    "rss": "https://evtolinsights.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "easa_drones",
+    "url": "https://www.easa.europa.eu/en/domains/civil-drones",
+    "status": "found",
+    "rss": "https://www.easa.europa.eu/en/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "space_policy_online",
+    "url": "https://spacepolicyonline.com",
+    "status": "found",
+    "rss": "https://spacepolicyonline.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "nasscom_blockchain",
+    "url": "https://nasscom.in",
+    "status": "found",
+    "rss": "https://nasscom.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "cointelegraph_india",
+    "url": "https://cointelegraph.com",
+    "status": "found",
+    "rss": "https://cointelegraph.com/rss",
+    "method": "discovered"
+  },
+  {
+    "id": "crypto_briefing",
+    "url": "https://cryptobriefing.com",
+    "status": "found",
+    "rss": "https://cryptobriefing.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "the_block",
+    "url": "https://www.theblock.co",
+    "status": "found",
+    "rss": "https://www.theblock.co/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "krebs_security",
+    "url": "https://krebsonsecurity.com",
+    "status": "found",
+    "rss": "https://krebsonsecurity.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "bleeping_computer",
+    "url": "https://www.bleepingcomputer.com",
+    "status": "found",
+    "rss": "https://www.bleepingcomputer.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "dark_reading",
+    "url": "https://www.darkreading.com",
+    "status": "found",
+    "rss": "https://www.darkreading.com/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "threatpost",
+    "url": "https://threatpost.com",
+    "status": "found",
+    "rss": "https://threatpost.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "security_week",
+    "url": "https://www.securityweek.com",
+    "status": "found",
+    "rss": "https://www.securityweek.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "nasscom_cyber",
+    "url": "https://nasscom.in",
+    "status": "found",
+    "rss": "https://nasscom.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "enisa_reports",
+    "url": "https://www.enisa.europa.eu",
+    "status": "found",
+    "rss": "https://www.enisa.europa.eu/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "mit_tech_review_ai",
+    "url": "https://www.technologyreview.com",
+    "status": "found",
+    "rss": "https://www.technologyreview.com/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "wired_ai",
+    "url": "https://www.wired.com",
+    "status": "found",
+    "rss": "https://www.wired.com/feed/rss",
+    "method": "discovered"
+  },
+  {
+    "id": "venture_beat_ai",
+    "url": "https://venturebeat.com",
+    "status": "found",
+    "rss": "https://venturebeat.com/feed",
+    "method": "discovered"
+  },
+  {
+    "id": "deepmind_blog",
+    "url": "https://deepmind.com/blog",
+    "status": "found",
+    "rss": "https://deepmind.google/blog/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "distill_pub",
+    "url": "https://distill.pub",
+    "status": "found",
+    "rss": "https://distill.pub/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "the_gradient",
+    "url": "https://thegradient.pub",
+    "status": "found",
+    "rss": "https://thegradient.pub/rss/",
+    "method": "discovered"
+  },
+  {
+    "id": "autonomous_vehicle_intl",
+    "url": "https://www.autonomousvehicleinternational.com",
+    "status": "found",
+    "rss": "https://www.autonomousvehicleinternational.com/feed",
+    "method": "discovered"
+  },
+  {
+    "id": "yale_jolt",
+    "url": "https://www.yjolt.org",
+    "status": "found",
+    "rss": "https://yjolt.org/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "berkeley_tech_lj",
+    "url": "https://btlj.org",
+    "status": "found",
+    "rss": "https://btlj.org/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "harvard_jolt",
+    "url": "https://jolt.law.harvard.edu",
+    "status": "found",
+    "rss": "http://jolt.law.harvard.edu/rss",
+    "method": "discovered"
+  },
+  {
+    "id": "stanford_tech_lr",
+    "url": "https://law.stanford.edu/stanford-technology-law-review/",
+    "status": "found",
+    "rss": "https://law.stanford.edu/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "nyu_jipel",
+    "url": "https://jipel.law.nyu.edu",
+    "status": "found",
+    "rss": "https://jipel.law.nyu.edu/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "columbia_stlr",
+    "url": "https://stlr.org",
+    "status": "found",
+    "rss": "https://journals.library.columbia.edu/index.php/stlr/gateway/plugin/WebFeedGatewayPlugin/atom",
+    "method": "discovered"
+  },
+  {
+    "id": "telangana_it",
+    "url": "https://it.telangana.gov.in",
+    "status": "found",
+    "rss": "https://it.telangana.gov.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "goa_it",
+    "url": "https://www.goa.gov.in",
+    "status": "found",
+    "rss": "https://www.goa.gov.in/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "argentina_dp",
+    "url": "https://www.argentina.gob.ar",
+    "status": "found",
+    "rss": "https://www.argentina.gob.ar/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "assam_it",
+    "url": "https://it.assam.gov.in",
+    "status": "found",
+    "rss": "https://it.assam.gov.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "odisha_it",
+    "url": "https://odisha.gov.in",
+    "status": "found",
+    "rss": "https://odisha.gov.in/rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "ghana_dp",
+    "url": "https://www.dataprotection.org.gh",
+    "status": "found",
+    "rss": "https://dataprotection.org.gh/feed/",
+    "method": "discovered"
+  },
+  {
+    "id": "sweden_imy",
+    "url": "https://www.imy.se",
+    "status": "found",
+    "rss": "https://www.imy.se/nyheter/rss",
+    "method": "discovered"
+  },
+  {
+    "id": "czech_uoou",
+    "url": "https://www.uoou.cz",
+    "status": "found",
+    "rss": "https://uoou.gov.cz/feed/cs-rss.xml",
+    "method": "discovered"
+  },
+  {
+    "id": "romania_anspdcp",
+    "url": "https://www.dataprotection.ro",
+    "status": "found",
+    "rss": "https://www.dataprotection.ro/feed?lang=ro",
+    "method": "discovered"
+  },
+  {
+    "id": "greece_dpa",
+    "url": "https://www.dpa.gr",
+    "status": "found",
+    "rss": "https://www.dpa.gr/el/rss.xml",
+    "method": "discovered"
+  }
+]

@@ -12,8 +12,21 @@
       "type": "official_gazette",
       "method": "websearch",
       "search_query": "site:egazette.gov.in (IT OR technology OR data OR digital OR cyber OR telecom)",
-      "keywords": ["information technology", "data protection", "DPDP", "telecommunication", "artificial intelligence", "drone", "cyber security", "intermediary", "digital", "electronic"],
-      "focus_areas": ["all"],
+      "keywords": [
+        "information technology",
+        "data protection",
+        "DPDP",
+        "telecommunication",
+        "artificial intelligence",
+        "drone",
+        "cyber security",
+        "intermediary",
+        "digital",
+        "electronic"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -24,11 +37,25 @@
       "type": "ministry",
       "method": "webfetch",
       "sections": [
-        {"name": "Notifications", "url": "https://www.meity.gov.in/content/notifications"},
-        {"name": "Circulars & Reports", "url": "https://www.meity.gov.in/notificationscirculars"},
-        {"name": "Gazette Notifications", "url": "https://www.meity.gov.in/documents/gazettes-notifications"}
+        {
+          "name": "Notifications",
+          "url": "https://www.meity.gov.in/content/notifications"
+        },
+        {
+          "name": "Circulars & Reports",
+          "url": "https://www.meity.gov.in/notificationscirculars"
+        },
+        {
+          "name": "Gazette Notifications",
+          "url": "https://www.meity.gov.in/documents/gazettes-notifications"
+        }
       ],
-      "focus_areas": ["IT-Act", "Data-Protection", "AI-Regulations", "Cybersecurity"],
+      "focus_areas": [
+        "IT-Act",
+        "Data-Protection",
+        "AI-Regulations",
+        "Cybersecurity"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -37,15 +64,30 @@
       "name": "TRAI",
       "url": "https://www.trai.gov.in",
       "type": "regulator",
-      "method": "webfetch",
+      "method": "rss",
       "sections": [
-        {"name": "Regulations", "url": "https://www.trai.gov.in/release-publication/consolidated-regulations"},
-        {"name": "Recommendations", "url": "https://www.trai.gov.in/release-publication/recommendation"},
-        {"name": "Consultation Papers", "url": "https://www.trai.gov.in/release-publication/consultation"}
+        {
+          "name": "Regulations",
+          "url": "https://www.trai.gov.in/release-publication/consolidated-regulations"
+        },
+        {
+          "name": "Recommendations",
+          "url": "https://www.trai.gov.in/release-publication/recommendation"
+        },
+        {
+          "name": "Consultation Papers",
+          "url": "https://www.trai.gov.in/release-publication/consultation"
+        }
       ],
-      "focus_areas": ["Telecommunications-Act-2023", "Telecom-Licenses", "Spectrum", "Net-Neutrality"],
+      "focus_areas": [
+        "Telecommunications-Act-2023",
+        "Telecom-Licenses",
+        "Spectrum",
+        "Net-Neutrality"
+      ],
       "critical": true,
-      "enabled": true
+      "enabled": true,
+      "rss": "https://www.trai.gov.in/rss.xml"
     },
     {
       "id": "supreme_court",
@@ -54,8 +96,19 @@
       "type": "court",
       "method": "websearch",
       "search_query": "site:main.sci.gov.in OR \"Supreme Court India\" (IT Act OR data protection OR privacy OR intermediary OR cyber OR telecom)",
-      "keywords": ["IT Act", "data protection", "privacy", "intermediary", "cyber", "telecom", "digital", "technology"],
-      "focus_areas": ["all"],
+      "keywords": [
+        "IT Act",
+        "data protection",
+        "privacy",
+        "intermediary",
+        "cyber",
+        "telecom",
+        "digital",
+        "technology"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -66,7 +119,9 @@
       "rss": "https://www.medianama.com/feed/",
       "type": "blog",
       "method": "rss",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "priority_score": 100,
       "enabled": true
@@ -78,7 +133,9 @@
       "rss": "https://internetfreedom.in/rss/",
       "type": "advocacy",
       "method": "rss",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "priority_score": 95,
       "enabled": true
@@ -90,7 +147,12 @@
       "rss": "https://indconlawphil.wordpress.com/feed/",
       "type": "blog",
       "method": "rss",
-      "focus_areas": ["Constitutional-Rights", "Privacy", "Free-Speech", "Surveillance"],
+      "focus_areas": [
+        "Constitutional-Rights",
+        "Privacy",
+        "Free-Speech",
+        "Surveillance"
+      ],
       "critical": true,
       "priority_score": 95,
       "enabled": true
@@ -102,8 +164,19 @@
       "rss": "https://www.livelaw.in/feed",
       "type": "legal_news",
       "method": "rss",
-      "filter_keywords": ["technology", "IT Act", "data protection", "cyber", "telecom", "digital", "privacy", "intermediary"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "IT Act",
+        "data protection",
+        "cyber",
+        "telecom",
+        "digital",
+        "privacy",
+        "intermediary"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -114,8 +187,18 @@
       "rss": "https://www.barandbench.com/feed",
       "type": "legal_news",
       "method": "rss",
-      "filter_keywords": ["technology", "IT", "data", "cyber", "telecom", "digital", "privacy"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "IT",
+        "data",
+        "cyber",
+        "telecom",
+        "digital",
+        "privacy"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -126,7 +209,11 @@
       "rss": "https://spicyip.com/feed",
       "type": "blog",
       "method": "rss",
-      "focus_areas": ["IP-Copyright", "AI-Regulation", "Platform-Regulation"],
+      "focus_areas": [
+        "IP-Copyright",
+        "AI-Regulation",
+        "Platform-Regulation"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -137,7 +224,9 @@
       "type": "government",
       "method": "websearch",
       "search_query": "site:pib.gov.in (MeitY OR \"Ministry of Electronics\" OR \"data protection\" OR \"digital India\" OR DPDP)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -148,7 +237,9 @@
       "type": "court",
       "method": "websearch",
       "search_query": "\"Delhi High Court\" (IT Act OR data protection OR privacy OR intermediary OR technology)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -159,11 +250,29 @@
       "type": "regulator",
       "method": "webfetch",
       "sections": [
-        {"name": "Press Releases", "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"},
-        {"name": "Notifications", "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx"}
+        {
+          "name": "Press Releases",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"
+        },
+        {
+          "name": "Notifications",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx"
+        }
       ],
-      "filter_keywords": ["digital payment", "fintech", "UPI", "NPCI", "digital lending", "cryptocurrency", "CBDC"],
-      "focus_areas": ["Fintech", "Digital-Payments", "Cryptocurrency"],
+      "filter_keywords": [
+        "digital payment",
+        "fintech",
+        "UPI",
+        "NPCI",
+        "digital lending",
+        "cryptocurrency",
+        "CBDC"
+      ],
+      "focus_areas": [
+        "Fintech",
+        "Digital-Payments",
+        "Cryptocurrency"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -174,11 +283,30 @@
       "type": "regulator",
       "method": "webfetch",
       "sections": [
-        {"name": "Judgements", "url": "https://www.cci.gov.in/legal-framwork/judgements"},
-        {"name": "What's New", "url": "https://www.cci.gov.in/whats-new"}
+        {
+          "name": "Judgements",
+          "url": "https://www.cci.gov.in/legal-framwork/judgements"
+        },
+        {
+          "name": "What's New",
+          "url": "https://www.cci.gov.in/whats-new"
+        }
       ],
-      "filter_keywords": ["digital", "platform", "e-commerce", "app store", "google", "apple", "amazon", "facebook", "meta"],
-      "focus_areas": ["Competition-Antitrust", "Digital-Markets"],
+      "filter_keywords": [
+        "digital",
+        "platform",
+        "e-commerce",
+        "app store",
+        "google",
+        "apple",
+        "amazon",
+        "facebook",
+        "meta"
+      ],
+      "focus_areas": [
+        "Competition-Antitrust",
+        "Digital-Markets"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -189,10 +317,19 @@
       "type": "regulator",
       "method": "webfetch",
       "sections": [
-        {"name": "Advisories", "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01"},
-        {"name": "Directions", "url": "https://www.cert-in.org.in/"}
+        {
+          "name": "Advisories",
+          "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01"
+        },
+        {
+          "name": "Directions",
+          "url": "https://www.cert-in.org.in/"
+        }
       ],
-      "focus_areas": ["Cybersecurity", "Data-Breach"],
+      "focus_areas": [
+        "Cybersecurity",
+        "Data-Breach"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -202,8 +339,17 @@
       "url": "https://vidhilegalpolicy.in",
       "type": "think_tank",
       "method": "webfetch",
-      "filter_keywords": ["technology", "data", "digital", "AI", "privacy", "cyber"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "data",
+        "digital",
+        "AI",
+        "privacy",
+        "cyber"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -213,7 +359,9 @@
       "url": "https://cis-india.org",
       "type": "think_tank",
       "method": "webfetch",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -222,10 +370,13 @@
       "name": "The Dialogue",
       "url": "https://thedialogue.co",
       "type": "think_tank",
-      "method": "webfetch",
-      "focus_areas": ["all"],
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
-      "enabled": true
+      "enabled": true,
+      "rss": "https://thedialogue.co/feed/"
     },
     {
       "id": "edpb",
@@ -234,7 +385,10 @@
       "rss": "https://www.edpb.europa.eu/rss_en",
       "type": "international_regulator",
       "method": "rss",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -245,7 +399,12 @@
       "type": "international_regulator",
       "method": "websearch",
       "search_query": "site:ftc.gov (privacy OR data OR AI OR technology OR platform)",
-      "focus_areas": ["Data-Protection", "Competition-Antitrust", "AI-Regulation", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "Competition-Antitrust",
+        "AI-Regulation",
+        "International-Comparative"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -255,7 +414,10 @@
       "url": "https://ico.org.uk",
       "type": "international_regulator",
       "method": "webfetch",
-      "focus_areas": ["Data-Protection", "International-Comparative"],
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -264,21 +426,27 @@
       "name": "Software Freedom Law Centre India",
       "url": "https://sflc.in",
       "type": "advocacy",
-      "method": "webfetch",
-      "focus_areas": ["all"],
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
-      "enabled": true
+      "enabled": true,
+      "rss": "https://sflc.in/feed/"
     },
     {
       "id": "nlsiu_blog",
       "name": "NLSIU Centre for IT & Public Policy",
       "url": "https://www.nls.ac.in",
       "type": "academic",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:nls.ac.in (technology OR data OR digital OR AI OR privacy)",
-      "focus_areas": ["all"],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
-      "enabled": true
+      "enabled": true,
+      "rss": "https://www.nls.ac.in/feed/"
     },
     {
       "id": "dot_main",
@@ -287,11 +455,24 @@
       "type": "ministry",
       "method": "webfetch",
       "sections": [
-        {"name": "What's New", "url": "https://dot.gov.in/whatsnew"},
-        {"name": "Unified License", "url": "https://dot.gov.in/unified-licnse"},
-        {"name": "Acts & Rules", "url": "https://eservices.dot.gov.in/act-and-rules"}
+        {
+          "name": "What's New",
+          "url": "https://dot.gov.in/whatsnew"
+        },
+        {
+          "name": "Unified License",
+          "url": "https://dot.gov.in/unified-licnse"
+        },
+        {
+          "name": "Acts & Rules",
+          "url": "https://eservices.dot.gov.in/act-and-rules"
+        }
       ],
-      "focus_areas": ["Telecommunications-Act-2023", "Telecom-Licenses", "Spectrum"],
+      "focus_areas": [
+        "Telecommunications-Act-2023",
+        "Telecom-Licenses",
+        "Spectrum"
+      ],
       "critical": true,
       "enabled": true
     },
@@ -301,8 +482,18 @@
       "url": "https://prsindia.org",
       "type": "research",
       "method": "webfetch",
-      "filter_keywords": ["technology", "data", "digital", "telecom", "cyber", "IT", "electronics"],
-      "focus_areas": ["all"],
+      "filter_keywords": [
+        "technology",
+        "data",
+        "digital",
+        "telecom",
+        "cyber",
+        "IT",
+        "electronics"
+      ],
+      "focus_areas": [
+        "all"
+      ],
       "critical": true,
       "enabled": true
     }
