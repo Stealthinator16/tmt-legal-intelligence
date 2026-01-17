@@ -231,8 +231,9 @@
       "id": "edpb",
       "name": "European Data Protection Board",
       "url": "https://edpb.europa.eu",
+      "rss": "https://www.edpb.europa.eu/rss_en",
       "type": "international_regulator",
-      "method": "webfetch",
+      "method": "rss",
       "focus_areas": ["Data-Protection", "International-Comparative"],
       "critical": true,
       "enabled": true

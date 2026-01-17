@@ -1,9 +1,9 @@
 name: Gather Legal Intelligence Sources
 
 on:
-  # Scheduled runs - every 6 hours
+  # Scheduled runs - once daily at 6 AM UTC (11:30 AM IST)
   schedule:
-    - cron: '0 3,9,15,21 * * *'  # 3am, 9am, 3pm, 9pm UTC
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC
 
   # Manual trigger from GitHub UI
   workflow_dispatch:
@@ -52,7 +52,8 @@ jobs:
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
             echo "tier=${{ github.event.inputs.tier }}" >> $GITHUB_OUTPUT
           else
-            echo "tier=1" >> $GITHUB_OUTPUT
+            # Scheduled runs fetch all tiers
+            echo "tier=all" >> $GITHUB_OUTPUT
           fi
 
       - name: Fetch RSS feeds
