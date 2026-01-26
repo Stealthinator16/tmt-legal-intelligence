@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-25T06:23:39.815007+00:00",
+  "fetched_at": "2026-01-26T06:29:03.714248+00:00",
   "tiers": [
     1,
     2,
@@ -9,151 +9,187 @@
   ],
   "stats": {
     "total_sources": 148,
-    "successful": 133,
-    "failed": 15,
-    "total_items": 2082,
-    "new_items": 100
+    "successful": 134,
+    "failed": 14,
+    "total_items": 2083,
+    "new_items": 114
   },
-  "new_items_count": 100,
+  "new_items_count": 114,
   "items": [
     {
-      "title": "Gmail is having issues with spam and misclassification",
-      "url": "https://techcrunch.com/2026/01/24/gmail-is-having-issues-with-spam-and-misclassification/",
-      "published": "Sat, 24 Jan 2026 22:58:00 +0000",
-      "snippet": "If your Gmail account doesn\u2019t seem to be working properly today, you\u2019re not alone.",
+      "title": "UK must decide future of deal with firm linked to Russia\u2019s gas",
+      "url": "https://www.politico.eu/article/uk-must-decide-future-deal-with-firm-linked-russian-gas/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 26 Jan 2026 06:00:00 +0000",
+      "snippet": "A controversial Whitehall gas contract is up for renewal. MPs and Ukrainian campaigners want the British state to change its supplier.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "Tech CEOs boast and bicker about AI at Davos",
-      "url": "https://techcrunch.com/2026/01/24/tech-ceos-boast-and-bicker-about-ai-at-davos/",
-      "published": "Sat, 24 Jan 2026 20:00:46 +0000",
-      "snippet": "There were times at this week\u2019s meeting of the World Economic Forum when Davos seemed transformed into a high-powered tech conference.",
+      "title": "Europe\u2019s AI ambitions require more investment",
+      "url": "https://www.politico.eu/sponsored-content/europes-ai-ambitions-require-more-investment/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 26 Jan 2026 05:00:00 +0000",
+      "snippet": "Driving uptake of advanced and trusted connectivity will be central to the region\u2019s success, which means focusing on policy support and rules harmonization as much as technology and infrastructure.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "Former Googlers seek to captivate kids with an AI-powered learning app",
-      "url": "https://techcrunch.com/2026/01/24/former-google-trio-is-building-an-interactive-ai-powered-learning-app-for-kids/",
-      "published": "Sat, 24 Jan 2026 18:21:21 +0000",
-      "snippet": "Sparkli said that education systems often fall behind in teaching modern concepts. The company wants to teach kids about topics like skills design, financial literacy, and entrepreneurship by creating an AI-powered learning \"expedition.\"",
+      "title": "Europeans are gloomy about pretty much everything. Who can blame them?",
+      "url": "https://www.politico.eu/article/europeans-gloomy-everything-world-donald-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 26 Jan 2026 05:00:00 +0000",
+      "snippet": "An exclusive survey of 11,000 EU citizens reveals deep pessimism about their countries, the world and Donald Trump.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "SEC drops lawsuit against Winklevoss twins\u2019 Gemini crypto exchange",
-      "url": "https://techcrunch.com/2026/01/24/sec-drops-lawsuit-against-winklevoss-twins-gemini-crypto-exchange/",
-      "published": "Sat, 24 Jan 2026 18:06:33 +0000",
-      "snippet": "The Securities and Exchange Commission has dropped its lawsuit against Gemini, the crypto exchange founded by Trump backers Cameron and Tyler Winklevoss.",
+      "title": "Todessch\u00fcsse in Minnesota und Merz beim Nordsee-Gipfel",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/todesschusse-in-minnesota-und-merz-beim-nordsee-gipfel/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 26 Jan 2026 04:39:48 +0000",
+      "snippet": "Die USA erleben eine neue Eskalation in der Migrationspolitik: In Minnesota stirbt erneut ein Mensch bei einem Einsatz der Einwanderungsbeh\u00f6rde ICE. Die Debatte \u00fcber Gewalt, Rechtsstaatlichkeit und politische Verantwortung spitzt sich zu \u2013 und k\u00f6nnte auch nach Europa \u00fcberschwappen.In Hamburg trifft ...",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "A new test for AI labs: Are you even trying to make money?",
-      "url": "https://techcrunch.com/2026/01/24/a-new-test-for-ai-labs-are-you-even-trying-to-make-money/",
-      "published": "Sat, 24 Jan 2026 17:00:00 +0000",
-      "snippet": "It\u2019s\u00a0getting hard to tell which AI labs. are\u00a0actually trying\u00a0to make money. We created a rating system to help sort it out.",
+      "title": "The 5 hardest jobs in Brussels",
+      "url": "https://www.politico.eu/article/5-hard-jobs-brussels-mark-rutte-paula-pinho-kaja-kallas-balint-odor-maros-sefcovic/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 26 Jan 2026 03:01:00 +0000",
+      "snippet": "Do these people have the most unenviable roles in the EU capital?",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "How PopWheels helped a food cart ditch generators for e-bike batteries",
-      "url": "https://techcrunch.com/2026/01/24/how-popwheels-helped-a-food-cart-ditch-generators-for-e-bike-batteries/",
-      "published": "Sat, 24 Jan 2026 16:00:00 +0000",
-      "snippet": "PopWheels realized its battery swapping network could be used for more than food delivery workers who need to charge their e-bikes. Now, its planning for an \"aggressive rollout\" this summer.",
+      "title": "The European summit that will really wind up Trump",
+      "url": "https://www.politico.eu/article/european-summit-that-will-really-wind-up-donald-trump-offshore-energy-hamburg-declaration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 26 Jan 2026 03:01:00 +0000",
+      "snippet": "Wind turbines are for \"losers,\" says Trump. Europe's leaders beg to differ at a high-level meeting in Hamburg.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "Union Budget 2026: Healthcare industry makes the case for prevention over treatment",
-      "url": "https://yourstory.com/2026/01/union-budget-2026-healthcare-invest-prevention-over-treatment",
-      "published": "Sun, 25 Jan 2026 01:30:00 GMT",
-      "snippet": "As Budget 2026 nears, healthcare industry leaders are calling for a fundamental shift: invest in preventing disease, not just treating it.",
+      "title": "Clean energy is Europe\u2019s only route to security and prosperity",
+      "url": "https://www.politico.eu/article/clean-energy-europe-security-prosperity-ed-miliband-dan-jorgensen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 26 Jan 2026 03:00:00 +0000",
+      "snippet": "Today's summit will be fundamental in delivering the energy security and prosperity Europe desperately needs.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "yourstory",
-      "source_name": "YourStory",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "Six decades of creative excellence: the journey of Natya Institute of Kathak and Choreography",
-      "url": "https://yourstory.com/2026/01/natya-institute-kathak-choreography-madhu-nataraj-photography",
-      "published": "Sun, 25 Jan 2026 01:45:00 GMT",
-      "snippet": "In this photo essay, we highlight the outstanding work of the Natya Institute of Kathak and Choreography, and insights about its upcoming conference.",
+      "title": "Labour\u2019s ruling body shuts down Andy Burnham\u2019s Westminster comeback",
+      "url": "https://www.politico.eu/article/labour-shut-down-andy-burnham-westminster-comeback-national-executive-committee/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 25 Jan 2026 15:51:56 +0000",
+      "snippet": "The Labour Party\u2019s National Executive Committee voted 8-1 against allowing Burnham to step down as mayor of Manchester to run in the Gorton and Denton by-election.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "yourstory",
-      "source_name": "YourStory",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "VCs look to the future; Women entrepreneurs\u2019 Budget wishlist",
-      "url": "https://yourstory.com/2026/01/vcs-look-to-the-future-women-entrepreneurs-budget-wishlist",
-      "published": "Sun, 25 Jan 2026 02:00:00 GMT",
-      "snippet": "The Prime Venture Partners Podcast discusses how AI, new business models, and shifting global dynamics are reshaping startups. Women entrepreneurs want the Union Budget to prioritise access to credit and capital among other things. Soumik Datta uses sound to hold grief, migration, and memory.",
+      "title": "Influencer MEP Panayiotou stirs fury by using slur to refer to paralympians",
+      "url": "https://www.politico.eu/article/influencer-mep-fidias-panayiotou-slur-paralympians/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 25 Jan 2026 14:55:31 +0000",
+      "snippet": "The Cypriot Gen Z influencer's comment was condemned \u201cin the strongest terms\u201d by the Cyprus National Paralympic Committee.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "yourstory",
-      "source_name": "YourStory",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "The value of knowledge sharing:  MumbaiOgraphy grows a community of over 12,700 photographers",
-      "url": "https://yourstory.com/2026/01/mumbaiography-photography-knowledge-community",
-      "published": "Sat, 24 Jan 2026 06:14:48 GMT",
-      "snippet": "In this photo essay, we showcase a range of creative works from Jehangir Art Gallery, along with founder insights.",
+      "title": "Protest in Brussels against deadly repression in Iran",
+      "url": "https://www.politico.eu/article/protest-brussels-repression-iran/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 25 Jan 2026 14:03:19 +0000",
+      "snippet": "Thousands of people are expected to demonstrate in solidarity with the Iranian people.",
       "focus_areas": [
-        "all"
+        "International-Comparative",
+        "EU-Policy"
       ],
-      "source_id": "yourstory",
-      "source_name": "YourStory",
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
       "method": "rss"
     },
     {
-      "title": "Funding and acquisitions in Indian startup this week [Jan 19 - Jan 24]",
-      "url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-19-jan-24-11026733",
-      "published": "Sat, 24 Jan 2026 12:54:34 +0530",
-      "snippet": "This week, 47 Indian startups raised around&nbsp; $353.81 million, comprising 9 growth-stage and 34 early-stage deals, while 4 startups kept their funding undisclosed.\n\nIn contrast, 28 startups had collectively secured about $254 million in the previous week.\n[Growth-stage deals]\nThis week, growth-s...",
+      "title": "Bharat Gupta launches ToBe Online to support responsible content creation",
+      "url": "https://www.afaqs.com/news/mktg/bharat-gupta-launches-tobe-online-to-support-responsible-content-creation-11030701",
+      "published": "Mon, 26 Jan 2026 09:51:22 +0530",
+      "snippet": "Industry veteran Bharat Gupta, former chief executive officer of Jagran New Media, has launched ToBe Online, an AI-powered platform aimed at the fast-evolving creator content economy.\nThe platform is designed to support creators, industry bodies, and regulatory stakeholders with tools for content in...",
       "focus_areas": [
-        "Fintech",
-        "E-Commerce"
+        "Broadcasting",
+        "OTT-Regulation"
       ],
-      "source_id": "entrackr",
-      "source_name": "Entrackr",
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
       "method": "rss"
     },
     {
-      "title": "Interest in US law schools is surging as AI makes payoff less certain",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/interest-in-us-law-schools-is-surging-as-ai-makes-payoff-less-certain/articleshow/127452127.cms",
-      "published": "Sun, 25 Jan 2026 10:38:10 +0530",
-      "snippet": "More students are applying to law school as a career hedge. However, they face increased costs and new federal loan limits. The rise of artificial intelligence also poses uncertainties for future legal jobs and salaries. This presents a significant challenge for a new generation of aspiring legal pr...",
+      "title": "Brands mark Republic Day with films centred on courage, movement & identity",
+      "url": "https://www.afaqs.com/news/advertising/brands-mark-republic-day-with-films-centred-on-courage-movement-identity-11030196",
+      "published": "Mon, 26 Jan 2026 05:30:37 +0530",
+      "snippet": "Republic Day marks the adoption of India&rsquo;s constitution on January 26, 1950, and is widely observed through official ceremonies, parades, and public reflections on national values. Beyond state-led celebrations, the day has also become a moment for brands to engage with themes of identity, bel...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Piyush Pandey receives posthumous Padma Bhushan for shaping Indian advertising",
+      "url": "https://www.afaqs.com/news/advertising/piyush-pandey-receives-posthumous-padma-bhushan-for-shaping-indian-advertising-11030149",
+      "published": "Sun, 25 Jan 2026 20:53:44 +0530",
+      "snippet": "Piyush Pandey, the advertising veteran who spent four decades at Ogilvy India, has been awarded a posthumous Padma Bhushan by the Indian government. Pandey passed away in 2025.\nThe recognition places advertising alongside fields like industry, arts and public service in the national honours framewor...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "ChatGPT begins citing Elon Musk\u2019s Grokipedia, triggering fears over AI misinformation",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chatgpt-begins-citing-elon-musks-grokipedia-triggering-fears-over-ai-misinformation/articleshow/127531116.cms",
+      "published": "Mon, 26 Jan 2026 11:39:03 +0530",
+      "snippet": "According to tests conducted by the Guardian, GPT-5.2 cited Grokipedia nine times in response to more than a dozen queries. These included questions about Iranian political and economic structures, as well as the biography of Richard Evans, the British historian who served as an expert witness in th...",
       "focus_areas": [
         "all"
       ],
@@ -162,10 +198,10 @@
       "method": "rss"
     },
     {
-      "title": "Odisha aims to become harbinger of AI tech: CM",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/odisha-aims-to-become-harbinger-of-ai-tech-cm/articleshow/127451495.cms",
-      "published": "Sun, 25 Jan 2026 10:32:11 +0530",
-      "snippet": "Odisha is set to embrace artificial intelligence for governance and public services. Chief Minister Mohan Charan Majhi announced plans to build a secure and sovereign AI ecosystem. The state will develop shared AI infrastructure and population-scale applications.",
+      "title": "'Commitment to help build an inclusive AI future': Bill Gates extends greetings on 77th Republic Day",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/commitment-to-help-build-an-inclusive-ai-future-bill-gates-extends-greetings-on-77th-republic-day-celebrations/articleshow/127529297.cms",
+      "published": "Mon, 26 Jan 2026 11:05:30 +0530",
+      "snippet": "Chair and Board Member of Gates Foundation, Bill Gates, on the occasion of the 77th Republic Day celebrations of India, extended his greetings and said that his foundation will outline the partnerships and the commitment to help build an inclusive AI future while attending the India AI Summit, which...",
       "focus_areas": [
         "all"
       ],
@@ -174,10 +210,10 @@
       "method": "rss"
     },
     {
-      "title": "Indian startups to showcase agri products at Gulfood 2026",
-      "url": "https://economictimes.indiatimes.com/tech/startups/indian-startups-to-showcase-agri-products-at-gulfood-2026/articleshow/127415959.cms",
-      "published": "Sun, 25 Jan 2026 06:00:00 +0530",
-      "snippet": "Eight high-potential Indian startups will showcase innovative products, technology-driven solutions, and export-enabling offerings aligned with the government's Farm to Foreign vision at the Gulfood 2026, the commerce and industry ministry said.",
+      "title": "Social media giants Alphabet, ByteDance and Meta face landmark trial over addiction claims",
+      "url": "https://economictimes.indiatimes.com/tech/technology/social-media-giants-alphabet-bytedance-meta-others-face-landmark-trial-over-addiction-claims/articleshow/127527354.cms",
+      "published": "Mon, 26 Jan 2026 10:26:11 +0530",
+      "snippet": "Defendants in the suit are Alphabet, ByteDance and Meta, the tech titans behind YouTube, TikTok and Instagram. Meta cofounder and chief executive Mark Zuckerberg is slated to be called as a witness during the trial.",
       "focus_areas": [
         "all"
       ],
@@ -186,10 +222,10 @@
       "method": "rss"
     },
     {
-      "title": "AI can revolutionise governance if aligned with democratic values: Kerala CM",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-can-revolutionise-governance-if-aligned-with-democratic-values-kerala-cm/articleshow/127397366.cms",
-      "published": "Sat, 24 Jan 2026 18:52:26 +0530",
-      "snippet": "Addressing a gathering after inaugurating the valedictory session of the Kerala Regional AI Impact Conference organised by the IndiaAI Mission on Friday, Vijayan outlined the state government's vision to integrate AI into administration to enhance transparency, efficiency and public participation.",
+      "title": "AI to contribute approx $607 billion to India by 2035: Report",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-to-contribute-approx-607-billion-to-india-by-2035-report/articleshow/127525364.cms",
+      "published": "Mon, 26 Jan 2026 09:46:57 +0530",
+      "snippet": "Artificial Intelligence (AI) is expected to contribute approximately $607 billion to India's economy by 2035, with significant impact across key sectors such as agriculture, healthcare, energy, education and manufacturing, according to a report by PwC.",
       "focus_areas": [
         "all"
       ],
@@ -198,10 +234,10 @@
       "method": "rss"
     },
     {
-      "title": "Singapore to invest over $779 million in public AI research through 2030",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/singapore-to-invest-over-779-million-in-public-ai-research-through-2030/articleshow/127394263.cms",
-      "published": "Sat, 24 Jan 2026 17:43:58 +0530",
-      "snippet": "The Singapore government will invest \u200dover S$1 billion ($778.8 \u200bmillion) in public artificial intelligence research through \u20602030 to strengthen the nation's capabilities and global competitiveness, it said on Saturday.",
+      "title": "Star AI researcher\u2019s new lab in talks for $4 billion valuation",
+      "url": "https://economictimes.indiatimes.com/tech/funding/star-ai-researchers-new-lab-in-talks-for-4-billion-valuation/articleshow/127521804.cms",
+      "published": "Mon, 26 Jan 2026 08:32:47 +0530",
+      "snippet": "Famed artificial intelligence researcher Richard Socher is in talks to raise hundreds of millions of dollars for a new startup called Recursive that\u2019s focused on building more advanced AI systems. The financing would value Recursive at roughly $4 billion.",
       "focus_areas": [
         "all"
       ],
@@ -210,99 +246,213 @@
       "method": "rss"
     },
     {
-      "title": "ICE Asks Companies About \u2018Ad Tech and Big Data\u2019 Tools It Could Use in Investigations",
-      "url": "https://www.wired.com/story/ice-asks-companies-about-ad-tech-and-big-data-tools/",
-      "published": "Sat, 24 Jan 2026 22:14:57 +0000",
-      "snippet": "A new federal filing from ICE demonstrates how commercial tools are increasingly being considered by the government for law enforcement and surveillance.",
+      "title": "Twist and turns at AI startup Thinking Machines keep Valley on the edge",
+      "url": "https://economictimes.indiatimes.com/tech/startups/twist-and-turns-at-ai-startup-thinking-machines-keep-valley-on-the-edge/articleshow/127521213.cms",
+      "published": "Mon, 26 Jan 2026 08:22:47 +0530",
+      "snippet": "Internal conflict at Thinking Machines saw founders defect to OpenAI after disputes prompting firings, rehiring by Sam Altman, highlighting AI industry rivalry.",
       "focus_areas": [
-        "International-Comparative"
+        "all"
       ],
-      "source_id": "wired",
-      "source_name": "Wired",
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
       "method": "rss"
     },
     {
-      "title": "Unilever elevates Abhinav Ravikumar as CMO- Personal Care India",
-      "url": "https://www.afaqs.com/people-spotting/unilever-elevates-abhinav-ravikumar-as-cmo-personal-care-india-11028865",
-      "published": "Sun, 25 Jan 2026 11:47:51 +0530",
-      "snippet": "Abhinav Ravikumar has started a new role as chief marketing officer, Personal Care India at Unilever. He is based in Mumbai and will oversee marketing for the company&rsquo;s personal care portfolio in the country.\nSharing the update on LinkedIn, Ravikumar wrote:&nbsp;&ldquo;I&rsquo;m happy to share...",
+      "title": "Samsung to start production of HBM4 chips next month for Nvidia supply: Report",
+      "url": "https://economictimes.indiatimes.com/tech/technology/samsung-to-start-production-of-hbm4-chips-next-month-for-nvidia-supply-source-says/articleshow/127518290.cms",
+      "published": "Mon, 26 Jan 2026 07:18:11 +0530",
+      "snippet": "Samsung Electronics plans \u200dto start production of \u200bits next-generation high-bandwidth memory (HBM) chips, or HBM4, next month \u2060and supply them to Nvidia. Samsung has been trying to catch up with cross-town rival SK Hynix, \u200ca primary \u200csupplier for advanced memory chips crucial for Nvidia's AI acceler...",
       "focus_areas": [
-        "Broadcasting",
-        "OTT-Regulation"
+        "all"
       ],
-      "source_id": "afaqs",
-      "source_name": "afaqs!",
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
       "method": "rss"
     },
     {
-      "title": "Delhivery\u2019s Republic Day ad focuses on everyday journeys across India",
-      "url": "https://www.afaqs.com/news/advertising/delhiverys-republic-day-ad-focuses-on-everyday-journeys-across-india-11028851",
-      "published": "Sun, 25 Jan 2026 11:36:27 +0530",
-      "snippet": "Delhivery has released a Republic Day digital film titled Yeh Desh Chalne Se Bana Hai, shifting focus from symbolic celebrations to the everyday movement that connects the country.\nThe film is narrated by actor Virendra Saxena and is framed through the perspective of a delivery partner. It traces In...",
+      "title": "Qcomm discounts heat up; R-day powers D2C sales",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/qcomm-discounts-heat-up-r-day-powers-d2c-sales/articleshow/127516002.cms",
+      "published": "Mon, 26 Jan 2026 06:40:24 +0530",
+      "snippet": "Happy Republic Day! Ecomm\u2013quick commerce rivalry heats up discounts. This and more in today's ETtech Morning Dispatch.",
       "focus_areas": [
-        "Broadcasting",
-        "OTT-Regulation"
+        "all"
       ],
-      "source_id": "afaqs",
-      "source_name": "afaqs!",
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
       "method": "rss"
     },
     {
-      "title": "Dabur Red Republic Day film focuses on instinctive courage in children",
-      "url": "https://www.afaqs.com/news/advertising/dabur-red-republic-day-film-focuses-on-instinctive-courage-in-children-11028827",
-      "published": "Sun, 25 Jan 2026 11:22:24 +0530",
-      "snippet": "Dabur Red Toothpaste has released a Republic Day digital film titled Desh Ke Bacche, Desh Ke Sachche Laal, focusing on acts of courage shown by children during moments of crisis.\nThe film features real-life stories of children who have received the Rashtriya Bal Puraskar for saving lives. It highlig...",
+      "title": "India weighing Pax Silica entry despite sovereignty worries",
+      "url": "https://economictimes.indiatimes.com/tech/technology/india-weighing-pax-silica-entry-despite-sovereignty-worries/articleshow/127498656.cms",
+      "published": "Mon, 26 Jan 2026 06:00:00 +0530",
+      "snippet": "India is considering joining the US-led Pax Silica initiative to secure supply chains for semiconductors, AI infrastructure, critical minerals and advanced manufacturing. While keen to access raw materials and advanced tools, New Delhi is cautious about commitments that could limit sovereign policym...",
       "focus_areas": [
-        "Broadcasting",
-        "OTT-Regulation"
+        "all"
       ],
-      "source_id": "afaqs",
-      "source_name": "afaqs!",
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
       "method": "rss"
     },
     {
-      "title": "Spykar marks Republic Day with changemaker-led digital campaign",
-      "url": "https://www.afaqs.com/news/advertising/spykar-marks-republic-day-with-changemaker-led-digital-campaign-11027470",
-      "published": "Sat, 24 Jan 2026 16:45:43 +0530",
-      "snippet": "Spykar has released a digital campaign around Republic Day featuring three Indian achievers from sports and the arts. The campaign forms part of the brand&rsquo;s ongoing Daur Apna Hai initiative and is being rolled out as a three-film series on social media.\nThe films feature motocross champion Rus...",
+      "title": "TCS is all set to seek \u2018consent manager\u2019 permit under DPDP",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/tcs-is-all-set-to-seek-consent-manager-permit-under-dpdp/articleshow/127498365.cms",
+      "published": "Mon, 26 Jan 2026 06:00:00 +0530",
+      "snippet": "TCS is preparing to seek a \u2018consent manager\u2019 permit under India\u2019s new Digital Personal Data Protection rules, joining Reliance Jio in a growing market. The data protection regime could create a Rs 10,000-crore compliance-as-a-service opportunity over three years, with consent management alone worth ...",
       "focus_areas": [
-        "Broadcasting",
-        "OTT-Regulation"
+        "all"
       ],
-      "source_id": "afaqs",
-      "source_name": "afaqs!",
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
       "method": "rss"
     },
     {
-      "title": "MBIFL 2026 to host live music evenings alongside literary sessions",
-      "url": "https://www.afaqs.com/companies/mbifl-2026-to-host-live-music-evenings-alongside-literary-sessions-11027029",
-      "published": "Sat, 24 Jan 2026 14:29:35 +0530",
-      "snippet": "The seventh edition of the Mathrubhumi International Festival of Letters (MBIFL) will be held from January 29 to February 1, 2026, at Kanakakkunnu Palace in Thiruvananthapuram. Alongside literary discussions and panel sessions, the festival will include live music evenings at Nishagandhi Auditorium....",
+      "title": "AI-led IT deals still forms small chunk despite hype: Zensar CEO",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-led-it-deals-still-forms-small-chunk-despite-hype-zensar-ceo/articleshow/127498027.cms",
+      "published": "Mon, 26 Jan 2026 06:00:00 +0530",
+      "snippet": "Zensar Technologies says AI-driven deals are growing and more profitable but still form a small part of its overall IT business. About 20% of its order bookings are \u201cAI-influenced,\u201d while traditional projects remain dominant. The company aims to become an \u2018AI-native\u2019 organisation, cautiously explori...",
       "focus_areas": [
-        "Broadcasting",
-        "OTT-Regulation"
+        "all"
       ],
-      "source_id": "afaqs",
-      "source_name": "afaqs!",
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
       "method": "rss"
     },
     {
-      "title": "Wheel of Fortune India lines up sponsors ahead of Sony TV launch",
-      "url": "https://www.afaqs.com/news/media/wheel-of-fortune-india-lines-up-sponsors-ahead-of-sony-tv-launch-11026810",
-      "published": "Sat, 24 Jan 2026 13:32:38 +0530",
-      "snippet": "Sony Pictures Networks India has announced brand partnerships for the Indian edition of Wheel of Fortune, which will air on Sony Entertainment Television. The sponsors include Maruti Suzuki and Maaza as co-presenting partners, Pidilite (Roff), Philips Home Appliances, StockGro and Denver Perfumes as...",
+      "title": "D2C brands see Republic Day sales momentum continuing on ecommerce",
+      "url": "https://economictimes.indiatimes.com/tech/technology/d2c-brands-see-republic-day-sales-momentum-continuing-on-qcomm/articleshow/127497657.cms",
+      "published": "Mon, 26 Jan 2026 06:00:00 +0530",
+      "snippet": "Direct-to-consumer brands in categories like jewellery, apparel, footwear and travel posted higher sales so far from a year earlier during the week-long Republic Day sale across ecommerce platforms such as Amazon and Flipkart. These brands expect an added boost this time with quick commerce apps als...",
       "focus_areas": [
-        "Broadcasting",
-        "OTT-Regulation"
+        "all"
       ],
-      "source_id": "afaqs",
-      "source_name": "afaqs!",
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
       "method": "rss"
     },
     {
-      "title": "Delhi court acquits Medha Patkar in two-decade-old criminal defamation case by Delhi LG VK Saxena",
-      "url": "https://www.barandbench.com/news/delhi-court-acquits-medha-patkar-in-two-decade-old-criminal-defamation-case-by-delhi-lg-vk-saxena",
-      "published": "2026-01-24T14:32:32.800Z",
+      "title": "Competitive intensity increases as Amazon, Flipkart take on quick commerce players",
+      "url": "https://economictimes.indiatimes.com/tech/technology/competitive-intensity-increases-as-amazon-flipkart-take-on-quick-commerce-players/articleshow/127496164.cms",
+      "published": "Mon, 26 Jan 2026 06:00:00 +0530",
+      "snippet": "Competition in the quick commerce sector is getting even more intense as Amazon and Flipkart step up discounting to challenge Blinkit, Zepto and Swiggy Instamart, triggering a fresh price war. Discounts rose to 55% in January, with Amazon Now matching Zepto, while Flipkart XtraSaver boosts bulk prom...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Infosys caps WFO exemption at five days a quarter after Wipro &amp; TCS tighten WFH norms",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/infosys-caps-wfo-exemption-at-5-days-a-quarter-after-wipro-tcs-tighten-wfh-norms/articleshow/127491122.cms",
+      "published": "Sun, 25 Jan 2026 22:49:35 +0530",
+      "snippet": "Infosys has restricted extra work-from-home days, allowing only limited exceptions with proof. Staff must mostly attend offices, following similar moves by TCS and Wipro. Industry experts say the need for a better collaborative environment amid rapidly shifting project timelines has led tech firms t...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "How Americans are using AI at work, according to a new Gallup poll",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/how-americans-are-using-ai-at-work-according-to-a-new-gallup-poll/articleshow/127478223.cms",
+      "published": "Sun, 25 Jan 2026 18:54:30 +0530",
+      "snippet": "American workers are using artificial intelligence at work, with many now relying on it daily for writing, research and admin tasks. Use is highest in technology, finance and education, while service jobs lag behind. Most workers are not afraid of losing jobs, though some roles face higher risk futu...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "ED chargesheets online gaming app WinZO, alleges players duped of Rs 734 cr using bots",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ed-chargesheets-online-gaming-app-winzo-alleges-players-duped-of-rs-734-cr-using-bots/articleshow/127477692.cms",
+      "published": "Sun, 25 Jan 2026 18:44:40 +0530",
+      "snippet": "The Enforcement Directorate has charged online gaming firm WinZO and its promoters, accusing it of rigging real-money games using bots and AI. Investigators say users lost Rs 734 crore after being misled into unfair play. The agency also alleged that proceeds of crime generated by the company were l...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "ETtech Explainer: Eternal\u2019s older bets hover near breakeven as newer ventures burn cash",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-eternals-older-bets-hover-near-breakeven-as-newer-ventures-burn-cash/articleshow/127472325.cms",
+      "published": "Sun, 25 Jan 2026 17:23:57 +0530",
+      "snippet": "Eternal\u2019s December-quarter results show uneven performance across businesses. Blinkit and Hyperpure improved, helped by inventory ownership, margin accretion and early Ebitda profits, even as revenue patterns shifted sharply. Newer businesses such as District and Bistro are still making losses, whic...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Don\u2019t focus on the AI race, says former UK PM Rishi Sunak in conversation with Microsoft\u2019s Satya Nadella",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/dont-focus-on-the-ai-race-says-former-uk-pm-rishi-sunak-in-conversation-with-microsofts-satya-nadella/articleshow/127471712.cms",
+      "published": "Sun, 25 Jan 2026 16:54:39 +0530",
+      "snippet": "The conversation took place at the World Economic Forum in Davos and was moderated by Dan Roth, editor-in-chief of LinkedIn. Nadella pointed out that history shows general-purpose technologies create real value only when they are widely adopted across the economy, and that for AI, this will require ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "OpenAI\u2019s Sam Altman eyes India visit as global AI leaders gather in New Delhi",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-sam-altman-eyes-india-visit-as-global-ai-leaders-gather-in-new-delhi/articleshow/127470231.cms",
+      "published": "Sun, 25 Jan 2026 16:34:21 +0530",
+      "snippet": "Altman's visit, his first to India in nearly a year, will coincide with the India AI Impact Summit 2026 in New Delhi from February 16-20, which will feature Nvidia\u2019s Jensen Huang, Google CEO Sundar Pichai, and Reliance Industries chairman Mukesh Ambani. However, TechCrunch has said that Altman\u2019s att...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "DeepMind CEO Demis Hassabis reveals why Google is not worried about AI bubble",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-deepmind-ceo-demis-hassabis-plays-down-ai-bubble-fears-warns-of-excess-startup-funding/articleshow/127469485.cms",
+      "published": "Sun, 25 Jan 2026 16:17:44 +0530",
+      "snippet": "According to Google DeepMind CEO Demis Hassabis, AI\u2019s impact is only just beginning, and the technology is in great demand, so it cannot be dismissed as a bubble. However, supply constraints, especially the shortage of advanced chips, remain a big impediment, he said.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Meta sued over claims that WhatsApp messages are fully secure",
+      "url": "https://economictimes.indiatimes.com/tech/technology/meta-sued-over-claims-that-whatsapp-messages-are-fully-secure/articleshow/127521541.cms",
+      "published": "Sun, 25 Jan 2026 15:24:29 +0530",
+      "snippet": "An international group of plaintiffs has sued Meta Platforms, alleging false claims about WhatsApp's end-to-end encryption. The lawsuit claims Meta can access and analyze users' private communications, contradicting the company's assurances. Meta denies the allegations, calling the suit \"frivolous\" ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Pope warns against risks of AI algorithms",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/pope-warns-against-risks-of-ai-algorithms/articleshow/127456109.cms",
+      "published": "Sun, 25 Jan 2026 12:37:58 +0530",
+      "snippet": "Pope Leo XIV on Saturday stressed the risks of generative artificial intelligence, how it could usurp human identities and relationships, influence public opinion and deepen social polarisation In a message marking the World Day of Social Communications, the pope said AI systems reflect the worldvie...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Ambedkar\u2019s working Constitution: The hidden archive inside a Mumbai college library",
+      "url": "https://www.barandbench.com/news/ambedkars-working-constitution-the-hidden-archive-inside-a-mumbai-college-library",
+      "published": "2026-01-26T06:27:48.437Z",
       "snippet": "",
       "focus_areas": [
         "all"
@@ -312,82 +462,58 @@
       "method": "rss"
     },
     {
-      "title": "Bombay High Court is more than a building or a roster; it is a culture: CJI Surya Kant",
-      "url": "https://www.barandbench.com/news/bombay-high-court-is-more-than-a-building-or-a-roster-it-is-a-culture-cji-surya-kant",
-      "published": "2026-01-24T11:23:09.208Z",
-      "snippet": "",
+      "title": "Open World Launches Saudi Arabia\u2019s First RWA Tokenization Center of Excellence to Advance Vision 2030 Digital Economy Goals",
+      "url": "https://www.fintechnews.org/open-world-launches-saudi-arabias-first-rwa-tokenization-center-of-excellence-to-advance-vision-2030-digital-economy-goals/",
+      "published": "Sun, 25 Jan 2026 16:24:40 +0000",
+      "snippet": "AL KHOBAR, Saudi Arabia, Jan 23, 2026 &#8211; (ACN Newswire) &#8211;&#160;Open World Ltd.&#160;(\u201cOpen World\u201d), a blockchain infrastructure company with experience supporting large-scale digital asset initiatives, today announced the establishment of Saudi Arabia\u2019s first RWA (Real-World Asset) Tokeni...",
       "focus_areas": [
-        "all"
+        "Fintech"
       ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
+      "source_id": "fintech_india",
+      "source_name": "Fintech News India",
       "method": "rss"
     },
     {
-      "title": "P&H High Court allows M3M Director to withdraw plea to quash trial judge bribery case",
-      "url": "https://www.barandbench.com/news/litigation/ph-high-court-allows-m3m-director-to-withdraw-his-petition-which-sought-quashing-of-trial-judge-bribery-case",
-      "published": "2026-01-24T09:01:45.959Z",
-      "snippet": "",
+      "title": "Infusion Marketing Group, QwickRate and IntelliCredit Combine to Form OptimaFI",
+      "url": "https://www.fintechnews.org/infusion-marketing-group-qwickrate-and-intellicredit-combine-to-form-optimafi/",
+      "published": "Sun, 25 Jan 2026 16:19:06 +0000",
+      "snippet": "Memphis, TN \u2014 January 20, 2026&#160;\u2014Three industry-leading firms with a legacy of serving community financial institutions for nearly four decades have combined to form OptimaFI, currently serving more than 2,500 clients. OptimaFI leverages a dynamic combination of data sets to bring clients afford...",
       "focus_areas": [
-        "all"
+        "Fintech"
       ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
+      "source_id": "fintech_india",
+      "source_name": "Fintech News India",
       "method": "rss"
     },
     {
-      "title": "IAF can't deny disability pension by terming hypertension a lifestyle disorder: Delhi High Court",
-      "url": "https://www.barandbench.com/news/iaf-cant-deny-disability-pension-by-terming-hypertension-a-lifestyle-disorder-delhi-high-court",
-      "published": "2026-01-24T08:30:55.294Z",
-      "snippet": "",
+      "title": "How B2B Companies Find and Nurture the Right Leads",
+      "url": "https://www.fintechnews.org/how-b2b-companies-find-and-nurture-the-right-leads/",
+      "published": "Sun, 25 Jan 2026 06:40:52 +0000",
+      "snippet": "Finding the right leads has always been a challenge in B2B sales, but the landscape has changed dramatically in recent years. Buyers now move through long, complex decision processes, often doing most of their research before speaking to a sales rep. Businesses can\u2019t rely on cold outreach alone or h...",
       "focus_areas": [
-        "all"
+        "Fintech"
       ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
+      "source_id": "fintech_india",
+      "source_name": "Fintech News India",
       "method": "rss"
     },
     {
-      "title": "The Great Retention War: Legalities of Employment Bonds, FnF, and Exit Traps",
-      "url": "https://www.barandbench.com/view-point/leading-questions/the-great-retention-war-legalities-of-employment-bonds-fnf-and-exit-traps",
-      "published": "2026-01-24T08:17:15.667Z",
-      "snippet": "",
+      "title": "Fintech Interview: Artem Lalaiants on Building RiskSeal and Expanding Credit Access",
+      "url": "https://www.fintechnews.org/fintech-interview-artem-lalaiants-on-building-riskseal-and-expanding-credit-access/",
+      "published": "Sun, 25 Jan 2026 04:35:28 +0000",
+      "snippet": "Artem Lalaiants is the Co-Founder and CEO of RiskSeal, a US-based alternative data provider for credit risk assessment. Since launching in 2022, the startup has grown quickly, attracting top fintech clients and investors. Hi Artem, welcome! Could you take us back to the beginning \u2013 what led you to s...",
       "focus_areas": [
-        "all"
+        "Fintech"
       ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
+      "source_id": "fintech_india",
+      "source_name": "Fintech News India",
       "method": "rss"
     },
     {
-      "title": "Karnataka High Court suggests community service for loud, rash Lamborghini driver",
-      "url": "https://www.barandbench.com/news/karnataka-high-court-suggests-community-service-for-loud-rash-lamborghini-driver",
-      "published": "2026-01-24T07:49:57.847Z",
-      "snippet": "",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
-      "method": "rss"
-    },
-    {
-      "title": "India's sporting future hinges on integrity",
-      "url": "https://www.barandbench.com/columns/indias-sporting-future-hinges-on-integrity",
-      "published": "2026-01-24T07:18:50.544Z",
-      "snippet": "",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
-      "method": "rss"
-    },
-    {
-      "title": "Pocket Gamer Connects London 2026 unwrapped | Week in Mobile Games podcast",
-      "url": "https://www.pocketgamer.biz/pocket-gamer-connects-london-2026-unwrapped-week-in-mobile-games-podcast/",
-      "published": "Sat, 24 Jan 2026 15:30:00 +0000",
-      "snippet": "PocketGamer.biz head of content Craig Chapple and news editor Aaron Astle discuss insights and takeaways from Pocket Gamer Connects London 2026 on the 80th episode of the Week in Mobile Games Podcast.\n\nOn this week&rsquo;s show we take a look at: ... [MORE]",
+      "title": "52 top mobile games in soft launch: Jelly Busters, Temple Run 3, Angry Birds Rush, and more",
+      "url": "https://www.pocketgamer.biz/the-latest-and-most-interesting-mobile-games-in-soft-launch-update/",
+      "published": "Mon, 26 Jan 2026 00:30:00 +0000",
+      "snippet": "In this regular feature, we add the most interesting new mobile game soft launches for you to keep an eye on - or even try for yourself - as you look for learnings and inspiration that could inform your own development journey.\n\nThis list is ordered by soft launch release date. Games that exit soft ...",
       "focus_areas": [
         "Gaming-Gambling"
       ],
@@ -396,178 +522,214 @@
       "method": "rss"
     },
     {
-      "title": "Manipur High Court Seeks Update on Blocking Viral Video of Killing in Churachandpur",
-      "url": "https://lawtrend.in/manipur-high-court-seeks-update-on-blocking-viral-video-of-killing-in-churachandpur/?utm_source=rss&utm_medium=rss&utm_campaign=manipur-high-court-seeks-update-on-blocking-viral-video-of-killing-in-churachandpur",
-      "published": "Sat, 24 Jan 2026 13:41:34 +0000",
-      "snippet": "The Manipur High Court has directed central authorities to furnish an update by February 18 on the status of blocking a disturbing viral video allegedly showing the killing of a man by unidentified armed miscreants in Churachandpur district. The video, which surfaced online on January 21, reportedly...",
+      "title": "Sign up for AI Basics: Thrills or Chills? free workshop with Martin Percy",
+      "url": "https://www.pocketgamer.biz/sign-up-for-ai-basics-thrills-or-chills-with-martin-percy/",
+      "published": "Sun, 25 Jan 2026 11:57:00 +0000",
+      "snippet": "At last week&rsquo;s Beyond Games: Transmedia Summit, part of the landmark PG Connects London 2026 event, Martin Percy, BAFTA-, Emmy- and Webby Award-winning director, led a provocative session titled &ldquo;Is AI the new culture war?&rdquo;. It explored how generative AI is reshaping creative indus...",
       "focus_areas": [
-        "all"
+        "Gaming-Gambling"
       ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
+      "source_id": "pocket_gamer",
+      "source_name": "Pocket Gamer",
       "method": "rss"
     },
     {
-      "title": "Supreme Court Seeks Maharashtra\u2019s Reply on Plea Challenging New Criteria for Teacher Posts Based on Enrolment Numbers",
-      "url": "https://lawtrend.in/supreme-court-seeks-maharashtras-reply-on-plea-challenging-new-criteria-for-teacher-posts-based-on-enrolment-numbers/?utm_source=rss&utm_medium=rss&utm_campaign=supreme-court-seeks-maharashtras-reply-on-plea-challenging-new-criteria-for-teacher-posts-based-on-enrolment-numbers",
-      "published": "Sat, 24 Jan 2026 12:47:43 +0000",
-      "snippet": "The Supreme Court has issued notices to the Maharashtra government and its education authorities on a petition challenging a government resolution (GR) that modifies the method of sanctioning teaching posts in state-run schools based on student enrolment figures, allegedly in violation of the Right ...",
+      "title": "How Solo GPs Are Writing The Next Wave Of Capital Management In India",
+      "url": "https://inc42.com/resources/how-solo-gp-are-writing-the-next-wave-of-capital-management-in-india/",
+      "published": "Mon, 26 Jan 2026 03:30:53 +0000",
+      "snippet": "For years, institutional venture capital, with its large teams, multi-partner consensus, and standardised processes, has defined how early-stage capital gets&#8230;",
       "focus_areas": [
-        "all"
+        "Edtech"
       ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
+      "source_id": "edtech_india",
+      "source_name": "Inc42 Edtech",
       "method": "rss"
     },
     {
-      "title": "Gujarat University Reverses Controversial Appointment of Chemistry Professor as English HoD, Tells HC It Will Appoint Subject-Specific In-Charge",
-      "url": "https://lawtrend.in/gujarat-university-reverses-controversial-appointment-of-chemistry-professor-as-english-hod-tells-hc-it-will-appoint-subject-specific-in-charge/?utm_source=rss&utm_medium=rss&utm_campaign=gujarat-university-reverses-controversial-appointment-of-chemistry-professor-as-english-hod-tells-hc-it-will-appoint-subject-specific-in-charge",
-      "published": "Sat, 24 Jan 2026 12:45:09 +0000",
-      "snippet": "After facing judicial scrutiny and internal backlash, Hemchandracharya North Gujarat University (HNGU) in Patan has agreed to reverse its controversial decision of appointing a Chemistry professor as the in-charge Head of the English Department. The development came on Friday during the hearing of a...",
+      "title": "Budget & ESOP Clarity, Funding Rundown & More",
+      "url": "https://inc42.com/buzz/budget-esop-clarity-funding-rundown-more/",
+      "published": "Mon, 26 Jan 2026 02:30:10 +0000",
+      "snippet": "Wishing you a happy Republic Day from everyone at Inc42! ____________________________________________________________________________________________ Budget 2026: Startup Tax Clarity? Indian startups are entering&#8230;",
       "focus_areas": [
-        "all"
+        "Edtech"
       ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
+      "source_id": "edtech_india",
+      "source_name": "Inc42 Edtech",
       "method": "rss"
     },
     {
-      "title": "Gauhati High Court Cancels Bail of IAS Officer Talo Potom in Abetment to Suicide Case, Orders Immediate Arrest",
-      "url": "https://lawtrend.in/gauhati-high-court-cancels-bail-of-ias-officer-talo-potom-in-abetment-to-suicide-case-orders-immediate-arrest/?utm_source=rss&utm_medium=rss&utm_campaign=gauhati-high-court-cancels-bail-of-ias-officer-talo-potom-in-abetment-to-suicide-case-orders-immediate-arrest",
-      "published": "Sat, 24 Jan 2026 12:21:00 +0000",
-      "snippet": "The Itanagar Bench of the Gauhati High Court has quashed the bail granted to senior IAS officer Talo Potom in a high-profile abetment to suicide case, terming the earlier bail order &#8220;perverse&#8221; and legally unsustainable. The court directed that Potom be taken into custody immediately and ...",
+      "title": "Why The PhonePe IPO Looks Nothing Like Paytm\u2019s",
+      "url": "https://inc42.com/features/why-the-phonepe-ipo-looks-nothing-like-paytms/",
+      "published": "Mon, 26 Jan 2026 00:50:32 +0000",
+      "snippet": "PhonePe is no longer just India\u2019s UPI giant\u2014it\u2019s becoming a full-stack financial ecosystem. After a string of high-profile IPOs last&#8230;",
       "focus_areas": [
-        "all"
+        "Edtech"
       ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
+      "source_id": "edtech_india",
+      "source_name": "Inc42 Edtech",
       "method": "rss"
     },
     {
-      "title": "Reliance Jio launches campaign to equip teachers, students on AI use in Punjab",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/reliance-jio-launches-campaign-to-equip-teachers-students-on-ai-use-in-punjab/articleshow/127452493.cms",
-      "published": "Sun, 25 Jan 2026 10:43:10 +0530",
-      "snippet": "Reliance Jio has launched a campaign using Google Gemini Pro to equi teachers and schools of Punjab with AI skills. Over 500 schools and 5,000 individuals have been trained. Jio offers a free 18-month Google Gemini Pro Plan to its 5G users. A free online Jio AI Classroom program is also available fo...",
+      "title": "From Angel Tax To ESOP Stress: What Startups Want From Budget 2026",
+      "url": "https://inc42.com/features/budget-2026-startups-seek-relief-on-esop-taxation-angel-tax-cases/",
+      "published": "Sun, 25 Jan 2026 09:28:31 +0000",
+      "snippet": "After the funding winter, India\u2019s startup ecosystem has settled into what investors increasingly describe as a \u201cnew normal\u201d. In 2025,&#8230;",
       "focus_areas": [
-        "all"
+        "Edtech"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "edtech_india",
+      "source_name": "Inc42 Edtech",
       "method": "rss"
     },
     {
-      "title": "It makes sense that people see AI as God",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/it-makes-sense-that-people-see-ai-as-god/articleshow/127416711.cms",
-      "published": "Sat, 24 Jan 2026 23:33:26 +0530",
-      "snippet": "Public discourse increasingly frames artificial intelligence in religious, even apocalyptic terms. Podcasters, writers and tech elites liken AI to messiahs, prophets or antichrists, reflecting humanity\u2019s ancient impulse to anthropomorphize mysterious technologies and grant algorithms divine authorit...",
+      "title": "PhonePe DRHP: A Look At Shareholding Pattern & Key Executives",
+      "url": "https://inc42.com/buzz/phonepe-drhp-a-look-at-shareholding-pattern-key-executives/",
+      "published": "Sun, 25 Jan 2026 07:19:27 +0000",
+      "snippet": "Shortly after receiving regulatory go-ahead for its confidential IPO papers, Walmart-backed fintech major PhonePe filed its updated draft red herring&#8230;",
       "focus_areas": [
-        "all"
+        "Edtech"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "edtech_india",
+      "source_name": "Inc42 Edtech",
       "method": "rss"
     },
     {
-      "title": "Login credentials of 149 million accounts including Gmail, Facebook, Netflix leaked: Report",
-      "url": "https://economictimes.indiatimes.com/tech/technology/login-credentials-of-149-million-accounts-including-gmail-facebook-netflix-leaked-report/articleshow/127405541.cms",
-      "published": "Sat, 24 Jan 2026 20:40:20 +0530",
-      "snippet": "The report published by cybersecurity researcher Jeremiah Fowler claims that the publicly exposed data includes 48 million accounts on Gmail, 4 million on Yahoo, 17 million on Facebook, 6.5 million on Instagram, 3.4 million on Netflix, 1.5 million on Outlook, etc.",
+      "title": "How AI-First, Human-Centred Customer Experience Will Evolve In 2026",
+      "url": "https://inc42.com/resources/how-ai-first-human-centred-customer-experience-will-evolve-in-2026/",
+      "published": "Sun, 25 Jan 2026 06:23:52 +0000",
+      "snippet": "As we move into 2026, conversations across India reflect a growing focus on strengthening the entire customer experience (CX), and&#8230;",
       "focus_areas": [
-        "all"
+        "Edtech"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "edtech_india",
+      "source_name": "Inc42 Edtech",
       "method": "rss"
     },
     {
-      "title": "Elon Musk vs Ryanair CEO: All you need to know about the tech world\u2019s unlikely feud",
-      "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-vs-ryanair-ceo-all-you-need-to-know-about-the-tech-worlds-unlikely-feud/articleshow/127395528.cms",
-      "published": "Sat, 24 Jan 2026 18:01:56 +0530",
-      "snippet": "A dispute over the cost and aerodynamics of Starlink\u2019s in-flight Wi-Fi has blown up into a public war of words between Elon Musk and Ryanair chief Michael O\u2019Leary. What began as a technical debate is now a full-blown business and personality clash.",
+      "title": "SCC Online\u00ae Announces AI Pro: The Future of Legal Solutions, Grounded in Trust",
+      "url": "https://www.scconline.com/blog/post/2026/01/26/scc-online-ai-pro-republic-day-announcement/",
+      "published": "Mon, 26 Jan 2026 05:30:55 +0000",
+      "snippet": "On the 77th Republic Day of India, SCC Online&#174; proudly announces AI Pro &#8212; a new era of trusted, AI-powered legal solutions, grounded in authoritative law\nThe post SCC Online\u00ae Announces AI Pro: The Future of Legal Solutions, Grounded in Trust appeared first on SCC Times.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
       "method": "rss"
     },
     {
-      "title": "AI scheduling startup Blockit AI raises $5 million in round led by Sequoia",
-      "url": "https://economictimes.indiatimes.com/tech/funding/ai-scheduling-startup-blockit-ai-raises-5-million-in-round-led-by-sequoia/articleshow/127393530.cms",
-      "published": "Sat, 24 Jan 2026 17:30:44 +0530",
-      "snippet": "Early-stage VC fund Haystack, investment firm Original, Adjacent, which focuses on next-gen tech startups, and Jeff Weiner, former CEO of LinkedIn, participated in the funding of the intelligent calendar that schedules tasks by understanding context and managing complex workflows. The product is bei...",
+      "title": "From Group Insolvency to Modified Universalism: Experts provide insights on Day 2 of the 4th ILA Conference",
+      "url": "https://www.scconline.com/blog/post/2026/01/26/experts-provide-insights-on-day-2-4th-ila-annual-conference/",
+      "published": "Mon, 26 Jan 2026 04:00:06 +0000",
+      "snippet": "Taking Day 2 of the 4th Insolvency Law Academy (&#8220;ILA&#8221;) Annual Conference further, the panellists and guests delved into topics such as cross-border insolvency, future of restructuring, group insolvency, hybrid insolvency, and much more.\nThe post From Group Insolvency to Modified Universa...",
       "focus_areas": [
         "all"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
       "method": "rss"
     },
     {
-      "title": "ET@Davos: Innovation City to Agri Stack: India's AI Revolution",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/etdavos-innovation-city-to-agri-stack-indias-ai-revolution/videoshow/127390811.cms",
-      "published": "Sat, 24 Jan 2026 16:49:02 +0530",
-      "snippet": "",
+      "title": "Experts deliberate on entrepreneurship, risk and second chances at Day 2 of the 4th ILA Conference",
+      "url": "https://www.scconline.com/blog/post/2026/01/25/day-2-4th-ila-annual-conference/",
+      "published": "Sun, 25 Jan 2026 13:10:03 +0000",
+      "snippet": "Day 2 of the much-awaited 4th ILA Conference brought together eminent voices from India and abroad to examine insolvency law through the lens of entrepreneurship, risk-taking, and the importance of dignified second chances.\nThe post Experts deliberate on entrepreneurship, risk and second chances at ...",
       "focus_areas": [
         "all"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
       "method": "rss"
     },
     {
-      "title": "Grab-GoTo deal hits snag caused by state-backed holder\u2019s stake",
-      "url": "https://economictimes.indiatimes.com/tech/technology/grab-goto-deal-hits-snag-caused-by-state-backed-holders-stake/articleshow/127388178.cms",
-      "published": "Sat, 24 Jan 2026 16:10:41 +0530",
-      "snippet": "Grab\u2019s planned multibillion-dollar takeover of GoTo has stalled as Telkomsel, a state-linked shareholder, resists selling its 2% stake at current valuations, citing potential state-capital losses, regulatory constraints and approval risks amid antitrust and political concerns in Indonesia\u2019s ride-hai...",
+      "title": "Register Now for the 3rd IBBI-INSOL India International Conclave!",
+      "url": "https://www.scconline.com/blog/post/2026/01/25/register-now-for-the-3rd-ibbi-insol-india-international-conclave/",
+      "published": "Sun, 25 Jan 2026 10:30:04 +0000",
+      "snippet": "Insolvency and Bankruptcy Board of India and INSOL India are hosting their 3rd International Conclave on 28th Jan 2026 at Le Meridien, New Delhi.\nThe post Register Now for the 3rd IBBI-INSOL India International Conclave! appeared first on SCC Times.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
       "method": "rss"
     },
     {
-      "title": "Anthropic expands Claude AI access with Excel integration for Pro users",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-expands-claude-ai-access-with-excel-integration-for-pro-users/articleshow/127377343.cms",
-      "published": "Sat, 24 Jan 2026 13:30:43 +0530",
-      "snippet": "This move makes advanced AI tools more accessible for spreadsheet-heavy workflows. The update, which aims to streamline data analysis for professionals in finance and operations, now supports drag-and-drop of multiple files, prevents overwriting existing cells, and uses auto-compaction for extended ...",
+      "title": "Prof. G. S. Bajpai on Wrongful Prosecution and the Human Cost of Delayed Justice",
+      "url": "https://www.scconline.com/blog/post/2026/01/25/gs-bajpai-vice-chancellor-national-law-university-delhi-wrongful-prosecution-delayed-justice/",
+      "published": "Sun, 25 Jan 2026 06:30:31 +0000",
+      "snippet": "The post Prof. G. S. Bajpai on Wrongful Prosecution and the Human Cost of Delayed Justice appeared first on SCC Times.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
       "method": "rss"
     },
     {
-      "title": "Nvidia CEO Jensen Huang in Shanghai amid China regulatory headwinds",
-      "url": "https://economictimes.indiatimes.com/tech/technology/nvidia-ceo-jensen-huang-in-shanghai-amid-china-regulatory-headwinds/articleshow/127371340.cms",
-      "published": "Sat, 24 Jan 2026 12:08:16 +0530",
-      "snippet": "The timing of Huang's trip, to kick off annual \u200ccelebrations with \u200cNvidia's China employees, is routine. He is expected to attend an Nvidia party in \u200cShanghai on Saturday before travelling to Beijing, Shenzhen and then Taiwan",
+      "title": "Republic Day 2026: The Indian startups building strategic tech for the world",
+      "url": "https://yourstory.com/2026/01/republic-day-2026-the-indian-startups-building-strategic-tech-for-the-world",
+      "published": "Mon, 26 Jan 2026 01:35:00 GMT",
+      "snippet": "As India marks its 77th Republic Day, here are five such startups that are shaping the country\u2019s strategic future while contributing to global technology progress.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
       "method": "rss"
     },
     {
-      "title": "TikTok names veteran Adam Presser as CEO of US JV",
-      "url": "https://economictimes.indiatimes.com/tech/technology/tiktok-names-veteran-adam-presser-as-ceo-of-us-jv/articleshow/127371304.cms",
-      "published": "Sat, 24 Jan 2026 12:06:38 +0530",
-      "snippet": "TikTok has appointed Presser, who has been with the video-sharing platform for four years, to head its newly formed US arm, set up as an independent entity after a year-long standoff with Washington and backed by investors, including Oracle and Silver Lake, averting a potential ban.",
+      "title": "California Burrito\u2019s Mueller on growth, being an \u2018American Marwadi\u2019, and overcharging by food delivery platforms",
+      "url": "https://yourstory.com/2026/01/california-burrito-bert-mueller-growth-american-marwadi-overcharging-by-food-delivery-platforms",
+      "published": "Mon, 26 Jan 2026 01:00:00 GMT",
+      "snippet": "The founder of India\u2019s largest Mexican food chain on why he refused to Indianise his menu, how 400 farmers found him on Instagram, and why more competition in food delivery is welcome.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
       "method": "rss"
     },
     {
-      "title": "Reimagining judicial appointments: Why India needs a Judicial Council",
-      "url": "https://theleaflet.in/judicial-accountability/reimagining-judicial-appointments-why-india-needs-a-judicial-council",
-      "published": "2026-01-24T06:38:46.578Z",
-      "snippet": "As structural vulnerabilities in the Collegium system become harder to ignore, the need for a Judicial Council emerges as a constitutional necessity, not a political concession.",
+      "title": "Accelerators or incubators? A founder\u2019s guide for India",
+      "url": "https://yourstory.com/2026/01/startup-incubators-accelerators-india-explained",
+      "published": "Mon, 26 Jan 2026 04:45:00 GMT",
+      "snippet": "Accelerators and incubators serve very different startup stages. Learn how Indian founders can choose the right programme and avoid instant rejection.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "method": "rss"
+    },
+    {
+      "title": "Why Indianising foreign cuisine is unnecessary",
+      "url": "https://yourstory.com/2026/01/indianising-foreign-cuisine-unnecessary-california-burrito-gold-prices-republic-day",
+      "published": "Mon, 26 Jan 2026 02:00:00 GMT",
+      "snippet": "Lastly, American rock climber Alex Honnold has proved that \u201ctime is finite\u201d, as he climbed one of Asia\u2019s tallest skyscrapers without ropes or a harness on Sunday, fulfilling an ambition that began more than a decade ago!",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "method": "rss"
+    },
+    {
+      "title": "Marketing, AI, health: Test your business creativity with Edition 219 of our weekly quiz!",
+      "url": "https://yourstory.com/2026/01/marketing-ai-heath-creativity-entrepreneur-quiz-education",
+      "published": "Sun, 25 Jan 2026 07:35:19 GMT",
+      "snippet": "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 219th quiz. Ready?",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "yourstory",
+      "source_name": "YourStory",
+      "method": "rss"
+    },
+    {
+      "title": "\u2018Protection Officers not been integrated into the system of the law and judiciary\u2019, Anjali Dave on social work intervention as the bedrock of Domestic Violence Act",
+      "url": "https://theleaflet.in/staying-alive/protection-officers-not-been-integrated-into-the-system-of-the-law-and-judiciary-anjali-dave-on-social-work-intervention-as-the-bedrock-of-domestic-violence-act",
+      "published": "2026-01-25T09:13:49.994Z",
+      "snippet": "In this month\u2019s issue, social work practitioner Anjali Dave discusses why social work intervention remains crucial for feminist progress on the grassroots and the challenges confronting the idea of Protection Officers in the context of domestic violence.",
       "focus_areas": [
         "Constitutional-Rights",
         "Platform-Regulation"
@@ -577,478 +739,444 @@
       "method": "rss"
     },
     {
-      "title": "US shutdown risk grows as Democrats revolt after Minneapolis shooting",
-      "url": "https://www.politico.com/news/2026/01/24/shutdown-senate-democrats-minneapolis-shooting-00745642?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sun, 25 Jan 2026 06:12:14 +0000",
-      "snippet": "Senate Minority Leader Chuck Schumer said \"Senate Democrats will not provide the votes\" to fund immigration enforcement, part of a six-bill package set for action next week.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "How Soviet soldiers became the latest casualties of Russia\u2019s war on Ukraine",
-      "url": "https://www.politico.eu/article/how-soviet-soldiers-became-the-latest-casualties-of-russias-war-on-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sun, 25 Jan 2026 03:00:00 +0000",
-      "snippet": "The World War II fallen Moscow won\u2019t claim \u2014 and Latvia can\u2019t lay to rest.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "US officials say more Ukraine, Russia talks coming next week",
-      "url": "https://www.politico.com/news/2026/01/24/ukraine-russia-talks-war-ceasefire-00745581?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 19:22:30 +0000",
-      "snippet": "This week\u2019s meetings were the first time all three countries sat face-to-face for talks to try and hash out a ceasefire.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Another US federal law enforcement shooting in Minneapolis",
-      "url": "https://www.politico.com/news/2026/01/24/minnesota-tim-walz-shooting-minneapolis-00745570?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 18:34:12 +0000",
-      "snippet": "\"The president must end this operation,\" Minnesota Governor Tim Walz said.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Trump threatens Canada with 100 percent tariffs over new China trade deal",
-      "url": "https://www.politico.com/news/2026/01/24/trump-tariffs-canada-trade-china-00745523?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 16:20:18 +0000",
-      "snippet": "In the midst of Trump\u2019s trade war with Canada, Prime Minister Mark Carney struck a \u201cnew strategic partnership\u201d with China.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "How the TikTok deal could tighten Trump\u2019s cultural grip",
-      "url": "https://www.politico.com/news/2026/01/23/how-the-tiktok-deal-could-tighten-trumps-cultural-grip-00744497?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 16:06:53 +0000",
-      "snippet": "As Trump-friendly billionaires take control of TikTok\u2019s U.S. operation, some see the beginnings of a \"cultural vibe shift\" on the platform \u2014 and an echo of changes taking place across the U.S. media landscape.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Ukraine peace talks in Abu Dhabi \u2018constructive,\u2019 Zelenskyy says",
-      "url": "https://www.politico.eu/article/ukraine-russia-second-day-us-peace-talks-abu-dhabi/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 15:22:37 +0000",
-      "snippet": "More trilateral meetings possible, \"potentially as early as next week,\" Ukrainian president says.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Massive snowstorm in US will test Trump\u2019s strategy on disaster aid",
-      "url": "https://www.politico.com/news/2026/01/23/massive-snowstorm-trump-disaster-aid-00742938?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 15:07:11 +0000",
-      "snippet": "Presidents have routinely approved federal assistance after major storms, but state officials worry President Donald Trump won't do that.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "New US defense strategy downgrades Europe, elevates Greenland to American priority",
-      "url": "https://www.politico.eu/article/us-national-defense-strategy-downgrade-europe-elevate-greenland-priority/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 14:39:51 +0000",
-      "snippet": "Washington\u2019s new blueprint says European allies should take the lead on regional threats, while the U.S. shifts focus toward China and securing key Arctic territory.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "US\u2019s Vance unveils aid restrictions for groups that promote diversity, transgender policies abroad",
-      "url": "https://www.politico.com/news/2026/01/23/vance-mexico-city-abortion-dei-transgender-march-for-life-00744792?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Jan 2026 14:20:24 +0000",
-      "snippet": "The move expands a longstanding Republican policy that restricted U.S. funding for organizations working on or promoting abortion overseas.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Eternal\u2019s Post Deepinder Goyal Era",
-      "url": "https://inc42.com/features/eternals-post-deepinder-goyal-era/",
-      "published": "Sun, 25 Jan 2026 05:30:32 +0000",
-      "snippet": "In what could be the hottest top-level rejig in the Indian startup ecosystem, Eternal founder Deepinder Goyal stepped down as&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "Top Scientific Advisor Urges Govt To Build A National AI Risk Registry",
-      "url": "https://inc42.com/buzz/build-a-national-database-of-ai-incidents-top-scientific-advisor-to-govt/",
-      "published": "Sat, 24 Jan 2026 18:27:24 +0000",
-      "snippet": "The office of the principal scientific advisor (PSA) to the Union government has recommended the creation of a national database&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "New-Age Tech Stocks Bleed Over $9 Bn Amid Bearish Broader Market",
-      "url": "https://inc42.com/buzz/new-age-tech-stocks-bleed-over-9-bn-amid-bearish-broader-market/",
-      "published": "Sat, 24 Jan 2026 16:12:55 +0000",
-      "snippet": "New-age tech stocks saw a sharp correction this week amid a risk-off mood in the broader Indian equity market. The&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "How Smallest.ai Is Leveraging Small Models To Fix Voice AI\u2019s Latency Problem",
-      "url": "https://inc42.com/startups/how-smallest-ai-is-leveraging-small-models-to-fix-voice-ais-latency-problem/",
-      "published": "Sat, 24 Jan 2026 11:32:31 +0000",
-      "snippet": "Voice AI seems to be echoing louder by the day, emerging as a core business interface, but it still resonates&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "FY25 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
-      "url": "https://inc42.com/features/fy25-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
-      "published": "Sat, 24 Jan 2026 09:27:08 +0000",
-      "snippet": "The Indian startup ecosystem has witnessed a massive transformation in its operational ethos and strategic priorities over the past few&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "\u201cWay forward is not radical reinvention but institutional course correction\u201d: Justice N.V. Ramana speaks at Day 1 of the 4th ILA Conference",
-      "url": "https://www.scconline.com/blog/post/2026/01/24/justice-n-v-ramana-day-1-4th-ila-annual-conference/",
-      "published": "Sat, 24 Jan 2026 16:50:58 +0000",
-      "snippet": "Day 1 of the much-awaited 4th ILA Conference featured erudite addresses and insights from leading insolvency experts and distinguished dignitaries on insolvency law and policy, global trends in restructuring, the changing geopolitical landscape, and cinema as a lens and mirror for the economy.\nThe p...",
+      "title": "This founder cracked firefighting \u2014 now he\u2019s creating an AI gold mine",
+      "url": "https://techcrunch.com/2026/01/25/this-founder-cracked-firefighting-now-hes-creating-an-ai-gold-mine/",
+      "published": "Sun, 25 Jan 2026 23:20:36 +0000",
+      "snippet": "The nozzle is just the beginning \u2013 what company founder Sunny Sethi calls \"the muscle on the ground.\u201d",
       "focus_areas": [
         "all"
       ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "\u2018Granting maintenance would be grave injustice\u2019; Allahabad HC denies woman\u2019s claim after her brother shot her husband, leaving him incapacitated",
-      "url": "https://www.scconline.com/blog/post/2026/01/24/all-hc-denies-maintenance-to-wife-whose-brother-shot-her-husband/",
-      "published": "Sat, 24 Jan 2026 09:30:10 +0000",
-      "snippet": "&#8220;If a wife, by her own acts or omissions, causes or contributes to the incapacity of her husband to earn, she cannot be permitted to take advantage of such a situation and claim maintenance.&#8221;\nThe post &#8216;Granting maintenance would be grave injustice&#8217;; Allahabad HC denies woman&...",
+      "title": "ChatGPT is pulling answers from Elon Musk\u2019s Grokipedia",
+      "url": "https://techcrunch.com/2026/01/25/chatgpt-is-pulling-answers-from-elon-musks-grokipedia/",
+      "published": "Sun, 25 Jan 2026 22:35:53 +0000",
+      "snippet": "Information from the conservative-leaning, AI-generated encyclopedia developed by Elon Musk\u2019s xAI is beginning to appear in answers from ChatGPT.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "Delhi High Court restrains large-scale job scam involving misuse of \u201cAKASA AIR\u201d trademark; issues directives",
-      "url": "https://www.scconline.com/blog/post/2026/01/24/del-hc-akasa-air-trademark-infringement-job-scam/",
-      "published": "Sat, 24 Jan 2026 08:30:19 +0000",
-      "snippet": "&#8220;The balance of convenience lies in favour of the Plaintiff, and if the Defendants are not restrained, the Plaintiff would suffer irreparable injury which cannot be adequately compensated in terms of money.&#8221;\nThe post Delhi High Court restrains large-scale job scam involving misuse of &#8...",
+      "title": "Humans& thinks coordination is the next frontier for AI, and they\u2019re building a model to prove it",
+      "url": "https://techcrunch.com/2026/01/25/humans-thinks-coordination-is-the-next-frontier-for-ai-and-theyre-building-a-model-to-prove-it/",
+      "published": "Sun, 25 Jan 2026 22:11:06 +0000",
+      "snippet": "Humans&#038;, a new startup founded by alumni of Anthropic, Meta, OpenAI, xAI, and Google DeepMind, is building the next generation of foundation models for collaboration, not chat.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "Railway employee travelling on Privilege Pass held bona fide passenger; Bombay HC grants Rs 3 lakh compensation despite missing journey entries",
-      "url": "https://www.scconline.com/blog/post/2026/01/24/bom-hc-railway-employee-travelling-on-pass-held-bona-fide-passenger/",
-      "published": "Sat, 24 Jan 2026 07:30:50 +0000",
-      "snippet": "&#8220;Merely because an employee holding a valid pass fails to mention details himself, it cannot be held that he was travelling without a valid pass.&#8221;\nThe post Railway employee travelling on Privilege Pass held bona fide passenger; Bombay HC grants Rs 3 lakh compensation despite missing jour...",
+      "title": "Science fiction writers, Comic-Con say goodbye to AI",
+      "url": "https://techcrunch.com/2026/01/25/science-fiction-writers-comic-con-say-goodbye-to-ai/",
+      "published": "Sun, 25 Jan 2026 21:53:42 +0000",
+      "snippet": "Some of the major players in science fiction and pop culture are taking firmer stances against generative AI.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "Key Highlights of the SEBI (Issue and Listing of Non-Convertible Securities) (Amendment) Regulations, 2026",
-      "url": "https://www.scconline.com/blog/post/2026/01/24/sebi-notifies-retail-investor-rules-explained/",
-      "published": "Sat, 24 Jan 2026 06:30:14 +0000",
-      "snippet": "SEBI has notified SEBI (Issue and Listing of Non-Convertible Securities) (Amendment) Regulations, 2026 focusing on Retail Investor recognition with a &#8377;2 lakh investment limit and issuer incentives.\nThe post Key Highlights of the SEBI (Issue and Listing of Non-Convertible Securities) (Amendment...",
+      "title": "TechCrunch Mobility: RIP, Tesla Autopilot, and the NTSB investigates Waymo",
+      "url": "https://techcrunch.com/2026/01/25/techcrunch-mobility-rip-tesla-autopilot-and-the-ntsb-investigates-waymo/",
+      "published": "Sun, 25 Jan 2026 17:06:00 +0000",
+      "snippet": "Welcome back to TechCrunch Mobility \u2014 your central hub for news and insights on the future of transportation.",
       "focus_areas": [
         "all"
       ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "Polymarket sees January US gov't shutdown odds surge to 77%",
-      "url": "https://cointelegraph.com/news/us-government-shutdown-january-polymarket-odds-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 25 Jan 2026 05:13:51 +0000",
-      "snippet": "The spike in Polymarket odds comes just days after United States President Donald Trump said \u201cwe\u2019re probably going to end up in another Democrat shutdown.\u201d",
+      "title": "Apple will reportedly unveil its Gemini-powered Siri assistant in February",
+      "url": "https://techcrunch.com/2026/01/25/apple-will-reportedly-unveil-its-gemini-powered-siri-assistant-in-february/",
+      "published": "Sun, 25 Jan 2026 16:56:31 +0000",
+      "snippet": "We\u2019re about to get our first real look at the results of the recently announced AI partnership between Apple and Google.",
       "focus_areas": [
-        "Blockchain-Crypto"
+        "all"
       ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "US Bitcoin ETFs bleed $1.72B in five-day outflow streak",
-      "url": "https://cointelegraph.com/news/bitcoin-etfs-outflow-streak-crypto-sentiment-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 25 Jan 2026 01:28:59 +0000",
-      "snippet": "The extended outflow streak comes as a widely used crypto sentiment indicator has stayed within the \u201cExtreme Fear\u201d range since Wednesday.",
+      "title": "What is Bending Spoons? The little-known firm behind Vimeo\u2019s sweeping layoffs",
+      "url": "https://techcrunch.com/2026/01/25/what-is-bending-spoons-everything-to-know-about-aols-acquirer/",
+      "published": "Sun, 25 Jan 2026 16:25:19 +0000",
+      "snippet": "Bending Spoons remains largely unknown, even as its portfolio of products has served more than a billion people.",
       "focus_areas": [
-        "Blockchain-Crypto"
+        "all"
       ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "Bitcoin payments held back by tax policy, not scaling tech: Crypto exec",
-      "url": "https://cointelegraph.com/news/bitcoin-payment-held-back-tax-scaling-tech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 24 Jan 2026 22:04:03 +0000",
-      "snippet": "Crypto sales are taxable under current United States policy, but lawmakers have proposed tax exemptions for small transactions.",
+      "title": "Google says it\u2019s fixed Gmail issues with spam and misclassification",
+      "url": "https://techcrunch.com/2026/01/25/gmail-is-having-issues-with-spam-and-misclassification/",
+      "published": "Sun, 25 Jan 2026 16:16:39 +0000",
+      "snippet": "If your Gmail account doesn\u2019t seem to be working properly today, you\u2019re not alone.",
       "focus_areas": [
-        "Blockchain-Crypto"
+        "all"
       ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
       "method": "rss"
     },
     {
-      "title": "PENGUIN memecoin surges 564% following White House social media post",
-      "url": "https://cointelegraph.com/news/penguin-memecoin-surge-564-white-house?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 24 Jan 2026 20:24:23 +0000",
-      "snippet": "The Nietzschean Penguin (PENGUIN) memecoin had a market capitalization of about $387,000 before the US White House published its post.",
+      "title": "Remembering Mark Tully: A Life Intertwined with India",
+      "url": "https://www.thequint.com/news/india/mark-tully-romance-with-india-delhi-religion-hindi-language-yoga-sarson-ka-saag",
+      "published": "Thu, 24 Oct 2019 07:50:05 +0530",
+      "snippet": "Veteran journalist and acclaimed author Mark Tully passed away on Sunday, 25 January. He was 90.",
       "focus_areas": [
-        "Blockchain-Crypto"
+        "all"
       ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
+      "source_id": "quint_tech",
+      "source_name": "The Quint Tech",
       "method": "rss"
     },
     {
-      "title": "Bitcoin nodes running BIP-110 crosses 2% as spam wars heat up",
-      "url": "https://cointelegraph.com/news/bitcoin-nodes-run-bip-110-crosses-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 24 Jan 2026 18:00:12 +0000",
-      "snippet": "The Bitcoin proposal caps arbitrary data in an attempt to combat spam from non-monetary transactions on the Bitcoin network.",
+      "title": "Signatures on Pre-Printed \u2018Rubber Seal\u2019 Gang Charts Prohibited Under Rule 17(2): Allahabad HC",
+      "url": "https://lawtrend.in/signatures-on-pre-printed-rubber-seal-gang-charts-prohibited-under-rule-172-allahabad-hc/?utm_source=rss&utm_medium=rss&utm_campaign=signatures-on-pre-printed-rubber-seal-gang-charts-prohibited-under-rule-172-allahabad-hc",
+      "published": "Mon, 26 Jan 2026 06:00:50 +0000",
+      "snippet": "The Allahabad High Court has quashed an order passed by the Special Judge, Gangster Act, Varanasi, which had rejected the discharge application of an accused booked under the Uttar Pradesh Gangsters and Anti-Social Activities (Prevention) Act, 1986. The Court ruled that the approval of the gang char...",
       "focus_areas": [
-        "Blockchain-Crypto"
+        "all"
       ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
       "method": "rss"
     },
     {
-      "title": "Could Europe sell US debt if a Greenland deal doesn\u2019t come through?",
-      "url": "https://cointelegraph.com/news/could-europe-sell-us-debt-greenland-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 24 Jan 2026 12:30:00 +0000",
-      "snippet": "Some European policymakers have floated the idea of selling off US debt as a way of combating US belligerence, but it may be much more difficult in practice.",
+      "title": "\u201cExecutive Can Have No Say in Transfer of HC Judges\u201d: Justice Ujjal Bhuyan Flags Concerns Over Executive Influence on Collegium",
+      "url": "https://lawtrend.in/executive-can-have-no-say-in-transfer-of-hc-judges-justice-ujjal-bhuyan-flags-concerns-over-executive-influence-on-collegium/?utm_source=rss&utm_medium=rss&utm_campaign=executive-can-have-no-say-in-transfer-of-hc-judges-justice-ujjal-bhuyan-flags-concerns-over-executive-influence-on-collegium",
+      "published": "Mon, 26 Jan 2026 05:38:29 +0000",
+      "snippet": "Supreme Court Judge Justice Ujjal Bhuyan on Saturday raised significant concerns regarding the functioning of the Collegium system, specifically warning that executive influence over the transfer of High Court judges poses a threat to judicial independence. Speaking at the Principal GV Pandit Memori...",
       "focus_areas": [
-        "Blockchain-Crypto"
+        "all"
       ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
       "method": "rss"
     },
     {
-      "title": "Stablecoin yield bans could push capital offshore into \u2018unregulated instruments\u2019",
-      "url": "https://cointelegraph.com/news/stablecoin-yield-bans-push-capital-offshore-unregulated-instruments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 24 Jan 2026 12:20:53 +0000",
-      "snippet": "Proposed restrictions under the US CLARITY Act could drive demand for offshore and synthetic dollar products as investors seek yield outside regulated markets, experts warn.",
+      "title": "How the Trump tariffs are impacting India\u2019s trade",
+      "url": "https://icrier.org/how-the-trump-tariffs-are-impacting-indias-trade/?utm_source=rss&utm_medium=rss&utm_campaign=how-the-trump-tariffs-are-impacting-indias-trade",
+      "published": "Sun, 25 Jan 2026 15:08:37 +0000",
+      "snippet": "",
       "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
-      "method": "rss"
-    },
-    {
-      "title": "Netherlands risks capital flight with unrealized gains tax on stocks, crypto",
-      "url": "https://cointelegraph.com/news/netherlands-unrealized-gains-tax-stocks-crypto-box-3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 24 Jan 2026 09:49:54 +0000",
-      "snippet": "Investors and crypto users warn the proposed unrealized gains tax could drive an exodus of capital and talent.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
-      "method": "rss"
-    },
-    {
-      "title": "Ethereum prepares for quantum era with new security team and funding",
-      "url": "https://cointelegraph.com/news/ethereum-foundation-post-quantum-security-team?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 24 Jan 2026 07:46:11 +0000",
-      "snippet": "Ethereum developers to launch biweekly sessions on quantum-resistant transactions as Foundation commits $2 million in new funding to harden core cryptography.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "cointelegraph_india",
-      "source_name": "Cointelegraph India",
-      "method": "rss"
-    },
-    {
-      "title": "Ethereum Foundation forms post-quantum security team, adds $1 million research prize",
-      "url": "https://www.theblock.co/post/386938/ethereum-foundation-forms-post-quantum-security-team-adds-1-million-research-prize?utm_source=rss&utm_medium=rss",
-      "published": "Sat, 24 Jan 2026 17:49:06 -0500",
-      "snippet": "The Foundation announced a $1 million Poseidon Prize to harden a key cryptographic function, adding to the $1 million Proximity Prize announced last year. ",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "the_block",
-      "source_name": "The Block - India",
-      "method": "rss"
-    },
-    {
-      "title": "Spot bitcoin ETFs post worst week since February 2025 with $1.33 billion in outflows",
-      "url": "https://www.theblock.co/post/386935/spot-bitcoin-etfs-post-worst-week-since-february-2025-with-1-33-billion-in-outflows?utm_source=rss&utm_medium=rss",
-      "published": "Sat, 24 Jan 2026 16:02:41 -0500",
-      "snippet": "BlackRock's industry-leading IBIT fund has seen four straight days of outflows as BTC ETFs log their worst outflow week since February 2025. ",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "the_block",
-      "source_name": "The Block - India",
-      "method": "rss"
-    },
-    {
-      "title": "SEC to dismiss Gemini Earn lawsuit with prejudice after full investor recovery, ending three-year battle",
-      "url": "https://www.theblock.co/post/386931/sec-to-dismiss-gemini-earn-lawsuit-with-prejudice-after-full-investor-recovery-ending-three-year-battle?utm_source=rss&utm_medium=rss",
-      "published": "Sat, 24 Jan 2026 13:51:28 -0500",
-      "snippet": "The dismissal follows the 100% in-kind return of crypto assets to Gemini Earn investors through the Genesis Global Capital bankruptcy process.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "the_block",
-      "source_name": "The Block - India",
-      "method": "rss"
-    },
-    {
-      "title": "Gemini\u2019s Nifty Gateway to shut down on Feb. 26 after pioneering NFT art boom",
-      "url": "https://www.theblock.co/post/386928/geminis-nifty-gateway-to-shut-down-on-feb-26-after-pioneering-nft-art-boom?utm_source=rss&utm_medium=rss",
-      "published": "Sat, 24 Jan 2026 11:17:47 -0500",
-      "snippet": "Users with NFTs on the Nifty Gateway platform are being urged to withdraw their artwork before the platform shutters on February 23. ",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "the_block",
-      "source_name": "The Block - India",
-      "method": "rss"
-    },
-    {
-      "title": "CFTC Chair Selig says America is the crypto capital of the world",
-      "url": "https://cryptobriefing.com/cftc-chair-mike-selig-us-crypto-capital-global-leader/",
-      "published": "Sun, 25 Jan 2026 01:47:43 +0000",
-      "snippet": "The US's leadership in crypto regulation could drive global innovation, attracting investment and talent while setting international standards.\nThe post CFTC Chair Selig says America is the crypto capital of the world appeared first on Crypto Briefing.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "crypto_briefing",
-      "source_name": "Crypto Briefing",
-      "method": "rss"
-    },
-    {
-      "title": "Gemini to close NFT marketplace Nifty Gateway as it sharpens focus on super app vision",
-      "url": "https://cryptobriefing.com/gemini-owned-nifty-gateway-closure-withdrawal-mode/",
-      "published": "Sat, 24 Jan 2026 15:52:54 +0000",
-      "snippet": "Gemini's pivot to a super app could streamline user experience but may limit NFT market diversity and innovation.\nThe post Gemini to close NFT marketplace Nifty Gateway as it sharpens focus on super app vision appeared first on Crypto Briefing.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "crypto_briefing",
-      "source_name": "Crypto Briefing",
-      "method": "rss"
-    },
-    {
-      "title": "Trump threatens 100% tariff on Canadian goods over China deal",
-      "url": "https://cryptobriefing.com/us-canada-tariff-dispute/",
-      "published": "Sat, 24 Jan 2026 15:24:08 +0000",
-      "snippet": "Trump's tariff threat could strain US-Canada relations, impacting trade dynamics and potentially forcing Canada to reconsider its China strategy.\nThe post Trump threatens 100% tariff on Canadian goods over China deal appeared first on Crypto Briefing.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "crypto_briefing",
-      "source_name": "Crypto Briefing",
-      "method": "rss"
-    },
-    {
-      "title": "2025 Was a Wake-Up Call to Protect Human Decisions, Not Just Systems",
-      "url": "https://www.darkreading.com/cyber-risk/wake-up-call-to-protect-human-decisions-not-just-systems",
-      "published": "Sat, 24 Jan 2026 00:55:56 GMT",
-      "snippet": "Cybersecurity must shift from solely protecting systems to safeguarding human decision-making under uncertainty and system failures.",
-      "focus_areas": [
-        "Cybersecurity",
+        "E-Commerce",
         "International-Comparative"
       ],
-      "source_id": "dark_reading",
-      "source_name": "Dark Reading",
+      "source_id": "icrier",
+      "source_name": "ICRIER",
       "method": "rss"
     },
     {
-      "title": "Europe's GCVE Raises Concerns Over Fragmentation in Vulnerability Databases",
-      "url": "https://www.darkreading.com/cyber-risk/gcve-raises-concerns-fragmentation-vulnerability-database",
-      "published": "Fri, 23 Jan 2026 20:31:58 GMT",
-      "snippet": "GCVE would enhance global collaboration, flexibility, and efficiency in tracking security flaws. Duplicate entries and a decentralization policy may create more chaos for defenders.",
+      "title": "What\u2019s Happening in Space Policy January 25-31, 2026",
+      "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-january-25-31-2026/",
+      "published": "Sun, 25 Jan 2026 17:42:10 +0000",
+      "snippet": "Here is SpacePolicyOnline.com&#8217;s list of space policy events for the week of January 25-31, 2026 and any insight we can offer about them. The Senate is in session this week. [&#8230;]",
       "focus_areas": [
-        "Cybersecurity",
+        "Space-Technology",
         "International-Comparative"
       ],
-      "source_id": "dark_reading",
-      "source_name": "Dark Reading",
+      "source_id": "space_policy_online",
+      "source_name": "Space Policy Online",
       "method": "rss"
     },
     {
-      "title": "Microsoft releases emergency OOB update to fix Outlook freezes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-oob-update-to-fix-outlook-freezes/",
-      "published": "Sat, 24 Jan 2026 20:59:15 -0500",
-      "snippet": "Microsoft has released emergency, out-of-band updates on Saturday for Windows 10, Windows 11, and Windows Server to fix an issue that prevented Microsoft Outlook classic from opening when using PSTs stored in cloud storage. [...]",
+      "title": "CZ rules out return to Binance, predicts 2026 Bitcoin supercycle",
+      "url": "https://cointelegraph.com/news/cz-rules-out-binance-return-predicts-2026-bitcoin-supercycle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 26 Jan 2026 06:02:24 +0000",
+      "snippet": "Binance co-founder Changpeng Zhao says Binance doesn\u2019t need a \u201cbackseat driver,\u201d even though he says his pardon from Donald Trump could allow him to.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "UK finance watchdog nears final consultation step on key crypto rules",
+      "url": "https://cointelegraph.com/news/fca-nears-final-consultation-step-of-new-crypto-regime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 26 Jan 2026 05:40:37 +0000",
+      "snippet": "The Financial Conduct Authority has begun seeking final feedback on a set of proposals aiming to apply traditional finance standards to the UK crypto sector.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Ether treasury ETHZilla buys plane engines amid tokenization focus",
+      "url": "https://cointelegraph.com/news/ethzilla-buys-aircraft-engine-amid-tokenization-focus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 26 Jan 2026 05:20:32 +0000",
+      "snippet": "ETHZilla acquired two aircraft engines for $12 million, just weeks after the company said it was renewing its focus on tokenizing real-world assets.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Majority of institutional investors say Bitcoin is undervalued: Coinbase",
+      "url": "https://cointelegraph.com/news/institutional-investors-say-bitcoin-undervalued-coinbase-survey?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 26 Jan 2026 04:32:06 +0000",
+      "snippet": "Bitcoin has fallen nearly 30% since a major market crash in October, while traditional safe havens like gold and silver have soared.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Gold hits record high over $5K, further diverging from Bitcoin",
+      "url": "https://cointelegraph.com/news/gold-reaches-all-time-high-5k-diverging-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 26 Jan 2026 03:31:39 +0000",
+      "snippet": "Gold reached a record over $5,000 amid trade tensions while Bitcoin fell to $86,000, marking a sharp divergence as the precious metal surged 17% in January.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "A16z-backed crypto startup Entropy to shut down, refund investors",
+      "url": "https://cointelegraph.com/news/a16z-backed-crypto-startup-entropy-to-shut-down-refund-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 26 Jan 2026 02:41:16 +0000",
+      "snippet": "Entropy founder and CEO Tux Pacific says that, after four years and multiple pivots, the project was unable to find a scalable business model.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Crypto shaves $100B as geopolitical turmoil mounts",
+      "url": "https://cointelegraph.com/news/crypto-wipes-100-billion-us-government-shutdown-fears?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 26 Jan 2026 00:30:13 +0000",
+      "snippet": "Senate Democrats have threatened to block a funding bill if it includes money for the Department of Homeland Security, making traders fearful of another possible US government shutdown.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Foundry USA hashrate drops ~60% amid US winter storm curtailments",
+      "url": "https://cointelegraph.com/news/foundry-usa-hashrate-down-60-deadly-storm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 25 Jan 2026 21:20:28 +0000",
+      "snippet": "Winter storm Fern has triggered widespread power outages across the US, prompting Bitcoin miners to curtail operations to ease grid strain.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "\u2018Opportunists\u2019 pushing protocol changes are BTC's biggest threat: Saylor",
+      "url": "https://cointelegraph.com/news/opportunists-protocol-change-btc-biggest-threat-saylor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 25 Jan 2026 19:47:02 +0000",
+      "snippet": "Major changes to the Bitcoin protocol should be well-thought-out and rare, Strategy co-founder Michael Saylor previously said.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Bitcoin sells off into weekly close as bulls face $86K BTC price reckoning",
+      "url": "https://cointelegraph.com/news/bitcoin-sells-off-into-weekly-close-86k-btc-price-reckoning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 25 Jan 2026 18:38:13 +0000",
+      "snippet": "Bitcoin began losing gains as US futures prepared to open as markets geared up to deal with a host of potential downside volatility catalysts.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Tezos Tallinn upgrade now live, slashes block times to 6 seconds",
+      "url": "https://cointelegraph.com/news/tezos-tallinn-upgrade-blocks-6-seconds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 25 Jan 2026 16:42:39 +0000",
+      "snippet": "The Tallinn protocol upgrade marks Tezos' 20th major update since launching in 2018, and was implemented without a network fork.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Cathie Wood\u2019s ARK adds Coinbase, Circle, Bullish as crypto slides",
+      "url": "https://cointelegraph.com/news/ark-invest-buys-coinbase-circle-bullish-crypto-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 25 Jan 2026 12:33:04 +0000",
+      "snippet": "The fourth-quarter crypto pullback hit ARK ETFs, with Coinbase emerging as the biggest drag on performance.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Colombia\u2019s second-largest pension fund to offer Bitcoin exposure",
+      "url": "https://cointelegraph.com/news/colombia-second-largest-pension-fund-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 25 Jan 2026 09:34:57 +0000",
+      "snippet": "AFP Protecci\u00f3n says access to the Bitcoin-linked fund will be limited to qualified investors and will not alter the core allocation of Colombian pension savings.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Once-prominent NFT marketplace Nifty Gateway to wind down operations",
+      "url": "https://cointelegraph.com/news/nifty-gateway-shutdown-nft-marketplace-closure-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 25 Jan 2026 07:09:23 +0000",
+      "snippet": "The Gemini-owned NFT platform will close on Feb. 23, 2026, entering withdrawal-only mode as another major casualty of the sector\u2019s prolonged downturn.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Ethereum whale resurfaces after nine years, moves $145 million in ETH",
+      "url": "https://www.theblock.co/post/386974/ethereum-whale-moves-145-million?utm_source=rss&utm_medium=rss",
+      "published": "Mon, 26 Jan 2026 00:38:21 -0500",
+      "snippet": "An Ethereum whale moved 50,000 ETH on Sunday after approximately nine years of dormancy, according to onchain data.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "South Korea\u2019s Coinone selling major stakeholder shares, in talks with overseas crypto exchanges: report",
+      "url": "https://www.theblock.co/post/386967/south-koreas-coinone-selling-shares?utm_source=rss&utm_medium=rss",
+      "published": "Mon, 26 Jan 2026 00:15:41 -0500",
+      "snippet": "The crypto exchange is in talks with overseas crypto exchanges and local financial institutions for the sale, local media reported.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "Bitcoin slides near $87,000 as US government shutdown fears weigh on crypto",
+      "url": "https://www.theblock.co/post/386961/bitcoin-slides-us-government-shutdown-fears?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 25 Jan 2026 23:21:02 -0500",
+      "snippet": "Bitcoin fell on Sunday evening as a broad risk-off mood weighed on the crypto market amid rising uncertainty in the US.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "Japan to approve its first crypto ETFs in 2028: report",
+      "url": "https://www.theblock.co/post/386955/japan-to-approve-its-first-crypto-etfs-in-2028-report?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 25 Jan 2026 22:11:05 -0500",
+      "snippet": "The FSA plans to add cryptocurrencies to the list of ETF base assets, alongside enhanced investor protections, Nikkei reported.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "The Funding: Is decentralized social \u2018dead\u2019 \u2014 or is a revival coming?",
+      "url": "https://www.theblock.co/post/386949/the-funding-decentralized-social-dead-or-revival-coming?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 25 Jan 2026 19:37:44 -0500",
+      "snippet": "Decentralized social protocols Farcaster and Lens have changed hands, and the debate over crypto social's future is back.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "Individual behind $40 million government wallet theft is son of seized-crypto contractor executive: ZachXBT",
+      "url": "https://www.theblock.co/post/386945/individual-behind-40-million-government-wallet-theft-is-son-of-seized-crypto-contractor-executive-zachxbt?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 25 Jan 2026 17:21:36 -0500",
+      "snippet": "A cybercriminal known as \"Lick\" may be the son of the president of a firm contracted by the government to dispose of stolen crypto assets. ",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "Entropy, a16z-backed decentralized custody startup, is winding down and returning capital to investors",
+      "url": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 25 Jan 2026 12:50:37 -0500",
+      "snippet": "Entropy's \"anti-capitalist anarchist\" founder is winding down the firm and returning capital to investors after failing to find a scalable business model.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "Gold surges past $5,000 for first time as silver tops $107 on safe-haven buying",
+      "url": "https://cryptobriefing.com/gold-surges-5-000-silver-new-all-time-highs/",
+      "published": "Mon, 26 Jan 2026 01:44:08 +0000",
+      "snippet": "Gold breaks above $5,000 for the first time on geopolitical and economic risks, while silver hits records and crypto slips.\nThe post Gold surges past $5,000 for first time as silver tops $107 on safe-haven buying appeared first on Crypto Briefing.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "crypto_briefing",
+      "source_name": "Crypto Briefing",
+      "method": "rss"
+    },
+    {
+      "title": "Bitcoin slides below $88K, triggering $135M in crypto long liquidations in the past hour",
+      "url": "https://cryptobriefing.com/bitcoin-price-drop-88-k-liquidations/",
+      "published": "Sun, 25 Jan 2026 16:58:10 +0000",
+      "snippet": "The recent Bitcoin drop intensifies market fear, potentially leading to further declines and impacting the broader crypto ecosystem.\nThe post Bitcoin slides below $88K, triggering $135M in crypto long liquidations in the past hour appeared first on Crypto Briefing.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "crypto_briefing",
+      "source_name": "Crypto Briefing",
+      "method": "rss"
+    },
+    {
+      "title": "ChatGPT Temporary chat feature is getting a much-needed upgrade",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-temporary-chat-feature-is-getting-a-much-needed-upgrade/",
+      "published": "Sun, 25 Jan 2026 20:01:12 -0500",
+      "snippet": "OpenAI is testing a big upgrade for ChatGPT's temporary chat feature. The update will allow you to retain\u00a0personalization in temporary chat, and still block temporary chat from influencing your account. [...]",
       "focus_areas": [
         "Cybersecurity"
       ],
@@ -1057,10 +1185,10 @@
       "method": "rss"
     },
     {
-      "title": "Sandworm hackers linked to failed wiper attack on Poland\u2019s energy systems",
-      "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-linked-to-failed-wiper-attack-on-polands-energy-systems/",
-      "published": "Sat, 24 Jan 2026 16:58:42 -0500",
-      "snippet": "A cyberattack targeting Poland's power grid in late December 2025 has been linked to the Russian state-sponsored hacking group Sandworm, which attempted to deploy a new destructive data-wiping malware dubbed DynoWiper during the attack.. [...]",
+      "title": "1Password adds pop-up warnings for suspected phishing sites",
+      "url": "https://www.bleepingcomputer.com/news/security/1password-adds-pop-up-warnings-for-suspected-phishing-sites/",
+      "published": "Sun, 25 Jan 2026 10:17:12 -0500",
+      "snippet": "The 1Password digital vault and password manager has added built-in protection against phishing URLs to help users identify malicious pages and prevent them from sharing account credentials with threat actors. [...]",
       "focus_areas": [
         "Cybersecurity"
       ],
@@ -1069,10 +1197,10 @@
       "method": "rss"
     },
     {
-      "title": "Konni hackers target blockchain engineers with AI-built malware",
-      "url": "https://www.bleepingcomputer.com/news/security/konni-hackers-target-blockchain-engineers-with-ai-built-malware/",
-      "published": "Sat, 24 Jan 2026 10:23:46 -0500",
-      "snippet": "The North Korean hacker group Konni (Opal Sleet, TA406) is using AI-generated PowerShell malware to target developers and engineers in the blockchain sector. [...]",
+      "title": "Microsoft investigates Windows 11 boot failures after January updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-windows-11-boot-failures-after-january-updates/",
+      "published": "Sun, 25 Jan 2026 08:20:28 -0500",
+      "snippet": "Microsoft is investigating reports that some Windows 11 devices are failing to boot with \"UNMOUNTABLE_BOOT_VOLUME\"\u00a0errors after installing the January 2026 Patch Tuesday security updates. [...]",
       "focus_areas": [
         "Cybersecurity"
       ],
@@ -1081,10 +1209,10 @@
       "method": "rss"
     },
     {
-      "title": "Nike Probing Potential Security Incident as Hackers Threaten to Leak Data",
-      "url": "https://www.securityweek.com/nike-probing-potential-security-incident-as-hackers-threaten-to-leak-data/",
-      "published": "Sat, 24 Jan 2026 08:45:43 +0000",
-      "snippet": "The WorldLeaks cybercrime group claims to have stolen information from the footwear and apparel giant\u2019s systems.\nThe post Nike Probing Potential Security Incident as Hackers Threaten to Leak Data appeared first on SecurityWeek.",
+      "title": "2024 VMware Flaw Now in Attackers\u2019 Crosshairs",
+      "url": "https://www.securityweek.com/2024-vmware-flaw-now-in-attackers-crosshairs/",
+      "published": "Mon, 26 Jan 2026 05:28:19 +0000",
+      "snippet": "The critical-severity vulnerability can be exploited via crafted network packets for remote code execution.\nThe post 2024 VMware Flaw Now in Attackers&#8217; Crosshairs appeared first on SecurityWeek.",
       "focus_areas": [
         "Cybersecurity"
       ],
@@ -1093,10 +1221,10 @@
       "method": "rss"
     },
     {
-      "title": "The Instant Smear Campaign Against Border Patrol Shooting Victim Alex Pretti",
-      "url": "https://www.wired.com/story/the-instant-smear-campaign-against-border-patrol-shooting-victim-alex-pretti/",
-      "published": "Sun, 25 Jan 2026 00:37:56 +0000",
-      "snippet": "Within minutes of the shooting, the Trump administration and right-wing influencers began disparaged the man shot by a federal immigration officer on Saturday in Minneapolis.",
+      "title": "Why Minnesota Can\u2019t Do More to Stop ICE",
+      "url": "https://www.wired.com/story/why-minnesota-cant-do-more-to-stop-ice/",
+      "published": "Sun, 25 Jan 2026 18:15:05 +0000",
+      "snippet": "Democratic lawmakers have few options that wouldn\u2019t trigger something like civil war.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1106,10 +1234,10 @@
       "method": "rss"
     },
     {
-      "title": "Best Kitchen Composters and Food Recyclers (2026)",
-      "url": "https://www.wired.com/story/home-composters-buying-guide/",
-      "published": "Sat, 24 Jan 2026 13:00:00 +0000",
-      "snippet": "Responsibly dispose of your food scraps with one of these indoor, (mostly) odor-free, WIRED-tested devices.",
+      "title": "Phonak Audeo Infinio Ultra Sphere Review: Premium Hearing Aids",
+      "url": "https://www.wired.com/review/phonak-audeo-infinio-ultra-sphere/",
+      "published": "Sun, 25 Jan 2026 12:00:00 +0000",
+      "snippet": "This new prescription hearing aid has a special chip designed to improve hearing in noisy conditions.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1119,10 +1247,10 @@
       "method": "rss"
     },
     {
-      "title": "What's the Best Red Light Therapy Mask for Your Skin in 2026?",
-      "url": "https://www.wired.com/story/led-face-masks-and-red-light-therapy/",
-      "published": "Sat, 24 Jan 2026 12:30:00 +0000",
-      "snippet": "The LED devices we'd actually buy with our own money.",
+      "title": "No One Is Quite Sure Why Ice Is Slippery",
+      "url": "https://www.wired.com/story/no-one-is-quite-sure-why-ice-is-slippery/",
+      "published": "Sun, 25 Jan 2026 12:00:00 +0000",
+      "snippet": "A thin, watery layer coating the surface of ice is what makes it slick. Despite a great deal of theorizing over the centuries, though, it isn't entirely clear why that layer forms.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1132,10 +1260,10 @@
       "method": "rss"
     },
     {
-      "title": "The 52 Best Movies on Netflix, WIRED\u2019s Picks (January 2026)",
-      "url": "https://www.wired.com/story/netflix-best-movies-this-week/",
-      "published": "Sat, 24 Jan 2026 12:00:00 +0000",
-      "snippet": "The Rip, Frankenstein, and Wake Up Dead Man: A Knives Out Mystery are just a few of the movies you should watch on Netflix this month.",
+      "title": "How Long Should You Cold Plunge? We Asked Experts (2026)",
+      "url": "https://www.wired.com/story/how-long-do-you-cold-plunge/",
+      "published": "Sun, 25 Jan 2026 11:30:00 +0000",
+      "snippet": "You don't need to Ernest Shackleton yourself to reap the benefits of cold plunging. A calm, controlled ice bath is key.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1145,10 +1273,10 @@
       "method": "rss"
     },
     {
-      "title": "3 Best Cheap Gaming Laptops (2026): WIRED-Tested and Approved",
-      "url": "https://www.wired.com/gallery/best-cheap-gaming-laptops/",
-      "published": "Sat, 24 Jan 2026 12:00:00 +0000",
-      "snippet": "Most gaming laptops under $1,000 aren\u2019t great, but these three machines stand out above the rest.",
+      "title": "The Lego Pok\u00e9mon Line Shows Toys Are Only for Rich Adults Now",
+      "url": "https://www.wired.com/story/legos-pokemon-partnership-shows-toys-are-only-for-rich-adults-now/",
+      "published": "Sun, 25 Jan 2026 11:00:00 +0000",
+      "snippet": "Who cares about kids when adult collectors are willing to pay top dollar?",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1158,10 +1286,10 @@
       "method": "rss"
     },
     {
-      "title": "The 52 Best Shows on Netflix, WIRED's Picks (January 2026)",
-      "url": "https://www.wired.com/story/netflix-best-shows-this-week/",
-      "published": "Sat, 24 Jan 2026 12:00:00 +0000",
-      "snippet": "Agatha Christie\u2019s Seven Dials, Stranger Things, and His & Hers are just a few of the shows you need to watch on Netflix this month.",
+      "title": "Bambu P1S Combo Review: Clean, Fast, 3D Printing",
+      "url": "https://www.wired.com/review/bambu-p1s-combo/",
+      "published": "Sun, 25 Jan 2026 11:00:00 +0000",
+      "snippet": "This is the easiest to use 3D printer I've ever tried.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1171,10 +1299,10 @@
       "method": "rss"
     },
     {
-      "title": "Best Portable Blenders of 2026: Ninja, Nutribullet, Beast",
-      "url": "https://www.wired.com/story/best-portable-blenders/",
-      "published": "Sat, 24 Jan 2026 11:37:00 +0000",
-      "snippet": "Cordless portable blenders have come a long way since their introduction a decade back. Here's why the Ninja Blast Max smokes them all.",
+      "title": "The 10 Best Essential Oil Diffusers We\u2019ve Tried in 2026 (and 2 to Avoid)",
+      "url": "https://www.wired.com/gallery/best-essential-oil-diffusers/",
+      "published": "Sun, 25 Jan 2026 10:31:00 +0000",
+      "snippet": "Keep things smelling fresh with these handy home gadgets. After researching and testing over a dozen devices, the Urpower Aroma is our favorite for most people.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1184,68 +1312,101 @@
       "method": "rss"
     },
     {
-      "title": "DOGE May Have Misused Social Security Data, DOJ Admits",
-      "url": "https://www.wired.com/story/security-news-this-week-doge-may-have-misused-social-security-data-doj-admits/",
-      "published": "Sat, 24 Jan 2026 11:30:00 +0000",
-      "snippet": "Plus: The FAA blocks drones over DHS operations, Microsoft admits it hands over Bitlocker encryption keys to the cops, and more.",
+      "title": "The era of agentic AI demands a data constitution, not better prompts",
+      "url": "https://venturebeat.com/infrastructure/the-era-of-agentic-ai-demands-a-data-constitution-not-better-prompts",
+      "published": "Sun, 25 Jan 2026 21:00:00 GMT",
+      "snippet": "The industry consensus is that 2026 will be the year of &quot;agentic AI.&quot; We are rapidly moving past chatbots that simply summarize text. We are entering the era of autonomous agents that execute tasks. We expect them to book flights, diagnose system outages, manage cloud infrastructure and pe...",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
       ],
-      "source_id": "wired_ai",
-      "source_name": "Wired AI",
+      "source_id": "venture_beat_ai",
+      "source_name": "VentureBeat AI",
       "method": "rss"
     },
     {
-      "title": "Gear News of the Week: Apple\u2019s AI Wearable and a Phone That Can Boot Android, Linux, and Windows",
-      "url": "https://www.wired.com/story/gear-news-of-the-week-apples-ai-wearable-and-a-phone-that-can-boot-android-linux-and-windows/",
-      "published": "Sat, 24 Jan 2026 11:00:00 +0000",
-      "snippet": "Plus: Asus exits the smartphone market, and Sony partners with TCL on TVs.",
+      "title": "Conversational AI doesn\u2019t understand users \u2014 'Intent First' architecture does",
+      "url": "https://venturebeat.com/orchestration/conversational-ai-doesnt-understand-users-intent-first-architecture-does",
+      "published": "Sun, 25 Jan 2026 18:00:00 GMT",
+      "snippet": "The modern customer has just one need that matters: Getting the thing they want when they want it. The old standard RAG model embed+retrieve+LLM misunderstands intent, overloads context and misses freshness, repeatedly sending customers down the wrong paths. Instead, intent-first architecture uses a...",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
       ],
-      "source_id": "wired_ai",
-      "source_name": "Wired AI",
+      "source_id": "venture_beat_ai",
+      "source_name": "VentureBeat AI",
       "method": "rss"
     },
     {
-      "title": "Watch Party: The Best TAG in Years, a \u201960s Sensation, and Omega Goes All White",
-      "url": "https://www.wired.com/story/lvmh-watch-week-the-best-tag-in-years-a-60s-sensation-and-omega-goes-all-white/",
-      "published": "Sat, 24 Jan 2026 10:30:00 +0000",
-      "snippet": "It\u2019s LVMH Watch Week, so here's WIRED's pick of the timepieces that made their debut\u2014plus one notable gatecrasher.",
+      "title": "06 / 2025-26 ( \u0b28\u0b3f\u0b30\u0b4d\u0b2c\u0b3e\u0b39\u0b40 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 ( \u0b15\u0b43\u0b37\u0b3f ) / \u0b09\u0b24\u0b4d\u0b24\u0b30 \u0b1c\u0b4b\u0b28\u0b4d / \u0b38\u0b2e\u0b4d\u0b2c\u0b32\u0b2a\u0b41\u0b30 ) ( \u0b07-\u0b15\u0b4d\u0b30\u0b5f )",
+      "url": "https://odisha.gov.in/or/node/203684",
+      "published": "Fri, 23 Jan 2026 17:17:03 +0000",
+      "snippet": "06 / 2025-26 ( \u0b28\u0b3f\u0b30\u0b4d\u0b2c\u0b3e\u0b39\u0b40 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 ( \u0b15\u0b43\u0b37\u0b3f ) / \u0b09\u0b24\u0b4d\u0b24\u0b30 \u0b1c\u0b4b\u0b28\u0b4d / \u0b38\u0b2e\u0b4d\u0b2c\u0b32\u0b2a\u0b41\u0b30 ) ( \u0b07-\u0b15\u0b4d\u0b30\u0b5f )\n\nstateapprover\n\nFri, 01/23/2026 - 22:47\n\n\n  \n    Attachment File\n              BID-06_91_21.01.2026_0.pdf\n  (766.64 KB)\n\n          \n\n  \n    Date\n              Tue, 01/27/2026 - 12:00\n - Wed, 02/04/2026 - 12:00\n\n          \n...",
       "focus_areas": [
-        "AI-Regulation",
-        "International-Comparative"
+        "all"
       ],
-      "source_id": "wired_ai",
-      "source_name": "Wired AI",
+      "source_id": "odisha_it",
+      "source_name": "Odisha IT Department",
       "method": "rss"
     },
     {
-      "title": "This Autonomous Aquatic Robot Is Smaller Than a Grain of Salt",
-      "url": "https://www.wired.com/story/autonomous-aquatic-robot-smaller-than-a-grain-of-salt/",
-      "published": "Sat, 24 Jan 2026 10:00:00 +0000",
-      "snippet": "Researchers have succeeded in developing the smallest fully autonomous robot in history. It measures less than 1 millimeter and can swim underwater for months powered only by light.",
+      "title": "38 / 2025-26 ( \u0b05\u0b27\u0b3f\u0b15\u0b4d\u0b37\u0b23 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b2c\u0b3e\u0b32\u0b47\u0b36\u0b4d\u0b71\u0b30 (R&B) \u0b21\u0b3f\u0b2d\u0b3f\u0b1c\u0b28-I / \u0b2c\u0b3e\u0b32\u0b47\u0b36\u0b4d\u0b71\u0b30 )",
+      "url": "https://odisha.gov.in/or/node/203680",
+      "published": "Fri, 23 Jan 2026 15:35:04 +0000",
+      "snippet": "38 / 2025-26 ( \u0b05\u0b27\u0b3f\u0b15\u0b4d\u0b37\u0b23 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b2c\u0b3e\u0b32\u0b47\u0b36\u0b4d\u0b71\u0b30 (R&amp;B) \u0b21\u0b3f\u0b2d\u0b3f\u0b1c\u0b28-I / \u0b2c\u0b3e\u0b32\u0b47\u0b36\u0b4d\u0b71\u0b30 )\n\nstateapprover\n\nFri, 01/23/2026 - 21:05\n\n\n  \n    Attachment File\n              BID-38_495_21.01.2026_0.pdf\n  (550.6 KB)\n\n          \n\n  \n    Date\n              Fri, 01/30/2026 - 12:00\n - Mon, 02/09/2026 - 12:00\n\n          \n\n  \n...",
       "focus_areas": [
-        "AI-Regulation",
-        "International-Comparative"
+        "all"
       ],
-      "source_id": "wired_ai",
-      "source_name": "Wired AI",
+      "source_id": "odisha_it",
+      "source_name": "Odisha IT Department",
       "method": "rss"
     },
     {
-      "title": "TopResume Free Review, Discounts & Packages for 2026",
-      "url": "https://www.wired.com/story/topresume-discount-code/",
-      "published": "Sat, 24 Jan 2026 06:20:00 +0000",
-      "snippet": "Discover ways to save at TopResume, including their free review service and 4-week Career Services Platform trial.",
+      "title": "04 / 2025-26 ( \u0b05\u0b27\u0b3f\u0b15\u0b4d\u0b37\u0b23 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b17\u0b41\u0b23\u0b2c\u0b24\u0b4d\u0b24\u0b3e \u0b2a\u0b4d\u0b30\u0b24\u0b3f\u0b36\u0b4d\u0b30\u0b41\u0b24\u0b3f \u0b2c\u0b3f\u0b2d\u0b3e\u0b17 / \u0b38\u0b41\u0b28\u0b4d\u0b26\u0b30\u0b17\u0b21\u0b3c )",
+      "url": "https://odisha.gov.in/or/node/203672",
+      "published": "Thu, 22 Jan 2026 13:19:15 +0000",
+      "snippet": "04 / 2025-26 ( \u0b05\u0b27\u0b3f\u0b15\u0b4d\u0b37\u0b23 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b17\u0b41\u0b23\u0b2c\u0b24\u0b4d\u0b24\u0b3e \u0b2a\u0b4d\u0b30\u0b24\u0b3f\u0b36\u0b4d\u0b30\u0b41\u0b24\u0b3f \u0b2c\u0b3f\u0b2d\u0b3e\u0b17 / \u0b38\u0b41\u0b28\u0b4d\u0b26\u0b30\u0b17\u0b21\u0b3c )\n\nstateapprover\n\nThu, 01/22/2026 - 18:49\n\n\n  \n    Attachment File\n              BID-04_260_21.01.2026_0.pdf\n  (803.22 KB)\n\n          \n\n  \n    Date\n              Wed, 01/21/2026 - 12:00\n - Mon, 02/02/2026 - 12:00\n\n          \n\n  ...",
       "focus_areas": [
-        "AI-Regulation",
-        "International-Comparative"
+        "all"
       ],
-      "source_id": "wired_ai",
-      "source_name": "Wired AI",
+      "source_id": "odisha_it",
+      "source_name": "Odisha IT Department",
+      "method": "rss"
+    },
+    {
+      "title": "05 / 2025-26 ( \u0b05\u0b24\u0b3f\u0b30\u0b3f\u0b15\u0b4d\u0b24 \u0b2e\u0b41\u0b16\u0b4d\u0b5f \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b21\u0b4d\u0b30\u0b47\u0b28\u0b47\u0b1c\u0b4d \u0b38\u0b30\u0b4d\u0b15\u0b32\u0b4d / \u0b2d\u0b41\u0b2c\u0b28\u0b47\u0b36\u0b4d\u0b71\u0b30 ) ( \u0b07-\u0b2a\u0b4d\u0b30\u0b4b\u0b15\u0b4d\u0b5f\u0b41\u0b30\u0b2e\u0b47\u0b23\u0b4d\u0b1f )",
+      "url": "https://odisha.gov.in/or/node/203590",
+      "published": "Wed, 21 Jan 2026 18:55:12 +0000",
+      "snippet": "05 / 2025-26 ( \u0b05\u0b24\u0b3f\u0b30\u0b3f\u0b15\u0b4d\u0b24 \u0b2e\u0b41\u0b16\u0b4d\u0b5f \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b21\u0b4d\u0b30\u0b47\u0b28\u0b47\u0b1c\u0b4d \u0b38\u0b30\u0b4d\u0b15\u0b32\u0b4d / \u0b2d\u0b41\u0b2c\u0b28\u0b47\u0b36\u0b4d\u0b71\u0b30 ) ( \u0b07-\u0b2a\u0b4d\u0b30\u0b4b\u0b15\u0b4d\u0b5f\u0b41\u0b30\u0b2e\u0b47\u0b23\u0b4d\u0b1f ) \n\nstateapprover\n\nThu, 01/22/2026 - 00:25\n\n\n  \n    Attachment File\n              e-Procurement-05_147_16.01.2026-O.pdf\n  (1.11 MB)\n\n          \n\n  \n    Date\n              Tue, 01/20/2026 - 12:00\n - Tue, 02/03/20...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "odisha_it",
+      "source_name": "Odisha IT Department",
+      "method": "rss"
+    },
+    {
+      "title": "09 / 2025-26 ( \u0b2e\u0b39\u0b3e\u0b2a\u0b4d\u0b30\u0b2c\u0b28\u0b4d\u0b27\u0b15 / \u0b71\u0b3e\u0b1f\u0b15\u0b4b \u0b2a\u0b4d\u0b30\u0b15\u0b33\u0b4d\u0b2a \u0b2c\u0b3f\u0b2d\u0b3e\u0b17 / \u0b38\u0b2e\u0b4d\u0b2c\u0b32\u0b2a\u0b41\u0b30 )( \u0b07-\u0b2a\u0b4d\u0b30\u0b4b\u0b15\u0b4d\u0b5f\u0b41\u0b30\u0b2e\u0b47\u0b23\u0b4d\u0b1f )",
+      "url": "https://odisha.gov.in/or/node/203558",
+      "published": "Tue, 20 Jan 2026 13:54:05 +0000",
+      "snippet": "09 / 2025-26 ( \u0b2e\u0b39\u0b3e\u0b2a\u0b4d\u0b30\u0b2c\u0b28\u0b4d\u0b27\u0b15 / \u0b71\u0b3e\u0b1f\u0b15\u0b4b \u0b2a\u0b4d\u0b30\u0b15\u0b33\u0b4d\u0b2a \u0b2c\u0b3f\u0b2d\u0b3e\u0b17 / \u0b38\u0b2e\u0b4d\u0b2c\u0b32\u0b2a\u0b41\u0b30 )( \u0b07-\u0b2a\u0b4d\u0b30\u0b4b\u0b15\u0b4d\u0b5f\u0b41\u0b30\u0b2e\u0b47\u0b23\u0b4d\u0b1f )\n\nstateapprover\n\nTue, 01/20/2026 - 19:24\n\n\n  \n    Attachment File\n              BID-09_62_17.01.2026_0.pdf\n  (578.43 KB)\n\n          \n\n  \n    Date\n              Wed, 01/28/2026 - 12:00\n - Fri, 02/06/2026 - 12:00\n\n       ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "odisha_it",
+      "source_name": "Odisha IT Department",
+      "method": "rss"
+    },
+    {
+      "title": "71 / 2025-26 ( \u0b05\u0b27\u0b3f\u0b15\u0b4d\u0b37\u0b23 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b1c\u0b28\u0b38\u0b4d\u0b71\u0b3e\u0b38\u0b4d\u0b25\u0b4d\u0b5f \u0b2c\u0b3f\u0b2d\u0b3e\u0b17 / \u0b2d\u0b41\u0b2c\u0b28\u0b47\u0b36\u0b4d\u0b71\u0b30 ) ( \u0b07-\u0b2a\u0b4d\u0b30\u0b4b\u0b15\u0b4d\u0b5f\u0b41\u0b30\u0b2e\u0b47\u0b23\u0b4d\u0b1f )",
+      "url": "https://odisha.gov.in/or/node/203551",
+      "published": "Tue, 20 Jan 2026 12:45:59 +0000",
+      "snippet": "71 / 2025-26 ( \u0b05\u0b27\u0b3f\u0b15\u0b4d\u0b37\u0b23 \u0b2f\u0b28\u0b4d\u0b24\u0b4d\u0b30\u0b40 / \u0b1c\u0b28\u0b38\u0b4d\u0b71\u0b3e\u0b38\u0b4d\u0b25\u0b4d\u0b5f \u0b2c\u0b3f\u0b2d\u0b3e\u0b17 / \u0b2d\u0b41\u0b2c\u0b28\u0b47\u0b36\u0b4d\u0b71\u0b30 ) ( \u0b07-\u0b2a\u0b4d\u0b30\u0b4b\u0b15\u0b4d\u0b5f\u0b41\u0b30\u0b2e\u0b47\u0b23\u0b4d\u0b1f )\n\nstateapprover\n\nTue, 01/20/2026 - 18:15\n\n\n  \n    Attachment File\n              e-Procurement-71_584_19.01.2026_0.pdf\n  (2.65 MB)\n\n          \n\n  \n    Date\n              Wed, 01/21/2026 - 12:00\n - Fri, 01/30/2026 - 1...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "odisha_it",
+      "source_name": "Odisha IT Department",
       "method": "rss"
     }
   ],
@@ -1330,7 +1491,7 @@
           "url": "https://prsindia.org/billtrack"
         }
       ],
-      "last_checked": "2026-01-25T06:25:25.702720+00:00"
+      "last_checked": "2026-01-26T06:30:47.111046+00:00"
     },
     {
       "source_id": "nclat",
@@ -1373,7 +1534,7 @@
         },
         {
           "text": "Read More",
-          "url": "https://nclat.nic.in/sites/default/files/2026-01/20.01.2026%20%282%29%20notification.pdf"
+          "url": "https://nclat.nic.in/flash-news/users-may-access-case-status-judgments-and-daily-orders-through-nclat-e-filing-portal"
         },
         {
           "text": "Important Notice",
@@ -1392,7 +1553,95 @@
           "url": "https://nclat.nic.in/about-NCLAT/about-chairperson"
         }
       ],
-      "last_checked": "2026-01-25T06:25:32.183932+00:00"
+      "last_checked": "2026-01-26T06:30:53.752590+00:00"
+    },
+    {
+      "source_id": "mib",
+      "source_name": "Ministry of Information & Broadcasting",
+      "section": "main",
+      "url": "https://mib.gov.in",
+      "change_detected": true,
+      "notable_links": [
+        {
+          "text": "Government of IndiaMinistry ofInformation and Broadcasting",
+          "url": "https://mib.gov.in/"
+        },
+        {
+          "text": "English",
+          "url": "https://mib.gov.in/"
+        },
+        {
+          "text": "Hindi",
+          "url": "https://mib.gov.in/hi"
+        },
+        {
+          "text": "Color",
+          "url": "https://mib.gov.in"
+        },
+        {
+          "text": "High Contrast",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "Dark Contrast",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "Increase Text",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "Decrease Text",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "Reset Text",
+          "url": "javascript:void(0);"
+        },
+        {
+          "text": "Our Organizations",
+          "url": "https://mib.gov.in/ministry/organizations"
+        },
+        {
+          "text": "Our Team",
+          "url": "https://mib.gov.in/ministry/about-us/team"
+        },
+        {
+          "text": "Our Wings",
+          "url": "https://mib.gov.in/ministry/our-wings"
+        },
+        {
+          "text": "Directory",
+          "url": "https://mib.gov.in/ministry/directory"
+        }
+      ],
+      "last_checked": "2026-01-26T06:31:10.337194+00:00"
+    },
+    {
+      "source_id": "mha_cyber",
+      "source_name": "Ministry of Home Affairs - Cyber",
+      "section": "main",
+      "url": "https://www.mha.gov.in",
+      "change_detected": true,
+      "notable_links": [
+        {
+          "text": "\u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930",
+          "url": "https://xn--i1b5bzbybhfo5c8b4bxh.xn--11b7cb3a6a.xn--h2brj9c/hi"
+        },
+        {
+          "text": "Government of india",
+          "url": "https://mha.gov.in/"
+        },
+        {
+          "text": "\u092e\u0941\u0916\u094d\u092f \u0935\u093f\u0937\u092f\u0935\u0938\u094d\u0924\u0941 \u092e\u0947\u0902 \u091c\u093e\u090f\u0902",
+          "url": "https://www.mha.gov.in#skipCont"
+        },
+        {
+          "text": "English",
+          "url": "http://www.mha.gov.in/en"
+        }
+      ],
+      "last_checked": "2026-01-26T06:31:21.465958+00:00"
     },
     {
       "source_id": "digital_india",
@@ -1426,7 +1675,7 @@
           "url": "https://www.digitalindia.gov.in/initiatives"
         }
       ],
-      "last_checked": "2026-01-25T06:26:05.129729+00:00"
+      "last_checked": "2026-01-26T06:31:34.605201+00:00"
     },
     {
       "source_id": "orf_cyber",
@@ -1512,73 +1761,97 @@
           "url": "https://www.orfonline.org"
         }
       ],
-      "last_checked": "2026-01-25T06:26:13.155723+00:00"
+      "last_checked": "2026-01-26T06:31:42.843092+00:00"
     },
     {
-      "source_id": "itu",
-      "source_name": "ITU",
+      "source_id": "takshashila",
+      "source_name": "Takshashila Institution",
       "section": "main",
-      "url": "https://www.itu.int",
+      "url": "https://takshashila.org.in",
       "change_detected": true,
       "notable_links": [
         {
-          "text": "Espa\u00f1ol",
-          "url": "https://www.itu.int/es/Pages/default.aspx"
+          "text": "Read more",
+          "url": "https://takshashila.org.in/content/publications/20260108-China-Pakistan-Military-Interoperability.html"
         },
         {
-          "text": "Fran\u00e7ais",
-          "url": "https://www.itu.int/fr/Pages/default.aspx"
+          "text": "View All Publications",
+          "url": "https://takshashila.org.in/pages/publications/"
         },
         {
-          "text": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
-          "url": "https://www.itu.int/ru/Pages/default.aspx"
+          "text": "India Must Architect Sectoral Plurilateral Blocs to Overcome Geopolitical CoercionRead more\u00e2\u0086\u0092",
+          "url": "https://takshashila.org.in/content/publications/20260125-Sectoral-Plurilateral-Blocs.html"
         },
         {
-          "text": "Advanced Search",
-          "url": "https://www.itu.int/search"
+          "text": "High Politics in ChinaRead more\u00e2\u0086\u0092",
+          "url": "https://takshashila.org.in/content/publications/20260123-China-Politburo-Meetings-Study-Sessions-2025.html"
         },
         {
-          "text": "Media Centre",
-          "url": "https://www.itu.int/en/mediacentre/Pages/default.aspx"
+          "text": "India Should Double Down on Rare Earth RecyclingRead more\u00e2\u0086\u0092",
+          "url": "https://takshashila.org.in/content/publications/20260123-India-Should-Double-Down-On-Rare-Earth-Recycling.html"
         },
         {
-          "text": "Events",
-          "url": "https://www.itu.int/en/events"
+          "text": "Shanti Act Advances Reform, Streamlines and Dilutes LiabilityRead more\u00e2\u0086\u0092",
+          "url": "https://takshashila.org.in/content/publications/20260116-Shanti-Act-Advances-Reform-Streamlines-and-Dilutes-Liability.html"
         },
         {
-          "text": "Publications",
-          "url": "https://www.itu.int/hub/pubs/"
+          "text": "Limits of China-Pakistan Military InteroperabilityRead more\u00e2\u0086\u0092",
+          "url": "https://takshashila.org.in/content/publications/20260108-China-Pakistan-Military-Interoperability.html"
         },
         {
-          "text": "Statistics",
-          "url": "https://www.itu.int/en/ITU-D/Statistics"
+          "text": "Sounding the BugleRead more\u00e2\u0086\u0092",
+          "url": "https://takshashila.org.in/content/publications/20260105-China-Military-Exercises.html"
         },
         {
-          "text": "Action areas",
-          "url": "https://www.itu.int/en/action"
+          "text": "Learn more",
+          "url": "https://takshashila.org.in/pages/mission.html"
         },
         {
-          "text": "Regional Presence",
-          "url": "https://www.itu.int/en/ITU-D/Pages/Regional-Presence.aspx"
+          "text": "Policy ResearchTakshashila conducts policy research in international relations, defence, national se",
+          "url": "https://takshashila.org.in/pages/research-areas/"
         },
         {
-          "text": "Careers",
-          "url": "https://www.itu.int/en/careers"
+          "text": "Policy SchoolOur public policy programmes are designed to prepare students to navigate complex polic",
+          "url": "https://school.takshashila.org.in/"
         },
         {
-          "text": "General Secretariat",
-          "url": "https://www.itu.int/en/general-secretariat/Pages/default.aspx"
+          "text": "FellowshipsThe fellowship programmes at Takshashila aim to build high-quality scholarship and knowle",
+          "url": "https://takshashila.org.in/pages/fellowships"
         },
         {
-          "text": "Radiocommunication",
-          "url": "https://www.itu.int/en/ITU-R"
+          "text": "View all Events",
+          "url": "https://takshashila.org.in/pages/events/"
         },
         {
-          "text": "Standardization",
-          "url": "https://www.itu.int/en/ITU-T/Pages/default.aspx"
+          "text": "Book Discussion | The Groundbreaker by Kanwal RekhiThe Takshashila Institution hosted an engaging co",
+          "url": "https://takshashila.org.in/content/events/The Groundbreaker.html"
+        },
+        {
+          "text": "Law Enforcement & Policing Fellowship (LEPF) Academic Conference 2025Takshashila and the Indian Poli",
+          "url": "https://takshashila.org.in/content/events/LEPF-Conference-.html"
+        },
+        {
+          "text": "Event: The Takshashila Institution hosted a conversation with Bruno MacaesThe Takshashila Institutio",
+          "url": "https://takshashila.org.in/content/events/Bruno-event-.html"
+        },
+        {
+          "text": "Event: Book Lounge | A Sixth of HumanityPranay Kotasthane was in conversation with authors, Devesh K",
+          "url": "https://takshashila.org.in/content/events/sixth-of-humanity-lounge.html"
+        },
+        {
+          "text": "Book Lounge | China: Indian perspectives on China\u00e2\u0080\u0099s politics, economy, and foreign relationsThis d",
+          "url": "https://takshashila.org.in/content/events/ChinaBookLounge.html"
+        },
+        {
+          "text": "Purva Paksha | Sama, Dana, Danda, Bheda: Friends, Rivals, or Just Trading Partners?This debate explo",
+          "url": "https://takshashila.org.in/content/events/Purvapaksha.html"
+        },
+        {
+          "text": "View all Blogs",
+          "url": "https://takshashila.org.in/pages/blogs/"
         }
       ],
-      "last_checked": "2026-01-25T06:28:33.371830+00:00"
+      "last_checked": "2026-01-26T06:31:48.885955+00:00"
     },
     {
       "source_id": "ib_ministry",
@@ -1640,7 +1913,69 @@
           "url": "https://mib.gov.in/ministry/directory"
         }
       ],
-      "last_checked": "2026-01-25T06:28:39.636055+00:00"
+      "last_checked": "2026-01-26T06:34:00.900917+00:00"
+    },
+    {
+      "source_id": "un_oosa",
+      "source_name": "UN OOSA",
+      "section": "main",
+      "url": "https://www.unoosa.org",
+      "change_detected": true,
+      "notable_links": [
+        {
+          "text": "United NationsOffice for Outer Space Affairs",
+          "url": "https://www.unoosa.org/oosa/index.html"
+        },
+        {
+          "text": "Roles and Responsibilities",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/roles-responsibilities.html"
+        },
+        {
+          "text": "Annual Reports",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/annual-reports.html"
+        },
+        {
+          "text": "Director",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/director.html"
+        },
+        {
+          "text": "Structure",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/structure.html"
+        },
+        {
+          "text": "Partnerships",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/partnerships/partnerships.html"
+        },
+        {
+          "text": "UNOOSA Space Camp 2024",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/spacecamp/2024/"
+        },
+        {
+          "text": "History",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/history/index.html"
+        },
+        {
+          "text": "Treaties",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/history/treaties.html"
+        },
+        {
+          "text": "UNISPACE Conferences",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/history/unispace.html"
+        },
+        {
+          "text": "Timeline: UN and Space",
+          "url": "https://www.unoosa.org/oosa/en/timeline/index.html"
+        },
+        {
+          "text": "Employment",
+          "url": "https://www.unoosa.org/oosa/en/aboutus/employment.html"
+        },
+        {
+          "text": "Our Work",
+          "url": "https://www.unoosa.org/oosa/en/ourwork/index.html"
+        }
+      ],
+      "last_checked": "2026-01-26T06:36:30.743506+00:00"
     },
     {
       "source_id": "birac",
@@ -1694,7 +2029,7 @@
           "url": "https://birac.nic.in/bionest.php"
         }
       ],
-      "last_checked": "2026-01-25T06:31:17.485203+00:00"
+      "last_checked": "2026-01-26T06:37:20.135456+00:00"
     }
   ],
   "websearch_pending": [
@@ -1832,8 +2167,8 @@
   ],
   "page_monitor_stats": {
     "total_pages": 111,
-    "successful": 76,
-    "failed": 35,
-    "changes_detected": 7
+    "successful": 74,
+    "failed": 37,
+    "changes_detected": 10
   }
 }
