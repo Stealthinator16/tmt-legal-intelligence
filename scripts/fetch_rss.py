@@ -7,6 +7,7 @@ and outputs new items to a JSON file for Claude to process.
 
 Usage:
     python fetch_rss.py --tier=1              # Fetch Tier 1 RSS sources
+    python fetch_rss.py --source=source_id    # Fetch specific RSS source
     python fetch_rss.py --tier=1 --dry-run    # Preview without saving
     python fetch_rss.py --all                 # Fetch all tiers with RSS
 """
@@ -89,7 +90,7 @@ def content_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
 
-def load_source_configs(tiers: list[int]) -> list[dict]:
+def load_source_configs(tiers: list[int], source_id: str = None) -> list[dict]:
     """Load source configurations for specified tiers."""
     tier_dirs = {
         1: "tier1-critical",
@@ -115,6 +116,9 @@ def load_source_configs(tiers: list[int]) -> list[dict]:
                         s for s in config.get("sources", [])
                         if s.get("method") == "rss" and s.get("enabled", True)
                     ]
+                    # If source_id specified, filter to that source only
+                    if source_id:
+                        rss_sources = [s for s in rss_sources if s.get("id") == source_id]
                     for source in rss_sources:
                         source["tier"] = tier
                     sources.extend(rss_sources)
@@ -257,6 +261,7 @@ def main():
     parser = argparse.ArgumentParser(description="Fetch RSS feeds for TMT Legal Intelligence")
     parser.add_argument("--tier", type=int, choices=[1, 2, 3, 4, 5], help="Tier to fetch (1-5)")
     parser.add_argument("--all", action="store_true", help="Fetch all tiers")
+    parser.add_argument("--source", type=str, help="Fetch specific source by ID")
     parser.add_argument("--dry-run", action="store_true", help="Preview without saving to database")
     parser.add_argument("--output", type=str, help="Output file path (default: new_items.json)")
     args = parser.parse_args()
@@ -266,15 +271,24 @@ def main():
         tiers = [1, 2, 3, 4, 5]
     elif args.tier:
         tiers = [args.tier]
+    elif args.source:
+        # When fetching a specific source, check all tiers
+        tiers = [1, 2, 3, 4, 5]
     else:
         tiers = [1]  # Default to Tier 1
 
-    logger.info(f"Fetching RSS feeds for tier(s): {tiers}")
+    if args.source:
+        logger.info(f"Fetching specific RSS source: {args.source}")
+    else:
+        logger.info(f"Fetching RSS feeds for tier(s): {tiers}")
 
     # Load sources
-    sources = load_source_configs(tiers)
+    sources = load_source_configs(tiers, source_id=args.source)
     if not sources:
-        logger.warning("No RSS sources found for specified tiers")
+        if args.source:
+            logger.warning(f"Source '{args.source}' not found or not an RSS source")
+        else:
+            logger.warning("No RSS sources found for specified tiers")
         return
 
     logger.info(f"Found {len(sources)} RSS sources to fetch")

@@ -83,10 +83,17 @@ Execute intelligence gathering for Tier 1 critical sources using the **hybrid au
 1. Check `websearch_pending` array for sources requiring WebSearch
 2. Execute WebSearch for: E-Gazette, Supreme Court, Delhi HC, PIB, FTC, NLSIU
 3. These 6-7 sources cannot be automated (no RSS/stable pages)
+4. **CRITICAL: Use date-restricted searches** to avoid stale results:
+   - Read `sources/state/brief_state.json` for `last_brief_date`
+   - Add date qualifier to searches: "India DPDP Rules site:meity.gov.in after:YYYY-MM-DD"
+   - Or use WebSearch's date filtering if available
+   - Only report items published AFTER the last brief date
 
 **Step 4: Synthesize & Report**
 1. Combine all findings into `sources/downloaded/YYYY-MM-DD_findings.json`
-2. Report summary to user with action items
+2. **Filter out already-reported items** by checking against `brief_state.json`
+3. Report summary to user with action items
+4. If nothing new found, clearly state "No new developments since [date]"
 
 **Token savings:** ~80-90% compared to fetching all sources manually
 
@@ -119,10 +126,31 @@ python monitor_pages.py --tier=1
 
 ### `/brief` or "@brief"
 Generate today's intelligence brief:
-1. Read any new findings from `sources/downloaded/`
-2. Read recent daily summaries from `summaries/daily/`
-3. Synthesize a quick executive summary of key developments
-4. Present to user with action items
+
+**CRITICAL: Only report genuinely NEW items since last brief**
+
+1. **Read brief state first**: Check `sources/state/brief_state.json` for:
+   - `last_brief_date`: When the last brief was generated
+   - `reported_items`: URLs/titles already covered in previous briefs
+
+2. **Filter findings strictly**:
+   - Read new findings from `sources/downloaded/`
+   - **EXCLUDE** any item whose URL appears in `reported_items`
+   - **EXCLUDE** any item with `published` date before `last_brief_date`
+   - Only include items published AFTER the last brief date
+
+3. **Generate brief with ONLY new items**:
+   - If no genuinely new items exist, say "No new developments since [last_brief_date]"
+   - Do NOT rehash old developments - users have already seen them
+   - Focus on what changed in the last 24-48 hours
+
+4. **Update state after generating**:
+   - Add newly reported item URLs to `reported_items` array in `brief_state.json`
+   - Update `last_brief_date` to today's date
+   - Save the updated state file
+
+**Example output when nothing new:**
+> "No significant new TMT legal developments since January 24, 2026. The last brief covered CCI v Apple, DPDP implementation, and Bombay HC IT Rules decision."
 
 ### `/week` or "@week"
 Generate weekly summary:
@@ -365,7 +393,8 @@ tmt-legal-intelligence/
 │   │   └── new_items.json    # Pre-fetched RSS items (auto-updated)
 │   ├── state/                # Tracking state for automation
 │   │   ├── seen_items.db     # SQLite: tracks processed URLs
-│   │   └── page_hashes.json  # Content hashes for change detection
+│   │   ├── page_hashes.json  # Content hashes for change detection
+│   │   └── brief_state.json  # Tracks items already reported in briefs
 │   ├── statutes/             # Organized statutes by focus area
 │   ├── judgements/           # Court decisions
 │   └── official-reports/     # Government reports

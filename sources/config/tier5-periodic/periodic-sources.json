@@ -4,6 +4,7 @@
   "check_frequency": "monthly",
   "description": "Monthly monitoring - specialized sectors, research, and niche sources",
   "source_count": 248,
+  "actual_count": 248,
   "categories": {
     "specialized_drones": 18,
     "specialized_space": 15,
@@ -167,12 +168,13 @@
       "name": "SpaceNews",
       "url": "https://spacenews.com",
       "type": "news",
-      "method": "websearch",
+      "method": "rss",
       "search_query": "site:spacenews.com India",
       "focus_areas": [
         "Space-Technology"
       ],
-      "enabled": true
+      "enabled": true,
+      "rss": "https://spacenews.com/comments/feed/"
     },
     {
       "id": "space_policy_online",
@@ -1402,6 +1404,1665 @@
       "method": "webfetch",
       "focus_areas": [
         "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "drone_below",
+      "name": "Drone Below",
+      "url": "https://www.dronebelow.com",
+      "rss": "https://www.dronebelow.com/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "uas_vision",
+      "name": "UAS Vision",
+      "url": "https://www.uasvision.com",
+      "rss": "https://www.uasvision.com/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "drone_dj",
+      "name": "DroneDJ",
+      "url": "https://dronedj.com",
+      "rss": "https://dronedj.com/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation"
+      ],
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aai_drones",
+      "name": "AAI Drones",
+      "url": "https://www.aai.aero",
+      "type": "regulator",
+      "method": "websearch",
+      "search_query": "site:aai.aero drone UAV",
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hal_india",
+      "name": "HAL India",
+      "url": "https://hal-india.co.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Drones-eVTOL",
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bhel",
+      "name": "BHEL",
+      "url": "https://www.bhel.com",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "garuda_aerospace",
+      "name": "Garuda Aerospace",
+      "url": "https://garudaaerospace.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ideaforge",
+      "name": "ideaForge",
+      "url": "https://www.ideaforge.co.in",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true,
+      "rss": "https://www.ideaforge.co.in/feed/"
+    },
+    {
+      "id": "skylark_drones",
+      "name": "Skylark Drones",
+      "url": "https://www.skylarkdrones.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Drones-eVTOL"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "antrix",
+      "name": "Antrix Corporation",
+      "url": "https://www.antrix.co.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nsil",
+      "name": "NewSpace India Limited",
+      "url": "https://www.nsilindia.co.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dos",
+      "name": "Department of Space",
+      "url": "https://www.isro.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "skyroot",
+      "name": "Skyroot Aerospace",
+      "url": "https://skyroot.in",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "agnikul",
+      "name": "Agnikul Cosmos",
+      "url": "https://agnikul.in",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true,
+      "rss": "https://agnikul.in/feed/"
+    },
+    {
+      "id": "pixxel",
+      "name": "Pixxel",
+      "url": "https://www.pixxel.space",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bellatrix",
+      "name": "Bellatrix Aerospace",
+      "url": "https://www.bellatrixaerospace.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dhruva_space",
+      "name": "Dhruva Space",
+      "url": "https://www.dhruvaspace.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "satellitetoday",
+      "name": "Via Satellite",
+      "url": "https://www.satellitetoday.com",
+      "rss": "https://www.satellitetoday.com/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Space-Technology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "web3_india",
+      "name": "Web3 India",
+      "url": "https://web3.foundation",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "Web3 India regulation policy",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "crypto_india",
+      "name": "Crypto India",
+      "url": "https://www.coinpedia.org",
+      "rss": "https://coinpedia.org/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "wazirx_blog",
+      "name": "WazirX Blog",
+      "url": "https://blog.wazirx.com",
+      "rss": "https://blog.wazirx.com/feed/",
+      "type": "industry",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "coindcx_blog",
+      "name": "CoinDCX Blog",
+      "url": "https://blog.coindcx.com",
+      "rss": "https://blog.coindcx.com/feed/",
+      "type": "industry",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "zebpay_blog",
+      "name": "ZebPay Blog",
+      "url": "https://zebpay.com/blog",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true,
+      "rss": "https://zebpay.com/feed"
+    },
+    {
+      "id": "polygon_blog",
+      "name": "Polygon Blog",
+      "url": "https://polygon.technology/blog",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "chainalysis",
+      "name": "Chainalysis",
+      "url": "https://www.chainalysis.com",
+      "rss": "https://blog.chainalysis.com/feed/",
+      "type": "industry",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "messari",
+      "name": "Messari",
+      "url": "https://messari.io",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:messari.io India regulation",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "decrypt",
+      "name": "Decrypt",
+      "url": "https://decrypt.co",
+      "rss": "https://decrypt.co/feed",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bankless",
+      "name": "Bankless",
+      "url": "https://www.bankless.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:bankless.com India",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "enabled": true,
+      "rss": "https://feeds.flightcast.com/p83fuj0y0u58o82l41xei7zo.xml"
+    },
+    {
+      "id": "threat_intel",
+      "name": "Threat Intelligence",
+      "url": "https://www.recordedfuture.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:recordedfuture.com India cyber",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true,
+      "rss": "https://www.recordedfuture.com/feed"
+    },
+    {
+      "id": "mandiant",
+      "name": "Mandiant",
+      "url": "https://www.mandiant.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:mandiant.com India",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cisco_talos",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com",
+      "rss": "https://blog.talosintelligence.com/feeds/posts/default",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kaspersky_india",
+      "name": "Kaspersky India",
+      "url": "https://www.kaspersky.co.in",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true,
+      "rss": "https://www.kaspersky.co.in/blog/feed/"
+    },
+    {
+      "id": "symantec_india",
+      "name": "Symantec India",
+      "url": "https://www.broadcom.com/company/newsroom",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "Symantec India cyber",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "palo_alto_india",
+      "name": "Palo Alto Networks India",
+      "url": "https://www.paloaltonetworks.com",
+      "type": "industry",
+      "method": "rss",
+      "search_query": "site:paloaltonetworks.com India",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true,
+      "rss": "https://www.paloaltonetworks.com/blog/feed/"
+    },
+    {
+      "id": "crowdstrike",
+      "name": "CrowdStrike",
+      "url": "https://www.crowdstrike.com",
+      "type": "industry",
+      "method": "rss",
+      "search_query": "site:crowdstrike.com India",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true,
+      "rss": "https://www.crowdstrike.com/en-us/blog/feed"
+    },
+    {
+      "id": "fortinet_india",
+      "name": "Fortinet India",
+      "url": "https://www.fortinet.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:fortinet.com India",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "check_point_india",
+      "name": "Check Point India",
+      "url": "https://www.checkpoint.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:checkpoint.com India",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sophos_india",
+      "name": "Sophos India",
+      "url": "https://www.sophos.com",
+      "type": "industry",
+      "method": "rss",
+      "search_query": "site:sophos.com India",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true,
+      "rss": "https://www.sophos.com/en-gb/blog/feed"
+    },
+    {
+      "id": "trellix_india",
+      "name": "Trellix India",
+      "url": "https://www.trellix.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:trellix.com India",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cyble",
+      "name": "Cyble",
+      "url": "https://cyble.com",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true,
+      "rss": "https://cyble.com/feed/"
+    },
+    {
+      "id": "quick_heal",
+      "name": "Quick Heal",
+      "url": "https://www.quickheal.co.in",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "subex",
+      "name": "Subex",
+      "url": "https://www.subex.com",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Cybersecurity",
+        "Telecommunications"
+      ],
+      "enabled": true,
+      "rss": "https://www.subex.com/feed/"
+    },
+    {
+      "id": "hugging_face",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "stability_ai",
+      "name": "Stability AI",
+      "url": "https://stability.ai",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cohere_ai",
+      "name": "Cohere",
+      "url": "https://cohere.ai",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "meta_ai",
+      "name": "Meta AI",
+      "url": "https://ai.meta.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ibm_ai",
+      "name": "IBM AI",
+      "url": "https://www.ibm.com/artificial-intelligence",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "IBM AI India",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "amazon_science",
+      "name": "Amazon Science",
+      "url": "https://www.amazon.science",
+      "type": "industry",
+      "method": "rss",
+      "search_query": "site:amazon.science India AI",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://www.amazon.science/index.rss"
+    },
+    {
+      "id": "intel_ai",
+      "name": "Intel AI",
+      "url": "https://www.intel.com/content/www/us/en/artificial-intelligence/overview.html",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "Intel AI India",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "qualcomm_ai",
+      "name": "Qualcomm AI",
+      "url": "https://www.qualcomm.com/research/artificial-intelligence",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "Qualcomm AI India",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tcs_ai",
+      "name": "TCS AI",
+      "url": "https://www.tcs.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:tcs.com AI artificial intelligence",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "infosys_ai",
+      "name": "Infosys AI",
+      "url": "https://www.infosys.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:infosys.com AI artificial intelligence",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "wipro_ai",
+      "name": "Wipro AI",
+      "url": "https://www.wipro.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:wipro.com AI artificial intelligence",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hcl_ai",
+      "name": "HCL AI",
+      "url": "https://www.hcltech.com",
+      "type": "industry",
+      "method": "websearch",
+      "search_query": "site:hcltech.com AI artificial intelligence",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tech_mahindra_ai",
+      "name": "Tech Mahindra AI",
+      "url": "https://www.techmahindra.com",
+      "type": "industry",
+      "method": "rss",
+      "search_query": "site:techmahindra.com AI artificial intelligence",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://www.techmahindra.com/rss.xml"
+    },
+    {
+      "id": "wadhwani_ai",
+      "name": "Wadhwani AI",
+      "url": "https://www.wadhwaniai.org",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://www.wadhwaniai.org/feed/"
+    },
+    {
+      "id": "ai4bharat",
+      "name": "AI4Bharat",
+      "url": "https://ai4bharat.org",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "artpark",
+      "name": "ARTPARK",
+      "url": "https://artpark.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ml_india",
+      "name": "ML India",
+      "url": "https://mlindia.org",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "waymo",
+      "name": "Waymo",
+      "url": "https://waymo.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cruise",
+      "name": "Cruise",
+      "url": "https://www.getcruise.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "url": "https://aurora.tech",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "argo_ai",
+      "name": "Argo AI",
+      "url": "https://www.argo.ai",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ola_electric",
+      "name": "Ola Electric",
+      "url": "https://olaelectric.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ather_energy",
+      "name": "Ather Energy",
+      "url": "https://www.atherenergy.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tata_ev",
+      "name": "Tata EV",
+      "url": "https://ev.tatamotors.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mahindra_ev",
+      "name": "Mahindra EV",
+      "url": "https://www.mahindraelectric.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ibm_quantum",
+      "name": "IBM Quantum",
+      "url": "https://www.ibm.com/quantum",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Quantum-Computing"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "google_quantum",
+      "name": "Google Quantum AI",
+      "url": "https://quantumai.google",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Quantum-Computing"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "microsoft_quantum",
+      "name": "Microsoft Quantum",
+      "url": "https://azure.microsoft.com/en-us/solutions/quantum-computing/",
+      "type": "industry",
+      "method": "rss",
+      "search_query": "Microsoft Azure Quantum India",
+      "focus_areas": [
+        "Quantum-Computing"
+      ],
+      "enabled": true,
+      "rss": "https://azure.microsoft.com/en-us/blog/feed/"
+    },
+    {
+      "id": "tifr",
+      "name": "TIFR",
+      "url": "https://www.tifr.res.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "Quantum-Computing"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rri_bangalore",
+      "name": "Raman Research Institute",
+      "url": "https://www.rri.res.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "Quantum-Computing"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "qnl_india",
+      "name": "QNu Labs",
+      "url": "https://www.qnulabs.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Quantum-Computing"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "iqm",
+      "name": "IQM",
+      "url": "https://www.meetiqm.com",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Quantum-Computing"
+      ],
+      "enabled": true,
+      "rss": "https://meetiqm.com/feed/"
+    },
+    {
+      "id": "nature_biotech",
+      "name": "Nature Biotechnology",
+      "url": "https://www.nature.com/nbt/",
+      "type": "academic_journal",
+      "method": "rss",
+      "search_query": "site:nature.com/nbt India",
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true,
+      "rss": "https://www.nature.com/nbt.rss"
+    },
+    {
+      "id": "biotech_india",
+      "name": "Biotech India",
+      "url": "https://www.biotechindia.in",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "genengnews",
+      "name": "GEN",
+      "url": "https://www.genengnews.com",
+      "rss": "https://www.genengnews.com/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fiercebiotech",
+      "name": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com",
+      "rss": "https://www.fiercebiotech.com/feed",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "biocon",
+      "name": "Biocon",
+      "url": "https://www.biocon.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "serum_institute",
+      "name": "Serum Institute",
+      "url": "https://www.seruminstitute.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dr_reddys",
+      "name": "Dr. Reddy's Labs",
+      "url": "https://www.drreddys.com",
+      "type": "industry",
+      "method": "webfetch",
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cipla",
+      "name": "Cipla",
+      "url": "https://www.cipla.com",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true,
+      "rss": "https://www.cipla.com/rss.xml"
+    },
+    {
+      "id": "sun_pharma",
+      "name": "Sun Pharma",
+      "url": "https://www.sunpharma.com",
+      "type": "industry",
+      "method": "rss",
+      "focus_areas": [
+        "Biotechnology"
+      ],
+      "enabled": true,
+      "rss": "https://sunpharma.com/feed/"
+    },
+    {
+      "id": "nature_ai",
+      "name": "Nature Machine Intelligence",
+      "url": "https://www.nature.com/natmachintell/",
+      "type": "academic_journal",
+      "method": "rss",
+      "search_query": "site:nature.com/natmachintell India",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://www.nature.com/natmachintell.rss"
+    },
+    {
+      "id": "science_mag_ai",
+      "name": "Science Magazine AI",
+      "url": "https://www.science.org",
+      "type": "academic_journal",
+      "method": "websearch",
+      "search_query": "site:science.org AI India regulation",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pnas",
+      "name": "PNAS",
+      "url": "https://www.pnas.org",
+      "type": "academic_journal",
+      "method": "rss",
+      "search_query": "site:pnas.org India technology policy",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.pnas.org/action/showFeed?ui=3d9&mi=3bryy4&type=search&feed=rss&query=%2526DOResourceTypeId%253Djournal-club%2526content%253DdigitalObject%2526sortBy%253DEarliest%2526target%253Ddigital-object-search"
+    },
+    {
+      "id": "world_economic_forum",
+      "name": "WEF",
+      "url": "https://www.weforum.org",
+      "type": "international_organization",
+      "method": "websearch",
+      "search_query": "site:weforum.org India technology regulation",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "g20_digital",
+      "name": "G20 Digital Economy",
+      "url": "https://www.g20.org",
+      "type": "international_organization",
+      "method": "websearch",
+      "search_query": "G20 digital economy India",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "apec_digital",
+      "name": "APEC Digital Economy",
+      "url": "https://www.apec.org",
+      "type": "international_organization",
+      "method": "rss",
+      "search_query": "APEC digital economy",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.apec.org/feeds/rss"
+    },
+    {
+      "id": "asean_digital",
+      "name": "ASEAN Digital",
+      "url": "https://asean.org",
+      "type": "international_organization",
+      "method": "rss",
+      "search_query": "ASEAN digital economy",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://asean.org/feed/"
+    },
+    {
+      "id": "brics_digital",
+      "name": "BRICS Digital",
+      "url": "https://brics2023.gov.za",
+      "type": "international_organization",
+      "method": "websearch",
+      "search_query": "BRICS digital technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "jharkhand_it",
+      "name": "Jharkhand IT",
+      "url": "https://jharkhand.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Jharkhand IT policy technology",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bihar_it",
+      "name": "Bihar IT",
+      "url": "https://state.bihar.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Bihar IT policy technology",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "chandigarh_it",
+      "name": "Chandigarh IT",
+      "url": "https://chandigarh.gov.in",
+      "type": "state_government",
+      "method": "rss",
+      "search_query": "Chandigarh IT policy",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://chandigarh.gov.in/rss.xml"
+    },
+    {
+      "id": "haryana_it",
+      "name": "Haryana IT",
+      "url": "https://haryana.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Haryana IT policy technology",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "punjab_it",
+      "name": "Punjab IT",
+      "url": "https://punjab.gov.in",
+      "type": "state_government",
+      "method": "websearch",
+      "search_query": "Punjab IT policy technology",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "croatia_azop",
+      "name": "Croatia AZOP",
+      "url": "https://azop.hr",
+      "type": "international_regulator",
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://azop.hr/feed/"
+    },
+    {
+      "id": "bulgaria_cpdp",
+      "name": "Bulgaria CPDP",
+      "url": "https://www.cpdp.bg",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "slovakia_uoou",
+      "name": "Slovakia UOOU",
+      "url": "https://dataprotection.gov.sk",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "slovenia_ip",
+      "name": "Slovenia IP",
+      "url": "https://www.ip-rs.si",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "estonia_aki",
+      "name": "Estonia AKI",
+      "url": "https://www.aki.ee",
+      "type": "international_regulator",
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.aki.ee/rss-feeds/rss.xml"
+    },
+    {
+      "id": "latvia_dvi",
+      "name": "Latvia DVI",
+      "url": "https://www.dvi.gov.lv",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "lithuania_ada",
+      "name": "Lithuania ADA",
+      "url": "https://vdai.lrv.lt",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cyprus_cdp",
+      "name": "Cyprus CDP",
+      "url": "https://www.dataprotection.gov.cy",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "malta_idpc",
+      "name": "Malta IDPC",
+      "url": "https://idpc.org.mt",
+      "type": "international_regulator",
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "iceland_dpa",
+      "name": "Iceland DPA",
+      "url": "https://www.personuvernd.is",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "liechtenstein_dsa",
+      "name": "Liechtenstein DSA",
+      "url": "https://www.datenschutzstelle.li",
+      "type": "international_regulator",
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.datenschutzstelle.li/rss/aktuelles01"
+    },
+    {
+      "id": "uruguay_urcdp",
+      "name": "Uruguay URCDP",
+      "url": "https://www.gub.uy/unidad-reguladora-control-datos-personales/",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "peru_anpd",
+      "name": "Peru ANPD",
+      "url": "https://www.gob.pe",
+      "type": "international_regulator",
+      "method": "websearch",
+      "search_query": "Peru data protection regulation",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "costa_rica_dp",
+      "name": "Costa Rica PRODHAB",
+      "url": "https://www.prodhab.go.cr",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "qatar_dp",
+      "name": "Qatar CDP",
+      "url": "https://www.cdp.gov.qa",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bahrain_pdp",
+      "name": "Bahrain PDP",
+      "url": "https://www.pdp.gov.bh",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "jordan_pdpc",
+      "name": "Jordan PDPC",
+      "url": "https://www.pdpc.gov.jo",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "oman_ita",
+      "name": "Oman ITA",
+      "url": "https://www.ita.gov.om",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "morocco_dp",
+      "name": "Morocco CNDP",
+      "url": "https://www.cndp.ma",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tunisia_inpdp",
+      "name": "Tunisia INPDP",
+      "url": "http://www.inpdp.nat.tn",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "senegal_cdp",
+      "name": "Senegal CDP",
+      "url": "https://www.cdp.sn",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "botswana_dp",
+      "name": "Botswana DP",
+      "url": "https://www.bocra.org.bw",
+      "type": "international_regulator",
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.bocra.org.bw/rss.xml"
+    },
+    {
+      "id": "zimbabwe_dp",
+      "name": "Zimbabwe POTRAZ",
+      "url": "https://www.potraz.gov.zw",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "uganda_nita",
+      "name": "Uganda NITA-U",
+      "url": "https://nita.go.ug",
+      "type": "international_regulator",
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://nita.go.ug/rss.xml"
+    },
+    {
+      "id": "tanzania_tcra",
+      "name": "Tanzania TCRA",
+      "url": "https://www.tcra.go.tz",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "zambia_zicta",
+      "name": "Zambia ZICTA",
+      "url": "https://www.zicta.zm",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rwanda_rura",
+      "name": "Rwanda RURA",
+      "url": "https://www.rura.rw",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ethiopia_eic",
+      "name": "Ethiopia ICT Authority",
+      "url": "https://www.mcit.gov.et",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cameroon_antic",
+      "name": "Cameroon ANTIC",
+      "url": "https://www.antic.cm",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cote_divoire_artci",
+      "name": "Cote d'Ivoire ARTCI",
+      "url": "https://www.artci.ci",
+      "type": "international_regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "itu_asia",
+      "name": "ITU Asia Pacific",
+      "url": "https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific",
+      "type": "international_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Telecom",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "apu_telecommunications",
+      "name": "APT",
+      "url": "https://www.apt.int",
+      "type": "international_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Telecom",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "saarc_it",
+      "name": "SAARC Secretariat",
+      "url": "https://www.saarc-sec.org",
+      "type": "international_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bimstec",
+      "name": "BIMSTEC",
+      "url": "https://bimstec.org",
+      "type": "international_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "asean_digital",
+      "name": "ASEAN Digital Ministers",
+      "url": "https://asean.org/our-communities/economic-community/digital-economy",
+      "type": "international_body",
+      "method": "rss",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://asean.org/feed/"
+    },
+    {
+      "id": "au_digital_transformation",
+      "name": "African Union Digital",
+      "url": "https://au.int/en/digital-transformation-strategy",
+      "type": "international_body",
+      "method": "rss",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://au.int/rss.xml"
+    },
+    {
+      "id": "unescap_ict",
+      "name": "UNESCAP ICT",
+      "url": "https://www.unescap.org/our-work/ict-disaster-risk-reduction",
+      "type": "international_body",
+      "method": "rss",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.unescap.org/rss.xml"
+    },
+    {
+      "id": "apnic",
+      "name": "APNIC",
+      "url": "https://www.apnic.net",
+      "type": "international_body",
+      "method": "rss",
+      "focus_areas": [
+        "Telecom",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.apnic.net/feed/"
+    },
+    {
+      "id": "icann_apac",
+      "name": "ICANN APAC",
+      "url": "https://www.icann.org/en/global-domains-division/apac",
+      "type": "international_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Telecom",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pacnog",
+      "name": "PACNOG",
+      "url": "https://www.pacnog.org",
+      "type": "international_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Telecom",
         "International-Comparative"
       ],
       "enabled": true

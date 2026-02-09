@@ -7,6 +7,7 @@ Detects when pages have been updated and flags them for Claude to review.
 
 Usage:
     python monitor_pages.py --tier=1              # Monitor Tier 1 webfetch sources
+    python monitor_pages.py --source=source_id    # Monitor specific webfetch source
     python monitor_pages.py --tier=1 --dry-run    # Preview without saving
     python monitor_pages.py --all                 # Monitor all tiers
 """
@@ -134,7 +135,7 @@ def extract_links(html: str, base_url: str) -> list[dict]:
     return links
 
 
-def load_source_configs(tiers: list[int]) -> list[dict]:
+def load_source_configs(tiers: list[int], source_id: str = None) -> list[dict]:
     """Load source configurations for specified tiers."""
     tier_dirs = {
         1: "tier1-critical",
@@ -160,6 +161,9 @@ def load_source_configs(tiers: list[int]) -> list[dict]:
                         s for s in config.get("sources", [])
                         if s.get("method") == "webfetch" and s.get("enabled", True)
                     ]
+                    # If source_id specified, filter to that source only
+                    if source_id:
+                        webfetch_sources = [s for s in webfetch_sources if s.get("id") == source_id]
                     for source in webfetch_sources:
                         source["tier"] = tier
                     sources.extend(webfetch_sources)
@@ -223,6 +227,7 @@ def monitor_source(source: dict, stored_hashes: dict) -> list[dict]:
     """Monitor all sections of a single source."""
     results = []
     source_id = source.get("id", "unknown")
+    focus_areas = source.get("focus_areas", ["all"])
 
     # Get URLs to check
     sections = source.get("sections", [])
@@ -237,6 +242,7 @@ def monitor_source(source: dict, stored_hashes: dict) -> list[dict]:
 
             if section_url:
                 result = check_single_page(source, section_url, section_name, stored_hashes)
+                result["focus_areas"] = focus_areas  # Add focus areas to result
                 results.append(result)
                 time.sleep(1)  # Rate limiting between sections
     else:
@@ -244,6 +250,7 @@ def monitor_source(source: dict, stored_hashes: dict) -> list[dict]:
         main_url = source.get("url", "")
         if main_url:
             result = check_single_page(source, main_url, "main", stored_hashes)
+            result["focus_areas"] = focus_areas  # Add focus areas to result
             results.append(result)
 
     return results
@@ -270,6 +277,7 @@ def main():
     parser = argparse.ArgumentParser(description="Monitor web pages for changes")
     parser.add_argument("--tier", type=int, choices=[1, 2, 3, 4, 5], help="Tier to monitor (1-5)")
     parser.add_argument("--all", action="store_true", help="Monitor all tiers")
+    parser.add_argument("--source", type=str, help="Monitor specific source by ID")
     parser.add_argument("--dry-run", action="store_true", help="Preview without saving hashes")
     parser.add_argument("--output", type=str, help="Output file path")
     args = parser.parse_args()
@@ -279,15 +287,24 @@ def main():
         tiers = [1, 2, 3, 4, 5]
     elif args.tier:
         tiers = [args.tier]
+    elif args.source:
+        # When monitoring a specific source, check all tiers
+        tiers = [1, 2, 3, 4, 5]
     else:
         tiers = [1]  # Default to Tier 1
 
-    logger.info(f"Monitoring pages for tier(s): {tiers}")
+    if args.source:
+        logger.info(f"Monitoring specific source: {args.source}")
+    else:
+        logger.info(f"Monitoring pages for tier(s): {tiers}")
 
     # Load sources
-    sources = load_source_configs(tiers)
+    sources = load_source_configs(tiers, source_id=args.source)
     if not sources:
-        logger.warning("No webfetch sources found for specified tiers")
+        if args.source:
+            logger.warning(f"Source '{args.source}' not found or not a webfetch source")
+        else:
+            logger.warning("No webfetch sources found for specified tiers")
         return
 
     logger.info(f"Found {len(sources)} webfetch sources to monitor")
@@ -308,10 +325,41 @@ def main():
         "changes_detected": len(changes)
     }
 
+    # Create feed items from detected changes
+    feed_items = []
+    for r in results:
+        if r.get("change_detected"):
+            focus_areas = r.get("focus_areas", ["all"])
+
+            # Add notable links as feed items
+            for link in r.get("notable_links", []):
+                feed_items.append({
+                    "url": link["url"],
+                    "title": link["text"],
+                    "snippet": f"Found on {r['source_name']} - {r['section']}",
+                    "source_id": r["source_id"],
+                    "source_name": r["source_name"],
+                    "published": r["last_checked"],
+                    "focus_areas": focus_areas
+                })
+
+            # If no links, create a generic update item
+            if not r.get("notable_links"):
+                feed_items.append({
+                    "url": r["url"],
+                    "title": f"Updated: {r['source_name']} - {r['section']}",
+                    "snippet": "Page content has been updated. Check the source for details.",
+                    "source_id": r["source_id"],
+                    "source_name": r["source_name"],
+                    "published": r["last_checked"],
+                    "focus_areas": focus_areas
+                })
+
     output = {
         "checked_at": datetime.now(timezone.utc).isoformat(),
         "tiers": tiers,
         "stats": stats,
+        "items": feed_items,  # Add items for feed view
         "page_changes": [
             {
                 "source_id": r["source_id"],
@@ -355,12 +403,15 @@ def main():
             try:
                 with open(output_path) as f:
                     existing = json.load(f)
-                # Merge page_changes into existing
+                # Merge items and page_changes into existing
+                existing_items = existing.get("items", [])
+                existing_items.extend(output["items"])
+                existing["items"] = existing_items
                 existing["page_changes"] = output["page_changes"]
                 existing["page_monitor_stats"] = stats
                 with open(output_path, "w") as f:
                     json.dump(existing, f, indent=2)
-                logger.info(f"Merged page changes into: {output_path}")
+                logger.info(f"Merged {len(output['items'])} items and page changes into: {output_path}")
             except (json.JSONDecodeError, IOError):
                 # Write standalone output
                 with open(output_path, "w") as f:

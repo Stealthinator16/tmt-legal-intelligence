@@ -1,0 +1,69 @@
+{
+  "gathered_at": "2026-01-25T00:00:00Z",
+  "tier": 1,
+  "last_brief_date": "2026-01-24",
+  "sources_checked": {
+    "rss_feeds": ["medianama", "iff", "indconlaw", "livelaw", "barandbench", "spicyip", "trai", "the_dialogue", "edpb", "sflc_india", "nlsiu_blog"],
+    "page_monitoring": ["prs_legislative", "meity_main", "dot_main", "rbi_fintech", "cci_digital", "certin", "vidhi_centre", "cis_india", "ico_uk"],
+    "websearch": ["egazette_india", "supreme_court", "pib_meity", "delhi_hc", "ftc_tech"]
+  },
+  "findings": [
+    {
+      "source_id": "pib_meity",
+      "source_name": "PIB - MeitY Press Releases",
+      "title": "Government notifies DPDP Rules to empower citizens and protect privacy",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014",
+      "published": "2025-11-14",
+      "focus_areas": ["Data-Protection", "DPDP-Act"],
+      "status": "DUPLICATE - Already reported on 2026-01-24 as 'DPDP Act Implementation'",
+      "include_in_brief": false
+    },
+    {
+      "source_id": "delhi_hc",
+      "source_name": "Delhi High Court",
+      "title": "AI-Generated Content Injunction - Jr. NTR Personality Rights Case",
+      "url": "https://www.mondaq.com/india/privacy-protection/1734306/data-privacy-ai-and-technology-newsletter-%7C-january-2026",
+      "published": "2025-12-22",
+      "focus_areas": ["AI-Regulation", "IP-Copyright", "Constitutional-Rights"],
+      "snippet": "Delhi HC granted ex-parte ad-interim injunction restraining unauthorized entities from commercially exploiting personality and publicity rights of actor Jr. NTR, including through AI-generated content. Court ordered e-commerce platforms and intermediaries to comply within 72 hours.",
+      "status": "NEW",
+      "include_in_brief": true
+    },
+    {
+      "source_id": "delhi_hc",
+      "source_name": "Delhi High Court",
+      "title": "Enhanced e-KYC and Disclosure for Domain Registrations - Dabur Case",
+      "url": "https://www.mondaq.com/india/privacy-protection/1734306/data-privacy-ai-and-technology-newsletter-%7C-january-2026",
+      "published": "2025-12-24",
+      "focus_areas": ["Cybersecurity", "E-Commerce", "Platform-Regulation"],
+      "snippet": "Delhi HC mandated e-KYC and enhanced disclosure obligations for domain name registrations to curb brand impersonation and online fraud in Dabur India Limited vs. Ashok Kumar & Ors.",
+      "status": "NEW",
+      "include_in_brief": true
+    },
+    {
+      "source_id": "ftc_tech",
+      "source_name": "US FTC - Technology",
+      "title": "Age Verification Technologies Workshop",
+      "url": "https://www.ftc.gov/news-events/events/2026/01/age-verification-technologies-workshop",
+      "published": "2026-01-21",
+      "focus_areas": ["International-Comparative", "Data-Protection", "Platform-Regulation"],
+      "snippet": "FTC announced agenda for January 28, 2026 workshop examining age verification technologies. Workshop will be held online only.",
+      "status": "NEW",
+      "include_in_brief": true
+    }
+  ],
+  "new_items_count": 3,
+  "notes": [
+    "Pre-fetched RSS data from 2026-01-18 was stale (7 days old)",
+    "Only 1 RSS item found (Bar & Bench law course - not TMT relevant)",
+    "PRS Legislative page change detected but no TMT-specific updates found",
+    "No new E-Gazette notifications since 2026-01-24",
+    "No new Supreme Court developments found",
+    "PIB DPDP Rules notification is duplicate (already reported on 2026-01-24)",
+    "3 genuinely NEW items identified from Delhi HC and FTC"
+  ],
+  "recommendations": [
+    "Run /sync to trigger fresh automated fetching of RSS feeds and page monitoring",
+    "Current pre-fetched data is too stale for effective intelligence gathering"
+  ]
+}
