@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { ExternalLink } from "lucide-react";
 import { FeedItem } from "@/types/item";
-import { formatDistanceToNow } from "date-fns";
+import { formatDistanceToNow, isValid } from "date-fns";
 
 interface RecentItemsProps {
   items: FeedItem[];
@@ -64,9 +64,12 @@ export function RecentItems({ items, loading }: RecentItemsProps) {
                           {item.source_name}
                         </Badge>
                         <span className="text-xs text-muted-foreground">
-                          {formatDistanceToNow(new Date(item.published), {
-                            addSuffix: true,
-                          })}
+                          {(() => {
+                            const d = new Date(item.published);
+                            return isValid(d)
+                              ? formatDistanceToNow(d, { addSuffix: true })
+                              : "Unknown date";
+                          })()}
                         </span>
                       </div>
                     </div>

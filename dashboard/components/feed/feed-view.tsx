@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
-import { formatDistanceToNow, format } from "date-fns";
+import { formatDistanceToNow, format, isValid } from "date-fns";
 import {
   ExternalLink,
   Star,
@@ -19,6 +19,12 @@ import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Skeleton } from "@/components/ui/skeleton";
 import { toast } from "sonner";
+
+function safeDate(value: string | undefined | null): Date {
+  if (!value) return new Date();
+  const d = new Date(value);
+  return isValid(d) ? d : new Date();
+}
 
 interface FeedItem {
   id: number;
@@ -381,8 +387,8 @@ export function FeedView({ className }: FeedViewProps) {
                       {item.source_name}
                     </span>
                     <span>·</span>
-                    <span title={format(new Date(item.published || item.first_seen), "PPpp")}>
-                      {formatDistanceToNow(new Date(item.published || item.first_seen), { addSuffix: true })}
+                    <span title={format(safeDate(item.published || item.first_seen), "PPpp")}>
+                      {formatDistanceToNow(safeDate(item.published || item.first_seen), { addSuffix: true })}
                     </span>
                   </div>
 

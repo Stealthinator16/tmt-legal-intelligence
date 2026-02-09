@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Calendar, Tag } from "lucide-react";
 import { FeedItem } from "@/types/item";
-import { format } from "date-fns";
+import { format, isValid } from "date-fns";
 
 interface ItemCardProps {
   item: FeedItem;
@@ -33,7 +33,7 @@ export function ItemCard({ item }: ItemCardProps) {
               </Badge>
               <div className="flex items-center gap-1">
                 <Calendar className="h-3 w-3" />
-                <span>{format(new Date(item.published), "MMM d, yyyy")}</span>
+                <span>{(() => { const d = new Date(item.published); return isValid(d) ? format(d, "MMM d, yyyy") : "Unknown"; })()}</span>
               </div>
             </div>
           </div>
