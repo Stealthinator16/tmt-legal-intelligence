@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-02-08T06:42:38.299221+00:00",
+  "fetched_at": "2026-02-09T06:58:33.328522+00:00",
   "tiers": [
     1,
     2,
@@ -11,16 +11,606 @@
     "total_sources": 148,
     "successful": 136,
     "failed": 12,
-    "total_items": 2095,
-    "new_items": 129
+    "total_items": 2087,
+    "new_items": 130
   },
-  "new_items_count": 129,
+  "new_items_count": 130,
   "items": [
     {
-      "title": "Deportation sans law: Collective expulsion and non-refoulement \u2013 Part 2",
-      "url": "https://theleaflet.in/governance-and-policy/law-and-citizenship/deportation-sans-law-collective-expulsion-and-non-refoulement-part-2",
-      "published": "2026-02-07T13:17:51.701Z",
-      "snippet": "Second part of the five-part series examining the forcible expulsion of Indian citizens to Bangladesh based on unverified suspicions of illegal migration, conducted without due process",
+      "title": "Amazon\u2019s \u2018Melania\u2019 documentary stumbles in second weekend",
+      "url": "https://techcrunch.com/2026/02/08/amazons-melania-documentary-stumbles-in-second-weekend/",
+      "published": "Sun, 08 Feb 2026 22:41:31 +0000",
+      "snippet": "After a better-than-expected opening weekend in theaters, box office for Amazon\u2019s \u201cMelania\u201dfell 67%.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
+      "method": "rss"
+    },
+    {
+      "title": "Crypto.com places $70M bet on AI.com domain ahead of Super Bowl",
+      "url": "https://techcrunch.com/2026/02/08/crypto-com-places-70m-bet-on-ai-com-domain-ahead-of-super-bowl/",
+      "published": "Sun, 08 Feb 2026 20:19:47 +0000",
+      "snippet": "The purchase rewrites the domain record books -- not that the crypto industry has ever been accused of restraint when it comes to spending.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
+      "method": "rss"
+    },
+    {
+      "title": "Okay, I\u2019m slightly less mad about that \u2018Magnificent Ambersons\u2019 AI project",
+      "url": "https://techcrunch.com/2026/02/08/okay-im-slightly-less-mad-about-that-magnificent-ambersons-ai-project/",
+      "published": "Sun, 08 Feb 2026 19:36:28 +0000",
+      "snippet": "But this is still a bad idea.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
+      "method": "rss"
+    },
+    {
+      "title": "TechCrunch Mobility: Is $16B enough to build a profitable robotaxi business?",
+      "url": "https://techcrunch.com/2026/02/08/techcrunch-mobility-is-16b-enough-to-build-a-profitable-robotaxi-business/",
+      "published": "Sun, 08 Feb 2026 17:05:00 +0000",
+      "snippet": "Welcome back to TechCrunch Mobility \u2014 your central hub for news and insights on the future of transportation.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
+      "method": "rss"
+    },
+    {
+      "title": "San Francisco\u2019s pro-billionaire march draws dozens",
+      "url": "https://techcrunch.com/2026/02/08/san-franciscos-pro-billionaire-march-draws-dozens/",
+      "published": "Sun, 08 Feb 2026 16:49:48 +0000",
+      "snippet": "A march supporting California\u2019s billionaires didn\u2019t exactly draw a huge crowd on Saturday.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
+      "method": "rss"
+    },
+    {
+      "title": "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads",
+      "url": "https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/",
+      "published": "Sun, 08 Feb 2026 16:18:16 +0000",
+      "snippet": "From the first AI-generated Big Game ad courtesy of Svedka to Anthropic's beef with OpenAI, here are the biggest ads from Super Bowl LX.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "techcrunch_india",
+      "source_name": "TechCrunch India",
+      "method": "rss"
+    },
+    {
+      "title": "You need to listen to the new Mandy, Indiana record: URGH",
+      "url": "https://www.theverge.com/entertainment/875469/mandy-indiana-urgh-review",
+      "published": "2026-02-08T12:30:00-05:00",
+      "snippet": "Often, I focus on recommending older media that isn't currently getting a ton of attention. But this week, I can't stop listening to the new Mandy, Indiana album long enough to even think about anything else. It's early still, obviously, but URGH is my favorite release of 2026 so far. The band that ...",
+      "focus_areas": [
+        "International-Comparative",
+        "Platform-Regulation"
+      ],
+      "source_id": "the_verge",
+      "source_name": "The Verge",
+      "method": "rss"
+    },
+    {
+      "title": "The iPhone 17e could launch soon with MagSafe and an A19 chip",
+      "url": "https://www.theverge.com/tech/875454/iphone-17e-launching-soon-magsafe-a19",
+      "published": "2026-02-08T10:26:33-05:00",
+      "snippet": "Almost exactly one year after launching the iPhone 16e, Apple is preparing to launch the 17e, according to Mark Gurman. The iPhone 17e will feature an upgraded A19 chip from the iPhone 17 lineup, plus MagSafe charging, and move Apple's in-house cellular chips. Just as importantly, the company appare...",
+      "focus_areas": [
+        "International-Comparative",
+        "Platform-Regulation"
+      ],
+      "source_id": "the_verge",
+      "source_name": "The Verge",
+      "method": "rss"
+    },
+    {
+      "title": "Allahabad HC Imposes \u20b91 Lakh Cost for \u201cReckless\u201d Allegations Against Trial Judge; Criticizes Lower Court for Illegible \u201cNBW\u201d Order",
+      "url": "https://lawtrend.in/allahabad-hc-imposes-%e2%82%b91-lakh-cost-for-reckless-allegations-against-trial-judge-pulls-up-lower-court-for-illegible-nbw-order/?utm_source=rss&utm_medium=rss&utm_campaign=allahabad-hc-imposes-%25e2%2582%25b91-lakh-cost-for-reckless-allegations-against-trial-judge-pulls-up-lower-court-for-illegible-nbw-order",
+      "published": "Mon, 09 Feb 2026 06:39:46 +0000",
+      "snippet": "The Allahabad High Court has dismissed a transfer application filed by two accused persons, imposing an exemplary cost of Rs. 1,00,000 after finding that they made &#8220;reckless and baseless&#8221; allegations against a Presiding Officer of the Jhansi District Court. Justice Samit Gopal, while dis...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
+      "method": "rss"
+    },
+    {
+      "title": "\u0905\u0917\u094d\u0930\u093f\u092e \u091c\u092e\u093e\u0928\u0924 \u0915\u0947 \u0932\u093f\u090f \u0930\u093e\u0936\u093f \u091c\u092e\u093e \u0915\u0930\u0928\u0947 \u0915\u0940 \u0936\u0930\u094d\u0924 \u0928\u0939\u0940\u0902 \u0930\u0916\u0940 \u091c\u093e \u0938\u0915\u0924\u0940; \u0938\u0941\u092a\u094d\u0930\u0940\u092e \u0915\u094b\u0930\u094d\u091f \u0928\u0947 \u091d\u093e\u0930\u0916\u0902\u0921 \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0915\u0947 \u0906\u0926\u0947\u0936 \u0915\u094b \u092c\u0924\u093e\u092f\u093e \u201c\u092c\u0947\u0939\u0926 \u0926\u0941\u0930\u094d\u092d\u093e\u0917\u094d\u092f\u092a\u0942\u0930\u094d\u0923\u201d",
+      "url": "https://lawtrend.in/supreme-court-anticipatory-bail-deposit-condition-jharkhand-hc/?utm_source=rss&utm_medium=rss&utm_campaign=supreme-court-anticipatory-bail-deposit-condition-jharkhand-hc",
+      "published": "Mon, 09 Feb 2026 06:13:49 +0000",
+      "snippet": "\u0938\u0941\u092a\u094d\u0930\u0940\u092e \u0915\u094b\u0930\u094d\u091f \u0928\u0947 \u091d\u093e\u0930\u0916\u0902\u0921 \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0926\u094d\u0935\u093e\u0930\u093e \u0905\u0917\u094d\u0930\u093f\u092e \u091c\u092e\u093e\u0928\u0924 \u0915\u0947 \u0932\u093f\u090f 9 \u0932\u093e\u0916 \u0930\u0941\u092a\u092f\u0947 \u0938\u0947 \u0905\u0927\u093f\u0915 \u0915\u0940 \u0930\u093e\u0936\u093f \u091c\u092e\u093e \u0915\u0930\u0928\u0947 \u0915\u0940 \u0936\u0930\u094d\u0924 \u0930\u0916\u0928\u0947 (imposing condition) \u092a\u0930 \u0915\u0921\u093c\u0940 \u0928\u093e\u0930\u093e\u091c\u0917\u0940 \u091c\u0924\u093e\u0908 \u0939\u0948\u0964 \u0915\u094b\u0930\u094d\u091f \u0928\u0947 \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0915\u0947 \u0906\u0926\u0947\u0936\u094b\u0902 \u0915\u094b &#8220;\u092c\u0947\u0939\u0926 \u0905\u0938\u093e\u092e\u093e\u0928\u094d\u092f&#8221; \u0914\u0930 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094b &#8220;\u092c\u0947\u0939\u0926 \u0926\u0941\u0930\u094d\u092d\u093e\u0917\u094d\u092f\u092a\u0942\u0930\u094d\u0923&#8221; \u0915\u0930\u093e\u0930 \u0926\u093f\u092f\u093e\u0964 \u091c\u0938\u094d\u091f\u093f\u0938 \u091c\u0947.\u092c\u0940. \u092a\u093e\u0930\u0926\u0940\u0935\u093e\u0932\u093e \u0914\u0930 ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
+      "method": "rss"
+    },
+    {
+      "title": "Application in Supreme Court Challenges Mamata Banerjee\u2019s Personal Appearance in SIR Case as \u201cConstitutionally Improper\u201d",
+      "url": "https://lawtrend.in/application-in-supreme-court-challenges-mamata-banerjees-personal-appearance-in-sir-case-as-constitutionally-improper/?utm_source=rss&utm_medium=rss&utm_campaign=application-in-supreme-court-challenges-mamata-banerjees-personal-appearance-in-sir-case-as-constitutionally-improper",
+      "published": "Mon, 09 Feb 2026 06:10:05 +0000",
+      "snippet": "A new intervention application in the Supreme Court has questioned the legality of West Bengal Chief Minister Mamata Banerjee\u2019s personal appearance and submissions before the apex court in the ongoing Special Intensive Revision (SIR) electoral roll case, calling it \u201cconstitutionally improper\u201d and \u201cl...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
+      "method": "rss"
+    },
+    {
+      "title": "Grant of Anticipatory Bail Cannot be Subject to Deposit of Any Amount; SC Terms Jharkhand HC Orders \u201cVery Unusual\u201d",
+      "url": "https://lawtrend.in/grant-of-anticipatory-bail-cannot-be-subject-to-deposit-of-any-amount-sc-terms-jharkhand-hc-orders-very-unusual/?utm_source=rss&utm_medium=rss&utm_campaign=grant-of-anticipatory-bail-cannot-be-subject-to-deposit-of-any-amount-sc-terms-jharkhand-hc-orders-very-unusual",
+      "published": "Mon, 09 Feb 2026 06:05:13 +0000",
+      "snippet": "The Supreme Court has criticized the Jharkhand High Court for imposing a condition of payment of over Rs. 9 lakh for the grant of anticipatory bail, terming the High Court&#8217;s orders &#8220;very unusual&#8221; and the situation &#8220;very unfortunate.&#8221; The Division Bench of Justice J.B. P...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
+      "method": "rss"
+    },
+    {
+      "title": "Photocopy of Power of Attorney Inadmissible Without Following Section 65 Evidence Act Procedure; Sale Deed Based on Invalid PoA Void: Supreme Court",
+      "url": "https://lawtrend.in/photocopy-of-power-of-attorney-inadmissible-without-following-section-65-evidence-act-procedure-sale-deed-based-on-invalid-poa-void-supreme-court/?utm_source=rss&utm_medium=rss&utm_campaign=photocopy-of-power-of-attorney-inadmissible-without-following-section-65-evidence-act-procedure-sale-deed-based-on-invalid-poa-void-supreme-court",
+      "published": "Mon, 09 Feb 2026 05:38:04 +0000",
+      "snippet": "The Supreme Court of India has ruled that a photocopy of a Power of Attorney (PoA) constitutes secondary evidence and cannot be relied upon to prove the authority to alienate property unless the mandatory procedure under Section 65 of the Indian Evidence Act is strictly complied with. The Division B...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
+      "method": "rss"
+    },
+    {
+      "title": "MACT Awards \u20b933.17 Lakh to Family of Engineering Student Killed in Road Accident",
+      "url": "https://lawtrend.in/mact-awards-%e2%82%b933-17-lakh-to-family-of-engineering-student-killed-in-road-accident/?utm_source=rss&utm_medium=rss&utm_campaign=mact-awards-%25e2%2582%25b933-17-lakh-to-family-of-engineering-student-killed-in-road-accident",
+      "published": "Mon, 09 Feb 2026 05:17:53 +0000",
+      "snippet": "The Motor Accident Claims Tribunal (MACT) in Thane has awarded \u20b933.17 lakh as compensation to the family of a 20-year-old engineering student who died after being hit by a motorcycle in Palghar district in December 2020. The tribunal also permitted the insurer to recover the amount from the vehicle ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "law_trend",
+      "source_name": "Law Trend",
+      "method": "rss"
+    },
+    {
+      "title": "Use tech to hone skills, improve potential: PM Narendra Modi to students",
+      "url": "https://economictimes.indiatimes.com/tech/technology/use-tech-to-hone-skills-improve-potential-pm-modi-to-students/articleshow/128100393.cms",
+      "published": "Mon, 09 Feb 2026 11:39:06 +0530",
+      "snippet": "The prime minister urged students not to be afraid of emerging technologies such as artificial intelligence, but use them to hone their skills and improve potential. The prime minister also urged students to practice previous papers and have a good sleep to perform better in examinations.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Claude\u2019s homepage throws shade at ChatGPT-maker OpenAI\u2019s ad move",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/claudes-homepage-throws-shade-at-chatgpt-maker-openais-ad-move/articleshow/128099710.cms",
+      "published": "Mon, 09 Feb 2026 11:24:14 +0530",
+      "snippet": "Anthropic has updated Claude\u2019s homepage to show what makes its AI different. Visitors are now greeted with a friendly intro, presenting Claude as a helper for working, imagining, and deep thinking and absolutely no ads. The update follows a cheeky Super Bowl advert that throws shade at ChatGPT\u2019s mov...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Australian AI infrastructure developer Firmus lands $10 billion debt package from Blackstone, Coatue",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/australian-ai-infrastructure-developer-firmus-lands-10-billion-debt-package-from-blackstone-coatue/articleshow/128095352.cms",
+      "published": "Mon, 09 Feb 2026 08:54:44 +0530",
+      "snippet": "Australian AI firm Firmus has secured a $10 billion debt funding package led by Blackstone and Coatue. The money will support the next phase of Project Southgate to build AI training and inference data centres across Australia. Developed with CDC Data Centres and Nvidia, the project targets 1.6 giga...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Taiwan says 40% shift of chip capacity to US is 'impossible'",
+      "url": "https://economictimes.indiatimes.com/tech/technology/taiwan-says-40-shift-of-chip-capacity-to-us-is-impossible/articleshow/128094798.cms",
+      "published": "Mon, 09 Feb 2026 08:43:56 +0530",
+      "snippet": "In an interview with Taiwanese television channel CTS that was broadcast late on Sunday, Taiwan Vice Premier Cheng Li-chiun said she had made it clear to Washington that Taiwan's semiconductor ecosystem, built up over decades, could not be \u200crelocated.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Arguments to begin in key US social media addiction trial",
+      "url": "https://economictimes.indiatimes.com/tech/technology/arguments-to-begin-in-key-us-social-media-addiction-trial/articleshow/128094785.cms",
+      "published": "Mon, 09 Feb 2026 08:41:41 +0530",
+      "snippet": "Arguments are set to begin Monday in a landmark US trial that could establish a legal precedent on whether social media companies deliberately designed their platforms to lead to addiction in children.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Chinese chip firm Montage Technology surges over 50% in Hong Kong debut",
+      "url": "https://economictimes.indiatimes.com/tech/technology/chinese-chip-firm-montage-technology-surges-over-50-in-hong-kong-debut/articleshow/128094666.cms",
+      "published": "Mon, 09 Feb 2026 08:40:24 +0530",
+      "snippet": "China's Montage Technology \u2060jumped more than 50% in its Hong Kong trading debut on Monday after the world's biggest memory interconnect chip supplier raised HK$7.04 billion ($900 million) in a share sale to mainly fund research.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "UAE firm G42, Vietnamese firms in deal to develop AI infrastructure in Vietnam",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/uae-firm-g42-vietnamese-firms-in-deal-to-develop-ai-infrastructure-in-vietnam/articleshow/128094805.cms",
+      "published": "Mon, 09 Feb 2026 08:38:51 +0530",
+      "snippet": "Abu Dhabi-based \u200dtechnology group G42, \u200band a consortium \u2060comprising the FPT Corporation and the Viet Thai Group, have signed a \u200cdeal \u200cto develop sovereign AI capabilities and \u200ccloud infrastructure across Vietnam, G42 said on Monday.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Peak XV\u2019s Rajan Anandan on Frugal and Local AI, Exits and More",
+      "url": "https://economictimes.indiatimes.com/tech/technology/peak-xvs-rajan-anandan-on-frugal-and-local-ai-exits-and-more/videoshow/128093882.cms",
+      "published": "Mon, 09 Feb 2026 08:07:35 +0530",
+      "snippet": "",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Homegrown startups outperform returnee tech talent, study shows",
+      "url": "https://economictimes.indiatimes.com/tech/startups/homegrown-startups-outperform-returnee-tech-talent-study-shows/articleshow/128093332.cms",
+      "published": "Mon, 09 Feb 2026 07:58:03 +0530",
+      "snippet": "aAnew study suggests that in India\u2019s competitive startup ecosystem, domestic founders now outperform returning diaspora entrepreneurs over the long run. Research comparing 596 Indian high-tech startups finds local founders lead on longevity, revenue and valuation. The authors call this shift the \u201cre...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "SpaceX  aiming to build a self-growing city on Moon, shifts focus from Mars, Elon Musk says",
+      "url": "https://economictimes.indiatimes.com/tech/technology/spacex-shifts-focus-to-build-a-self-growing-city-on-moon-shifts-focus-from-mars-elon-musk-says/articleshow/128094210.cms",
+      "published": "Mon, 09 Feb 2026 07:34:08 +0530",
+      "snippet": "SpaceX founder Elon Musk announced a shift in focus as the company will now prioritize building a self-growing city on the Moon. This move is expected to be achievable in less than ten years. Mars colonization plans are being deferred. Musk stated that travel to the Moon is more frequent than to Mar...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Fragrance cos attract funds; fintechs up marketing game",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/fragrance-cos-attract-funds-fintechs-up-marketing-game/articleshow/128091866.cms",
+      "published": "Mon, 09 Feb 2026 07:05:28 +0530",
+      "snippet": "Happy Monday! Several early-stage fragrance companies are in talks for fresh funding. This and more in today\u2019s ETtech Morning Dispatch.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Ola trims its realty footprint to recalibrate operations, cut costs",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ola-trims-its-realty-footprint-to-recalibrate-operations-cut-costs/articleshow/128081297.cms",
+      "published": "Mon, 09 Feb 2026 06:00:00 +0530",
+      "snippet": "The company has given up over 112,000 sq ft at Prestige-RMZ Startech in Koramangala, giving up the entire seventh and eighth floors in Tower B. Global consulting and technology firm Accenture has taken over the floors, sources said.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "India eyes common standards for AI deployment at Summit",
+      "url": "https://economictimes.indiatimes.com/tech/technology/india-eyes-common-standards-for-ai-deployment-at-summit/articleshow/128081238.cms",
+      "published": "Mon, 09 Feb 2026 06:00:00 +0530",
+      "snippet": "This will play out through India's efforts to create multilateral consensus on deploying a set of open-access AI resources that lead to responsible and ethical deployment across the world, he said. \"The first is an open source repository of AI solutions for key sectors such as agriculture, healthcar...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Hackers breach govt systems in 37 countries in vast spying plot",
+      "url": "https://economictimes.indiatimes.com/tech/technology/hackers-breach-govt-systems-in-37-countries-in-vast-spying-plot/articleshow/128080291.cms",
+      "published": "Mon, 09 Feb 2026 06:00:00 +0530",
+      "snippet": "The findings are part of Unit 42\u2019s latest report, The Shadow Campaigns: Uncovering Global Espionage. The investigation uncovered a coordinated hacking campaign that broke into government and critical infrastructure networks across 37 countries, including India, while scanning systems in 155 countrie...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Learning speed most important skill in age of AI: Pearson chief",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/learning-speed-most-important-skill-in-age-of-ai-pearson-chief/articleshow/128080132.cms",
+      "published": "Mon, 09 Feb 2026 06:00:00 +0530",
+      "snippet": "Rather than eliminating work, AI is fundamentally redesigning how jobs are done, forcing companies and workers to rethink how quickly they learn new skills, Abbosh said. \u201cAI is not wiping out jobs. It is changing every job,\u201d he said. \u201cThe half-life of skills is shrinking fast. Learning speed is now ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Large fintechs press the pedal on marketing spends to boost growth",
+      "url": "https://economictimes.indiatimes.com/tech/startups/large-fintechs-press-the-pedal-on-marketing-spends-to-boost-growth/articleshow/128080009.cms",
+      "published": "Mon, 09 Feb 2026 06:00:00 +0530",
+      "snippet": "After two years of aggressive cost-cutting, India\u2019s top fintech players are loosening their purse strings for marketing in FY26. Companies like PhonePe, Paytm, and PB Fintech are dialing up ad spends to acquire new customers and capture market share.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Investors catch a big whiff of money in D2C fragrance firms",
+      "url": "https://economictimes.indiatimes.com/tech/funding/investors-catch-a-big-whiff-of-money-in-d2c-fragrance-firms/articleshow/128079907.cms",
+      "published": "Mon, 09 Feb 2026 06:00:00 +0530",
+      "snippet": "India\u2019s direct-to-consumer (D2C) fragrance and deodorant sector is seeing early signs of a funding boom, with venture capital firms negotiating multiple deals with emerging brands on the back of Gen Z demand and a wave of premiumisation. Investors see a wide gap in products priced between Rs 1,500 a...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Investors catch a big whiff of money in D2C fragrance firms",
+      "url": "https://economictimes.indiatimes.com/tech/startups/investors-catch-a-big-whiff-of-money-in-d2c-fragrance-firms/articleshow/128079803.cms",
+      "published": "Mon, 09 Feb 2026 06:00:00 +0530",
+      "snippet": "India\u2019s direct-to-consumer (D2C) fragrance and deodorant sector is seeing early signs of a funding boom, with venture capital firms negotiating multiple deals with emerging brands on the back of Gen Z demand and a wave of premiumisation. Investors see a wide gap in products priced between Rs 1,500 a...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "N Chandrasekaran gets into driver\u2019s seat for TCS AI ride",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/n-chandrasekaran-gets-into-drivers-seat-for-tcs-ai-ride/articleshow/128094422.cms",
+      "published": "Mon, 09 Feb 2026 05:30:00 +0530",
+      "snippet": "Tata Sons chairman Chandrasekaran is increasing his direct involvement with TCS to navigate the company through a critical period. This renewed focus aims to solidify TCS's position as the Tata Group's primary AI partner and explore acquisitions to accelerate its AI pivot, ensuring the protection of...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "100% of Claude's code effectively AI-written: Anthropic CPO",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/100-of-claudes-code-effectively-ai-written-anthropic-cpo/articleshow/128075643.cms",
+      "published": "Sun, 08 Feb 2026 20:49:36 +0530",
+      "snippet": "According to Krieger, the engineering process at Anthropic has moved away from traditional manual coding faster than expected. He said staff engineers now ship pull requests ranging from 2,000 to 3,000 lines that are generated entirely by the AI. Under this system, human developers have moved toward...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Realty firm Anant Raj partners with AI infra company Submer to develop data centres in India",
+      "url": "https://economictimes.indiatimes.com/tech/technology/realty-firm-anant-raj-partners-with-ai-infra-company-submer-to-develop-data-centres-in-india/articleshow/128071812.cms",
+      "published": "Sun, 08 Feb 2026 18:30:24 +0530",
+      "snippet": "In a regulatory filing, the company informed that its subsidiary Anant Raj Cloud has partnered with Submer to \"develop fully operational AI-ready data centres across India\".",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Quantum computing India's ticket to leading role in global tech space: Chandrababu Naidu",
+      "url": "https://economictimes.indiatimes.com/tech/technology/quantum-computing-indias-ticket-to-leading-role-in-global-tech-space-chandrababu-naidu/articleshow/128071635.cms",
+      "published": "Sun, 08 Feb 2026 18:22:26 +0530",
+      "snippet": "The Quantum Valley initiative launched in Andhra Pradesh is set to usher in the next wave of the information technology (IT) revolution in the country, Naidu said in an interview with PTI Videos, emphasising that it would position India as a hardware-and-manufacturing powerhouse, in addition to bein...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "UIDAI completes over 1 crore mandatory biometric updates for school children across 83,000 schools",
+      "url": "https://economictimes.indiatimes.com/tech/technology/uidai-completes-over-1-crore-mandatory-biometric-updates-for-school-children-across-83000-schools/articleshow/128071492.cms",
+      "published": "Sun, 08 Feb 2026 18:15:58 +0530",
+      "snippet": "A child under the age of five can enrol for Aadhaar by providing the photograph, name, date of birth, gender, address and birth certificate but the fingerprints and iris biometrics of a child are not captured for Aadhaar enrolment below the age of five as these indicators are not mature by then.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Venture capitalists must increase support for defence startups, says NITI Aayog's Saraswat",
+      "url": "https://economictimes.indiatimes.com/tech/startups/venture-capitalists-must-increase-support-for-defence-startups-says-niti-aayogs-saraswat/articleshow/128070625.cms",
+      "published": "Sun, 08 Feb 2026 17:44:55 +0530",
+      "snippet": "On a question about deepening defence ties with the US and the balance required to ensure the enduring partnership with Russia is not affected, he said the prime focus was on meeting India's requirements rather than \"choosing between A and B\".",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Cybersecurity breaches emerge as top risk for India Inc: FICCI-EY Survey",
+      "url": "https://economictimes.indiatimes.com/tech/technology/cybersecurity-breaches-emerge-as-top-risk-for-india-inc-ficci-ey-survey/articleshow/128070350.cms",
+      "published": "Sun, 08 Feb 2026 17:36:34 +0530",
+      "snippet": "The 'FICCI-EY Risk Survey 2026' identified changing customer demands (49%) and geopolitical events (48%) as the next two most critical risks facing businesses.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Investors chase cheaper, smaller companies as Big Tech's AI plans spook markets",
+      "url": "https://economictimes.indiatimes.com/tech/technology/investors-chase-cheaper-smaller-companies-as-big-techs-ai-plans-spook-markets/articleshow/128070208.cms",
+      "published": "Sun, 08 Feb 2026 17:32:26 +0530",
+      "snippet": "Wariness and risk aversion have swept through some corners of the market that have shone the \u2060brightest in recent years, accompanied by gains in other areas, as investors rotate their holdings. For example, the Dow Jones Industrial Average, a benchmark designed to track industrial companies, hit a r...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Avoid costly, large LLM buildouts; focus on smaller models: Sridhar Vembu on India AI strategy",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/avoid-costly-large-llm-buildouts-focus-on-smaller-models-sridhar-vembu-on-india-ai-strategy/articleshow/128069836.cms",
+      "published": "Sun, 08 Feb 2026 17:22:29 +0530",
+      "snippet": "The remarks come at a time when interest in artificial intelligence (AI) has peaked in India, with the country soon to host the India AI Impact Summit - the largest of the four major global AI congregations so far.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Popular open-source coding application targeted in Chinese-linked supply-chain attack",
+      "url": "https://economictimes.indiatimes.com/tech/technology/popular-open-source-coding-application-targeted-in-chinese-linked-supply-chain-attack/articleshow/128069696.cms",
+      "published": "Sun, 08 Feb 2026 17:14:00 +0530",
+      "snippet": "Don Ho, the French-based developer of Notepad++, said in a blog posted to the project's website on \u200cMonday that malicious actors had \u200ctargeted the update process for certain targeted users beginning in June 2025. The hackers had access to the hosting server used for Notepad++ updates until September...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Goldman Sachs teams up with Anthropic to automate banking tasks with AI agents: Report",
+      "url": "https://economictimes.indiatimes.com/tech/technology/goldman-sachs-teams-up-with-anthropic-to-automate-banking-tasks-with-ai-agents-report/articleshow/128068301.cms",
+      "published": "Sun, 08 Feb 2026 16:22:28 +0530",
+      "snippet": "The Wall Street bank has spent the past six months collaborating with Anthropic engineers embedded within its \u200bteams to build autonomous \u200bagents for tasks including trade and \u200ctransaction \u200daccounting as well as \u200dclient due diligence and onboarding, Marco Argenti \u200ctold CNBC.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Jack Dorsey's Block cutting up to 10% of staff: Report",
+      "url": "https://economictimes.indiatimes.com/tech/technology/jack-dorseys-block-cutting-up-to-10-of-staff-bloomberg-news-reports/articleshow/128068213.cms",
+      "published": "Sun, 08 Feb 2026 16:19:02 +0530",
+      "snippet": "The company, which facilitates \u200cbitcoin \u200dpurchases by acquiring the \u200dcryptocurrency and reselling it at \u200ca small premium, missed Wall Street estimates for third-quarter profit amid persistent economic uncertainty and intensifying competition in the payments sector.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Big Tech's $600 billion spending plans exacerbate investors' AI headache",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/big-techs-600-billion-spending-plans-exacerbate-investors-ai-headache/articleshow/128068126.cms",
+      "published": "Sun, 08 Feb 2026 16:17:18 +0530",
+      "snippet": "Other heavyweight technology \u200ccompanies, however, were trading higher: Nvidia rose 7%, Microsoft gained 1% and Tesla was up 4%. The benchmark S&amp;P 500 added 1.6% while the Nasdaq rose 2% although both indexes are set to \u200cfinish the week lower.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Using rooftops for air taxi take-offs, landings can help address urban congestion: Report",
+      "url": "https://economictimes.indiatimes.com/tech/technology/using-rooftops-for-air-taxi-take-offs-landings-can-help-address-urban-congestion-report/articleshow/128067960.cms",
+      "published": "Sun, 08 Feb 2026 16:11:44 +0530",
+      "snippet": "Electric Vertical Take Off and Landing (eVTOL) aircraft, or air taxis, are at a nascent stage in the emerging Advanced Air Mobility (AAM) ecosystem, and they require vertiports for their take-offs and landings.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Qualcomm tapes out 2-nanometre chip design from India; Ashwini Vaishnaw sets fabs as next frontier",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/qualcomm-tapes-out-2-nanometre-chip-design-from-india-ashwini-vaishnaw-sets-fabs-as-next-frontier/articleshow/128064472.cms",
+      "published": "Sun, 08 Feb 2026 13:50:34 +0530",
+      "snippet": "Tape-out is the point at which a chip\u2019s final design is completed, and it is sent to a fabrication facility for manufacturing. This milestone moment follows the government\u2019s recent announcement of the India Semiconductor Mission 2.0 in its Union Budget 2026.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Submer and Anant Raj Cloud team up to build sustainable AI data centres in India",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/submer-and-anant-raj-cloud-team-up-to-build-sustainable-ai-data-centres-in-india/articleshow/128063620.cms",
+      "published": "Sun, 08 Feb 2026 13:17:18 +0530",
+      "snippet": "The two companies want to build data centres across India that are ready for heavy AI work. These facilities will use high-density and energy-efficient systems. This will allow businesses and the government to run large AI programs while using less power. Europe-based Submer will provide its modular...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Elon Musk is betting another tech conglomerate to win over Wall Street",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/elon-musk-is-betting-another-tech-conglomerate-to-win-over-wall-street/articleshow/128061950.cms",
+      "published": "Sun, 08 Feb 2026 12:16:54 +0530",
+      "snippet": "Elon Musk's SpaceX and xAI are merging. The plan involves building AI data centers in space for unlimited solar power. This move aims to boost SpaceX before a potential public offering this year. Investors are watching closely as Musk pushes technological boundaries. The merger could offer SpaceX a ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "et_tech",
+      "source_name": "Economic Times Tech",
+      "method": "rss"
+    },
+    {
+      "title": "\u2018Majestic Equality of the Laws\u2019 prevails?: How protests against UGC Regulations threaten decades of jurisprudential progress on equality and justice",
+      "url": "https://theleaflet.in/equality/majestic-equality-of-the-laws-prevails-how-protests-against-ugc-regulations-threatens-decades-of-jurisprudential-progress-on-equality-and-justice",
+      "published": "2026-02-08T15:18:44.572Z",
+      "snippet": "The Chief Justice of India\u2019s recent remarks, and a spate of agitations led by the Hindu right against the new UGC Regulations to tackle caste-discrimination in campuses seek to undo our progress towards substantive equality.",
       "focus_areas": [
         "Constitutional-Rights",
         "Platform-Regulation"
@@ -30,10 +620,10 @@
       "method": "rss"
     },
     {
-      "title": "Torture Trumps Tradition: Can religion or custom give Female Genital Mutilation a carte blanche? \u2013 Part II",
-      "url": "https://theleaflet.in/women-and-children/torture-trumps-tradition-can-religion-or-custom-give-female-genital-mutilation-a-carte-blanche-part-ii",
-      "published": "2026-02-07T09:57:50.008Z",
-      "snippet": "Part II of our two-part special on the International Day of Zero Tolerance for Female Genital Mutilation explores how India is in violation of domestic, international and universal law on the issue of FGM.",
+      "title": "General Naravane Memoir Row: Understanding Rule 349(i) of Lok Sabha's Rules of Procedure",
+      "url": "https://theleaflet.in/governance-and-policy/general-naravane-memoir-row-understanding-rule-349i-of-lok-sabhas-rules-of-procedure",
+      "published": "2026-02-08T13:48:51.683Z",
+      "snippet": "A Lok Sabha face-off over excerpts from General M.M. Naravane\u2019s memoir has renewed debate on Rule 349(i) and the limits of what can be cited in Parliament.",
       "focus_areas": [
         "Constitutional-Rights",
         "Platform-Regulation"
@@ -43,573 +633,331 @@
       "method": "rss"
     },
     {
-      "title": "'Government keeps denying that FGM is practiced in India': Prof. Zenab Bano speaks to Indira Jaising",
-      "url": "https://theleaflet.in/videos-and-podcasts/government-keeps-denying-that-fgm-is-practiced-in-india-prof-zenab-bano-speaks-to-indira-jaising",
-      "published": "2026-02-07T08:32:24.868Z",
-      "snippet": "In this episode of Conversations with The Leaflet, Dr. Zenab Bano, is a former Professor at MLS University in Udaipur, and a long-time advocate against female genital mutilation (FGM), is in conversation with Indira Jaising, co-founder of The Leaflet and Senior Advocate. The discussion marks the Int...",
+      "title": "Complan appoints Vaibhav Sooryavanshi as brand ambassador",
+      "url": "https://www.afaqs.com/news/advertising/complan-appoints-vaibhav-sooryavanshi-as-brand-ambassador-11089187",
+      "published": "Mon, 09 Feb 2026 12:27:09 +0530",
+      "snippet": "Zydus Wellness&rsquo; nutritional drink brand, Complan, has appointed Indian cricket prodigy and youngest centurion, Vaibhav Sooryavanshi, as its new brand ambassador. Marking a strategic move to strengthen the brand&rsquo;s relevance in the evolving children&rsquo;s nutrition category, the appointm...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Mother\u2019s Recipe adapts Korean dishes for Indian home kitchens",
+      "url": "https://www.afaqs.com/news/advertising/mothers-recipe-adapts-korean-dishes-for-indian-home-kitchens-11089102",
+      "published": "Mon, 09 Feb 2026 12:11:25 +0530",
+      "snippet": "Mother&rsquo;s Recipe has launched a new digital-first recipe video series that adapts Korean-inspired dishes for Indian home kitchens using its range of Chinese sauces. The series focuses on recipes that are designed to be quick, accessible and compatible with commonly available ingredients.\nThe in...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Why brand value still feels optional in India",
+      "url": "https://www.afaqs.com/news/brands/why-brand-value-still-feels-optional-in-india-11088334",
+      "published": "Mon, 09 Feb 2026 05:31:37 +0530",
+      "snippet": "Consider Apple. The iPhone is priced far above most smartphones, not because its components are radically different, but because the Apple brand carries meaning. That meaning shows up as trust, aspiration and loyalty, and ultimately as pricing power and long-term value.\nThis invisible premium people...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Shoe racks outside: Inside IKEA's 'Scandi-Indian' marketing strategy",
+      "url": "https://www.afaqs.com/news/mktg/shoe-racks-outside-inside-ikeas-scandi-indian-marketing-strategy-11086103",
+      "published": "Mon, 09 Feb 2026 05:20:37 +0530",
+      "snippet": "IKEA India is turning a page. In a move to deepen its roots, the Swedish brand is shifting its narrative to feel more local, more relatable, and more \"Indian\". Through a series of recent communications, the brand has signalled a departure from purely global storytelling toward a \"fresh outlook\" that...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Elara\u2019s Karan Taurani on why investors are getting internet stocks wrong",
+      "url": "https://www.afaqs.com/marketing/elaras-karan-taurani-on-why-investors-are-getting-internet-stocks-wrong-11088150",
+      "published": "Mon, 09 Feb 2026 05:10:37 +0530",
+      "snippet": "At a time when Indian internet stocks are being scrutinised for lofty valuations and uncertain profitability timelines, Elara Capital&rsquo;s latest Signature Theme Series webinar attempted to reset the conversation.&nbsp;\nTitled &lsquo;Platform Valuation &ndash; The Internet on Eternal Playbook&rsq...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Emotion, assurance and EMIs: The first-time homebuyer mindset in India",
+      "url": "https://www.afaqs.com/news/guest-article/emotion-assurance-and-emis-the-first-time-homebuyer-mindset-in-india-11088309",
+      "published": "Mon, 09 Feb 2026 05:00:37 +0530",
+      "snippet": "For a first-time homebuyer in India, purchasing a house is never just a financial transaction. It is an emotional milestone, a social signal, and a long-term promise rolled into one.&nbsp;\nIt is the moment when rent receipts turn into ownership papers, when hesitation is replaced by permanence, and ...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Animmoov Digital Media appoints Dr. Kushal Sanghvi as advisor and director",
+      "url": "https://www.afaqs.com/people-spotting/animmoov-digital-media-appoints-dr-kushal-sanghvi-as-advisor-and-director-11087154",
+      "published": "Sun, 08 Feb 2026 14:31:20 +0530",
+      "snippet": "Dr. Kushal Sanghvi has joined Animmoov Digital Media as Advisor and Director.\nHe most recently served as Chief Revenue Officer at iCubeswire, where he played a key role in scaling the business and was instrumental in setting up the Indian Influencer Governing Council (IIGC) nationwide. Dr. Sanghvi a...",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "source_id": "afaqs",
+      "source_name": "afaqs!",
+      "method": "rss"
+    },
+    {
+      "title": "Die MSC und der (m\u00f6gliche) Bruch mit Trump",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/die-msc-und-der-mogliche-bruch-mit-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 09 Feb 2026 04:34:33 +0000",
+      "snippet": "PR\u00c4SENTIERT VON NETFLIX.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Europe\u2019s big week of crisis diplomacy",
+      "url": "https://www.politico.eu/article/europe-big-week-crisis-diplomacy-munich-conference-economic-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 09 Feb 2026 03:00:00 +0000",
+      "snippet": "The very future of the continent will be up for debate in a packed few days of top-level talks.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Nigel Farage tries to fix his Russia problem",
+      "url": "https://www.politico.eu/article/nigel-farage-tries-to-fix-russia-problem/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 09 Feb 2026 03:00:00 +0000",
+      "snippet": "Reform UK is making efforts to shake off its foreign policy headahces, from Putin to Trump.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Time for a Brexit reckoning",
+      "url": "https://www.politico.eu/article/time-for-brexit-reckoning-uk-eu-relationship/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 09 Feb 2026 03:00:00 +0000",
+      "snippet": "In order to finally move one, Britain must face the abysmal failure this project has been.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "S\u00e1nchez\u2019s Socialists suffer heavy loss in regional Spanish election",
+      "url": "https://www.politico.eu/article/pedro-sanchez-socialists-suffer-defeat-aragon-regional-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 08 Feb 2026 22:47:59 +0000",
+      "snippet": "The far-right Vox performed well, putting it in the driver's seat to secure concessions for backing the victorious conservatives.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Center left beats far right to Portugal\u2019s presidency",
+      "url": "https://www.politico.eu/article/exit-poll-center-left-wins-portuguese-presidency-antonio-seguro/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 08 Feb 2026 20:28:15 +0000",
+      "snippet": "Former Socialist Party leader Ant\u00f3nio Jos\u00e9 Seguro defeated far-right leader Andr\u00e9 Ventura to become the country\u2019s next head of state.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Trump lashes out at American Olympian who expressed negative view of US politics",
+      "url": "https://www.politico.com/news/2026/02/08/trump-hunter-hess-olympics-00770794?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 08 Feb 2026 20:07:07 +0000",
+      "snippet": "First-time Olympian Hunter Hess has drawn the ire of President Donald Trump just days after the freestyle skier spoke out against the administration\u2019s political priorities. Trump bashed Hess, who said he has \u201cmixed emotions\u201d representing the U.S. at the Italian Olympic Games due to the current polit...",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Russia accuses Ukraine of role in failed assassination of general in Moscow",
+      "url": "https://www.politico.eu/article/russia-accuses-ukraine-role-failed-assassination-of-general/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 08 Feb 2026 16:21:26 +0000",
+      "snippet": "Russian authorities said they arrested the alleged perpetrator of the assassination attempt in Dubai and brought him to Moscow thanks to the help of the United Arab Emirates authorities.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Bad Bunny created a cultural phenomenon. Can he spark a political one?",
+      "url": "https://www.politico.com/news/2026/02/08/bad-bunny-super-bowl-immigration-00770475?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 08 Feb 2026 15:26:43 +0000",
+      "snippet": "The Puerto Rican superstar\u2019s music has brought Latinos together. Democrats are jealous.",
+      "focus_areas": [
+        "International-Comparative",
+        "EU-Policy"
+      ],
+      "source_id": "politico_tech",
+      "source_name": "Politico Tech",
+      "method": "rss"
+    },
+    {
+      "title": "Call for Participation | 1st National Client Counselling Competition, 2026 at HPNLU, Shimla",
+      "url": "https://www.scconline.com/blog/post/2026/02/09/national-client-counselling-competition-2026-hpnlu-shimla/",
+      "published": "Mon, 09 Feb 2026 06:30:07 +0000",
+      "snippet": "Himachal Pradesh National Law University, Shimla announces the 1st National Client Counselling Competition, 2026 to be held online from 14&#8212;16 March 2026.\nThe post Call for Participation | 1st National Client Counselling Competition, 2026 at HPNLU, Shimla appeared first on SCC Times.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
+      "method": "rss"
+    },
+    {
+      "title": "Criminal Antecedents Have Societal Impact, Cannot Be Brushed Aside; Orissa HC Denies Bail in Extortion-Arms Act case",
+      "url": "https://www.scconline.com/blog/post/2026/02/09/criminal-antecedents-cannot-be-ignored-in-bail-orissa-hc/",
+      "published": "Mon, 09 Feb 2026 06:00:34 +0000",
+      "snippet": "&#8220;The criminal antecedents of an accused cannot be brushed lightly as it has got definite impact on the society.&#8221;\nThe post Criminal Antecedents Have Societal Impact, Cannot Be Brushed Aside; Orissa HC Denies Bail in Extortion-Arms Act case appeared first on SCC Times.",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
+      "method": "rss"
+    },
+    {
+      "title": "Public Prosecutor has no independent authority to seek police remand in absence of investigative agency\u2019s request: J&K and Ladakh HC",
+      "url": "https://www.scconline.com/blog/post/2026/02/09/public-prosecutor-cannot-seek-police-remand-without-police-request-jk-hc/",
+      "published": "Mon, 09 Feb 2026 05:30:39 +0000",
+      "snippet": "&#8220;While the co-accused were acquitted on 19-8-2013, the absconders surrendered on 25-1-2014 and were subsequently formally charged. Since the co-accused were acquitted, the impugned order merged into the final judgment, and the revision petition was rendered infructuous.&#8221;\nThe post Public ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
+      "method": "rss"
+    },
+    {
+      "title": "VIT AP School of Law, In Collaboration with Indian Society of International Law, Two-Day International Conference on \u201cPrivate International Law in the Era of New Emerging Technologies: Issues, Challenges and the Way Forward\u201d [24th \u2013 25th April 2026]",
+      "url": "https://www.scconline.com/blog/post/2026/02/09/private-international-law-emerging-technologies-conference-vit-ap-isil-2026/",
+      "published": "Mon, 09 Feb 2026 04:30:49 +0000",
+      "snippet": "VIT-AP School of Law in collaboration with the Indian Society of International Law announces a Two-Day International Conference on Private International Law and Emerging Technologies on 24&#8212;25 April 2026.\nThe post VIT AP School of Law, In Collaboration with Indian Society of International Law, ...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
+      "method": "rss"
+    },
+    {
+      "title": "Supreme Court grants anticipatory bail in Arms Act case; considers cross-case linked to civil land dispute",
+      "url": "https://www.scconline.com/blog/post/2026/02/09/sc-anticipatory-bail-granted-in-arms-act-case-amid-civil-dispute/",
+      "published": "Mon, 09 Feb 2026 03:30:52 +0000",
+      "snippet": "In the present case, the appellant is accused of assaulting the informant&#8217;s family and firing shots. The police recovered cartridges and bullets at the scene. The appellant submits that he has been falsely implicated. However, his anticipatory bail was rejected, leading to this petition.\nThe p...",
+      "focus_areas": [
+        "all"
+      ],
+      "source_id": "journal_scc",
+      "source_name": "SCC Online Blog",
+      "method": "rss"
+    },
+    {
+      "title": "Exclusive: Josh Foulger steps down as Zetwerk Electronics president",
+      "url": "https://entrackr.com/exclusive/exclusive-josh-foulger-steps-down-as-zetwerk-electronics-president-11089008",
+      "published": "Mon, 09 Feb 2026 11:29:58 +0530",
+      "snippet": "Josh Foulger, president of the electronics division at manufacturing unicorn Zetwerk, has exited the company, according to industry sources aware of the development.\nSources said the move is for personal reasons. Foulger had joined Zetwerk around two years ago to lead its consumer and electronics ma...",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce"
+      ],
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "method": "rss"
+    },
+    {
+      "title": "Chaayos crosses Rs 300 Cr revenue in FY25; EBITDA jumps 6.5X",
+      "url": "https://entrackr.com/fintrackr/chaayos-crosses-rs-300-cr-revenue-in-fy25-ebitda-jumps-65x-11088950",
+      "published": "Mon, 09 Feb 2026 11:06:28 +0530",
+      "snippet": "After flat revenue growth in FY24, tea caf&eacute; chain Chaayos staged a strong comeback in the fiscal year ended March 2025 and posted 25% revenue growth to cross the Rs 300 crore mark. During the same period, the company narrowed its losses by 53%, while EBITDA jumped 6.5 times.\nChaayos&rsquo; re...",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce"
+      ],
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "method": "rss"
+    },
+    {
+      "title": "Myntra appoints former Instacart executive Pramod Adiddam as CTO",
+      "url": "https://entrackr.com/snippets/myntra-appoints-former-instacart-executive-pramod-adiddam-as-cto-11088733",
+      "published": "Mon, 09 Feb 2026 09:51:07 +0530",
+      "snippet": "Flipkart-owned fashion ecommerce platform Myntra has appointed Pramod Adiddam as its chief technology officer (CTO), strengthening its senior leadership as the company scales its platform and expands into quick commerce.\nAccording to Myntra, Adiddam will oversee its overall technology strategy, incl...",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce"
+      ],
+      "source_id": "entrackr",
+      "source_name": "Entrackr",
+      "method": "rss"
+    },
+    {
+      "title": "Tightening the net: China\u2019s infrastructure of oppression in Iran",
+      "url": "https://www.article19.org/resources/tightening-the-net-chinas-infrastructure-of-oppression-in-iran/",
+      "published": "Mon, 09 Feb 2026 00:01:55 +0000",
+      "snippet": "Our new report, Tightening the Net: China\u2019s infrastructure of oppression in Iran offers a comprehensive analysis of the digital cooperation between the People\u2019s Republic of China and the Islamic Republic of Iran. It offers one of the few in-depth examinations of China\u2019s adverse role in the expansion...",
       "focus_areas": [
         "Constitutional-Rights",
-        "Platform-Regulation"
-      ],
-      "source_id": "the_leaflet",
-      "source_name": "The Leaflet",
-      "method": "rss"
-    },
-    {
-      "title": "Over 2,000 GCCs signal India\u2019s rising clout in AI and technology services: Union Minister Ashwini Vaishnaw",
-      "url": "https://www.livemint.com/technology/tech-news/over-2-000-gccs-signal-india-s-rising-clout-in-ai-and-technology-services-union-minister-ashwini-vaishnaw-11770485192206.html",
-      "published": "Sat, 07 Feb 2026 23:05:58 +0530",
-      "snippet": "Union Minister Ashwini Vaishnaw says India\u2019s IT sector is shifting to an AI-led services model, backed by data centres, global capability centres and updated curricula, as government, industry and academia work together to position the country as a global hub for AI solutions.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "mint_tech",
-      "source_name": "Mint Technology",
-      "method": "rss"
-    },
-    {
-      "title": "India, Malaysia pledge deeper semiconductor ties on Modi visit",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-malaysia-pledge-deeper-semiconductor-ties-on-modi-visit/articleshow/128061596.cms",
-      "published": "Sun, 08 Feb 2026 12:02:35 +0530",
-      "snippet": "India and Malaysia pledged Sunday to deepen their semiconductor partnership as the Indian Ocean neighbours ramp up trade and security links during a visit by Prime Minister Narendra Modi. \"Along with AI and digital technologies, we will advance our partnership in semiconductors, health, and food sec...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "ISM 2.0 to prioritise chip design, ecosystem partners, talent: Union minister Ashwini Vaishnaw",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ism-2-0-to-prioritise-chip-design-ecosystem-partners-talent-union-minister-ashwini-vaishnaw/articleshow/128059629.cms",
-      "published": "Sun, 08 Feb 2026 10:47:00 +0530",
-      "snippet": "India Semiconductor Mission 2.0 aims to attract global partners and build a skilled workforce. India plans to manufacture advanced chips. This initiative will boost the nation's deep tech capabilities and startup ecosystem. The government is investing significantly to achieve these goals.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Very excited to invite India to join Pax Silica, says top US official",
-      "url": "https://economictimes.indiatimes.com/tech/technology/very-excited-to-invite-india-to-join-pax-silica-says-top-us-official/articleshow/128058931.cms",
-      "published": "Sun, 08 Feb 2026 10:13:44 +0530",
-      "snippet": "The United States has invited India to join the Pax Silica initiative focused on supply chain security. This move signals strong positive momentum in US-India relations. Under Secretary of State Jacob Helberg will soon sign an agreement with the Indian government. India's vast young, technically tra...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Over 2,000 GCCs set up as India's IT moves to AI services: Union Minister Vaishnaw",
-      "url": "https://economictimes.indiatimes.com/tech/technology/over-2000-gccs-set-up-as-indias-it-moves-to-ai-services-union-minister-vaishnaw/articleshow/128039232.cms",
-      "published": "Sat, 07 Feb 2026 21:26:16 +0530",
-      "snippet": "Citing examples, Vaishnaw noted that AI-based solutions could be offered to global shipping lines and retail companies through global capability centers (GCCs) in India, creating opportunities for Indian engineers. The Union Minister for Electronics and IT added that, due to the government's focus o...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Domestic and foreign investors to get equal tax benefits on data centres: Union minister Ashwini Vaishnaw",
-      "url": "https://economictimes.indiatimes.com/tech/technology/domestic-and-foreign-investors-to-get-equal-tax-benefits-on-data-centres-union-minister-ashwini-vaishnaw/articleshow/128038084.cms",
-      "published": "Sat, 07 Feb 2026 21:03:22 +0530",
-      "snippet": "Union Minister Ashwini Vaishnaw said domestic and foreign companies will now receive equal tax benefits for data centres, providing relief to local players. The clarification follows concerns over previous advantages for global cloud providers. He added that data centres are crucial for India\u2019s AI t...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "India-US interim trade deal to boost access to advanced GPUs, data centre equipment",
-      "url": "https://economictimes.indiatimes.com/tech/technology/india-us-interim-trade-deal-to-boost-access-to-advanced-gpus-data-centres-equipments/articleshow/128037330.cms",
-      "published": "Sat, 07 Feb 2026 20:37:45 +0530",
-      "snippet": "Union Minister Ashwini Vaishnaw said India and the US are finalising an interim trade framework that will boost access to GPUs and data centre equipment. This agreement is expected to create opportunities for startups, service providers, and the wider AI ecosystem. Data centres are projected to driv...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Ride hailing app services partially impacted as drivers go on strike",
-      "url": "https://economictimes.indiatimes.com/tech/technology/ride-hailing-app-services-partially-impacted-as-drivers-go-on-strike/articleshow/128036689.cms",
-      "published": "Sat, 07 Feb 2026 19:52:45 +0530",
-      "snippet": "Ride-hailing apps such as Ola, Uber and Rapido faced sporadic disruption on Saturday as drivers staged a partial strike in several cities. The Telangana Gig and Platform Workers Union called the \u201cbreakdown\u201d to protest rules and practices of app-based transport firms. The union demanded minimum base ...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Rough ride for AI stocks in 2026",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/rough-ride-for-ai-stocks-in-2026/articleshow/128035364.cms",
-      "published": "Sat, 07 Feb 2026 19:07:48 +0530",
-      "snippet": "Tech stocks have swung sharply this year, with fears growing that huge AI investments may not turn profitable. Nasdaq has fallen despite brief rebounds, unsettling investors. Strong earnings from firms like Amazon, Alphabet and Microsoft failed to reassure markets amid plans for massive spending on ...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Sarvam AI launches Bulbul V3, wins praise for the Indic text-to-speech model",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sarvam-ai-launches-bulbul-v3-wins-praise-for-indic-text-to-speech/articleshow/128032979.cms",
-      "published": "Sat, 07 Feb 2026 17:53:49 +0530",
-      "snippet": "Per Sarvam cofounder Pratyush Kumar, Bulbul V3 is the fifth of 14 planned launches. In a study, Bulbul V3 topped the charts for 8 kHz audio, setting what Kumar called a new benchmark for speech synthesis for voice agents, with listeners tagging real failure cases to test stability, and the model rec...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "From churches to chatbots: How AI is fusing with religion",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/from-churches-to-chatbots-how-ai-is-fusing-with-religion/articleshow/128032476.cms",
-      "published": "Sat, 07 Feb 2026 17:34:29 +0530",
-      "snippet": "AI is beginning to shape how people practise faith, from pastors using custom GPTs for sermons to tools supporting spiritual growth and community life. Some worshippers turn to AI chatbots to seek meaning, forgiveness and moral guidance. However, academics and religious leaders warn of risks as AI e...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Andhra to set up AI Living Labs Foundation; HQ in Amaravati",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/andhra-to-set-up-ai-living-labs-foundation-hq-in-amaravati/articleshow/128029669.cms",
-      "published": "Sat, 07 Feb 2026 16:04:50 +0530",
-      "snippet": "The AI Living Labs Foundation will provide shared graphics processing unit (GPU) computing resources, AI tools, curated datasets and sandboxes for workforce skilling, aligned with the state's objective of inclusive digital growth and its vision of enabling 'one AI-trained individual per family'.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "After Claude Cowork and Moltbook, now Rentahuman.ai redefines human-AI workflow",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/after-claude-cowork-and-moltbook-now-rentahuman-ai-redefines-human-ai-workflow/articleshow/128028269.cms",
-      "published": "Sat, 07 Feb 2026 15:11:50 +0530",
-      "snippet": "The new platform, which positions humans as a physical extension of digital agents, has drawn attention and worry for how bluntly it reframes human labour in the age of autonomous systems.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Research symposium at India AI Impact Summit draws world's AI minds",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/research-symposium-at-india-ai-impact-summit-draws-worlds-ai-minds/articleshow/128025066.cms",
-      "published": "Sat, 07 Feb 2026 13:11:57 +0530",
-      "snippet": "The Research Symposium on 'AI and its Impact', being organised as part of the India AI Impact Summit 2026, has received a strong response from the national and global research community, with over 250 submissions.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Sam Altman defends OpenAI\u2019s ad strategy after Anthropic\u2019s Super Bowl criticism",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sam-altman-defends-openais-ad-strategy-after-anthropics-super-bowl-criticism/articleshow/128024722.cms",
-      "published": "Sat, 07 Feb 2026 13:06:29 +0530",
-      "snippet": "Reiterating OpenAI\u2019s opposition to influencing model outputs with commercial messaging, OpenAI CEO Sam Altman termed rival Anthropic\u2019s Super Bowl ads containing embedded ads inside AI systems a \u201ccrazy dystopic\u201d idea. He said OpenAI\u2019s limited advertising efforts are focussed on education rather than ...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Operation Cyber Hawk 3.0: Over 500 apprehended in Delhi Police's cyber crackdown",
-      "url": "https://economictimes.indiatimes.com/tech/technology/operation-cyber-hawk-3-0-over-500-apprehended-in-delhi-polices-cyber-crackdown/articleshow/128024387.cms",
-      "published": "Sat, 07 Feb 2026 12:58:47 +0530",
-      "snippet": "Operation Cyber Hawk 3.0 targets organised cyber fraud networks operating across multiple digital platforms. The action involves advanced technical analysis, real-time intelligence inputs, financial trail tracking and coordinated field operations to identify and dismantle cybercrime syndicates.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Uber, Ola, Rapido driver unions call for strike in Delhi, Mumbai: All that happened so far",
-      "url": "https://economictimes.indiatimes.com/tech/technology/uber-ola-rapido-driver-unions-call-for-strike-in-delhi-mumbai-all-that-happened-so-far/articleshow/128024153.cms",
-      "published": "Sat, 07 Feb 2026 12:39:06 +0530",
-      "snippet": "The call for the strike is led by the Telangana Gig and Platform Workers Union. Per the Maharashtra Kamgar Sabha, the strike is being organised in protest against the \u201cillegal\u201d bike taxi services and the \u201carbitrary\u201d fare policies followed by ride aggregators like Ola, Uber, and Rapido, besides other...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Fractal Analytics raises Rs 1,248 crore from anchor investors ahead of IPO",
-      "url": "https://economictimes.indiatimes.com/tech/technology/fractal-analytics-raises-rs-1248-crore-from-anchor-investors-ahead-of-ipo/articleshow/128000719.cms",
-      "published": "Fri, 06 Feb 2026 22:35:43 +0530",
-      "snippet": "The AI firm allocated 1.3 crore equity shares to 52 anchor investors at Rs 900 per share. Domestic mutual funds accounted for nearly 38% of the anchor book. The IPO has been priced at a discount of about 26% to its most recent private market valuation in July 2025. Noting that the company could have...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "et_tech",
-      "source_name": "Economic Times Tech",
-      "method": "rss"
-    },
-    {
-      "title": "India has changed its startup rules for deep tech",
-      "url": "https://techcrunch.com/2026/02/07/india-has-changed-its-startup-rules-for-deep-tech/",
-      "published": "Sun, 08 Feb 2026 03:30:00 +0000",
-      "snippet": "India is adjusting startup rules to help more of its deep tech startups with funding and long-term success.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
-      "method": "rss"
-    },
-    {
-      "title": "The kids \u2018picked last in gym class\u2019 gear up for Super Bowl",
-      "url": "https://techcrunch.com/2026/02/07/the-kids-picked-last-in-gym-class-gear-up-for-super-bowl/",
-      "published": "Sun, 08 Feb 2026 01:26:49 +0000",
-      "snippet": "YouTube CEO Neal Mohan is expected to be there. Apple's Tim Cook, too.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
-      "method": "rss"
-    },
-    {
-      "title": "NBA star Giannis Antetokounmpo joins Kalshi as an investor",
-      "url": "https://techcrunch.com/2026/02/07/nba-star-giannis-antetokounmpo-joins-kalshi-as-an-investor/",
-      "published": "Sat, 07 Feb 2026 21:30:41 +0000",
-      "snippet": "Antetokounmpo is the first NBA player to directly invest in Kalshi.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
-      "method": "rss"
-    },
-    {
-      "title": "New York lawmakers propose a three-year pause on new data centers",
-      "url": "https://techcrunch.com/2026/02/07/new-york-lawmakers-propose-a-three-year-pause-on-new-data-centers/",
-      "published": "Sat, 07 Feb 2026 18:23:04 +0000",
-      "snippet": "Although the bill\u2019s prospects are uncertain, New York is at least the sixth state to consider pausing construction of new data centers.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "techcrunch_india",
-      "source_name": "TechCrunch India",
-      "method": "rss"
-    },
-    {
-      "title": "Solicitar credenciamento de empresa para operar no Siscomex",
-      "url": "https://www.gov.br/pt-br/servicos/credenciar-pessoa-juridica-no-siscomex",
-      "published": "Fri, 06 Feb 2026 10:05:31 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
+        "Platform-Regulation",
         "International-Comparative"
       ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
+      "source_id": "article_19",
+      "source_name": "Article 19",
       "method": "rss"
     },
     {
-      "title": "Inscrever-se em mestrado profissional\u200b (P\u00f3s-gradua\u00e7\u00e3o Stricto Sensu)\u200b",
-      "url": "https://www.gov.br/pt-br/servicos/inscrever-se-em-mestrado-profissional200b",
-      "published": "Wed, 04 Feb 2026 16:30:00 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Consultar informa\u00e7\u00f5es sobre a vacina\u00e7\u00e3o da popula\u00e7\u00e3o",
-      "url": "https://www.gov.br/pt-br/servicos/consultar-informacoes-sobre-a-vacinacao-da-populacao",
-      "published": "Wed, 04 Feb 2026 16:13:55 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Inscrever-se em P\u00f3s-Gradua\u00e7\u00e3o Lato Sensu\u200b",
-      "url": "https://www.gov.br/pt-br/servicos/inscrever-se-em-pos-graduacao-lato-sensu200b",
-      "published": "Wed, 04 Feb 2026 10:19:28 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Inscrever Despachante e Ajudante de Despachante Aduaneiro",
-      "url": "https://www.gov.br/pt-br/servicos/inscrever-despachante-e-ajudante-aduaneiro",
-      "published": "Tue, 03 Feb 2026 16:19:01 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Consultar Habilitados a Operar no Com\u00e9rcio Exterior",
-      "url": "https://www.gov.br/pt-br/servicos/consultar-habilitados-a-operar-no-comercio-exterior",
-      "published": "Mon, 02 Feb 2026 16:34:10 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Solicitar Revis\u00e3o de Estimativa da Capacidade Financeira de Pessoa Jur\u00eddica",
-      "url": "https://www.gov.br/pt-br/servicos/solicitar-revisao-de-estimativa-da-capacidade-financeira-de-pessoa-juridica",
-      "published": "Mon, 02 Feb 2026 16:12:27 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Obter Autoriza\u00e7\u00e3o Pr\u00e9via para Transfer\u00eancia de Im\u00f3vel a Estrangeiro",
-      "url": "https://www.gov.br/pt-br/servicos/obter-autorizacao-previa-para-transferencia-de-imovel-a-estrangeiro",
-      "published": "Mon, 02 Feb 2026 10:31:35 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Inscrever-se na a\u00e7\u00e3o de desenvolvimento  LideraGOV",
-      "url": "https://www.gov.br/pt-br/servicos/inscrever-se-na-acao-de-desenvolvimento-lideragov",
-      "published": "Fri, 30 Jan 2026 14:34:46 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Realizar o diagn\u00f3stico de v\u00edrus que afetam o trato intestinal",
-      "url": "https://www.gov.br/pt-br/servicos/realizar-o-diagnostico-de-virus-que-afetam-o-trato-intestinal",
-      "published": "Wed, 28 Jan 2026 16:02:18 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Solicitar autoriza\u00e7\u00e3o de servi\u00e7o para cadastro e acompanhamento de pacientes com doen\u00e7as hemorr\u00e1gicas heredit\u00e1rias",
-      "url": "https://www.gov.br/pt-br/servicos/autorizar-servico-para-cadastro-de-pacientes-com-doencas-hemorragicas-hereditarias",
-      "published": "Fri, 23 Jan 2026 11:32:06 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Autorizar estabelecimentos e equipes de transplante",
-      "url": "https://www.gov.br/pt-br/servicos/autorizar-estabelecimentos-e-equipes-de-transplante",
-      "published": "Mon, 19 Jan 2026 14:58:23 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Apresentar a Declara\u00e7\u00e3o de Bens/Patrimonial",
-      "url": "https://www.gov.br/pt-br/servicos/apresentar-declaracao-de-bens-patrimonial-no-e-patri",
-      "published": "Thu, 08 Jan 2026 16:31:14 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Autorizar o acesso \u00e0s Declara\u00e7\u00f5es anuais de Bens/Patrimonial \u2013 Declara\u00e7\u00e3o do IRPF",
-      "url": "https://www.gov.br/pt-br/servicos/autorizar-no-e-patri-o-acesso-as-declaracoes-anuais-de-irpf",
-      "published": "Thu, 08 Jan 2026 16:30:02 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Entrar em contato com o Disque-Notifica",
-      "url": "https://www.gov.br/pt-br/servicos/entrar-em-contato-com-o-disque-notifica",
-      "published": "Wed, 17 Dec 2025 11:02:34 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Acessar teleconsultoria com especialistas na regi\u00e3o extra-amaz\u00f4nica",
-      "url": "https://www.gov.br/pt-br/servicos/acessar-teleconsultoria-com-especialistas-na-regiao-extra-amazonica",
-      "published": "Wed, 17 Dec 2025 10:56:59 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Autorizar o envio de sangue e componentes para produ\u00e7\u00e3o de reagentes",
-      "url": "https://www.gov.br/pt-br/servicos/autorizacao-para-envio-de-sangue-e-componentes-para-a-producao-de-reagentes-de-diagnostico-paineis-de-controle-de-qualidade-e-outros",
-      "published": "Wed, 17 Dec 2025 09:23:29 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Autorizar  o envio de plasma humano para a ind\u00fastria de hemoderivados",
-      "url": "https://www.gov.br/pt-br/servicos/autorizar-o-envio-de-plasma-humano-a-industria",
-      "published": "Wed, 17 Dec 2025 09:05:50 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Solicitar sangue raro para paciente espe\u00edfico ao Cadastro Nacional de Sangue Raro",
-      "url": "https://www.gov.br/pt-br/servicos/identificacao-de-doador-com-fenotipo-raro-cadastro-nacional-de-sangue-raro",
-      "published": "Tue, 16 Dec 2025 16:10:13 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Autorizar servi\u00e7o para cadastro de paciente com tratamento de Talassemias",
-      "url": "https://www.gov.br/pt-br/servicos/cadastrar-paciente-com-tratamento-de-talassemias",
-      "published": "Tue, 16 Dec 2025 15:58:04 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Solicitar autoriza\u00e7\u00e3o de servi\u00e7o para cadastro e acompanhamento de pacientes com Doen\u00e7a Falciforme",
-      "url": "https://www.gov.br/pt-br/servicos/cadastrar-paciente-com-tratamento-de-doenca-falciforme-1",
-      "published": "Tue, 16 Dec 2025 15:51:26 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Cadastrar pacientes para tratamento de coagulopatias heredit\u00e1rias",
-      "url": "https://www.gov.br/pt-br/servicos/cadastrar-paciente-com-tratamento-de-doenca-falciforme",
-      "published": "Tue, 16 Dec 2025 15:22:57 -0300",
-      "snippet": "",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "source_id": "brazil_anpd",
-      "source_name": "Brazil ANPD",
-      "method": "rss"
-    },
-    {
-      "title": "Why building climate-ready roads now is critical for our future",
-      "url": "https://yourstory.com/2026/02/why-building-climate-ready-roads-now-is-critical-for-our-future",
-      "published": "Sun, 08 Feb 2026 02:00:00 GMT",
-      "snippet": "Smart, data-driven decisions are what will help us build roads that can actually stand up to the climate challenges ahead.\nThe climate crisis is no longer a distant threat; it is happening now. Severe cyclones, floods, and heatwaves are disrupting communities across continents. These events are not",
+      "title": "Cybersecurity breaches emerge as top risk for India Inc: FICCI-EY Survey",
+      "url": "https://yourstory.com/2026/02/cybersecurity-breaches-emerge-as-top-risk-for-india-inc-ficci-ey-survey",
+      "published": "Sun, 08 Feb 2026 14:27:09 GMT",
+      "snippet": "The 'FICCI-EY Risk Survey 2026' identified changing customer demands (49 %) and geopolitical events (48 %) as the next two most critical risks facing businesses.",
       "focus_areas": [
         "all"
       ],
@@ -618,10 +966,10 @@
       "method": "rss"
     },
     {
-      "title": "Fractal Analytics raises Rs 1,248 Cr from anchor investors ahead of IPO",
-      "url": "https://yourstory.com/2026/02/fractal-analytics-ipo-anchor-investors-funding",
-      "published": "Sat, 07 Feb 2026 11:30:45 GMT",
-      "snippet": "Fractal Analytics allotted 1,38,69,499 equity shares to 52 anchor investors before its  IPO. Of the total allocation, about 38% of shares were allotted to 11 domestic mutual funds across 22 schemes.",
+      "title": "Smaller cities outpace metros in hiring growth post labour codes: Report",
+      "url": "https://yourstory.com/2026/02/report-by-blue-and-grey-collar-recruitment-platform-workindia",
+      "published": "Sun, 08 Feb 2026 14:09:35 GMT",
+      "snippet": "Among smaller markets, Kolhapur recorded the strongest increase, with job postings climbing 56.3%, followed closely by Udaipur at 55.3%. Goa registered a 23.6% rise, Vijayawada 20.2%, Kochi 17.7%, Coimbatore 14.1%, and Raipur 13.9%.",
       "focus_areas": [
         "all"
       ],
@@ -630,10 +978,10 @@
       "method": "rss"
     },
     {
-      "title": "Echoes Within: Four creators showcase evolving landscape of contemporary Indian art",
-      "url": "https://yourstory.com/2026/02/echoes-within-art-exhibition-creativity-photography",
-      "published": "Sun, 08 Feb 2026 02:30:00 GMT",
-      "snippet": "In this photo essay, we showcase a range of artworks from a four-artist exhibition at Karnataka Chitrakala Parishath.",
+      "title": "IPO-bound PhonePe targets growth in payments, merchants, new platforms",
+      "url": "https://yourstory.com/2026/02/ipo-bound-phonepe-targets-growth-in-payments-merchants-new-platforms",
+      "published": "Sun, 08 Feb 2026 09:57:01 GMT",
+      "snippet": "In its draft papers, the company said digital payments will remain the core driver of growth, supported by investments to expand its user base, addressable market and platform scale.",
       "focus_areas": [
         "all"
       ],
@@ -642,10 +990,10 @@
       "method": "rss"
     },
     {
-      "title": "Agra\u2019s Marble Craft: A Legacy Carved in Stone",
-      "url": "https://yourstory.com/2026/02/agra-marble-inlay-handicrafts-stone-idols-odop",
-      "published": "Sat, 07 Feb 2026 11:08:36 GMT",
-      "snippet": "Handicraft products made from marble and stone in Agra are admired for their refined inlay work, balanced forms, and long-lasting finish.",
+      "title": "What\u2019s next for fintech: top trends to watch in 2026",
+      "url": "https://yourstory.com/2026/02/whats-next-for-fintech-top-trends-to-watch-in-2026",
+      "published": "Mon, 09 Feb 2026 05:19:28 GMT",
+      "snippet": "Beyond UPI-led payments, India's fintech industry is shifting toward agentic, intelligence-driven platforms that learn, predict, and act on behalf of users\u2014reshaping credit, advisory, and financial access at scale.",
       "focus_areas": [
         "all"
       ],
@@ -654,10 +1002,10 @@
       "method": "rss"
     },
     {
-      "title": "India Semiconductor Mission 2.0 to strengthen chip ecosystem in India: Ashwini Vaishnaw",
-      "url": "https://yourstory.com/2026/02/india-semiconductor-mission-2-chip-ecosystem-india-ashwini-vaishnaw",
-      "published": "Sat, 07 Feb 2026 11:56:08 GMT",
-      "snippet": "The India Semiconductor Mission 2.0 aims to expand the scope of the industry, starting from chip design and manufacturing, and nurturing talent.",
+      "title": "Meet D4NP, a tech-for-good startup enabling non-profit organisations with digital tools",
+      "url": "https://yourstory.com/2026/02/meet-d4np-tech-good-startup-enabling-non-profit-organisations-with-digital-fortitude",
+      "published": "Mon, 09 Feb 2026 01:45:00 GMT",
+      "snippet": "The New Delhi-based startup not only empowers non-profits with tech grants but is also helping them build capability in GenAI.",
       "focus_areas": [
         "all"
       ],
@@ -666,10 +1014,10 @@
       "method": "rss"
     },
     {
-      "title": "Siddharthnagar\u2019s Kala Namak Rice: From Heritage Crop to Market Product",
-      "url": "https://yourstory.com/2026/02/kala-namak-rice-siddharthnagar-odop-ehsan-ali-trade",
-      "published": "Sat, 07 Feb 2026 11:47:32 GMT",
-      "snippet": "Kala Namak rice from Siddharthnagar is known for its fragrance, soft texture, and the way its aroma stays intact even after cooking.",
+      "title": "Why doing less makes us feel guilty and how to let go",
+      "url": "https://yourstory.com/2026/02/release-guilt-preserve-self",
+      "published": "Mon, 09 Feb 2026 05:35:00 GMT",
+      "snippet": "Why doing less triggers guilt, where it comes from, and how to let go of productivity pressure to build a healthier, more sustainable life.",
       "focus_areas": [
         "all"
       ],
@@ -678,10 +1026,10 @@
       "method": "rss"
     },
     {
-      "title": "Myntra appoints Pramod Adiddam as chief technology officer",
-      "url": "https://yourstory.com/2026/02/myntra-appoints-pramod-adiddam-as-chief-technology-officer",
-      "published": "Sat, 07 Feb 2026 08:08:47 GMT",
-      "snippet": "Adiddam will oversee Myntra\u2019s technology strategy, with a focus on innovation and long-term capability to support the organisation's scale and momentum. He will report to CEO Nandita Sinha.",
+      "title": "How can Indian carbon removal startups get a stamp of approval on their carbon credits?",
+      "url": "https://yourstory.com/2026/02/indian-carbon-removal-startups-stamp-approval-carbon-credits",
+      "published": "Mon, 09 Feb 2026 01:25:00 GMT",
+      "snippet": "India has seen a rising number of startups undertake carbon removal projects. However, the credibility of these projects hangs on the endorsement of third-party verification agencies and on carbon registries that make these credits available to potential buyers.",
       "focus_areas": [
         "all"
       ],
@@ -690,10 +1038,10 @@
       "method": "rss"
     },
     {
-      "title": "Inside Deepflow Technologies; The many acts of Anu Vaidyanathan",
-      "url": "https://yourstory.com/2026/02/deepflow-technologies-fractal-analytics-ipo-anu-vaidyanathan-semicon-2",
-      "published": "Sun, 08 Feb 2026 02:00:00 GMT",
-      "snippet": "Lastly, the Milan Cortina Winter Olympics have officially begun. Participating from India this year are alpine skier Arif Khan and cross-country skier Stanzin Lundup.",
+      "title": "Velocity commits Rs 100 Cr to expand AI-led shipping platform",
+      "url": "https://yourstory.com/2026/02/velocity-commits-rs-100-cr-to-expand-ai-led-shipping-platform",
+      "published": "Mon, 09 Feb 2026 02:30:00 GMT",
+      "snippet": "Velocity Shipping, formerly known as Shipfast, will receive the investment over the next two years, funded through internal accruals and revenue from the company\u2019s core businesses, Velocity said in a statement.",
       "focus_areas": [
         "all"
       ],
@@ -702,34 +1050,92 @@
       "method": "rss"
     },
     {
-      "title": "J&K earns \u20b92,152 crore from liquor shop auctions in two financial years",
-      "url": "https://www.business-standard.com/economy/news/j-k-earns-2-152-crore-from-liquor-shop-auctions-in-two-fiscal-years-126020800180_1.html",
-      "published": "Sun, 08 Feb 2026 11:51:52 +0530",
-      "snippet": "The Jammu and Kashmir government has generated about Rs 2,152 crore in revenue from the auction of liquor shops over the past two financial years, and has no proposal to open new wine shops during 202627, according to official data.\nAs much as Rs 1,03,462.49 lakh was generated in 202324, while Rs 1,...",
+      "title": "AI, investment, crafts: test your business creativity with Edition 221 of our weekly quiz!",
+      "url": "https://yourstory.com/2026/02/ai-investment-crafts-business-creativity-entrepreneur-quiz",
+      "published": "Sun, 08 Feb 2026 07:30:05 GMT",
+      "snippet": "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 221st quiz. Ready?",
       "focus_areas": [
         "all"
       ],
-      "source_id": "business_standard_tech",
-      "source_name": "Business Standard Tech",
+      "source_id": "yourstory",
+      "source_name": "YourStory",
       "method": "rss"
     },
     {
-      "title": "India-US trade deal: Zero duty for large bikes, to benefit Harley-Davidson",
-      "url": "https://www.business-standard.com/economy/news/india-us-trade-deal-zero-duty-for-large-bikes-to-benefit-harley-davidson-126020700829_1.html",
-      "published": "Sat, 07 Feb 2026 17:25:56 +0530",
-      "snippet": "India will grant zero-duty access to US motorcycle makers for bikes with engine capacities of 800-1,600 cc and above under the interim trade agreement, a move that would benefit iconic American brand Harley-Davidson, an official said on Saturday.\nLast year, the government had reduced import duty on ...",
+      "title": "Can DPDzero\u2019s AI Bet End The Fear Around Debt Recovery, Collections?",
+      "url": "https://inc42.com/startups/can-dpdzeros-ai-bet-end-the-fear-around-debt-recovery-collections/",
+      "published": "Mon, 09 Feb 2026 03:30:46 +0000",
+      "snippet": "India is in the middle of a boom in financial inclusion with an increasing number of households getting access to&#8230;",
       "focus_areas": [
-        "all"
+        "Fintech",
+        "E-Commerce",
+        "AI-Regulation"
       ],
-      "source_id": "business_standard_tech",
-      "source_name": "Business Standard Tech",
+      "source_id": "inc42",
+      "source_name": "Inc42",
       "method": "rss"
     },
     {
-      "title": "Design Law Reforms: Searching for Justifications",
-      "url": "https://spicyip.com/2026/02/design-law-reforms-searching-for-justifications.html",
-      "published": "Sat, 07 Feb 2026 10:22:44 +0000",
-      "snippet": "Long post ahead! PIIT on 23rd January 2026 had put out a concept note titled \u201cProposed Amendments to the Designs Act, 2000\u201d and has invited comments from stakeholders, with the last day for submitting comments being 22nd February 2026. Some reforms are substantive, affecting the scope of design law....",
+      "title": "The Neocloud Era, AI Resets Hiring & More",
+      "url": "https://inc42.com/buzz/the-neocloud-era-ai-resets-hiring-more/",
+      "published": "Mon, 09 Feb 2026 02:30:10 +0000",
+      "snippet": "India\u2019s Neocloud Boom AI is writing the new era of cloud computing. A new class of neocloud players is emerging&#8230;",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce",
+        "AI-Regulation"
+      ],
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "method": "rss"
+    },
+    {
+      "title": "Why PhysicsWallah Is Going Back To School",
+      "url": "https://inc42.com/features/why-physicswallah-is-going-back-to-school/",
+      "published": "Mon, 09 Feb 2026 00:30:50 +0000",
+      "snippet": "Is India\u2019s test prep market hitting a ceiling in terms of growth? That\u2019s the soft signal from PhysicsWallah after its&#8230;",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce",
+        "AI-Regulation"
+      ],
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "method": "rss"
+    },
+    {
+      "title": "India\u2019s Neocloud Players Ride The Sovereign AI Wave",
+      "url": "https://inc42.com/features/indias-neocloud-players-ride-the-sovereign-ai-wave/",
+      "published": "Sun, 08 Feb 2026 05:30:17 +0000",
+      "snippet": "US-based CoreWeave started publicly trading on the American stock exchange Nasdaq last year in March. By raising $1.5 billion in&#8230;",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce",
+        "AI-Regulation"
+      ],
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "method": "rss"
+    },
+    {
+      "title": "Indian Startup IPO Tracker 2026",
+      "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+      "published": "Sun, 08 Feb 2026 02:30:54 +0000",
+      "snippet": "Dalal Street emerged as a founder\u2019s paradise in 2025, with 18 Indian startups listing on the bourses and collectively mopping&#8230;",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce",
+        "AI-Regulation"
+      ],
+      "source_id": "inc42",
+      "source_name": "Inc42",
+      "method": "rss"
+    },
+    {
+      "title": "SpicyIP Weekly Review (February 2 \u2013 February 8)",
+      "url": "https://spicyip.com/2026/02/spicyip-weekly-review-february-2-february-8.html",
+      "published": "Sun, 08 Feb 2026 22:44:53 +0000",
+      "snippet": "Into the second week of February, with formal comments from our bloggers on the DPIIT&#8217;s proposed &#8220;One Nation One License One Payment&#8221; framework for GenAI and Copyright. A post on an industrial drama written in 1847 bursting the myth of the free-market society, and another post on t...",
       "focus_areas": [
         "IP-Copyright",
         "AI-Regulation",
@@ -740,280 +1146,9 @@
       "method": "rss"
     },
     {
-      "title": "Portuguese leaders defy floods and far right to hold Sunday presidential runoff",
-      "url": "https://www.politico.eu/article/portugal-battles-floodwaters-sunday-presidential-runoff-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sun, 08 Feb 2026 03:00:00 +0000",
-      "snippet": "Turnout will be decisive in an election marred by devastating storms.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "The quiet force influencing Trump\u2019s and Vance\u2019s confrontational Europe policy",
-      "url": "https://www.politico.com/news/2026/02/07/andy-baker-vance-rubio-europe-00767053?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 07 Feb 2026 17:00:00 +0000",
-      "snippet": "You might not have heard of Andy Baker. But he's a leading NSC intellectual whose moves could dictate the future of the GOP's foreign policy.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Canada plants a flag in Greenland",
-      "url": "https://www.politico.com/news/2026/02/06/canada-greenland-consulate-opens-flag-00769338?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 07 Feb 2026 14:30:14 +0000",
-      "snippet": "Foreign Affairs Minister Anand insists Nuuk is a long-term Arctic play \u2014 with Anchorage up next.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Pressure for Ukraine-Russia deal mounts ahead of fall elections in US",
-      "url": "https://www.politico.eu/article/pressure-ukraine-russia-deal-mounts-ahead-us-elections/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 07 Feb 2026 12:23:51 +0000",
-      "snippet": "As Kyiv continues to suffer nighttime lows of minus 20 Celsius amid Russian strikes, Ukrainian President Volodymyr Zelenskyy says 2026 U.S. midterms are now the strongest driver for a peace deal.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "The Epstein scandal is taking down Europe\u2019s political class. In the US, they\u2019re getting a pass.",
-      "url": "https://www.politico.com/news/2026/02/06/epstein-europe-america-fallout-00769506?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 07 Feb 2026 10:51:27 +0000",
-      "snippet": "As Europe moves to address its shame, it\u2019s highlighting the comparative lack of accountability in the U.S.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Cheers for Team USA turn to jeers for Vance at Milan Cortina opening ceremony",
-      "url": "https://www.politico.com/news/2026/02/06/cheers-for-team-usa-turn-to-jeers-for-vance-at-milan-cortina-opening-ceremony-00770321?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 07 Feb 2026 09:42:50 +0000",
-      "snippet": "The U.S. vice president and his wife attended Friday's Olympic festivities in Milan, Italy.",
-      "focus_areas": [
-        "International-Comparative",
-        "EU-Policy"
-      ],
-      "source_id": "politico_tech",
-      "source_name": "Politico Tech",
-      "method": "rss"
-    },
-    {
-      "title": "Gig Economy\u2019s Uneasy Unit Economics And The High Cost Of Home Delivery",
-      "url": "https://inc42.com/features/gig-economys-uneasy-unit-economics-and-the-high-cost-of-home-delivery/",
-      "published": "Sun, 08 Feb 2026 05:30:35 +0000",
-      "snippet": "India\u2019s consumer services giants are enduring a winter of discontent. From ride-hailing drivers to quick commerce riders, gig workers are&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "India\u2019s Neocloud Players Ride The Sovereign AI Wave",
-      "url": "https://inc42.com/buzz/indias-neocloud-players-ride-the-sovereign-ai-wave/",
-      "published": "Sun, 08 Feb 2026 05:30:17 +0000",
-      "snippet": "US-based CoreWeave started publicly trading on the American stock exchange Nasdaq last year in March. By raising $1.5 billion in&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "Gig Worker Unions Meet Rahul Gandhi To Flag Need For Legislation",
-      "url": "https://inc42.com/buzz/gig-worker-unions-meet-rahul-gandhi-to-flag-need-for-legislation/",
-      "published": "Sat, 07 Feb 2026 13:14:09 +0000",
-      "snippet": "Amid growing unrest between gig workers and platforms, multiple gig and platform worker unions met with Rahul Gandhi, the twelfth&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "Nykaa, Ather Soar Amid Another Mixed Week For New-Age Tech Stocks",
-      "url": "https://inc42.com/buzz/nykaa-ather-soar-amid-another-mixed-week-for-new-age-tech-stocks/",
-      "published": "Sat, 07 Feb 2026 11:27:13 +0000",
-      "snippet": "Indian equities markets rallied this week following the announcement of an interim India-US trade deal. However, new-age tech stocks saw&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "Myntra Appoints Former Google Engineering Head Pramod Adiddam As CTO",
-      "url": "https://inc42.com/buzz/myntra-appoints-former-google-engineering-head-pramod-adiddam-as-cto/",
-      "published": "Sat, 07 Feb 2026 08:50:08 +0000",
-      "snippet": "Flipkart-owned fashion ecommerce major Myntra has appointed Pramod Adiddam as its chief technology officer (CTO). Adiddam will report to CEO&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "Pilgrim\u2019s 24x Growth To \u20b9400 Cr Revenue And The Offline Retail Playbook Behind It",
-      "url": "https://inc42.com/startups/pilgrim-revenue-growth-the-offline-retail-playbook-scaling/",
-      "published": "Sat, 07 Feb 2026 06:42:58 +0000",
-      "snippet": "Calling India\u2019s beauty and personal care (BPC) market crowded would be an understatement \u2014 it is a red-ocean battlefield. For&#8230;",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "source_id": "edtech_india",
-      "source_name": "Inc42 Edtech",
-      "method": "rss"
-    },
-    {
-      "title": "Uttarakhand HC Quashes Removal of Civil Judge, Terms Inquiry \u201cCarefully Crafted Edifice Without A Foundation\u201d",
-      "url": "https://lawtrend.in/uttarakhand-hc-quashes-removal-of-civil-judge-terms-inquiry-carefully-crafted-edifice-without-a-foundation/?utm_source=rss&utm_medium=rss&utm_campaign=uttarakhand-hc-quashes-removal-of-civil-judge-terms-inquiry-carefully-crafted-edifice-without-a-foundation",
-      "published": "Sun, 08 Feb 2026 06:40:51 +0000",
-      "snippet": "The Uttarakhand High Court has set aside the removal from service of former Civil Judge (Senior Division) Deepali Sharma, ordering her reinstatement with consequential seniority and 50% back wages. In a judgment delivered on January 6, 2026, the Division Bench comprising Chief Justice G. Narendar an...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "Abusive Emails to USA and India Presidents? Court Says Case Collapses as Complainant Turns Hostile",
-      "url": "https://lawtrend.in/abusive-emails-to-usa-and-india-presidents-court-says-case-collapses-as-complainant-turns-hostile/?utm_source=rss&utm_medium=rss&utm_campaign=abusive-emails-to-usa-and-india-presidents-court-says-case-collapses-as-complainant-turns-hostile",
-      "published": "Sun, 08 Feb 2026 05:40:08 +0000",
-      "snippet": "In a dramatic turn of events, a Bengaluru court on Monday acquitted an accused booked for allegedly sending highly abusive and obscene emails targeting Infosys Limited, the President of India, and the President of the United States, after the sole prosecution witness completely disowned the case. Th...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "\u0907\u0932\u093e\u0939\u093e\u092c\u093e\u0926 \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0915\u0940 \u092a\u0942\u0930\u094d\u0923 \u092a\u0940\u0920 \u0915\u093e \u0905\u0939\u092e \u092b\u0948\u0938\u0932\u093e: \u0915\u0947\u0935\u0932 \u0905\u0930\u094d\u091c\u0940 \u0926\u093e\u0916\u093f\u0932 \u0915\u0930\u0928\u0947 \u0938\u0947 \u0935\u093e\u092a\u0938 \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u093e \u092e\u0941\u0915\u0926\u092e\u093e, \u0915\u094b\u0930\u094d\u091f \u0915\u093e \u0906\u0926\u0947\u0936 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f",
-      "url": "https://lawtrend.in/allahabad-hc-full-bench-judgment-withdrawal-of-suit-cpc-court-order-mandatory/?utm_source=rss&utm_medium=rss&utm_campaign=allahabad-hc-full-bench-judgment-withdrawal-of-suit-cpc-court-order-mandatory",
-      "published": "Sat, 07 Feb 2026 14:16:21 +0000",
-      "snippet": "\u0907\u0932\u093e\u0939\u093e\u092c\u093e\u0926 \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0915\u0940 \u0924\u0940\u0928 \u091c\u091c\u094b\u0902 \u0915\u0940 \u092a\u0942\u0930\u094d\u0923 \u092a\u0940\u0920 (Full Bench) \u0928\u0947 \u0938\u093f\u0935\u093f\u0932 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e \u0938\u0902\u0939\u093f\u0924\u093e (CPC) \u0915\u0947 \u0924\u0939\u0924 \u092e\u0941\u0915\u0926\u092e\u093e \u0935\u093e\u092a\u0938 \u0932\u0947\u0928\u0947 (Withdrawal of Suit) \u0915\u0947 \u0915\u093e\u0928\u0942\u0928 \u092a\u0930 \u0938\u094d\u0925\u093f\u0924\u093f \u0938\u094d\u092a\u0937\u094d\u091f \u0915\u0930 \u0926\u0940 \u0939\u0948\u0964 \u0915\u094b\u0930\u094d\u091f \u0928\u0947 \u0928\u093f\u0930\u094d\u0927\u093e\u0930\u093f\u0924 \u0915\u093f\u092f\u093e \u0939\u0948 \u0915\u093f \u0915\u0947\u0935\u0932 \u092e\u0941\u0915\u0926\u092e\u093e \u0935\u093e\u092a\u0938 \u0932\u0947\u0928\u0947 \u0915\u093e \u0906\u0935\u0947\u0926\u0928 \u0926\u093e\u0916\u093f\u0932 \u0915\u0930 \u0926\u0947\u0928\u0947 \u0938\u0947 \u0939\u0940 \u0935\u093e\u0926 (Suit) \u0905\u092a\u0928\u0947 \u0906\u092a \u0916\u093e\u0930\u093f\u091c \u0928\u0939\u0940\u0902 \u0939\u094b [&#8230;]",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "Allahabad HC Full Bench: Filing Withdrawal Application Does Not Automatically Dismiss Suit; Plaintiff Can Withdraw the Withdrawal Application Before Final Order",
-      "url": "https://lawtrend.in/allahabad-hc-full-bench-filing-withdrawal-application-does-not-automatically-dismiss-suit-plaintiff-can-withdraw-the-withdrawal-application-before-final-order/?utm_source=rss&utm_medium=rss&utm_campaign=allahabad-hc-full-bench-filing-withdrawal-application-does-not-automatically-dismiss-suit-plaintiff-can-withdraw-the-withdrawal-application-before-final-order",
-      "published": "Sat, 07 Feb 2026 14:09:14 +0000",
-      "snippet": "The Allahabad High Court, in a significant Full Bench decision, has clarified the law regarding the withdrawal of civil suits under Order XXIII Rule 1 of the Code of Civil Procedure (CPC). The Bench held that the mere filing of a withdrawal application does not result in the automatic dismissal of t...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "Third Part of One-Day Refresher Training Programme for Legal Aid Defense Counsels held at CSJA, Bilaspur",
-      "url": "https://lawtrend.in/third-part-of-one-day-refresher-training-programme-for-legal-aid-defense-counsels-held-at-csja-bilaspur/?utm_source=rss&utm_medium=rss&utm_campaign=third-part-of-one-day-refresher-training-programme-for-legal-aid-defense-counsels-held-at-csja-bilaspur",
-      "published": "Sat, 07 Feb 2026 13:05:19 +0000",
-      "snippet": "Bilaspur, 07 February 2026: The third part of the One-Day Refresher Training Programme for Legal Aid Defense Counsels was successfully conducted on 07th February 2026 at the Chhattisgarh State Judicial Academy (CSJA), Bilaspur. The programme was organised by the Chhattisgarh State Legal Services Aut...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "\u091b\u0924\u094d\u0924\u0940\u0938\u0917\u0922\u093c \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f: \u092e\u094c\u0916\u093f\u0915 \u092e\u093e\u0902\u0917 \u092a\u0930 \u092d\u0940 \u092e\u093f\u0932\u0947\u0917\u0940 \u092e\u0941\u092b\u094d\u0924 \u0915\u093e\u0928\u0942\u0928\u0940 \u0938\u0939\u093e\u092f\u0924\u093e, \u090f\u0915\u092a\u0915\u094d\u0937\u0940\u092f \u0924\u0932\u093e\u0915 \u0915\u0940 \u0921\u093f\u0915\u094d\u0930\u0940 \u0915\u094b \u0915\u093f\u092f\u093e \u0930\u0926\u094d\u0926",
-      "url": "https://lawtrend.in/family-court-ex-parte-divorce-denial-legal-aid-chhattisgarh-hc/?utm_source=rss&utm_medium=rss&utm_campaign=family-court-ex-parte-divorce-denial-legal-aid-chhattisgarh-hc",
-      "published": "Sat, 07 Feb 2026 12:59:18 +0000",
-      "snippet": "\u091b\u0924\u094d\u0924\u0940\u0938\u0917\u0922\u093c \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0928\u0947 \u091c\u093e\u0902\u091c\u0917\u0940\u0930 \u0915\u0947 \u092a\u094d\u0930\u0927\u093e\u0928 \u0928\u094d\u092f\u093e\u092f\u093e\u0927\u0940\u0936, \u0915\u0941\u091f\u0941\u0902\u092c \u0928\u094d\u092f\u093e\u092f\u093e\u0932\u092f \u0926\u094d\u0935\u093e\u0930\u093e \u092a\u093e\u0930\u093f\u0924 \u090f\u0915\u092a\u0915\u094d\u0937\u0940\u092f (Ex-parte) \u0924\u0932\u093e\u0915 \u0915\u0940 \u0921\u093f\u0915\u094d\u0930\u0940 \u0915\u094b \u0930\u0926\u094d\u0926 \u0915\u0930 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 \u0915\u094b\u0930\u094d\u091f \u0928\u0947 \u0938\u094d\u092a\u0937\u094d\u091f \u0915\u093f\u092f\u093e \u0915\u093f \u092f\u0926\u093f \u0915\u094b\u0908 \u092e\u093e\u092e\u0932\u093e \u0938\u0941\u0932\u0939 \u092f\u093e \u0932\u093f\u0916\u093f\u0924 \u092c\u092f\u093e\u0928 (Written Statement) \u0926\u093e\u0916\u093f\u0932 \u0915\u0930\u0928\u0947 \u0915\u0947 \u091a\u0930\u0923 \u092e\u0947\u0902 \u0939\u0948, \u0924\u094b \u0909\u0938\u0947 &#8216;\u0938\u0941\u0928\u0935\u093e\u0908&#8217; (Hearing) \u0915\u0940 \u0924\u093e\u0930\u0940\u0916 \u0928\u0939\u0940\u0902 \u092e\u093e\u0928\u093e \u091c\u093e \u0938\u0915...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "Chhattisgarh HC Sets Aside Ex-Parte Divorce Decree; Rules Oral Request Sufficient for Legal Aid, Mandates Family Courts to Maintain Independent Amicus Curiae Panel",
-      "url": "https://lawtrend.in/chhattisgarh-hc-sets-aside-ex-parte-divorce-decree-rules-oral-request-sufficient-for-legal-aid-mandates-family-courts-to-maintain-independent-amicus-curiae-panel/?utm_source=rss&utm_medium=rss&utm_campaign=chhattisgarh-hc-sets-aside-ex-parte-divorce-decree-rules-oral-request-sufficient-for-legal-aid-mandates-family-courts-to-maintain-independent-amicus-curiae-panel",
-      "published": "Sat, 07 Feb 2026 12:56:50 +0000",
-      "snippet": "The High Court of Chhattisgarh has set aside an ex-parte judgment and decree of divorce passed by the Family Court, Janjgir, ruling that a court cannot proceed ex-parte against a defendant on a date fixed for reconciliation or interlocutory proceedings, as opposed to the actual &#8220;hearing&#8221;...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "\u0926\u093f\u0932\u094d\u0932\u0940 \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0915\u093e \u092b\u0948\u0938\u0932\u093e: \u2018\u0916\u0930\u093e\u092c \u0935\u094d\u092f\u0935\u0939\u093e\u0930\u2019 \u0914\u0930 \u2018\u0914\u0938\u0924 \u0938\u0947 \u0915\u092e\u2019 \u0928\u093f\u0930\u094d\u0923\u092f \u092c\u0928\u0947 \u091c\u091c \u0915\u0940 \u092c\u0930\u094d\u0916\u093e\u0938\u094d\u0924\u0917\u0940 \u0915\u093e \u0915\u093e\u0930\u0923",
-      "url": "https://lawtrend.in/delhi-high-court-upholds-probationary-judge-termination-unsuitability-misconduct/?utm_source=rss&utm_medium=rss&utm_campaign=delhi-high-court-upholds-probationary-judge-termination-unsuitability-misconduct",
-      "published": "Sat, 07 Feb 2026 07:32:33 +0000",
-      "snippet": "\u0915\u094d\u092f\u093e \u090f\u0915 \u092a\u0930\u093f\u0935\u0940\u0915\u094d\u0937\u093e\u0927\u0940\u0928 (Probationer) \u091c\u091c \u0915\u094b \u092c\u093f\u0928\u093e \u0915\u093f\u0938\u0940 \u0914\u092a\u091a\u093e\u0930\u093f\u0915 \u091c\u093e\u0902\u091a \u0915\u0947 \u0938\u0947\u0935\u093e \u0938\u0947 \u0939\u091f\u093e\u092f\u093e \u091c\u093e \u0938\u0915\u0924\u093e \u0939\u0948? \u0926\u093f\u0932\u094d\u0932\u0940 \u0939\u093e\u0908\u0915\u094b\u0930\u094d\u091f \u0928\u0947 \u0907\u0938 \u0938\u0935\u093e\u0932 \u0915\u093e \u091c\u0935\u093e\u092c \u0926\u0947\u0924\u0947 \u0939\u0941\u090f \u0938\u094d\u092a\u0937\u094d\u091f \u0915\u093f\u092f\u093e \u0939\u0948 \u0915\u093f \u092f\u0926\u093f \u0915\u093f\u0938\u0940 \u092a\u0930\u093f\u0935\u0940\u0915\u094d\u0937\u093e\u0927\u0940\u0928 \u0928\u094d\u092f\u093e\u092f\u093f\u0915 \u0905\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u094b \u0909\u0938\u0915\u0940 &#8216;\u0938\u092e\u0917\u094d\u0930 \u0905\u0928\u0941\u092a\u092f\u0941\u0915\u094d\u0924\u0924\u093e&#8217; (Overall Unsuitability) \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u091f\u093e\u092f\u093e \u091c\u093e\u0924\u093e \u0939\u0948, \u0924\u094b \u0907\u0938\u0947 &#8216;\u0926\u0902\u0921...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "Delhi High Court Upholds Termination of Probationary Judge, Rules Discharge Based on \u2018Unsuitability\u2019 is Not Punitive or Stigmatic",
-      "url": "https://lawtrend.in/delhi-high-court-upholds-termination-of-probationary-judge-rules-discharge-based-on-unsuitability-is-not-punitive-or-stigmatic/?utm_source=rss&utm_medium=rss&utm_campaign=delhi-high-court-upholds-termination-of-probationary-judge-rules-discharge-based-on-unsuitability-is-not-punitive-or-stigmatic",
-      "published": "Sat, 07 Feb 2026 07:28:24 +0000",
-      "snippet": "The Delhi High Court has dismissed a writ petition filed by a former Additional District Judge challenging the termination of his services during his probation period. The Division Bench, comprising Justice Anil Kshetarpal and Justice Amit Mahajan, ruled that the termination order was &#8220;simplic...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "law_trend",
-      "source_name": "Law Trend",
-      "method": "rss"
-    },
-    {
-      "title": "Funding and acquisitions in Indian startup this week [Feb 02 - Feb 07]",
-      "url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
-      "published": "Sat, 07 Feb 2026 13:24:22 +0530",
-      "snippet": "This week,&nbsp; 26 Indian startups raised around&nbsp; $215 million, comprising 3 growth-stage and 18 early-stage deals, while 5 startups kept their funding undisclosed.\n\nIn contrast, 47 startups had collectively secured about $354 million in the previous week.\n[Growth-stage deals]\nThis week, growt...",
-      "focus_areas": [
-        "Fintech",
-        "E-Commerce"
-      ],
-      "source_id": "entrackr",
-      "source_name": "Entrackr",
-      "method": "rss"
-    },
-    {
-      "title": "Humiliating: Allahabad High Court sets aside direction to student to hold placard promising 'not to misbehave with girls'",
-      "url": "https://www.barandbench.com/news/humiliating-allahabad-high-court-sets-aside-direction-to-student-to-hold-placard-promising-not-to-misbehave-with-girls",
-      "published": "2026-02-07T13:13:43.610Z",
+      "title": "Public prosecutor can't independently seek police remand without request by police: J&K High Court",
+      "url": "https://www.barandbench.com/news/public-prosecutor-cant-independently-seek-police-remand-without-request-by-police-jk-high-court",
+      "published": "2026-02-09T06:01:21.828Z",
       "snippet": "",
       "focus_areas": [
         "all"
@@ -1023,9 +1158,9 @@
       "method": "rss"
     },
     {
-      "title": "Delhi High Court protects personality rights of actor Vivek Oberoi",
-      "url": "https://www.barandbench.com/news/delhi-high-court-protects-personality-rights-of-actor-vivek-oberoi",
-      "published": "2026-02-07T12:45:26.256Z",
+      "title": "Global Capability Centres in India",
+      "url": "https://www.barandbench.com/view-point/global-capability-centres-in-india",
+      "published": "2026-02-09T05:40:42.506Z",
       "snippet": "",
       "focus_areas": [
         "all"
@@ -1035,190 +1170,23 @@
       "method": "rss"
     },
     {
-      "title": "SAM advises Hindustan Petroleum on $3 Billion LNG Agreement with ADNOC Gas Subsidiary",
-      "url": "https://www.barandbench.com/dealstreet/sam-advises-hindustan-petroleum-on-3-billion-lng-agreement-with-adnoc-gas-subsidiary",
-      "published": "2026-02-07T11:22:11.897Z",
-      "snippet": "",
+      "title": "What\u2019s Happening in Space Policy February 8-14, 2026",
+      "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-february-8-14-2026/",
+      "published": "Sun, 08 Feb 2026 22:02:27 +0000",
+      "snippet": "Here is SpacePolicyOnline.com&#8217;s list of space policy events for the week of February 8-14, 2026 and any insight we can offer about them. The House and Senate are in session [&#8230;]",
       "focus_areas": [
-        "all"
+        "Space-Technology",
+        "International-Comparative"
       ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
+      "source_id": "space_policy_online",
+      "source_name": "Space Policy Online",
       "method": "rss"
     },
     {
-      "title": "Trilegal advises Muthoot Finance on issuance of $600 million bond listed on Gift City",
-      "url": "https://www.barandbench.com/dealstreet/trilegal-advises-muthoot-finance-on-issuance-of-600-million-bond-listed-on-gift-city",
-      "published": "2026-02-07T11:20:38.563Z",
-      "snippet": "",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
-      "method": "rss"
-    },
-    {
-      "title": "Jinnah did not create Pakistan, British geopolitics did: Senior Advocate Rakesh Dwivedi",
-      "url": "https://www.barandbench.com/news/jinnah-did-not-create-pakistan-british-geopolitics-did-senior-advocate-rakesh-dwivedi",
-      "published": "2026-02-07T11:06:44.274Z",
-      "snippet": "",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
-      "method": "rss"
-    },
-    {
-      "title": "From fans\u2019 club spending to deadline-day penalty: Why Madras HC ruled against Vijay in IT case",
-      "url": "https://www.barandbench.com/news/litigation/from-fans-club-spending-to-deadline-day-penalty-why-madras-hc-ruled-against-vijay-in-it-case",
-      "published": "2026-02-07T09:27:43.877Z",
-      "snippet": "",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
-      "method": "rss"
-    },
-    {
-      "title": "Delhi High Court to consider framing guidelines on child custody, visitation rights and parenting plan",
-      "url": "https://www.barandbench.com/news/delhi-high-court-to-consider-framing-guidelines-on-child-custody-visitation-rights-and-parenting-plan",
-      "published": "2026-02-07T08:25:11.956Z",
-      "snippet": "",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "barandbench",
-      "source_name": "Bar & Bench",
-      "method": "rss"
-    },
-    {
-      "title": "Schools to Provide Pads & Toilets | Menstrual Health Now a Fundamental Right",
-      "url": "https://www.scconline.com/blog/post/2026/02/08/right-to-menstrual-health-article-21-supreme-court/",
-      "published": "Sun, 08 Feb 2026 06:30:01 +0000",
-      "snippet": "The Supreme Court has recognised menstrual health as a fundamental right under Article 21 of the Constitution of India, linking it directly \nThe post Schools to Provide Pads &#038; Toilets | Menstrual Health Now a Fundamental Right appeared first on SCC Times.",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "From Bail Battles to POCSO Rulings: Top Criminal Law Cases of January 2026",
-      "url": "https://www.scconline.com/blog/post/2026/02/08/criminal-law-roundup-january-2026-scc-times/",
-      "published": "Sun, 08 Feb 2026 05:30:22 +0000",
-      "snippet": "Covering all the important criminal cases across various High Courts and the Supreme Court, this roundup provides a quick summary of cases, links to other roundups, latest legal updates in criminal law and a few top stories of the month.\nThe post From Bail Battles to POCSO Rulings: Top Criminal Law ...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "Arbitration and Conciliation Act, 1996 | Time-Barred Claim \u2260 Time-Barred Section 11 Petition: Punjab and Haryana High Court appoints Second Arbitrator",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/theres-distinction-between-claim-to-be-made-and-petition-under-section-11-of-arbitration-act-to-be-filed-ph-hc/",
-      "published": "Sat, 07 Feb 2026 12:00:25 +0000",
-      "snippet": "&#8220;The issue with regard to the time barred claim is not to be gone into at the reference stage under Section 11 of the Arbitration and Conciliation Act, 1996 but can be seen only by the Arbitrator/Arbitration Tribunal at the relevant stage.&#8221;\nThe post Arbitration and Conciliation Act, 1996...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "\u2018Continuation of these futile litigations adding to judiciary\u2019s burden\u2019; Allahabad HC quashes cases against two men involved in 1991 UP Vidhan Sabha Ruckus Case",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/all-hc-quashes-cases-against-two-involved-1991-up-vidhan-sabha-ruckus-case/",
-      "published": "Sat, 07 Feb 2026 11:30:04 +0000",
-      "snippet": "&#8220;It is expected that the committee constituted by the State would come up with effective solution to weed out the futile litigations pending across the State so that the efficiency with which the judiciary should function is restored and the deadwood is chiselled off from the overgrowing docke...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "Call for Participation | ADR Society, Campus Law Centre, University of Delhi, and Corporate Legal Partners, to organise 1st ADR Research Paper Writing Competition, 2026, on \u201cContemporary Challenges in International Commercial Arbitration in India.\u201d",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/adr-research-paper-writing-competition-2026-clc-delhi-university/",
-      "published": "Sat, 07 Feb 2026 11:00:40 +0000",
-      "snippet": "ADR Society, Campus Law Centre, University of Delhi in association with Corporate Legal Partners announces the 1st ADR Research Paper Writing Competition, 2026 on International Commercial Arbitration in India\nThe post Call for Participation | ADR Society, Campus Law Centre, University of Delhi, and ...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "Delhi HC denies bail to habitual offender accused of metro power cable theft and endangering public safety",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/del-hc-bail-denied-to-habitual-offender-in-metro-cable-theft/",
-      "published": "Sat, 07 Feb 2026 10:30:46 +0000",
-      "snippet": "&#8220;The offence alleged to have been committed by the applicant herein has multifarious effects on the Society at large, more so, since the applicant has put the life and limb of one and all in utter danger.&#8221;\nThe post Delhi HC denies bail to habitual offender accused of metro power cable th...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "Delhi High Court restrains illegal streaming of ICC cricket events; grants ex parte interim relief to JioStar India",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/delhi-high-court-restrains-illegal-streaming-of-icc-cricket-matches/",
-      "published": "Sat, 07 Feb 2026 10:00:43 +0000",
-      "snippet": "Delay in blocking access to rogue platforms would result in irreparable breach of JioStar India&#8217;s exclusive broadcast rights and revenue loss.\nThe post Delhi High Court restrains illegal streaming of ICC cricket events; grants ex parte interim relief to JioStar India appeared first on SCC Time...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "Call for Participation | NUJS Centre for Sports Law & Policy (CSLP) Announces Special Lecture on Copyright Protection and its Intersection with Athletic Performance",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/copyright-protection-athletic-performance-esports-nujs-cslp-lecture/",
-      "published": "Sat, 07 Feb 2026 09:30:20 +0000",
-      "snippet": "The NUJS Centre for Sports Law &#38; Policy announces a special lecture on &#8220;Copyright Protection and its Intersection with Athletic Performance,&#8221; exploring sports and esports copyright across the USA, EU, and India.\nThe post Call for Participation | NUJS Centre for Sports Law &#038; Poli...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "Supreme Court appoints former Chief Statistician of India, Dr. T.C.A. Anant, as Technical Consultant to National Task Force",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/supreme-court-appoints-technical-consultant-national-task-force/",
-      "published": "Sat, 07 Feb 2026 09:00:52 +0000",
-      "snippet": "The Court &#8220;direct the Ministry of Education, Union of India to extend all necessary administrative support, more particularly the infrastructure &#38; data access.&#8221;\nThe post Supreme Court appoints former Chief Statistician of India, Dr. T.C.A. Anant, as Technical Consultant to National T...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "Constitution (Amendment) Bill, 2026 Proposes Judicial Diversity, Reservation in Promotion, SC Regional Benches & Caste Census Reform",
-      "url": "https://www.scconline.com/blog/post/2026/02/07/constitution-amendment-bill-2026-judicial-diversity-reservation-caste-census/",
-      "published": "Sat, 07 Feb 2026 08:30:34 +0000",
-      "snippet": "Introduced in the Rajya Sabha, the Bill proposes sweeping constitutional changes to judicial appointments, reservation in promotions, Supreme Court structure, High Court judges&#8217; retirement age, and caste-based census powers.\nThe post Constitution (Amendment) Bill, 2026 Proposes Judicial Divers...",
-      "focus_areas": [
-        "all"
-      ],
-      "source_id": "journal_scc",
-      "source_name": "SCC Online Blog",
-      "method": "rss"
-    },
-    {
-      "title": "'Massive consolidation' expected across crypto industry: Bullish CEO",
-      "url": "https://cointelegraph.com/news/crypto-companies-consolidation-industry-bullish-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 08 Feb 2026 05:08:34 +0000",
-      "snippet": "The crypto industry is about to get a wakeup call, as many companies will realize \"they don\u2019t have businesses, they have products,\" says Bullish CEO Tom Farley.",
+      "title": "Coinbase bets on Backstreet Boys nostalgia in return to Super Bowl",
+      "url": "https://cointelegraph.com/news/coinbase-backstreet-boys-karaoke-return-super-bowl-ad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 06:04:48 +0000",
+      "snippet": "Coinbase\u2019s TV spot at the Super Bowl divided opinion online, but the crypto exchange says conversations about it were the point.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1227,10 +1195,10 @@
       "method": "rss"
     },
     {
-      "title": "Crypto retail investors are trying to 'meta-analyze' crypto crash: Santiment",
-      "url": "https://cointelegraph.com/news/crypto-retail-investors-analyze-market-bitcoin-price-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 08 Feb 2026 01:38:04 +0000",
-      "snippet": "Santiment said the increased use of \u201ccapitulation\u201d among crypto users on social media could suggest the market bottom has already happened.",
+      "title": "ENS abandons plans for Namechain L2, citing Ethereum scaling",
+      "url": "https://cointelegraph.com/news/ens-abandons-plan-namechain-will-stay-on-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 05:51:16 +0000",
+      "snippet": "Citing a 99% drop in gas fees and upcoming Ethereum scaling, the project will now deploy its ENSv2 upgrade directly on Ethereum.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1239,10 +1207,10 @@
       "method": "rss"
     },
     {
-      "title": "Over 23% of traders now expect interest rate cut at next FOMC meeting",
-      "url": "https://cointelegraph.com/news/23expect-interest-rate-cut-fomc-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 22:09:21 +0000",
-      "snippet": "The number of traders expecting a rate cut at the March Federal Open Market Committee meeting rose following fears of a hawkish Fed nominee.",
+      "title": "Bitcoin Sharpe ratio slides to levels seen in previous market bottoms",
+      "url": "https://cointelegraph.com/news/bitcoin-sharpe-ratio-falls-bear-market-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 05:37:06 +0000",
+      "snippet": "Bitcoin\u2019s Sharpe ratio has fallen to -10, nearing bear market lows seen in 2018 and 2022, suggesting the risk/reward profile is approaching extreme levels.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1251,10 +1219,10 @@
       "method": "rss"
     },
     {
-      "title": "CFTC expands payment stablecoin criteria to include national trust banks",
-      "url": "https://cointelegraph.com/news/cftc-stablecoins-national-trust-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 20:49:39 +0000",
-      "snippet": "The Commodity Futures Trading Commission (CFTC) revised a previous staff letter to reflect the regulations in the GENIUS stablecoin framework.",
+      "title": "Crypto.com CEO unveils new AI agents to millions during Super Bowl",
+      "url": "https://cointelegraph.com/news/cryptocom-boss-launched-agentic-ai-tools-ai-com?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 05:02:31 +0000",
+      "snippet": "Crypto.com CEO Kris Marszalek said his goal with ai.com is to build \u201ca decentralized network of autonomous, self-improving AI agents that perform real-world tasks for the good of humanity.\u201d",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1263,10 +1231,10 @@
       "method": "rss"
     },
     {
-      "title": "Bitcoin difficulty drops by over 11%, sharpest drop since 2021 China ban",
-      "url": "https://cointelegraph.com/news/bitcoin-difficulty-drops-11-worst-2021-china-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 18:57:04 +0000",
-      "snippet": "The Bitcoin network's mining difficulty dropped by as much as 27% within a single adjustment period during China's 2021 crypto mining ban.",
+      "title": "Bessent suggests Warsh nomination hearings alongside Powell probe",
+      "url": "https://cointelegraph.com/news/bessent-suggests-warsh-nomination-hearings-alongside-powell-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 04:33:37 +0000",
+      "snippet": "The Fed chair confirmation faces a key hurdle as a senator vows to block the process until a DOJ investigation into Jerome Powell is resolved.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1275,10 +1243,10 @@
       "method": "rss"
     },
     {
-      "title": "What crashed Bitcoin? Three theories behind BTC's trip below $60K",
-      "url": "https://cointelegraph.com/news/what-crashed-bitcoin-three-theories-btc-trip-below-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 14:44:23 +0000",
-      "snippet": "Hong Kong hedge funds\u2019 leveraged BTC price bets are emerging as the main trigger behind Bitcoin\u2019s sharp month-long sell-off.",
+      "title": "Crypto and banks spar in comments on Fed\u2019s \u2018skinny master account\u2019 idea",
+      "url": "https://cointelegraph.com/news/crypto-banks-input-fed-skinny-master-account-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 04:19:27 +0000",
+      "snippet": "Crypto companies have backed a Federal Reserve proposal to give them limited access to the central bank, while banking associations have urged caution.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1287,10 +1255,10 @@
       "method": "rss"
     },
     {
-      "title": "Tether helps Turkey seize $544M in crypto tied to illegal betting network",
-      "url": "https://cointelegraph.com/news/tether-freezes-544m-crypto-turkey-illegal-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 12:46:13 +0000",
-      "snippet": "Tether claims it has helped law enforcement in over 1,800 cases across 62 countries, freezing $3.4 billion in USDT tied to suspected illicit activity.",
+      "title": "Address poisoning recently cost 2 victims over $62M alone: Scam Sniffer",
+      "url": "https://cointelegraph.com/news/over-62m-lost-address-poisoning-since-december-scam-sniffer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 03:57:52 +0000",
+      "snippet": "Analysts have warned that Ethereum\u2019s Fusaka upgrade has made address poisoning cheaper, as malicious actors can carry out dust attacks for very little cost.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1299,10 +1267,10 @@
       "method": "rss"
     },
     {
-      "title": "Bitcoin to fill $84K futures gap 'very soon' as BTC rejects above 2021 top",
-      "url": "https://cointelegraph.com/news/bitcoin-fill-84k-futures-gap-very-soon-btc-rejects-above-2021-top?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 12:13:04 +0000",
-      "snippet": "Bitcoin market participants diverged on the short-term BTC price outlook, with warnings of new macro lows contrasting with $84,000 targets.",
+      "title": "Only 10K Bitcoin at quantum risk and worth attacking, CoinShares claims",
+      "url": "https://cointelegraph.com/news/only-10k-bitcoin-quantum-risk-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 09 Feb 2026 01:19:08 +0000",
+      "snippet": "Most quantum-vulnerable Bitcoin sits in wallets holding under 100 Bitcoin, with CoinShares claiming it could take a millennium to compromise each one.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1311,10 +1279,10 @@
       "method": "rss"
     },
     {
-      "title": "Vietnam to tax crypto like stocks with 0.1% trading levy: Report",
-      "url": "https://cointelegraph.com/news/vietnam-crypto-tax-0-1-percent-trading-levy-draft-policy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 08:57:11 +0000",
-      "snippet": "Vietnam\u2019s Finance Ministry proposes a 0.1% tax on crypto transfers, 20% corporate tax on profits and tough licensing standards for digital asset exchanges.",
+      "title": "Federal Reserve entering 'gradual print' mode \u2014 Lyn Alden",
+      "url": "https://cointelegraph.com/news/federal-reserve-gradual-print-lyn-alden?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 22:11:17 +0000",
+      "snippet": "Whether the Federal Reserve is engaging in quantitative easing is purely semantic, according to Alden, who says all roads lead to debasement.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1323,10 +1291,10 @@
       "method": "rss"
     },
     {
-      "title": "$231.6M pours into IBIT following \u2018second-worst\u2019 day for ETF price",
-      "url": "https://cointelegraph.com/news/blackrock-bitcoin-etf-ibit-flows-trading-price-btc-volatile?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 07:48:04 +0000",
-      "snippet": "BlackRock\u2019s Bitcoin ETF posted inflows on Friday following a turbulent week for Bitcoin, marking only its 11th day of net inflows in 2026.",
+      "title": "VCs clash over non-financial use cases in Web3 and crypto",
+      "url": "https://cointelegraph.com/news/vcs-clash-non-financial-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 21:46:47 +0000",
+      "snippet": "Chris Dixon, a managing partner at a16z crypto, said that non-financial use cases in crypto will flourish when regulations become clear.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1335,10 +1303,10 @@
       "method": "rss"
     },
     {
-      "title": "Crypto-focused Erebor wins first new US bank charter of Trump\u2019s second term: WSJ",
-      "url": "https://cointelegraph.com/news/crypto-erebor-first-new-us-bank-charter-trump-second-term?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 07 Feb 2026 06:54:42 +0000",
-      "snippet": "Erebor doubled its valuation to $4 billion after a $350 million Lux Capital-led funding round late last year.",
+      "title": "Google search volume for 'crypto' hovers near yearly low amid market rout",
+      "url": "https://cointelegraph.com/news/google-search-crypto-hover-yearly-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 18:42:32 +0000",
+      "snippet": "Investor sentiment in crypto is now at the same level it was during the 2022 Terra-LUNA crash that sent shockwaves through the crypto market.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1347,10 +1315,70 @@
       "method": "rss"
     },
     {
-      "title": "Teens face felony charges after 600-mile drive to allegedly attempt a $66 million crypto robbery: reports",
-      "url": "https://www.theblock.co/post/388958/teens-face-felony-charges-after-600-mile-drive-to-allegedly-attempt-a-66-million-crypto-robbery-reports?utm_source=rss&utm_medium=rss",
-      "published": "Sat, 07 Feb 2026 14:53:41 -0500",
-      "snippet": "The 16-year-old alleged perpetrator reportedly told police that he and his accomplice were coerced into committing the crime by unknown parties on Signal. ",
+      "title": "Bitcoin bear market not over? Trader sees BTC price 'real bottom' at $50K",
+      "url": "https://cointelegraph.com/news/bitcoin-bear-market-not-over-trader-btc-price-real-bottom-50k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 14:51:00 +0000",
+      "snippet": "Bitcoin price analysis stayed bearish on the outlook for BTC, predicting new macro lows in a repeat of the 2022 bear market.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Jack Dorsey\u2019s Block may cut up to 10% of staff in business overhaul: Report",
+      "url": "https://cointelegraph.com/news/jack-dorsey-block-may-cut-10-percent-staff-restructuring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 12:02:41 +0000",
+      "snippet": "Analysts forecast Block to post $403 million in Q4 profit on $6.25 billion revenue, following a third quarter marked by strong gross profit growth but mixed market reaction.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "ARK extends Coinbase selling streak with another $22M sale, adds Bullish",
+      "url": "https://cointelegraph.com/news/ark-sells-22m-coinbase-adds-bullish-across-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 09:14:53 +0000",
+      "snippet": "Cathie Wood\u2019s ARK Invest sold 134,472 Coinbase shares across three ETFs while buying over 393,000 shares of crypto platform Bullish.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Bitcoin under $70K gives institutions a \u2018new crack of the apple\u2019: Bitwise CEO",
+      "url": "https://cointelegraph.com/news/bitcoin-price-institutional-interest-ramping-up-bitwise-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 08:48:21 +0000",
+      "snippet": "Bitcoin is in a bear market and is \u201cgetting swept up\u201d with the rest of the macro assets, Bitwise CEO Hunter Horsley declared during a television interview.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "Bithumb claws back 99.7% of overpaid Bitcoin, covers remaining shortfall",
+      "url": "https://cointelegraph.com/news/bithumb-claws-back-99-7-of-overpaid-bitcoin-covers-remaining-shortfall?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sun, 08 Feb 2026 07:46:04 +0000",
+      "snippet": "Bithumb says it has reclaimed most of the excess BTC credited during a promotional error and used company funds to cover 1,788 Bitcoin that had already been sold.",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "cointelegraph_india",
+      "source_name": "Cointelegraph India",
+      "method": "rss"
+    },
+    {
+      "title": "South Korea to tighten crypto oversight targeting market manipulation: report",
+      "url": "https://www.theblock.co/post/388986/south-korea-tightens-crypto-oversight?utm_source=rss&utm_medium=rss",
+      "published": "Mon, 09 Feb 2026 00:25:27 -0500",
+      "snippet": "The Financial Supervisory Service said it will tighten crypto oversight and toughen penalties for IT-related accidents, Yonhap reported.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1359,10 +1387,10 @@
       "method": "rss"
     },
     {
-      "title": "Bitcoin mining difficulty drops 11% in largest negative adjustment since China\u2019s 2021 ban",
-      "url": "https://www.theblock.co/post/388955/bitcoin-mining-difficulty-drops-11-in-largest-negative-adjustment-since-chinas-2021-ban?utm_source=rss&utm_medium=rss",
-      "published": "Sat, 07 Feb 2026 12:14:23 -0500",
-      "snippet": "The network's hashrate has dropped about 20% over the past month as bitcoin's price collapsed and Winter Storm Fern forced widespread miner shutdowns.",
+      "title": "Tether plans to add 150 staff over next 18 months as expansion accelerates: FT",
+      "url": "https://www.theblock.co/post/388984/tether-to-add-staff?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 08 Feb 2026 23:08:26 -0500",
+      "snippet": "Tether has expanded its workforce to about 300 employees and plans to add another 150 over the next 18 months, the Financial Times reported.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1371,10 +1399,10 @@
       "method": "rss"
     },
     {
-      "title": "Kalshi says NBA star Giannis Antetokounmpo\u2019s stake is below 1%; controversial deal was signed Thursday",
-      "url": "https://www.theblock.co/post/388940/kalshi-says-nba-star-giannis-antetokounmpos-stake-is-below-1-controversial-deal-was-signed-thursday?utm_source=rss&utm_medium=rss",
-      "published": "Sat, 07 Feb 2026 09:27:41 -0500",
-      "snippet": "A 1% stake in Kalshi is worth $110 million based on the company's latest $11 billion valuation, but Kalshi did not disclose the exact size of the deal. ",
+      "title": "The Funding: Crypto liquid funds respond to the bitcoin crash",
+      "url": "https://www.theblock.co/post/388978/the-funding-crypto-liquid-funds-respond-to-the-bitcoin-crash?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 08 Feb 2026 20:07:51 -0500",
+      "snippet": "Bitcoin\u2019s sudden 20%+ crash this week caught many crypto funds off guard. Here\u2019s what they expect next. Let\u2019s dive in.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1383,10 +1411,46 @@
       "method": "rss"
     },
     {
-      "title": "Vietnam plans 0.1% tax on crypto trades, equating them to stocks",
-      "url": "https://cryptobriefing.com/vietnam-crypto-tax-regulation/",
-      "published": "Sun, 08 Feb 2026 04:54:55 +0000",
-      "snippet": "Vietnam's crypto tax could enhance market transparency but may restrict exchange growth due to high capital requirements.\nThe post Vietnam plans 0.1% tax on crypto trades, equating them to stocks appeared first on Crypto Briefing.",
+      "title": "Crypto.com CEO Kris Marszalek bought AI.com for $70 million in crypto, plans Super Bowl debut",
+      "url": "https://www.theblock.co/post/388975/crypto-com-ceo-kris-marszalek-bought-ai-com-for-70-million-in-crypto-plans-super-bowl-debut?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 08 Feb 2026 17:56:47 -0500",
+      "snippet": "The sale is the largest reported domain name transaction in history, and the $70 million sum was paid entirely in crypto. ",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "Jack Dorsey\u2019s Block looking to cut up to 10% of workforce in latest efficiency push: Bloomberg",
+      "url": "https://www.theblock.co/post/388971/jack-dorseys-block-reportedly-cutting-up-to-10-of-workforce-in-latest-efficiency-push-bloomberg?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 08 Feb 2026 14:38:40 -0500",
+      "snippet": "The cuts come less than a year after the company laid off 931 employees in March 2025, and ahead of its Q4 earnings report on Feb. 26. ",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "CoinShares says only 10,200 BTC face real quantum risk, pushing back on \u2018overblown\u2019 estimates",
+      "url": "https://www.theblock.co/post/388969/coinshares-says-only-10200-btc-face-real-quantum-risk-pushing-back-on-overblown-estimates?utm_source=rss&utm_medium=rss",
+      "published": "Sun, 08 Feb 2026 12:05:31 -0500",
+      "snippet": "CoinShares said quantum computers would have to become 100,000 times more powerful, which could take a decade of scientific progress, to break Bitcoin. ",
+      "focus_areas": [
+        "Blockchain-Crypto"
+      ],
+      "source_id": "the_block",
+      "source_name": "The Block - India",
+      "method": "rss"
+    },
+    {
+      "title": "Anonymous holder sends $181K in Bitcoin to Satoshi Nakamoto\u2019s wallet",
+      "url": "https://cryptobriefing.com/bitcoin-genesis-address-transfer/",
+      "published": "Mon, 09 Feb 2026 03:35:29 +0000",
+      "snippet": "This transaction highlights the enduring symbolic value of Bitcoin's origins and raises questions about the motivations behind such gestures.\nThe post Anonymous holder sends $181K in Bitcoin to Satoshi Nakamoto&#8217;s wallet appeared first on Crypto Briefing.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1395,10 +1459,10 @@
       "method": "rss"
     },
     {
-      "title": "Davide Crapis: ERC 8004 enables decentralized AI agent interactions, establishes trustless commerce, and enhances reputation systems on Ethereum | Unchained",
-      "url": "https://cryptobriefing.com/davide-crapis-erc-8004-enables-decentralized-ai-agent-interactions-establishes-trustless-commerce-and-enhances-reputation-systems-on-ethereum-unchained/",
-      "published": "Sun, 08 Feb 2026 03:08:24 +0000",
-      "snippet": "New ERC-8004 standard aims to revolutionize trust and interactions among AI agents on Ethereum\nThe post Davide Crapis: ERC 8004 enables decentralized AI agent interactions, establishes trustless commerce, and enhances reputation systems on Ethereum | Unchained appeared first on Crypto Briefing.",
+      "title": "Paolo Ardoino: Stablecoins are core financial infrastructure, Tether\u2019s USAT enhances liquidity for US users, and the inevitability of stablecoin adoption | The Wolf Of All Streets",
+      "url": "https://cryptobriefing.com/paolo-ardoino-stablecoins-are-core-financial-infrastructure-tethers-usat-enhances-liquidity-for-us-users-and-the-inevitability-of-stablecoin-adoption-the-wolf-of-all-streets/",
+      "published": "Sun, 08 Feb 2026 19:40:33 +0000",
+      "snippet": "Tether's new stablecoin aims to transform liquidity and bridge the gap between crypto and traditional finance.\nThe post Paolo Ardoino: Stablecoins are core financial infrastructure, Tether&#8217;s USAT enhances liquidity for US users, and the inevitability of stablecoin adoption | The Wolf Of All St...",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1407,10 +1471,10 @@
       "method": "rss"
     },
     {
-      "title": "Mike Belshe: Stablecoins are a safer alternative to banks, BitGo\u2019s operational controls are key for crypto market structure, and the future of finance is in asset tokenization | The Wolf Of All Streets",
-      "url": "https://cryptobriefing.com/mike-belshe-stablecoins-are-a-safer-alternative-to-banks-bitgos-operational-controls-are-key-for-crypto-market-structure-and-the-future-of-finance-is-in-asset-tokenization-the-wolf-of-all-stree/",
-      "published": "Sat, 07 Feb 2026 19:35:52 +0000",
-      "snippet": "Stablecoins are set to reshape banking by offering a safer, more efficient alternative for deposits.\nThe post Mike Belshe: Stablecoins are a safer alternative to banks, BitGo&#8217;s operational controls are key for crypto market structure, and the future of finance is in asset tokenization | The Wo...",
+      "title": "Jack Dorsey\u2019s Block may cut workforce by 10%: Report",
+      "url": "https://cryptobriefing.com/jack-dorsey-block-workforce-reduction/",
+      "published": "Sun, 08 Feb 2026 15:18:13 +0000",
+      "snippet": "Block's workforce reduction reflects a broader tech industry trend of streamlining operations amid economic challenges and strategic shifts.\nThe post Jack Dorsey&#8217;s Block may cut workforce by 10%: Report appeared first on Crypto Briefing.",
       "focus_areas": [
         "Blockchain-Crypto"
       ],
@@ -1419,46 +1483,10 @@
       "method": "rss"
     },
     {
-      "title": "Michael Casey: AI lacks true intent, the industry faces both a bubble and rapid advancements, and the emergence of \u201cproof of control\u201d technology | Unchained",
-      "url": "https://cryptobriefing.com/michael-casey-ai-lacks-true-intent-the-industry-faces-both-a-bubble-and-rapid-advancements-and-the-emergence-of-proof-of-control-technology-unchained/",
-      "published": "Sat, 07 Feb 2026 13:03:49 +0000",
-      "snippet": "AI's rapid growth is reshaping job markets and raising concerns about economic stability.\nThe post Michael Casey: AI lacks true intent, the industry faces both a bubble and rapid advancements, and the emergence of &#8220;proof of control&#8221; technology | Unchained appeared first on Crypto Briefin...",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "crypto_briefing",
-      "source_name": "Crypto Briefing",
-      "method": "rss"
-    },
-    {
-      "title": "Bithumb to reimburse customers after mistakenly distributing $40B in Bitcoin",
-      "url": "https://cryptobriefing.com/bithumb-bitcoin-reimbursement-customers/",
-      "published": "Sat, 07 Feb 2026 12:56:43 +0000",
-      "snippet": "Bithumb's incident highlights the critical need for robust security measures in crypto exchanges to prevent costly errors and maintain trust.\nThe post Bithumb to reimburse customers after mistakenly distributing $40B in Bitcoin appeared first on Crypto Briefing.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "crypto_briefing",
-      "source_name": "Crypto Briefing",
-      "method": "rss"
-    },
-    {
-      "title": "Ethereum whale Trend Research unwinds ETH position as losses reach $747M",
-      "url": "https://cryptobriefing.com/trend-research-eth-exit-loss/",
-      "published": "Sat, 07 Feb 2026 09:43:20 +0000",
-      "snippet": "The unwinding of Trend Research's ETH position highlights the volatility and risks associated with leveraged crypto investments.\nThe post Ethereum whale Trend Research unwinds ETH position as losses reach $747M appeared first on Crypto Briefing.",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "source_id": "crypto_briefing",
-      "source_name": "Crypto Briefing",
-      "method": "rss"
-    },
-    {
-      "title": "State actor targets 155 countries in 'Shadow Campaigns' espionage op",
-      "url": "https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/",
-      "published": "Sat, 07 Feb 2026 10:09:46 -0500",
-      "snippet": "A new state-aligned cyberespionage threat group tracked as TGR-STA-1030/UNC6619, has conducted a global-scale operation dubbed the \"Shadow Campaigns,\" where it targeted government infrastructure in 155 countries. [...]",
+      "title": "New tool blocks imposter attacks disguised as safe commands",
+      "url": "https://www.bleepingcomputer.com/news/security/new-tool-blocks-imposter-attacks-disguised-as-safe-commands/",
+      "published": "Sun, 08 Feb 2026 10:26:48 -0500",
+      "snippet": "A new open-source and cross-platform tool called Tirith can detect homoglyph attacks over command-line environments by analyzing URLs in typed commands and stopping their execution.\u00a0 [...]",
       "focus_areas": [
         "Cybersecurity"
       ],
@@ -1467,34 +1495,10 @@
       "method": "rss"
     },
     {
-      "title": "Payments platform BridgePay confirms ransomware attack behind outage",
-      "url": "https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/",
-      "published": "Sat, 07 Feb 2026 04:47:10 -0500",
-      "snippet": "A major U.S. payment gateway and solutions provider says a ransomware attack has knocked key systems offline, triggering a widespread outage affecting multiple services. The incident began on Friday and quickly escalated into a nationwide disruption across BridgePay's platform. [...]",
-      "focus_areas": [
-        "Cybersecurity"
-      ],
-      "source_id": "bleeping_computer",
-      "source_name": "Bleeping Computer",
-      "method": "rss"
-    },
-    {
-      "title": "Organizations Urged to Replace Discontinued Edge Devices",
-      "url": "https://www.securityweek.com/organizations-urged-to-replace-discontinued-edge-devices/",
-      "published": "Sat, 07 Feb 2026 13:00:00 +0000",
-      "snippet": "Edge devices that are no longer supported have been targeted in attacks by state-sponsored hackers, the US says.\nThe post Organizations Urged to Replace Discontinued Edge Devices appeared first on SecurityWeek.",
-      "focus_areas": [
-        "Cybersecurity"
-      ],
-      "source_id": "security_week",
-      "source_name": "SecurityWeek",
-      "method": "rss"
-    },
-    {
-      "title": "Target Darts Omni Auto Scoring System Hits the Mark",
-      "url": "https://www.wired.com/story/target-darts-omni-auto-scoring-system-rave/",
-      "published": "Sat, 07 Feb 2026 14:00:00 +0000",
-      "snippet": "Step up to the oche and hit the bull\u2019s-eye with this automatic darts scoring system for online play.",
+      "title": "Super Bowl Tailgate Photo Essay: Bad Bunny, Big Tech, and the Big Game",
+      "url": "https://www.wired.com/story/super-bowl-lx-tailgate-photo-essay/",
+      "published": "Mon, 09 Feb 2026 06:07:36 +0000",
+      "snippet": "We met up with attendees of Super Bowl LX\u2019s pregame festivities to get their takes on the competing halftime shows, the potential for ICE actions, and the influence of Silicon Valley on the event.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1504,10 +1508,10 @@
       "method": "rss"
     },
     {
-      "title": "4 Best Website Builders (2026), Tested and Reviewed",
-      "url": "https://www.wired.com/story/best-website-builders/",
-      "published": "Sat, 07 Feb 2026 13:00:00 +0000",
-      "snippet": "Don't fuss around with files and servers. Just use one of these WIRED-tested website builders.",
+      "title": "Turning Point USA\u2019s Halftime Show Was Exactly What You\u2019d Expect",
+      "url": "https://www.wired.com/story/turning-point-usas-halftime-show-was-exactly-what-youd-expect/",
+      "published": "Mon, 09 Feb 2026 04:33:53 +0000",
+      "snippet": "\u201cThe All-American Halftime Show,\u201d born out of outrage over Bad Bunny's Super Bowl performance, fell short of the hype. From Kid Rock\u2019s poor lip synching to Erika Kirk being MIA, it was simply dull.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1517,10 +1521,10 @@
       "method": "rss"
     },
     {
-      "title": "Sony's Biggest QLED Screens See Big Discounts This Weekend",
-      "url": "https://www.wired.com/story/bravia-9-deal-226/",
-      "published": "Sat, 07 Feb 2026 12:30:00 +0000",
-      "snippet": "You can grab a lower price on some of Sony's biggest QLED panels.",
+      "title": "Inside Bad Bunny\u2019s Historic Super Bowl Halftime Show",
+      "url": "https://www.wired.com/story/bad-bunny-super-bowl-halftime-show-behind-the-scenes/",
+      "published": "Mon, 09 Feb 2026 02:55:37 +0000",
+      "snippet": "Bad Bunny\u2019s Super Bowl performance required 9,852 theatrical pyrotechnics, nearly 400 costumed extras, and a lot of ingenuity. And yes, that was a real couple featured in the wedding.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1530,10 +1534,10 @@
       "method": "rss"
     },
     {
-      "title": "The Technologies Changing How You\u2019ll Watch the 2026 Winter Olympic Games",
-      "url": "https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/",
-      "published": "Sat, 07 Feb 2026 12:00:00 +0000",
-      "snippet": "From drones with \u201cfirst-person\u201d visualization to real-time 360-degree replays and Olympics GPT, get ready to immerse yourself in the Winter Games in Milan and Cortina.",
+      "title": "Best Wireless Earbuds (2026): Apple, Sony, Bose, and More",
+      "url": "https://www.wired.com/gallery/best-wirefree-earbuds/",
+      "published": "Sun, 08 Feb 2026 13:05:00 +0000",
+      "snippet": "Ready to cut the cord? These are our favorite buds that will never, ever get tangled.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1543,10 +1547,10 @@
       "method": "rss"
     },
     {
-      "title": "The 7 Best Automatic Litter Boxes (2025) Our Cats Would Recommend",
-      "url": "https://www.wired.com/gallery/the-best-automatic-cat-litter-boxes/",
-      "published": "Sat, 07 Feb 2026 11:35:00 +0000",
-      "snippet": "With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future.",
+      "title": "The Shoes and Brooms Transforming Curling at the 2026 Winter Olympics",
+      "url": "https://www.wired.com/story/the-shoes-and-brooms-transforming-curling-at-the-2026-winter-olympics/",
+      "published": "Sun, 08 Feb 2026 12:00:00 +0000",
+      "snippet": "Halfway between chess and bocce, curling is experiencing an evolution thanks to technology. From brooms to stones to footwear, here\u2019s everything you need to know about the game\u2019s gadgets.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1556,10 +1560,10 @@
       "method": "rss"
     },
     {
-      "title": "Moltbook, the Social Network for AI Agents, Exposed Real Humans\u2019 Data",
-      "url": "https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/",
-      "published": "Sat, 07 Feb 2026 11:30:00 +0000",
-      "snippet": "Plus: Apple\u2019s Lockdown mode keeps the FBI out of a reporter\u2019s phone, Elon Musk\u2019s Starlink cuts off Russian forces, and more.",
+      "title": "4 Best AI Notetakers (2026), Tested and Reviewed",
+      "url": "https://www.wired.com/gallery/best-ai-notetakers/",
+      "published": "Sun, 08 Feb 2026 12:00:00 +0000",
+      "snippet": "A growing collection of pocket-sized gadgets lets you record your meetings and extract value from them. Here are our favorites.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1569,10 +1573,10 @@
       "method": "rss"
     },
     {
-      "title": "Gear News of the Week: Google's Pixel 10a Arrives Soon, and Valve Delays Its Steam Hardware",
-      "url": "https://www.wired.com/story/gear-news-of-the-week-googles-pixel-10a-arrives-soon-and-valve-delays-its-steam-hardware/",
-      "published": "Sat, 07 Feb 2026 11:00:00 +0000",
-      "snippet": "Plus: Dexcom updates its app, Fitbit founders create a new family caregiving app, and Blink has a new outdoor security camera.",
+      "title": "I Have Fallen in Love With Open Earbuds (and You Should Too)",
+      "url": "https://www.wired.com/story/why-open-earbuds-are-my-favorite-new-category/",
+      "published": "Sun, 08 Feb 2026 11:30:00 +0000",
+      "snippet": "From jogging and cycling to multitasking or puttering around the house, open earbuds are an excellent way to jam out in the real world.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1582,10 +1586,10 @@
       "method": "rss"
     },
     {
-      "title": "Insta360 Ace Pro 2 Xplorer Grip Pro Kit Review: An Even Better Action Camera",
-      "url": "https://www.wired.com/review/insta360-ace-pro-2-xplorer-grip-pro-kit/",
-      "published": "Sat, 07 Feb 2026 10:30:00 +0000",
-      "snippet": "Want to turn your action camera into a point-and-shoot? Insta360\u2019s new accessory makes the Ace Pro 2 into a great pocket camera alternative.",
+      "title": "Best Vacuum Cleaner (2026): Cordless Vacuums, Robot Vacuums, Dysons",
+      "url": "https://www.wired.com/gallery/best-vacuum-cleaner/",
+      "published": "Sun, 08 Feb 2026 11:09:00 +0000",
+      "snippet": "Looking for all our top recommended vacuums? Here are our favorites in every style we\u2019ve tested, from stick vacs to robot vacuums.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
@@ -1595,20 +1599,87 @@
       "method": "rss"
     },
     {
-      "title": "7 Steps to Better Financial Health You Can Take Right Now",
-      "url": "https://www.wired.com/story/your-annual-personal-finance-checklist/",
-      "published": "Sat, 07 Feb 2026 10:00:00 +0000",
-      "snippet": "The beginning of the year is a great time to take a hard look at your expenses and savings. Take these concrete steps to fix up your finances in about a day.",
+      "title": "For $4,550, Would You Buy a Single Premium Watch or a Swarm of Affordable Ones?",
+      "url": "https://www.wired.com/story/for-4550-would-you-buy-single-premium-watch-or-swarm-of-affordable-ones/",
+      "published": "Sun, 08 Feb 2026 11:00:00 +0000",
+      "snippet": "You could go all in on one pricey, luxe watch or assemble a collection of lower-budget timepieces. Let\u2019s crunch the numbers.",
       "focus_areas": [
         "AI-Regulation",
         "International-Comparative"
       ],
       "source_id": "wired_ai",
       "source_name": "Wired AI",
+      "method": "rss"
+    },
+    {
+      "title": "Built by Agents, Tested by Agents, Trusted by Whom?",
+      "url": "https://law.stanford.edu/2026/02/08/built-by-agents-tested-by-agents-trusted-by-whom/",
+      "published": "Sun, 08 Feb 2026 19:09:52 +0000",
+      "snippet": "On February 6, 2026, StrongDM\u2019s AI team published a manifesto. Three engineers described a \u201cSoftware Factory\u201d where coding agents write, test, and ship production software. No human writes code. No [&#8230;]",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "source_id": "stanford_tech_lr",
+      "source_name": "Stanford Technology Law Review",
       "method": "rss"
     }
   ],
   "page_changes": [
+    {
+      "source_id": "rbi_fintech",
+      "source_name": "RBI - Fintech & Digital Payments",
+      "section": "Press Releases",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+      "change_detected": true,
+      "notable_links": [
+        {
+          "text": "Skip to main content",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx#mainsection"
+        },
+        {
+          "text": "Selected",
+          "url": "javascript:__doPostBack('UsrFontCntr$LinkBtnFontRegular','')"
+        },
+        {
+          "text": "Selected",
+          "url": "javascript:__doPostBack('UsrFontCntr$LinkBtnUndoAccessibilty','')"
+        },
+        {
+          "text": "\u0939\u093f\u0902\u0926\u0940",
+          "url": "https://www.rbi.org.in/hindi/Home.aspx"
+        },
+        {
+          "text": "Click here toVisit the RBI\u2019s new website",
+          "url": "https://website.rbi.org.in"
+        },
+        {
+          "text": "Notifications",
+          "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"
+        },
+        {
+          "text": "Notifications",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx"
+        },
+        {
+          "text": "Master Directions",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx"
+        },
+        {
+          "text": "Master Circulars",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx"
+        },
+        {
+          "text": "Draft Notifications/Guidelines",
+          "url": "https://www.rbi.org.in/Scripts/DraftNotificationsGuildelines.aspx"
+        },
+        {
+          "text": "Draft Directions (RE-wise)",
+          "url": "https://www.rbi.org.in/Scripts/BS_ViewREwiseDraftDirections.aspx"
+        }
+      ],
+      "last_checked": "2026-02-09T06:58:39.603491+00:00"
+    },
     {
       "source_id": "prs_legislative",
       "source_name": "PRS Legislative Research",
@@ -1689,7 +1760,7 @@
           "url": "https://prsindia.org/billtrack"
         }
       ],
-      "last_checked": "2026-02-08T06:43:54.278753+00:00"
+      "last_checked": "2026-02-09T06:59:49.098807+00:00"
     },
     {
       "source_id": "nclat",
@@ -1728,11 +1799,11 @@
         },
         {
           "text": "Read More",
-          "url": "https://nclat.nic.in/sites/default/files/2026-02/04.02.2026%20notification.pdf"
+          "url": "https://nclat.nic.in/sites/default/files/2026-02/efilling.pdf"
         },
         {
           "text": "Read More",
-          "url": "https://nclat.nic.in/sites/default/files/2026-02/efilling.pdf"
+          "url": "https://nclat.nic.in/flash-news/users-may-access-case-status-judgments-and-daily-orders-through-nclat-e-filing-portal"
         },
         {
           "text": "Important Notice",
@@ -1751,7 +1822,7 @@
           "url": "https://nclat.nic.in/about-NCLAT/about-chairperson"
         }
       ],
-      "last_checked": "2026-02-08T06:44:00.939069+00:00"
+      "last_checked": "2026-02-09T06:59:55.556682+00:00"
     },
     {
       "source_id": "mib",
@@ -1813,75 +1884,7 @@
           "url": "https://mib.gov.in/ministry/directory"
         }
       ],
-      "last_checked": "2026-02-08T06:44:15.894155+00:00"
-    },
-    {
-      "source_id": "niti_aayog",
-      "source_name": "NITI Aayog",
-      "section": "main",
-      "url": "https://www.niti.gov.in",
-      "change_detected": true,
-      "notable_links": [
-        {
-          "text": "Frontier Tech Hub\u092b\u094d\u0930\u0902\u091f\u093f\u092f\u0930 \u091f\u0947\u0915 \u0939\u092c",
-          "url": "https://www.niti.gov.in/frontier-tech-hub"
-        },
-        {
-          "text": "Tourism & Culture\u092a\u0930\u094d\u092f\u091f\u0928 \u0914\u0930 \u0938\u0902\u0938\u094d\u0915\u0943\u0924\u093f",
-          "url": "https://www.niti.gov.in/divisions/division/tourism-and-culture"
-        },
-        {
-          "text": "Aspirational Districts Programme/Aspirational Block Programme\u0906\u0915\u093e\u0902\u0915\u094d\u0937\u0940 \u091c\u093f\u0932\u093e \u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e/\u0906\u0915\u093e\u0902\u0915\u094d\u0937\u0940 \u092c\u094d\u0932\u0949\u0915 ",
-          "url": "https://www.niti.gov.in/aspirational-districts-programme"
-        },
-        {
-          "text": "Industry & Foreign Investment\u0909\u0926\u094d\u092f\u094b\u0917 \u090f\u0935\u0902 \u0935\u093f\u0926\u0947\u0936\u0940 \u0928\u093f\u0935\u0947\u0936",
-          "url": "https://www.niti.gov.in/divisions/division/Industry-%26-Foreign-Investment"
-        },
-        {
-          "text": "Energy\u090a\u0930\u094d\u091c\u093e",
-          "url": "https://www.niti.gov.in/divisions/division/energy"
-        },
-        {
-          "text": "Green Transition Climate & Environment\u092a\u094d\u0930\u093e\u0915\u0943\u0924\u093f\u0915 \u0938\u0902\u0938\u093e\u0927\u0928 \u0914\u0930 \u092a\u0930\u094d\u092f\u093e\u0935\u0930\u0923",
-          "url": "https://www.niti.gov.in/divisions/division/climate-change-and-environment"
-        }
-      ],
-      "last_checked": "2026-02-08T06:44:27.075338+00:00"
-    },
-    {
-      "source_id": "digital_india",
-      "source_name": "Digital India Portal",
-      "section": "main",
-      "url": "https://digitalindia.gov.in",
-      "change_detected": true,
-      "notable_links": [
-        {
-          "text": "Application For Onboarding On API SETU",
-          "url": "https://cdn.digitalindiacorporation.in/wp-content/uploads/2025/05/e8c4c7ed-537e-427c-b17c-56c0c064533b_compressed.pdf"
-        },
-        {
-          "text": "Explanatory note to Digital Personal Data Protection Rules, 2025",
-          "url": "https://cdn.digitalindiacorporation.in/wp-content/uploads/2025/01/Explanatory-Note-DPDP-Rules-2025.pdf"
-        },
-        {
-          "text": "Draft Digital Personal Data Protection Rules,2025",
-          "url": "https://cdn.digitalindiacorporation.in/wp-content/uploads/2025/01/Draft-Digital-Personal-Data-Protection-Rules2025.pdf"
-        },
-        {
-          "text": "Answers to questions asked during \u2018Ask our Experts\u2019 on DigiLocker",
-          "url": "https://cdn.digitalindiacorporation.in/wp-content/uploads/2024/11/DIGILOCKER-ASK-EXPERT-.pdf"
-        },
-        {
-          "text": "STPI LEAP AHEAD 2nd Edition",
-          "url": "https://www.digitalindia.gov.in/?post_type=press_release&p=9124&preview=true"
-        },
-        {
-          "text": "View All",
-          "url": "https://www.digitalindia.gov.in/initiatives"
-        }
-      ],
-      "last_checked": "2026-02-08T06:44:35.934104+00:00"
+      "last_checked": "2026-02-09T07:00:13.649903+00:00"
     },
     {
       "source_id": "orf_cyber",
@@ -1967,7 +1970,7 @@
           "url": "https://www.orfonline.org"
         }
       ],
-      "last_checked": "2026-02-08T06:44:59.156612+00:00"
+      "last_checked": "2026-02-09T07:01:13.134889+00:00"
     },
     {
       "source_id": "takshashila",
@@ -1985,8 +1988,8 @@
           "url": "https://takshashila.org.in/pages/publications/"
         },
         {
-          "text": "Feedback on DPIIT Working Paper on Generative AI and CopyrightRead more\u00e2\u0086\u0092",
-          "url": "https://takshashila.org.in/content/publications/20260206_generative-ai-and-copyright-consultation.html"
+          "text": "Takshashila Policy Advisory - Working Paper on Generative AI and Copyright (Part 1)Read more\u00e2\u0086\u0092",
+          "url": "https://takshashila.org.in/content/publications/20260206-generative-ai-and-copyright-consultation.html"
         },
         {
           "text": "India Must Architect Sectoral Plurilateral Blocs to Overcome Geopolitical CoercionRead more\u00e2\u0086\u0092",
@@ -2057,7 +2060,7 @@
           "url": "https://takshashila.org.in/pages/blogs/"
         }
       ],
-      "last_checked": "2026-02-08T06:45:05.414682+00:00"
+      "last_checked": "2026-02-09T07:01:19.631661+00:00"
     },
     {
       "source_id": "ib_ministry",
@@ -2119,7 +2122,7 @@
           "url": "https://mib.gov.in/ministry/directory"
         }
       ],
-      "last_checked": "2026-02-08T06:47:13.261395+00:00"
+      "last_checked": "2026-02-09T07:03:39.569547+00:00"
     },
     {
       "source_id": "birac",
@@ -2173,7 +2176,85 @@
           "url": "https://birac.nic.in/bionest.php"
         }
       ],
-      "last_checked": "2026-02-08T06:50:11.009166+00:00"
+      "last_checked": "2026-02-09T07:06:31.005701+00:00"
+    },
+    {
+      "source_id": "norway_datatilsynet",
+      "source_name": "Norway Datatilsynet",
+      "section": "main",
+      "url": "https://www.datatilsynet.no",
+      "change_detected": true,
+      "notable_links": [
+        {
+          "text": "Dine rettigheter",
+          "url": "https://www.datatilsynet.no/rettigheter-og-plikter/den-registrertes-rettigheter/"
+        },
+        {
+          "text": "Virksomhetenes plikter",
+          "url": "https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/"
+        },
+        {
+          "text": "Personvern p\u00e5 arbeidsplassen",
+          "url": "https://www.datatilsynet.no/personvern-pa-ulike-omrader/personvern-pa-arbeidsplassen/"
+        },
+        {
+          "text": "H\u00e5ndtering av avvik",
+          "url": "https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/avvik/"
+        },
+        {
+          "text": "Lover og regler",
+          "url": "https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/"
+        },
+        {
+          "text": "Sandkassesiden",
+          "url": "https://www.datatilsynet.no/regelverk-og-verktoy/sandkasse-for-kunstig-intelligens/"
+        },
+        {
+          "text": "Les mer og se opptak",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/seminar---sandkasseprosjekter-om-okonomisk-kriminalitet/"
+        },
+        {
+          "text": "Les sluttrapportene",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/nye-sandkasserapporter-om-datadeling/"
+        },
+        {
+          "text": "Nye sandkasserapporter om datadeling",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/nye-sandkasserapporter-om-datadeling/"
+        },
+        {
+          "text": "Varsler tilsyn med alle Norges kommuner",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/varsler-tilsyn-med-alle-norges-kommuner/"
+        },
+        {
+          "text": "Felles portal for \u00f8kt digital motstandskraft",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2026/felles-portal-for-okt-digital-motstandskraft/"
+        },
+        {
+          "text": "Nyhetsarkiv",
+          "url": "https://www.datatilsynet.no/aktuelt/"
+        },
+        {
+          "text": "Ledige stillinger og status i tilsettingsprosessene",
+          "url": "https://www.datatilsynet.no/om-datatilsynet/ledig-stilling-og-status/"
+        },
+        {
+          "text": "Les mer og se opptak",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/personverndagen-2026-digital-suverenitet-og-personvern/"
+        },
+        {
+          "text": "Tips til  nye personvernombud",
+          "url": "https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/personvernombud/tips-til-personvernombud/"
+        },
+        {
+          "text": "Les mer og se filmen",
+          "url": "https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/avvik/hva-er-et-brudd-pa-personopplysningssikkerheten/"
+        },
+        {
+          "text": "Se \"Datatilsynet forklarer: Copilot og integrert KI\"",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/datatilsynet-forklarer-copilot-og-integrert-ki/"
+        }
+      ],
+      "last_checked": "2026-02-09T07:08:54.429789+00:00"
     }
   ],
   "websearch_pending": [
@@ -2311,8 +2392,8 @@
   ],
   "page_monitor_stats": {
     "total_pages": 111,
-    "successful": 76,
-    "failed": 35,
+    "successful": 75,
+    "failed": 36,
     "changes_detected": 9
   }
 }
