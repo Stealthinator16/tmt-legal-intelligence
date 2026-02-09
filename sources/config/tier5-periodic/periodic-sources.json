@@ -2995,18 +2995,6 @@
       "enabled": true
     },
     {
-      "id": "asean_digital",
-      "name": "ASEAN Digital Ministers",
-      "url": "https://asean.org/our-communities/economic-community/digital-economy",
-      "type": "international_body",
-      "method": "rss",
-      "focus_areas": [
-        "International-Comparative"
-      ],
-      "enabled": true,
-      "rss": "https://asean.org/feed/"
-    },
-    {
       "id": "au_digital_transformation",
       "name": "African Union Digital",
       "url": "https://au.int/en/digital-transformation-strategy",

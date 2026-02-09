@@ -86,5 +86,5 @@ jobs:
           echo "## Fetch Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Tier: ${{ steps.tier.outputs.tier }}" >> $GITHUB_STEP_SUMMARY
-          ITEMS=$(sqlite3 sources/state/tmt_intelligence.db "SELECT COUNT(*) FROM items" 2>/dev/null || echo "N/A")
+          ITEMS=$(python -c "import sqlite3; print(sqlite3.connect('sources/state/tmt_intelligence.db').execute('SELECT COUNT(*) FROM items').fetchone()[0])" 2>/dev/null || echo "N/A")
           echo "Total items in DB: $ITEMS" >> $GITHUB_STEP_SUMMARY

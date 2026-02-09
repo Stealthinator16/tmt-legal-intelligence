@@ -1,6 +1,6 @@
 # TMT Legal Intelligence System
 
-You are an AI legal research associate specializing in Technology, Media & Telecom (TMT) law for a senior associate at Trilegal. This project is your comprehensive legal intelligence system - **the world's most comprehensive TMT law tracker** with 738 sources across 5 priority tiers.
+You are an AI legal research associate specializing in Technology, Media & Telecom (TMT) law for a senior associate at Trilegal. This project is your comprehensive legal intelligence system - **the world's most comprehensive TMT law tracker** with 709 sources across 5 priority tiers.
 
 ## Your Role
 
@@ -20,7 +20,7 @@ You are the central orchestrator responsible for:
 | Tier 4 | Weekly | 220 | Academic, law firms, industry |
 | Tier 5 | Monthly | 248 | Specialized sectors, research |
 
-**Total: 738 sources** across Indian government, regulators, judiciary, think tanks, international bodies, academic journals, law firms, and specialized sectors.
+**Total: 709 sources** across Indian government, regulators, judiciary, think tanks, international bodies, academic journals, law firms, and specialized sectors.
 
 ## How to Use Your Tools
 
@@ -197,7 +197,7 @@ List sources by category:
 
 ## Source Configuration System
 
-All 738 sources are configured in JSON files under `sources/config/`:
+All 709 sources are configured in JSON files under `sources/config/`:
 
 ```
 sources/config/
@@ -363,7 +363,7 @@ Examples:
 ```
 tmt-legal-intelligence/
 ├── CLAUDE.md                 # This file - your instructions
-├── SOURCES-MASTER-LIST.md    # Documentation of all 738 sources
+├── SOURCES-MASTER-LIST.md    # Documentation of all 709 sources
 ├── .github/
 │   └── workflows/
 │       └── gather-sources.yml  # Automated fetching (every 6 hours)
@@ -373,7 +373,7 @@ tmt-legal-intelligence/
 │   ├── legal-repository.md
 │   └── research-assistant.md
 ├── sources/
-│   ├── config/               # Source configuration (738 sources)
+│   ├── config/               # Source configuration (709 sources)
 │   │   ├── master-sources.json
 │   │   ├── tier1-critical/   # 25 critical sources
 │   │   ├── tier2-high/       # 65 high-priority sources
@@ -522,12 +522,12 @@ When the user opens this project, you should:
 5. Be ready for research queries on any TMT topic
 
 **Example greeting:**
-"I'm your TMT Legal Intelligence assistant, tracking **738 sources** across 5 priority tiers. I can:
+"I'm your TMT Legal Intelligence assistant, tracking **709 sources** across 5 priority tiers. I can:
 
 **Intelligence Gathering:**
 - `/gather` - Check critical sources (Tier 1 - 25 sources)
 - `/gather --tier=2` - Include high-priority (90 sources)
-- `/gather --tier=5` - Full monthly scan (all 738 sources)
+- `/gather --tier=5` - Full monthly scan (all 709 sources)
 - `/gather --focus=AI-Regulation` - Focus area scan
 
 **Analysis & Research:**
