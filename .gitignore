@@ -26,13 +26,21 @@ ENV/
 *.doc
 *.docx
 
-# Keep state files tracked (needed for automation)
-# But ignore SQLite write-ahead logs
+# Backup files
+*.bak
+
+# SQLite write-ahead logs
 sources/state/*.db-wal
 sources/state/*.db-shm
 
+# Deprecated state files (now in tmt_intelligence.db)
+sources/state/seen_items.db
+sources/state/page_hashes.json
+sources/state/brief_state.json
+sources/downloaded/new_items.json
+
 # Logs
-logs/*.log
+logs/
 
 # Temporary files
 *.tmp

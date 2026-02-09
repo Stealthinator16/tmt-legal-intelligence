@@ -11,9 +11,13 @@ import sys
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse
-import requests
-from bs4 import BeautifulSoup
-import feedparser
+try:
+    import requests
+    from bs4 import BeautifulSoup
+    import feedparser
+except ImportError:
+    print("Error: Required packages not installed. Run: pip install feedparser requests beautifulsoup4")
+    sys.exit(1)
 
 # Common RSS feed URL patterns to try
 RSS_PATTERNS = [
@@ -48,7 +52,7 @@ def is_valid_feed(content: str) -> bool:
         if feed.version or feed.entries or feed.feed.get('title'):
             return True
         return False
-    except:
+    except Exception:
         return False
 
 
@@ -71,7 +75,7 @@ def find_rss_in_html(html: str, base_url: str) -> list:
                 full_url = urljoin(base_url, href)
                 if full_url not in feeds:
                     feeds.append(full_url)
-    except:
+    except Exception:
         pass
     return feeds
 
@@ -135,7 +139,7 @@ def discover_feed_for_url(base_url: str) -> dict:
                     result['feed_url'] = response.url  # Use final URL after redirects
                     result['method'] = 'discovered'
                     return result
-        except:
+        except Exception:
             continue
 
     return result

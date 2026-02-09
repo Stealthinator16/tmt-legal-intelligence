@@ -1,11 +1,7 @@
 name: Gather Legal Intelligence Sources
 
 on:
-  # Scheduled runs - once daily at 6 AM UTC (11:30 AM IST)
-  schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC
-
-  # Manual trigger from GitHub UI
+  # Manual trigger only (local launchd handles scheduling)
   workflow_dispatch:
     inputs:
       tier:
@@ -22,13 +18,12 @@ jobs:
   fetch-sources:
     runs-on: ubuntu-latest
 
-    # Prevent concurrent runs
     concurrency:
       group: gather-sources
       cancel-in-progress: false
 
     permissions:
-      contents: write  # Needed to commit changes
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -49,12 +44,7 @@ jobs:
       - name: Determine tier
         id: tier
         run: |
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            echo "tier=${{ github.event.inputs.tier }}" >> $GITHUB_OUTPUT
-          else
-            # Scheduled runs fetch all tiers
-            echo "tier=all" >> $GITHUB_OUTPUT
-          fi
+          echo "tier=${{ github.event.inputs.tier || '1' }}" >> $GITHUB_OUTPUT
 
       - name: Fetch RSS feeds
         run: |
@@ -63,7 +53,6 @@ jobs:
           else
             python scripts/fetch_rss.py --tier=${{ steps.tier.outputs.tier }}
           fi
-        continue-on-error: true
 
       - name: Monitor page changes
         if: ${{ github.event.inputs.skip_pages != 'true' }}
@@ -73,12 +62,11 @@ jobs:
           else
             python scripts/monitor_pages.py --tier=${{ steps.tier.outputs.tier }}
           fi
-        continue-on-error: true
 
       - name: Check for changes
         id: changes
         run: |
-          git add sources/downloaded/ sources/state/
+          git add sources/state/
           if git diff --staged --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
@@ -97,10 +85,6 @@ jobs:
         run: |
           echo "## Fetch Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          if [ -f sources/downloaded/new_items.json ]; then
-            echo "### New Items Found" >> $GITHUB_STEP_SUMMARY
-            python -c "import json; d=json.load(open('sources/downloaded/new_items.json')); print(f\"- RSS items: {d.get('new_items_count', 0)}\")" >> $GITHUB_STEP_SUMMARY
-            python -c "import json; d=json.load(open('sources/downloaded/new_items.json')); print(f\"- Page changes: {len(d.get('page_changes', []))}\")" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "No new_items.json generated" >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "Tier: ${{ steps.tier.outputs.tier }}" >> $GITHUB_STEP_SUMMARY
+          ITEMS=$(sqlite3 sources/state/tmt_intelligence.db "SELECT COUNT(*) FROM items" 2>/dev/null || echo "N/A")
+          echo "Total items in DB: $ITEMS" >> $GITHUB_STEP_SUMMARY

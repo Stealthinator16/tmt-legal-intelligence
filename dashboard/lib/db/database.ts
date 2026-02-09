@@ -97,6 +97,14 @@ export function initializeDatabase(): void {
     )
   `);
 
+  // Brief state (replaces brief_state.json)
+  database.exec(`
+    CREATE TABLE IF NOT EXISTS brief_state (
+      key TEXT PRIMARY KEY,
+      value TEXT
+    )
+  `);
+
   // Create indexes
   database.exec(`
     CREATE INDEX IF NOT EXISTS idx_items_source ON items(source_id);

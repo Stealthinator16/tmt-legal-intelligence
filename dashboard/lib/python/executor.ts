@@ -1,9 +1,6 @@
 import { spawn, ChildProcess } from "child_process";
 import path from "path";
-import fs from "fs";
-import { initializeDatabase, getDatabase } from "@/lib/db/database";
-import { createManyItems } from "@/lib/db/items";
-import { updateSource, recordSourceError, clearSourceError } from "@/lib/db/sources";
+import { recordSourceError, clearSourceError } from "@/lib/db/sources";
 
 export interface FetchJob {
   id: string;
@@ -129,25 +126,11 @@ export async function runFetchJob(jobId: string): Promise<void> {
       if (code === 0) {
         job.status = "completed";
 
-        // Import fetched items into SQLite
-        if (job.type === "rss" || job.type === "page_monitor" || job.type === "websearch") {
-          try {
-            await importFetchedItems();
-            job.output.push("[dashboard] Items imported to SQLite");
+        // Python scripts now write directly to tmt_intelligence.db
+        job.output.push("[dashboard] Fetch complete (Python wrote to DB directly)");
 
-            // Clear error for this source if it had one
-            if (job.sourceId) {
-              clearSourceError(job.sourceId);
-              job.output.push(`[dashboard] Cleared error for source ${job.sourceId}`);
-            }
-          } catch (err) {
-            job.output.push(`[dashboard] Error importing items: ${err}`);
-
-            // Record the import error
-            if (job.sourceId) {
-              recordSourceError(job.sourceId, `Import failed: ${err}`);
-            }
-          }
+        if (job.sourceId) {
+          clearSourceError(job.sourceId);
         }
 
         resolve();
@@ -210,71 +193,3 @@ export function clearOldJobs(maxAge: number = 24 * 60 * 60 * 1000): void {
   }
 }
 
-/**
- * Import fetched items from new_items.json into SQLite
- */
-async function importFetchedItems(): Promise<number> {
-  initializeDatabase();
-
-  const outputPath = process.env.OUTPUT_PATH || path.resolve(process.cwd(), "../sources/downloaded");
-  const newItemsPath = path.join(outputPath, "new_items.json");
-
-  if (!fs.existsSync(newItemsPath)) {
-    console.log("No new_items.json found");
-    return 0;
-  }
-
-  const content = fs.readFileSync(newItemsPath, "utf-8");
-  const data = JSON.parse(content);
-
-  if (!data.items || !Array.isArray(data.items)) {
-    console.log("No items in new_items.json");
-    return 0;
-  }
-
-  // Convert to the format expected by createManyItems
-  const items = data.items.map((item: {
-    url: string;
-    title: string;
-    snippet?: string;
-    source_id?: string;
-    source_name?: string;
-    published?: string;
-    focus_areas?: string[];
-  }) => {
-    // Convert published date to ISO format for proper sorting
-    let publishedISO = new Date().toISOString();
-    if (item.published) {
-      try {
-        const parsedDate = new Date(item.published);
-        if (!isNaN(parsedDate.getTime())) {
-          publishedISO = parsedDate.toISOString();
-        }
-      } catch {
-        // If parsing fails, use current date
-      }
-    }
-
-    return {
-      url: item.url,
-      title: item.title,
-      snippet: item.snippet || "",
-      source_id: item.source_id || "",
-      source_name: item.source_name || "",
-      published: publishedISO,
-      focus_areas: item.focus_areas || [],
-    };
-  });
-
-  const inserted = createManyItems(items);
-
-  // Update last_fetch for sources
-  const now = new Date().toISOString();
-  const sourceIds = [...new Set(items.map((i: { source_id: string }) => i.source_id).filter(Boolean))];
-  for (const sourceId of sourceIds) {
-    updateSource(sourceId as string, { last_fetch: now } as unknown as import("@/types/source").Source);
-  }
-
-  console.log(`Imported ${inserted} new items from ${sourceIds.length} sources`);
-  return inserted;
-}
