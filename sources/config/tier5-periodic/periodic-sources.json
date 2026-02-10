@@ -52,7 +52,7 @@
       "focus_areas": [
         "Drones-eVTOL"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ficci_drones",
@@ -161,7 +161,7 @@
       "focus_areas": [
         "Space-Technology"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "space_news",
@@ -211,7 +211,7 @@
       "focus_areas": [
         "Blockchain-Crypto"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "nasscom_blockchain",
@@ -890,7 +890,7 @@
         "IP-Copyright",
         "International-Comparative"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://jipel.law.nyu.edu/feed/"
     },
     {
@@ -1058,7 +1058,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rajasthan_it",
@@ -1130,7 +1130,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "assam_it",
@@ -1206,7 +1206,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "turkey_kvkk",
@@ -1331,7 +1331,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "poland_uodo",
@@ -1421,7 +1421,7 @@
       "focus_areas": [
         "Drones-eVTOL"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "uas_vision",
@@ -1498,7 +1498,7 @@
       "focus_areas": [
         "Drones-eVTOL"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ideaforge",
@@ -1599,7 +1599,7 @@
       "focus_areas": [
         "Space-Technology"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dhruva_space",
@@ -1668,7 +1668,7 @@
       "focus_areas": [
         "Blockchain-Crypto"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "coindcx_blog",
@@ -1684,7 +1684,7 @@
       "focus_areas": [
         "Blockchain-Crypto"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "zebpay_blog",
@@ -1802,7 +1802,7 @@
       "focus_areas": [
         "Cybersecurity"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kaspersky_india",
@@ -1982,7 +1982,7 @@
       "focus_areas": [
         "AI-Regulation"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ibm_ai",
@@ -2137,7 +2137,7 @@
       "focus_areas": [
         "AI-Regulation"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "waymo",
@@ -2181,7 +2181,7 @@
       "focus_areas": [
         "Autonomous-Vehicles"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ola_electric",
@@ -2329,7 +2329,7 @@
       "focus_areas": [
         "Biotechnology"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "genengnews",
@@ -2359,7 +2359,7 @@
       "focus_areas": [
         "Biotechnology"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "biocon",
@@ -2370,7 +2370,7 @@
       "focus_areas": [
         "Biotechnology"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "serum_institute",
@@ -2665,7 +2665,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cyprus_cdp",
@@ -2764,7 +2764,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "bahrain_pdp",
@@ -2788,7 +2788,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "oman_ita",
@@ -2836,7 +2836,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "botswana_dp",
@@ -2922,7 +2922,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cameroon_antic",
@@ -3003,7 +3003,7 @@
       "focus_areas": [
         "International-Comparative"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://au.int/rss.xml"
     },
     {
@@ -3041,7 +3041,7 @@
         "Telecom",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "pacnog",

@@ -132,7 +132,7 @@
         "AI-Regulation",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "georgetown_cdt",
@@ -392,7 +392,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://www.azbpartners.com/feed/"
     },
     {
@@ -579,7 +579,7 @@
       "focus_areas": [
         "International-Comparative"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://www.freshfields.com/en/rss/news/"
     },
     {
@@ -725,7 +725,7 @@
       "focus_areas": [
         "Fintech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rbi_fintech_dept",
@@ -953,7 +953,7 @@
       "focus_areas": [
         "OTT-Regulation"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "exchange4media",
@@ -1242,7 +1242,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "verity",
@@ -1253,7 +1253,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "algo_legal",
@@ -1595,7 +1595,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "umang",
@@ -1694,7 +1694,7 @@
       "focus_areas": [
         "Fintech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "medici",
@@ -1744,7 +1744,7 @@
         "Fintech",
         "Digital-Payments"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "game_spot",
@@ -1840,7 +1840,7 @@
       "focus_areas": [
         "Gaming-Gambling"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "animation_xpress",
@@ -1915,7 +1915,7 @@
       "focus_areas": [
         "Healthtech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "healthcareitnews",
@@ -1930,7 +1930,7 @@
       "focus_areas": [
         "Healthtech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "medcity_news",
@@ -1971,7 +1971,7 @@
       "focus_areas": [
         "Healthtech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ficci_flo",
@@ -1982,7 +1982,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://ficciflo.org/feed/"
     },
     {
@@ -2078,7 +2078,7 @@
       "focus_areas": [
         "OTT-Regulation"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "streaming_media",
@@ -2093,7 +2093,7 @@
       "focus_areas": [
         "OTT-Regulation"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "rapidtvnews",
@@ -2109,7 +2109,7 @@
         "Broadcasting",
         "OTT-Regulation"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "broadband_tv_news",
@@ -2210,7 +2210,7 @@
       "focus_areas": [
         "Broadcasting"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "edtech_review",
@@ -2278,7 +2278,7 @@
       "focus_areas": [
         "Edtech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "education_world",
@@ -2290,7 +2290,7 @@
       "focus_areas": [
         "Edtech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ugc_india",
@@ -2374,7 +2374,7 @@
       "focus_areas": [
         "Agritech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "agricultureworld",
@@ -2385,7 +2385,7 @@
       "focus_areas": [
         "Agritech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "agri_ministry",
@@ -2396,7 +2396,7 @@
       "focus_areas": [
         "Agritech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "icar",
@@ -2452,7 +2452,7 @@
       "focus_areas": [
         "Cleantech"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "mnre",
@@ -2510,7 +2510,7 @@
       "focus_areas": [
         "Autonomous-Vehicles"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "carwale",
@@ -2535,7 +2535,7 @@
       "focus_areas": [
         "Autonomous-Vehicles"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "fada",
@@ -2587,7 +2587,7 @@
       "focus_areas": [
         "E-Commerce"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ecommerce_times",
@@ -2698,7 +2698,7 @@
         "Broadcasting-OTT",
         "News-Digital-Media"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ibdf",
@@ -2709,7 +2709,7 @@
       "focus_areas": [
         "Broadcasting-OTT"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "imai",
@@ -2721,7 +2721,7 @@
         "Telecom",
         "5G"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "digital_news_publishers",
@@ -2745,7 +2745,7 @@
         "Content-IP",
         "News-Digital-Media"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "cci_research",

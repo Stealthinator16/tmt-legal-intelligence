@@ -425,7 +425,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "edps",
@@ -647,7 +647,7 @@
         "AI-Regulation",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "singapore_imda",
@@ -723,7 +723,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "itu",
@@ -1313,7 +1313,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ndtv_gadgets",
@@ -1430,7 +1430,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "news18_tech",
@@ -1508,7 +1508,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "bloomberg_quint_tech",
@@ -1695,7 +1695,7 @@
         "all",
         "International-Comparative"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://www.brookings.edu/feed/"
     },
     {
@@ -1760,7 +1760,7 @@
         "Fintech",
         "E-Commerce"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "iim_ahmedabad_ciie",
@@ -1772,7 +1772,7 @@
         "Fintech",
         "E-Commerce"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "iit_delhi_ai",
@@ -1854,7 +1854,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "nliu_bhopal",
@@ -1922,7 +1922,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "nlu_odisha",
@@ -2059,7 +2059,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://citapp.nls.ac.in/feed/"
     },
     {
@@ -2243,7 +2243,7 @@
         "all",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "slashdot",
@@ -2388,7 +2388,7 @@
         "Data-Protection",
         "Constitutional-Rights"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ranking_digital_rights",

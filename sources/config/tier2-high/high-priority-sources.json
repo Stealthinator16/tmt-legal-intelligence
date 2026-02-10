@@ -142,7 +142,7 @@
         "Content-Moderation",
         "Influencer-Marketing"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dgca",
@@ -189,7 +189,7 @@
         "Corporate-Governance",
         "ESG-Digital"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "mha_cyber",
@@ -522,7 +522,7 @@
         "Data-Protection",
         "International-Comparative"
       ],
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "australia_oaic",
@@ -750,7 +750,7 @@
       "focus_areas": [
         "all"
       ],
-      "enabled": true,
+      "enabled": false,
       "rss": "https://www.azbpartners.com/feed/"
     },
     {

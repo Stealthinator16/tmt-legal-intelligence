@@ -116,8 +116,13 @@ def fetch_single_feed(source: dict) -> dict[str, Any]:
         logger.info(f"Fetching: {source_id} ({rss_url})")
 
         # Use requests library for better SSL handling (especially on macOS)
-        response = requests.get(rss_url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        response.raise_for_status()
+        try:
+            response = requests.get(rss_url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            response.raise_for_status()
+        except requests.exceptions.SSLError:
+            logger.info(f"  SSL error, retrying with verify=False: {source_id}")
+            response = requests.get(rss_url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False)
+            response.raise_for_status()
 
         # Parse the fetched content with feedparser
         feed = feedparser.parse(response.content)

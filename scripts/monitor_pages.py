@@ -155,8 +155,13 @@ def check_single_page(source: dict, url: str, section_name: str, conn) -> dict:
 
     try:
         logger.info(f"Checking: {source_id} - {section_name}")
-        response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-        response.raise_for_status()
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+            response.raise_for_status()
+        except requests.exceptions.SSLError:
+            logger.info(f"  SSL error, retrying with verify=False: {source_id}")
+            response = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=False)
+            response.raise_for_status()
 
         content = extract_main_content(response.text, url)
         new_hash = content_hash(content)
