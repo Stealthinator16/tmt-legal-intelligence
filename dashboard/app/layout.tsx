@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
+import { ThemeProvider } from "@/components/theme-provider";
 import { FeedlySidebar } from "@/components/layout/feedly-sidebar";
 import "./globals.css";
 
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "TMT Legal Intelligence",
-  description: "Track and manage 738 legal intelligence sources across Technology, Media & Telecom",
+  description: "Track and manage legal intelligence sources across Technology, Media & Telecom",
 };
 
 function SidebarFallback() {
@@ -38,19 +39,26 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex h-screen overflow-hidden">
-          <Suspense fallback={<SidebarFallback />}>
-            <FeedlySidebar />
-          </Suspense>
-          <main className="flex-1 overflow-y-auto bg-background">
-            {children}
-          </main>
-        </div>
-        <Toaster />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div className="flex h-screen overflow-hidden">
+            <Suspense fallback={<SidebarFallback />}>
+              <FeedlySidebar />
+            </Suspense>
+            <main className="flex-1 overflow-y-auto bg-background">
+              {children}
+            </main>
+          </div>
+          <Toaster />
+        </ThemeProvider>
       </body>
     </html>
   );

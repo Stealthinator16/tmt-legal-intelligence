@@ -15,7 +15,10 @@ import {
   Rss,
   Globe,
   Search,
+  Sun,
+  Moon,
 } from "lucide-react";
+import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -63,6 +66,7 @@ export function FeedlySidebar() {
   const [data, setData] = useState<SidebarData | null>(null);
   const [loading, setLoading] = useState(true);
   const [expandedTiers, setExpandedTiers] = useState<Set<number>>(new Set([1, 2]));
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     fetchSidebarData();
@@ -280,6 +284,15 @@ export function FeedlySidebar() {
           <RefreshCw className="h-4 w-4" />
           Fetch Sources
         </Link>
+        <button
+          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors"
+        >
+          <Sun className="h-4 w-4 dark:hidden" />
+          <Moon className="h-4 w-4 hidden dark:block" />
+          <span className="dark:hidden">Light Mode</span>
+          <span className="hidden dark:inline">Dark Mode</span>
+        </button>
       </div>
     </div>
   );
