@@ -130,7 +130,7 @@
       "id": "iff",
       "name": "Internet Freedom Foundation",
       "url": "https://internetfreedom.in",
-      "rss": "https://internetfreedom.in/rss/",
+      "rss": "https://www.internetfreedom.in/rss",
       "type": "advocacy",
       "method": "rss",
       "focus_areas": [
@@ -161,18 +161,13 @@
       "id": "livelaw",
       "name": "Live Law",
       "url": "https://www.livelaw.in",
-      "rss": "https://www.livelaw.in/feed",
       "type": "legal_news",
-      "method": "rss",
-      "filter_keywords": [
-        "technology",
-        "IT Act",
-        "data protection",
-        "cyber",
-        "telecom",
-        "digital",
-        "privacy",
-        "intermediary"
+      "method": "webfetch",
+      "sections": [
+        {
+          "name": "Technology",
+          "url": "https://www.livelaw.in/tags/technology"
+        }
       ],
       "focus_areas": [
         "all"
@@ -382,7 +377,7 @@
       "id": "edpb",
       "name": "European Data Protection Board",
       "url": "https://edpb.europa.eu",
-      "rss": "https://www.edpb.europa.eu/rss_en",
+      "rss": "https://www.edpb.europa.eu/feed/news_en",
       "type": "international_regulator",
       "method": "rss",
       "focus_areas": [

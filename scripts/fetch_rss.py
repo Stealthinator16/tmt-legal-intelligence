@@ -2,11 +2,12 @@
 """
 RSS Feed Fetcher for TMT Legal Intelligence
 
-Fetches RSS feeds from configured sources, tracks seen items in SQLite,
-and outputs new items to a JSON file for Claude to process.
+Fetches RSS feeds from configured sources and writes items directly
+to tmt_intelligence.db via the shared db module.
 
 Usage:
     python fetch_rss.py --tier=1              # Fetch Tier 1 RSS sources
+    python fetch_rss.py --source=source_id    # Fetch specific RSS source
     python fetch_rss.py --tier=1 --dry-run    # Preview without saving
     python fetch_rss.py --all                 # Fetch all tiers with RSS
 """
@@ -15,8 +16,7 @@ import argparse
 import hashlib
 import json
 import logging
-import os
-import sqlite3
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -31,6 +31,8 @@ except ImportError:
     print("Error: Required packages not installed. Run: pip install feedparser requests")
     sys.exit(1)
 
+import db
+
 # Request settings
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) TMT-Legal-Intelligence/1.0",
@@ -42,15 +44,6 @@ REQUEST_TIMEOUT = 30
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SOURCES_CONFIG_DIR = PROJECT_ROOT / "sources" / "config"
-STATE_DIR = PROJECT_ROOT / "sources" / "state"
-OUTPUT_DIR = PROJECT_ROOT / "sources" / "downloaded"
-
-# Ensure directories exist
-STATE_DIR.mkdir(parents=True, exist_ok=True)
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-# Database path
-DB_PATH = STATE_DIR / "seen_items.db"
 
 # Logging setup
 logging.basicConfig(
@@ -61,35 +54,12 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def init_database() -> sqlite3.Connection:
-    """Initialize SQLite database for tracking seen items."""
-    conn = sqlite3.connect(DB_PATH)
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS seen_items (
-            url TEXT PRIMARY KEY,
-            title TEXT,
-            source_id TEXT,
-            content_hash TEXT,
-            first_seen TEXT,
-            published TEXT
-        )
-    """)
-    conn.execute("""
-        CREATE INDEX IF NOT EXISTS idx_source_id ON seen_items(source_id)
-    """)
-    conn.execute("""
-        CREATE INDEX IF NOT EXISTS idx_first_seen ON seen_items(first_seen)
-    """)
-    conn.commit()
-    return conn
-
-
 def content_hash(text: str) -> str:
     """Generate SHA256 hash of content for deduplication."""
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
 
-def load_source_configs(tiers: list[int]) -> list[dict]:
+def load_source_configs(tiers: list[int], source_id: str = None) -> list[dict]:
     """Load source configurations for specified tiers."""
     tier_dirs = {
         1: "tier1-critical",
@@ -115,6 +85,9 @@ def load_source_configs(tiers: list[int]) -> list[dict]:
                         s for s in config.get("sources", [])
                         if s.get("method") == "rss" and s.get("enabled", True)
                     ]
+                    # If source_id specified, filter to that source only
+                    if source_id:
+                        rss_sources = [s for s in rss_sources if s.get("id") == source_id]
                     for source in rss_sources:
                         source["tier"] = tier
                     sources.extend(rss_sources)
@@ -167,17 +140,29 @@ def fetch_single_feed(source: dict) -> dict[str, Any]:
 
             # Clean up summary (remove HTML, truncate)
             if summary:
-                # Basic HTML stripping
-                import re
                 summary = re.sub(r"<[^>]+>", "", summary)
                 summary = summary[:300] + "..." if len(summary) > 300 else summary
+
+            # Normalize published date to ISO format
+            published_iso = ""
+            if published:
+                try:
+                    from email.utils import parsedate_to_datetime
+                    published_iso = parsedate_to_datetime(published).isoformat()
+                except Exception:
+                    try:
+                        from dateutil.parser import parse as dateparse
+                        published_iso = dateparse(published).isoformat()
+                    except Exception:
+                        published_iso = published
 
             result["items"].append({
                 "title": title,
                 "url": link,
-                "published": published,
+                "published": published_iso,
                 "snippet": summary,
-                "focus_areas": source.get("focus_areas", [])
+                "focus_areas": source.get("focus_areas", []),
+                "content_hash": content_hash(title + (summary or "")),
             })
 
         result["success"] = True
@@ -188,50 +173,6 @@ def fetch_single_feed(source: dict) -> dict[str, Any]:
         logger.error(f"  Error fetching {source_id}: {e}")
 
     return result
-
-
-def filter_new_items(conn: sqlite3.Connection, items: list[dict], source_id: str) -> list[dict]:
-    """Filter out items that have already been seen."""
-    new_items = []
-    cursor = conn.cursor()
-
-    for item in items:
-        url = item.get("url", "")
-        if not url:
-            continue
-
-        cursor.execute("SELECT url FROM seen_items WHERE url = ?", (url,))
-        if cursor.fetchone() is None:
-            new_items.append(item)
-
-    return new_items
-
-
-def mark_items_seen(conn: sqlite3.Connection, items: list[dict], source_id: str):
-    """Mark items as seen in the database."""
-    now = datetime.now(timezone.utc).isoformat()
-
-    for item in items:
-        url = item.get("url", "")
-        if not url:
-            continue
-
-        try:
-            conn.execute("""
-                INSERT OR IGNORE INTO seen_items (url, title, source_id, content_hash, first_seen, published)
-                VALUES (?, ?, ?, ?, ?, ?)
-            """, (
-                url,
-                item.get("title", ""),
-                source_id,
-                content_hash(item.get("title", "") + item.get("snippet", "")),
-                now,
-                item.get("published", "")
-            ))
-        except sqlite3.Error as e:
-            logger.error(f"Database error marking item seen: {e}")
-
-    conn.commit()
 
 
 def fetch_all_feeds(sources: list[dict], max_workers: int = 5, delay: float = 1.0) -> list[dict]:
@@ -257,8 +198,8 @@ def main():
     parser = argparse.ArgumentParser(description="Fetch RSS feeds for TMT Legal Intelligence")
     parser.add_argument("--tier", type=int, choices=[1, 2, 3, 4, 5], help="Tier to fetch (1-5)")
     parser.add_argument("--all", action="store_true", help="Fetch all tiers")
+    parser.add_argument("--source", type=str, help="Fetch specific source by ID")
     parser.add_argument("--dry-run", action="store_true", help="Preview without saving to database")
-    parser.add_argument("--output", type=str, help="Output file path (default: new_items.json)")
     args = parser.parse_args()
 
     # Determine which tiers to fetch
@@ -266,27 +207,34 @@ def main():
         tiers = [1, 2, 3, 4, 5]
     elif args.tier:
         tiers = [args.tier]
+    elif args.source:
+        tiers = [1, 2, 3, 4, 5]
     else:
         tiers = [1]  # Default to Tier 1
 
-    logger.info(f"Fetching RSS feeds for tier(s): {tiers}")
+    if args.source:
+        logger.info(f"Fetching specific RSS source: {args.source}")
+    else:
+        logger.info(f"Fetching RSS feeds for tier(s): {tiers}")
 
     # Load sources
-    sources = load_source_configs(tiers)
+    sources = load_source_configs(tiers, source_id=args.source)
     if not sources:
-        logger.warning("No RSS sources found for specified tiers")
+        if args.source:
+            logger.warning(f"Source '{args.source}' not found or not an RSS source")
+        else:
+            logger.warning("No RSS sources found for specified tiers")
         return
 
     logger.info(f"Found {len(sources)} RSS sources to fetch")
 
-    # Initialize database
-    conn = init_database()
-
     # Fetch all feeds
     results = fetch_all_feeds(sources)
 
-    # Process results and filter new items
-    all_new_items = []
+    # Open DB connection
+    conn = db.get_connection()
+
+    # Process results
     fetch_stats = {
         "total_sources": len(sources),
         "successful": 0,
@@ -296,69 +244,54 @@ def main():
     }
 
     for result in results:
+        source_id = result["source_id"]
+
         if result["success"]:
             fetch_stats["successful"] += 1
             fetch_stats["total_items"] += len(result["items"])
 
-            # Filter to new items only
-            new_items = filter_new_items(conn, result["items"], result["source_id"])
-            fetch_stats["new_items"] += len(new_items)
+            new_count = 0
+            for item in result["items"]:
+                url = item.get("url", "")
+                if not url:
+                    continue
 
-            for item in new_items:
-                item["source_id"] = result["source_id"]
-                item["source_name"] = result["source_name"]
-                item["method"] = "rss"
-                all_new_items.append(item)
+                if args.dry_run:
+                    if not db.item_exists(conn, url):
+                        new_count += 1
+                    continue
 
-            # Mark as seen (unless dry run)
+                if not db.item_exists(conn, url):
+                    db.insert_item(
+                        conn,
+                        url=url,
+                        title=item.get("title", ""),
+                        snippet=item.get("snippet", ""),
+                        source_id=source_id,
+                        published=item.get("published", ""),
+                        focus_areas=item.get("focus_areas"),
+                        content_hash=item.get("content_hash"),
+                    )
+                    new_count += 1
+
+            fetch_stats["new_items"] += new_count
+
             if not args.dry_run:
-                mark_items_seen(conn, new_items, result["source_id"])
+                db.update_source_last_fetch(conn, source_id)
+                db.clear_source_error(conn, source_id)
+                conn.commit()
         else:
             fetch_stats["failed"] += 1
-            logger.warning(f"Failed: {result['source_id']} - {result['error']}")
+            logger.warning(f"Failed: {source_id} - {result['error']}")
+            if not args.dry_run:
+                db.record_source_error(conn, source_id, result["error"] or "Unknown error")
+                conn.commit()
 
     conn.close()
 
-    # Generate output
-    output = {
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "tiers": tiers,
-        "stats": fetch_stats,
-        "new_items_count": len(all_new_items),
-        "items": all_new_items,
-        "page_changes": [],  # Will be populated by monitor_pages.py
-        "websearch_pending": []  # Sources that need Claude's WebSearch
-    }
-
-    # Identify websearch sources for this tier (for Claude to process)
-    for tier in tiers:
-        tier_dirs = {1: "tier1-critical", 2: "tier2-high", 3: "tier3-standard", 4: "tier4-regular", 5: "tier5-periodic"}
-        tier_dir = SOURCES_CONFIG_DIR / tier_dirs.get(tier, "")
-        if tier_dir.exists():
-            for config_file in tier_dir.glob("*.json"):
-                try:
-                    with open(config_file) as f:
-                        config = json.load(f)
-                        websearch_sources = [
-                            s["id"] for s in config.get("sources", [])
-                            if s.get("method") == "websearch" and s.get("enabled", True)
-                        ]
-                        output["websearch_pending"].extend(websearch_sources)
-                except Exception:
-                    pass
-
-    # Write output
-    output_path = Path(args.output) if args.output else OUTPUT_DIR / "new_items.json"
-
-    if args.dry_run:
-        logger.info("=== DRY RUN - Not saving to database ===")
-        print(json.dumps(output, indent=2))
-    else:
-        with open(output_path, "w") as f:
-            json.dump(output, f, indent=2)
-        logger.info(f"Output saved to: {output_path}")
-
     # Summary
+    if args.dry_run:
+        logger.info("=== DRY RUN - No changes written ===")
     logger.info("=" * 50)
     logger.info(f"Fetch complete!")
     logger.info(f"  Sources checked: {fetch_stats['total_sources']}")

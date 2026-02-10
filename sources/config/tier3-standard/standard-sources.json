@@ -4,6 +4,7 @@
   "check_frequency": "daily",
   "description": "Daily monitoring sources - comprehensive coverage",
   "source_count": 180,
+  "actual_count": 180,
   "categories": {
     "indian_high_courts": 21,
     "international_eu": 35,
@@ -1183,6 +1184,1268 @@
         "all"
       ],
       "enabled": true
+    },
+    {
+      "id": "bis",
+      "name": "Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Cybersecurity",
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "npci_main",
+      "name": "NPCI",
+      "url": "https://www.npci.org.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "Digital-Payments"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pfrda",
+      "name": "PFRDA",
+      "url": "https://www.pfrda.org.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ibbi",
+      "name": "IBBI",
+      "url": "https://www.ibbi.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "Corporate-Governance"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "gifr",
+      "name": "GIFT City IFSCA",
+      "url": "https://www.ifsca.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "Blockchain-Crypto"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hindu_tech",
+      "name": "The Hindu Tech",
+      "url": "https://www.thehindu.com/sci-tech/technology/",
+      "rss": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "indian_express_tech",
+      "name": "Indian Express Tech",
+      "url": "https://indianexpress.com/section/technology/",
+      "rss": "https://indianexpress.com/section/technology/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "toi_tech",
+      "name": "Times of India Tech",
+      "url": "https://timesofindia.indiatimes.com/technology",
+      "rss": "https://timesofindia.indiatimes.com/rssfeeds/66949542.cms",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "law",
+        "government"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "firstpost_tech",
+      "name": "Firstpost Tech",
+      "url": "https://www.firstpost.com/tech",
+      "rss": "https://www.firstpost.com/rss/tech.xml",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "law"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ndtv_gadgets",
+      "name": "NDTV Gadgets 360",
+      "url": "https://www.gadgets360.com",
+      "rss": "https://feeds.feedburner.com/gadgets360-latest",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "forbes_india_tech",
+      "name": "Forbes India Tech",
+      "url": "https://www.forbesindia.com/technology",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:forbesindia.com technology (regulation OR policy OR law)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.forbesindia.com/commonfeeds/v1/frb/rss/text.xml"
+    },
+    {
+      "id": "outlook_business_tech",
+      "name": "Outlook Business Tech",
+      "url": "https://www.outlookbusiness.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:outlookbusiness.com (technology OR fintech) (regulation OR policy)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "deccan_herald_tech",
+      "name": "Deccan Herald Tech",
+      "url": "https://www.deccanherald.com/technology",
+      "rss": "https://www.deccanherald.com/rss/technology.rss",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "law"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "telegraph_india_tech",
+      "name": "Telegraph India Tech",
+      "url": "https://www.telegraphindia.com/technology",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:telegraphindia.com technology (regulation OR policy)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "statesman_tech",
+      "name": "The Statesman Tech",
+      "url": "https://www.thestatesman.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:thestatesman.com technology (regulation OR policy OR law)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "asian_age_tech",
+      "name": "Asian Age Tech",
+      "url": "https://www.asianage.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:asianage.com technology (regulation OR policy)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.asianage.com/google_feeds.xml"
+    },
+    {
+      "id": "print_tech",
+      "name": "The Print Tech",
+      "url": "https://theprint.in",
+      "rss": "https://theprint.in/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "technology",
+        "data",
+        "privacy",
+        "cyber",
+        "AI",
+        "regulation"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "news18_tech",
+      "name": "News18 Tech",
+      "url": "https://www.news18.com/tech",
+      "rss": "https://www.news18.com/rss/tech.xml",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "zee_news_tech",
+      "name": "Zee News Tech",
+      "url": "https://zeenews.india.com/technology",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:zeenews.india.com technology (regulation OR policy)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://zeenews.india.com/rss.xml"
+    },
+    {
+      "id": "abn_amro_tech",
+      "name": "ABP News Tech",
+      "url": "https://news.abplive.com/technology",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:news.abplive.com technology (regulation OR policy)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://news.abplive.com/home/feed"
+    },
+    {
+      "id": "india_today_tech",
+      "name": "India Today Tech",
+      "url": "https://www.indiatoday.in/technology",
+      "rss": "https://www.indiatoday.in/rss/1206578",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government",
+        "law"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cnbc_tv18_tech",
+      "name": "CNBC-TV18 Tech",
+      "url": "https://www.cnbctv18.com/technology/",
+      "rss": "https://www.cnbctv18.com/rss/technology.xml",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bloomberg_quint_tech",
+      "name": "BQ Prime Tech",
+      "url": "https://www.bqprime.com/technology",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:bqprime.com technology (regulation OR policy OR law)",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "reuters_india_tech",
+      "name": "Reuters India Tech",
+      "url": "https://www.reuters.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:reuters.com India technology (regulation OR policy OR law)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "afp_india_tech",
+      "name": "AFP India Tech",
+      "url": "https://www.afp.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:afp.com India technology regulation",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.afp.com/rss.xml"
+    },
+    {
+      "id": "bloomberg_india_tech",
+      "name": "Bloomberg India Tech",
+      "url": "https://www.bloomberg.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:bloomberg.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nyt_india_tech",
+      "name": "NYT India Tech",
+      "url": "https://www.nytimes.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:nytimes.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+    },
+    {
+      "id": "wsj_india_tech",
+      "name": "WSJ India Tech",
+      "url": "https://www.wsj.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:wsj.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ft_india_tech",
+      "name": "FT India Tech",
+      "url": "https://www.ft.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:ft.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.ft.com/rss/home/international"
+    },
+    {
+      "id": "guardian_india_tech",
+      "name": "Guardian India Tech",
+      "url": "https://www.theguardian.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:theguardian.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.theguardian.com/international/rss"
+    },
+    {
+      "id": "bbc_india_tech",
+      "name": "BBC India Tech",
+      "url": "https://www.bbc.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:bbc.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "al_jazeera_india_tech",
+      "name": "Al Jazeera India Tech",
+      "url": "https://www.aljazeera.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:aljazeera.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "id": "scmp_india_tech",
+      "name": "SCMP India Tech",
+      "url": "https://www.scmp.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:scmp.com India technology (regulation OR policy)",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.scmp.com/rss/feed/"
+    },
+    {
+      "id": "nikkei_india_tech",
+      "name": "Nikkei Asia India Tech",
+      "url": "https://asia.nikkei.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:asia.nikkei.com India technology",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "carnegie_india",
+      "name": "Carnegie India",
+      "url": "https://carnegieindia.org",
+      "type": "think_tank",
+      "method": "rss",
+      "focus_areas": [
+        "AI-Regulation",
+        "Cybersecurity",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://carnegieindia.org/rss/solr/"
+    },
+    {
+      "id": "brookings_india",
+      "name": "Brookings India",
+      "url": "https://www.brookings.edu/geo/india/",
+      "type": "think_tank",
+      "method": "rss",
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.brookings.edu/feed/"
+    },
+    {
+      "id": "gateway_house",
+      "name": "Gateway House",
+      "url": "https://www.gatewayhouse.in",
+      "type": "think_tank",
+      "method": "rss",
+      "focus_areas": [
+        "AI-Regulation",
+        "Cybersecurity",
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.gatewayhouse.in/feed/"
+    },
+    {
+      "id": "csep_india",
+      "name": "CSEP India",
+      "url": "https://csep.org",
+      "type": "think_tank",
+      "method": "rss",
+      "focus_areas": [
+        "Data-Protection",
+        "AI-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://csep.org/feed/"
+    },
+    {
+      "id": "nipfp",
+      "name": "NIPFP",
+      "url": "https://www.nipfp.org.in",
+      "type": "think_tank",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "Digital-Economy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ncaer",
+      "name": "NCAER",
+      "url": "https://www.ncaer.org",
+      "type": "think_tank",
+      "method": "rss",
+      "focus_areas": [
+        "Digital-Economy",
+        "E-Commerce"
+      ],
+      "enabled": true,
+      "rss": "https://ncaer.org/feed/"
+    },
+    {
+      "id": "iim_bangalore_nsrcel",
+      "name": "IIM Bangalore NSRCEL",
+      "url": "https://nsrcel.iimb.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "iim_ahmedabad_ciie",
+      "name": "IIM Ahmedabad CIIE",
+      "url": "https://ciie.co",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "E-Commerce"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "iit_delhi_ai",
+      "name": "IIT Delhi AI",
+      "url": "https://home.iitd.ac.in",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "IIT Delhi AI policy OR ethics",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "iit_madras_ai",
+      "name": "IIT Madras AI",
+      "url": "https://www.iitm.ac.in",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "IIT Madras AI policy OR ethics",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "iit_kanpur_cse",
+      "name": "IIT Kanpur CSE",
+      "url": "https://www.cse.iitk.ac.in",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "IIT Kanpur cybersecurity OR AI policy",
+      "focus_areas": [
+        "Cybersecurity",
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "iisc_bangalore",
+      "name": "IISc Bangalore",
+      "url": "https://www.iisc.ac.in",
+      "type": "academic",
+      "method": "websearch",
+      "search_query": "IISc Bangalore AI policy OR technology",
+      "focus_areas": [
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nlu_jodhpur",
+      "name": "NLU Jodhpur",
+      "url": "https://www.nlujodhpur.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "gnlu",
+      "name": "GNLU",
+      "url": "https://www.gnlu.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nlu_ranchi",
+      "name": "NLU Ranchi",
+      "url": "https://www.nluranchi.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nliu_bhopal",
+      "name": "NLIU Bhopal",
+      "url": "https://www.nliu.ac.in",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://nliu.ac.in/feed/"
+    },
+    {
+      "id": "nusrl_ranchi",
+      "name": "NUSRL Ranchi",
+      "url": "https://www.nusrlranchi.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rmlnlu_lucknow",
+      "name": "RMLNLU Lucknow",
+      "url": "https://www.rmlnlu.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hnlu_raipur",
+      "name": "HNLU Raipur",
+      "url": "https://www.hnlu.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cnlu_patna",
+      "name": "CNLU Patna",
+      "url": "https://cnlu.ac.in",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.cnlu.ac.in/feed/"
+    },
+    {
+      "id": "nluja_assam",
+      "name": "NLUJA Assam",
+      "url": "https://www.nluja.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nlu_odisha",
+      "name": "NLU Odisha",
+      "url": "https://nluo.ac.in",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://nluo.ac.in/feed/"
+    },
+    {
+      "id": "dsnlu_vizag",
+      "name": "DSNLU Vizag",
+      "url": "https://www.dsnlu.ac.in",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://dsnlu.ac.in/home/feed/"
+    },
+    {
+      "id": "tnnlu_trichy",
+      "name": "TNNLU Trichy",
+      "url": "https://www.tnnlu.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mnlu_mumbai",
+      "name": "MNLU Mumbai",
+      "url": "https://www.mnlumumbai.edu.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mnlu_nagpur",
+      "name": "MNLU Nagpur",
+      "url": "https://www.nlunagpur.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mnlu_aurangabad",
+      "name": "MNLU Aurangabad",
+      "url": "https://www.mnlua.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hpnlu_shimla",
+      "name": "HPNLU Shimla",
+      "url": "https://hpnlu.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dbranlu_sonipat",
+      "name": "DBRANLU Sonipat",
+      "url": "https://www.dbranlu.ac.in",
+      "type": "academic",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nlud_delhi",
+      "name": "NLU Delhi",
+      "url": "https://nludelhi.ac.in",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://nludelhi.ac.in/feed/"
+    },
+    {
+      "id": "wbnujs_kolkata",
+      "name": "WBNUJS Kolkata",
+      "url": "https://www.nujs.edu",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.nujs.edu/feed/"
+    },
+    {
+      "id": "nls_bangalore",
+      "name": "NLSIU Bangalore",
+      "url": "https://www.nls.ac.in",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.nls.ac.in/feed/"
+    },
+    {
+      "id": "nlsiu_citapp",
+      "name": "NLSIU CITAPP",
+      "url": "https://citapp.nls.ac.in",
+      "type": "academic",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://citapp.nls.ac.in/feed/"
+    },
+    {
+      "id": "ars_technica",
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "rss": "https://feeds.arstechnica.com/arstechnica/index",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy",
+        "privacy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "the_register",
+      "name": "The Register",
+      "url": "https://www.theregister.com",
+      "rss": "https://www.theregister.com/headlines.atom",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "zdnet",
+      "name": "ZDNet",
+      "url": "https://www.zdnet.com",
+      "rss": "https://www.zdnet.com/news/rss.xml",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cnet",
+      "name": "CNET",
+      "url": "https://www.cnet.com",
+      "rss": "https://www.cnet.com/rss/all/",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "url": "https://www.engadget.com",
+      "rss": "https://www.engadget.com/rss.xml",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mashable",
+      "name": "Mashable",
+      "url": "https://mashable.com",
+      "rss": "https://mashable.com/feeds/rss/all",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "gizmodo",
+      "name": "Gizmodo",
+      "url": "https://gizmodo.com",
+      "rss": "https://gizmodo.com/rss",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mit_tech_review",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "rss": "https://www.technologyreview.com/feed/",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy",
+        "AI"
+      ],
+      "focus_areas": [
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ieee_spectrum",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "rss": "https://spectrum.ieee.org/feeds/feed.rss",
+      "type": "academic",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy",
+        "AI"
+      ],
+      "focus_areas": [
+        "AI-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "acm_tech_news",
+      "name": "ACM TechNews",
+      "url": "https://technews.acm.org",
+      "rss": "https://technews.acm.org/rss.html",
+      "type": "academic",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "slashdot",
+      "name": "Slashdot",
+      "url": "https://slashdot.org",
+      "rss": "https://rss.slashdot.org/Slashdot/slashdotMain",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hacker_news",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "rss": "https://hnrss.org/frontpage",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "all",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "reddit_india_tech",
+      "name": "Reddit India Tech",
+      "url": "https://www.reddit.com/r/IndianTech/",
+      "rss": "https://www.reddit.com/r/IndianTech/.rss",
+      "type": "community",
+      "method": "rss",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "law",
+        "government"
+      ],
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "protocol",
+      "name": "Protocol",
+      "url": "https://www.protocol.com",
+      "type": "international_news",
+      "method": "websearch",
+      "search_query": "site:protocol.com India tech regulation policy",
+      "focus_areas": [
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rest_of_world",
+      "name": "Rest of World",
+      "url": "https://restofworld.org",
+      "rss": "https://restofworld.org/feed/",
+      "type": "international_news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "regulation",
+        "policy"
+      ],
+      "focus_areas": [
+        "Platform-Regulation",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "india_csr",
+      "name": "India CSR",
+      "url": "https://indiacsr.in",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://indiacsr.in/feed/",
+      "filter_keywords": [
+        "technology",
+        "digital"
+      ],
+      "focus_areas": [
+        "Environmental-Sustainability"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "access_now",
+      "name": "Access Now",
+      "url": "https://www.accessnow.org",
+      "rss": "https://www.accessnow.org/feed/",
+      "type": "advocacy",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Data-Protection",
+        "Constitutional-Rights"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "article19",
+      "name": "Article 19",
+      "url": "https://www.article19.org",
+      "rss": "https://www.article19.org/feed/",
+      "type": "advocacy",
+      "method": "rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Constitutional-Rights",
+        "Content-IP"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "digital_rights_foundation",
+      "name": "Digital Rights Foundation",
+      "url": "https://digitalrightsfoundation.pk",
+      "type": "advocacy",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "Constitutional-Rights"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ranking_digital_rights",
+      "name": "Ranking Digital Rights",
+      "url": "https://rankingdigitalrights.org",
+      "type": "research",
+      "method": "rss",
+      "focus_areas": [
+        "Platform-Regulation",
+        "Data-Protection"
+      ],
+      "enabled": true,
+      "rss": "https://rankingdigitalrights.org/feed/"
+    },
+    {
+      "id": "global_voices",
+      "name": "Global Voices",
+      "url": "https://globalvoices.org",
+      "rss": "https://globalvoices.org/feed/",
+      "type": "news",
+      "method": "rss",
+      "filter_keywords": [
+        "India",
+        "technology",
+        "digital"
+      ],
+      "focus_areas": [
+        "Constitutional-Rights",
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mozilla_irl",
+      "name": "Mozilla IRL Podcast",
+      "url": "https://irlpodcast.org",
+      "type": "media",
+      "method": "rss",
+      "rss": "https://feeds.mozilla-podcasts.org/irl",
+      "focus_areas": [
+        "Data-Protection",
+        "Platform-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "open_technology_fund",
+      "name": "Open Technology Fund",
+      "url": "https://www.opentech.fund",
+      "type": "advocacy",
+      "method": "rss",
+      "focus_areas": [
+        "Constitutional-Rights",
+        "Cybersecurity"
+      ],
+      "enabled": true,
+      "rss": "https://www.opentech.fund/feed/"
     }
   ]
 }

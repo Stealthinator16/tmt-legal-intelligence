@@ -4,6 +4,7 @@
   "check_frequency": "weekly",
   "description": "Weekly monitoring - comprehensive academic, law firm, and industry coverage",
   "source_count": 220,
+  "actual_count": 220,
   "categories": {
     "academic_journals": 45,
     "law_firms_india": 25,
@@ -1174,6 +1175,1610 @@
       ],
       "enabled": true,
       "rss": "https://www.privacy.org.nz/home/rss/"
+    },
+    {
+      "id": "shardul_amarchand",
+      "name": "Shardul Amarchand Mangaldas",
+      "url": "https://www.amsshardul.com",
+      "type": "law_firm",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.amsshardul.com/feed/"
+    },
+    {
+      "id": "indus_law",
+      "name": "Indus Law",
+      "url": "https://www.induslaw.com",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "saraf_partners",
+      "name": "Saraf & Partners",
+      "url": "https://www.sarafpartners.com",
+      "type": "law_firm",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://sarafpartners.com/feed/"
+    },
+    {
+      "id": "phoenix_legal",
+      "name": "Phoenix Legal",
+      "url": "https://www.phoenixlegal.in",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "argus_partners",
+      "name": "Argus Partners",
+      "url": "https://www.argus-p.com",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "majumdar_partners",
+      "name": "Majumdar & Partners",
+      "url": "https://www.majumdarandpartners.com",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "verity",
+      "name": "Verity Law",
+      "url": "https://www.veritylaw.in",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "algo_legal",
+      "name": "Algo Legal",
+      "url": "https://www.algolegal.com",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tml_law",
+      "name": "TMT Law Practice",
+      "url": "https://tmtlaw.co.in",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ahlawat_associates",
+      "name": "Ahlawat & Associates",
+      "url": "https://www.ahlawatassociates.com",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "IP-Copyright"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "saikrishna_associates",
+      "name": "Saikrishna & Associates",
+      "url": "https://www.saiassociates.co.in",
+      "type": "law_firm",
+      "method": "webfetch",
+      "focus_areas": [
+        "IP-Copyright"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "remfry_sagar",
+      "name": "Remfry & Sagar",
+      "url": "https://www.remfry.com",
+      "type": "law_firm",
+      "method": "rss",
+      "focus_areas": [
+        "IP-Copyright"
+      ],
+      "enabled": true,
+      "rss": "https://www.remfry.com/feed/"
+    },
+    {
+      "id": "norton_rose",
+      "name": "Norton Rose Fulbright",
+      "url": "https://www.nortonrosefulbright.com",
+      "type": "law_firm_intl",
+      "method": "rss",
+      "search_query": "site:nortonrosefulbright.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.nortonrosefulbright.com/en-in/rss-feeds/knowledge-and-news"
+    },
+    {
+      "id": "latham_watkins",
+      "name": "Latham & Watkins",
+      "url": "https://www.lw.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:lw.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "skadden",
+      "name": "Skadden",
+      "url": "https://www.skadden.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:skadden.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sullivan_cromwell",
+      "name": "Sullivan & Cromwell",
+      "url": "https://www.sullcrom.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:sullcrom.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "davis_polk",
+      "name": "Davis Polk",
+      "url": "https://www.davispolk.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:davispolk.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "covington",
+      "name": "Covington",
+      "url": "https://www.cov.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:cov.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sidley",
+      "name": "Sidley Austin",
+      "url": "https://www.sidley.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:sidley.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "kirkland",
+      "name": "Kirkland & Ellis",
+      "url": "https://www.kirkland.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:kirkland.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "gibson_dunn",
+      "name": "Gibson Dunn",
+      "url": "https://www.gibsondunn.com",
+      "type": "law_firm_intl",
+      "method": "rss",
+      "search_query": "site:gibsondunn.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true,
+      "rss": "https://www.gibsondunn.com/feed/"
+    },
+    {
+      "id": "cleary_gottlieb",
+      "name": "Cleary Gottlieb",
+      "url": "https://www.clearygottlieb.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:clearygottlieb.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "weil_gotshal",
+      "name": "Weil Gotshal",
+      "url": "https://www.weil.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:weil.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dentons",
+      "name": "Dentons",
+      "url": "https://www.dentons.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:dentons.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hogan_lovells",
+      "name": "Hogan Lovells",
+      "url": "https://www.hoganlovells.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:hoganlovells.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ashurst",
+      "name": "Ashurst",
+      "url": "https://www.ashurst.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:ashurst.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "herbert_smith",
+      "name": "Herbert Smith Freehills",
+      "url": "https://www.herbertsmithfreehills.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:herbertsmithfreehills.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "allen_overy",
+      "name": "Allen & Overy",
+      "url": "https://www.allenovery.com",
+      "type": "law_firm_intl",
+      "method": "websearch",
+      "search_query": "site:allenovery.com India technology",
+      "focus_areas": [
+        "International-Comparative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "phdcci",
+      "name": "PHDCCI",
+      "url": "https://www.phdcci.in",
+      "type": "industry_body",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://www.phdcci.in/feed/"
+    },
+    {
+      "id": "icea",
+      "name": "ICEA",
+      "url": "https://www.icea.org.in",
+      "type": "industry_body",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://icea.org.in/feed/"
+    },
+    {
+      "id": "mait",
+      "name": "MAIT",
+      "url": "https://www.mait.com",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "elcina",
+      "name": "ELCINA",
+      "url": "https://www.elcina.com",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "stpi",
+      "name": "STPI",
+      "url": "https://www.stpi.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cdac",
+      "name": "C-DAC",
+      "url": "https://www.cdac.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "AI-Regulation",
+        "Cybersecurity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "drdo",
+      "name": "DRDO",
+      "url": "https://www.drdo.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Drones-eVTOL",
+        "AI-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "deity",
+      "name": "DeitY Portal",
+      "url": "https://www.deity.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "umang",
+      "name": "UMANG",
+      "url": "https://web.umang.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Digital-India"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "digilocker",
+      "name": "DigiLocker",
+      "url": "https://www.digilocker.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Data-Protection",
+        "Digital-India"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fintech_times",
+      "name": "The Fintech Times",
+      "url": "https://thefintechtimes.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://thefintechtimes.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Fintech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "finextra",
+      "name": "Finextra",
+      "url": "https://www.finextra.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.finextra.com/rss/headlines.aspx",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Fintech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pymnts",
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.pymnts.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Fintech",
+        "Digital-Payments"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "banking_tech",
+      "name": "Banking Technology",
+      "url": "https://www.bankingtech.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.bankingtech.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Fintech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fintech_futures",
+      "name": "FinTech Futures",
+      "url": "https://www.fintechfutures.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.fintechfutures.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Fintech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "medici",
+      "name": "MEDICI",
+      "url": "https://gomedici.com",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "crowdfund_insider",
+      "name": "Crowdfund Insider",
+      "url": "https://www.crowdfundinsider.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.crowdfundinsider.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Fintech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "let_talk_payments",
+      "name": "Let's Talk Payments",
+      "url": "https://letstalkpayments.com",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "Digital-Payments"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "digital_payments_india",
+      "name": "Digital Payments India",
+      "url": "https://www.digitalpaymentsindia.com",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Fintech",
+        "Digital-Payments"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "game_spot",
+      "name": "GameSpot",
+      "url": "https://www.gamespot.com",
+      "type": "news",
+      "method": "websearch",
+      "search_query": "site:gamespot.com India gaming regulation",
+      "focus_areas": [
+        "Gaming-Gambling"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ign_india",
+      "name": "IGN India",
+      "url": "https://in.ign.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:in.ign.com gaming regulation policy",
+      "focus_areas": [
+        "Gaming-Gambling"
+      ],
+      "enabled": true,
+      "rss": "https://in.ign.com/feed.xml"
+    },
+    {
+      "id": "kotaku",
+      "name": "Kotaku",
+      "url": "https://kotaku.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:kotaku.com India gaming regulation",
+      "focus_areas": [
+        "Gaming-Gambling"
+      ],
+      "enabled": true,
+      "rss": "https://kotaku.com/feed"
+    },
+    {
+      "id": "gambling_insider",
+      "name": "Gambling Insider",
+      "url": "https://www.gamblinginsider.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:gamblinginsider.com India",
+      "focus_areas": [
+        "Gaming-Gambling"
+      ],
+      "enabled": true,
+      "rss": "https://www.gamblinginsider.com/feed"
+    },
+    {
+      "id": "igaming_business",
+      "name": "iGaming Business",
+      "url": "https://www.igamingbusiness.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.igamingbusiness.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Gaming-Gambling"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "esports_insider",
+      "name": "Esports Insider",
+      "url": "https://esportsinsider.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://esportsinsider.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Gaming-Gambling"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "esportsobserver",
+      "name": "Esports Observer",
+      "url": "https://esportsobserver.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://esportsobserver.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Gaming-Gambling"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "animation_xpress",
+      "name": "Animation Xpress",
+      "url": "https://www.animationxpress.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.animationxpress.com/feed/",
+      "focus_areas": [
+        "Gaming-Gambling",
+        "OTT-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "health_tech_india",
+      "name": "HealthTech India",
+      "url": "https://www.healthtechindia.com",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "pharmabiz",
+      "name": "Pharmabiz",
+      "url": "https://www.pharmabiz.com",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "express_pharma",
+      "name": "Express Pharma",
+      "url": "https://www.expresspharma.in",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.expresspharma.in/feed/",
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "biovoice_news",
+      "name": "BioVoice News",
+      "url": "https://www.biovoicenews.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.biovoicenews.com/feed/",
+      "focus_areas": [
+        "Healthtech",
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mobihealthnews",
+      "name": "MobiHealthNews",
+      "url": "https://www.mobihealthnews.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.mobihealthnews.com/feed",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "healthcareitnews",
+      "name": "Healthcare IT News",
+      "url": "https://www.healthcareitnews.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.healthcareitnews.com/home/feed",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "medcity_news",
+      "name": "MedCity News",
+      "url": "https://medcitynews.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://medcitynews.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "digital_health",
+      "name": "Digital Health",
+      "url": "https://www.digitalhealth.net",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.digitalhealth.net/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ihs",
+      "name": "Indian Health Services",
+      "url": "https://main.mohfw.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Healthtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ficci_flo",
+      "name": "FICCI Ladies Organisation",
+      "url": "https://www.ficciflo.com",
+      "type": "industry_body",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://ficciflo.org/feed/"
+    },
+    {
+      "id": "tie_india",
+      "name": "TiE India",
+      "url": "https://www.tie.org",
+      "type": "industry_body",
+      "method": "rss",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true,
+      "rss": "https://tie.org/feed/"
+    },
+    {
+      "id": "startup_india",
+      "name": "Startup India",
+      "url": "https://www.startupindia.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "invest_india",
+      "name": "Invest India",
+      "url": "https://www.investindia.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "make_in_india",
+      "name": "Make in India",
+      "url": "https://www.makeinindia.com",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "all"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "indian_patent_office",
+      "name": "Indian Patent Office",
+      "url": "https://ipindia.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "IP-Copyright"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "copyright_office_india",
+      "name": "Copyright Office India",
+      "url": "https://copyright.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "IP-Copyright"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dpiit_ip",
+      "name": "DPIIT IP Portal",
+      "url": "https://ipindia.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "IP-Copyright"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ott_play",
+      "name": "OTTplay",
+      "url": "https://www.ottplay.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.ottplay.com/feed",
+      "filter_keywords": [
+        "regulation",
+        "policy",
+        "government"
+      ],
+      "focus_areas": [
+        "OTT-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "streaming_media",
+      "name": "Streaming Media",
+      "url": "https://www.streamingmedia.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.streamingmedia.com/rss/Articles.aspx",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "OTT-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "rapidtvnews",
+      "name": "RapidTV News",
+      "url": "https://www.rapidtvnews.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.rapidtvnews.com/rss.xml",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "broadband_tv_news",
+      "name": "Broadband TV News",
+      "url": "https://www.broadbandtvnews.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.broadbandtvnews.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "media_partners_asia",
+      "name": "Media Partners Asia",
+      "url": "https://www.media-partners-asia.com",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "variety_india",
+      "name": "Variety India",
+      "url": "https://variety.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:variety.com India streaming regulation",
+      "focus_areas": [
+        "OTT-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://variety.com/feed/"
+    },
+    {
+      "id": "hollywood_reporter_india",
+      "name": "Hollywood Reporter India",
+      "url": "https://www.hollywoodreporter.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:hollywoodreporter.com India streaming regulation",
+      "focus_areas": [
+        "OTT-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://www.hollywoodreporter.com/feed/"
+    },
+    {
+      "id": "deadline_india",
+      "name": "Deadline India",
+      "url": "https://deadline.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:deadline.com India streaming regulation",
+      "focus_areas": [
+        "OTT-Regulation"
+      ],
+      "enabled": true,
+      "rss": "https://deadline.com/feed/"
+    },
+    {
+      "id": "cbfc",
+      "name": "CBFC",
+      "url": "https://www.cbfcindia.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Broadcasting",
+        "OTT-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "prasar_bharati",
+      "name": "Prasar Bharati",
+      "url": "https://prasarbharati.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Broadcasting"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bccc",
+      "name": "BCCC",
+      "url": "https://www.broadcastingcontentcomplaints.com",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Broadcasting"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "edtech_review",
+      "name": "EdTech Review",
+      "url": "https://edtechreview.in",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://edtechreview.in/feed",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "edtech_times",
+      "name": "EdTech Times",
+      "url": "https://edtechtimes.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://edtechtimes.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "edu_tech_mag",
+      "name": "EdTech Magazine",
+      "url": "https://edtechmagazine.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://edtechmagazine.com/k12/rss.xml",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "class_central",
+      "name": "Class Central",
+      "url": "https://www.classcentral.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.classcentral.com/report/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "indian_edtech",
+      "name": "Indian EdTech",
+      "url": "https://www.indianedtech.com",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "education_world",
+      "name": "Education World India",
+      "url": "https://www.educationworld.in",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.educationworld.in/feed/",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ugc_india",
+      "name": "UGC India",
+      "url": "https://www.ugc.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aicte",
+      "name": "AICTE",
+      "url": "https://www.aicte-india.org",
+      "type": "regulator",
+      "method": "rss",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true,
+      "rss": "https://www.aicte.gov.in/rss.xml"
+    },
+    {
+      "id": "swayam",
+      "name": "SWAYAM",
+      "url": "https://swayam.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nptel",
+      "name": "NPTEL",
+      "url": "https://nptel.ac.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "diksha",
+      "name": "DIKSHA",
+      "url": "https://diksha.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Edtech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "agritech_india",
+      "name": "AgriTech India",
+      "url": "https://www.agriculturetoday.in",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Agritech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "krishi_jagran",
+      "name": "Krishi Jagran",
+      "url": "https://krishijagran.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://krishijagran.com/feed/",
+      "filter_keywords": [
+        "technology",
+        "digital",
+        "drone"
+      ],
+      "focus_areas": [
+        "Agritech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "agricultureworld",
+      "name": "Agriculture World",
+      "url": "https://www.agricultureworld.in",
+      "type": "news",
+      "method": "webfetch",
+      "focus_areas": [
+        "Agritech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "agri_ministry",
+      "name": "Ministry of Agriculture",
+      "url": "https://agriculture.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Agritech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "icar",
+      "name": "ICAR",
+      "url": "https://icar.org.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Agritech",
+        "Biotechnology"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cleantech_india",
+      "name": "CleanTech India",
+      "url": "https://www.cleantechnica.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://cleantechnica.com/feed/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "Cleantech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "energyworld",
+      "name": "ET EnergyWorld",
+      "url": "https://energy.economictimes.indiatimes.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://energy.economictimes.indiatimes.com/rss/topstories",
+      "filter_keywords": [
+        "solar",
+        "renewable",
+        "technology"
+      ],
+      "focus_areas": [
+        "Cleantech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "saur_energy",
+      "name": "Saur Energy",
+      "url": "https://www.saurenergy.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.saurenergy.com/feed",
+      "focus_areas": [
+        "Cleantech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mnre",
+      "name": "MNRE",
+      "url": "https://mnre.gov.in",
+      "type": "government",
+      "method": "webfetch",
+      "focus_areas": [
+        "Cleantech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "evreporter",
+      "name": "EV Reporter",
+      "url": "https://evreporter.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://evreporter.com/feed/",
+      "focus_areas": [
+        "Autonomous-Vehicles",
+        "Cleantech"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "autocar_india",
+      "name": "Autocar India",
+      "url": "https://www.autocarindia.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.autocarindia.com/RSS/rss.ashx",
+      "filter_keywords": [
+        "electric",
+        "autonomous",
+        "policy"
+      ],
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "overdrive_india",
+      "name": "Overdrive",
+      "url": "https://www.overdrive.in",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.overdrive.in/feed/",
+      "filter_keywords": [
+        "electric",
+        "autonomous",
+        "policy"
+      ],
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "carwale",
+      "name": "CarWale",
+      "url": "https://www.carwale.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:carwale.com electric autonomous regulation policy",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true,
+      "rss": "https://www.carwale.com/rss/"
+    },
+    {
+      "id": "mobility_outlook",
+      "name": "Mobility Outlook",
+      "url": "https://mobilityoutlook.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://mobilityoutlook.com/feed/",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fada",
+      "name": "FADA",
+      "url": "https://www.fada.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "acma",
+      "name": "ACMA India",
+      "url": "https://www.acma.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Autonomous-Vehicles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "logisticsmgmt",
+      "name": "Logistics Management",
+      "url": "https://www.logisticsmgmt.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.logisticsmgmt.com/rss/",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "E-Commerce"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "supply_chain_brain",
+      "name": "Supply Chain Brain",
+      "url": "https://www.supplychainbrain.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.supplychainbrain.com/rss",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "E-Commerce"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ecommerce_times",
+      "name": "E-Commerce Times",
+      "url": "https://www.ecommercetimes.com",
+      "type": "news",
+      "method": "rss",
+      "rss": "https://www.ecommercetimes.com/perl/syndication/rssfull.pl",
+      "filter_keywords": [
+        "India"
+      ],
+      "focus_areas": [
+        "E-Commerce"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "retail_asia",
+      "name": "Retail Asia",
+      "url": "https://retailasia.com",
+      "type": "news",
+      "method": "rss",
+      "search_query": "site:retailasia.com India e-commerce regulation",
+      "focus_areas": [
+        "E-Commerce"
+      ],
+      "enabled": true,
+      "rss": "https://retailasia.com/rss.xml"
+    },
+    {
+      "id": "rai_india",
+      "name": "RAI India",
+      "url": "https://www.rai.net.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "E-Commerce"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cait_india",
+      "name": "CAIT",
+      "url": "https://cait.in",
+      "type": "industry_body",
+      "method": "rss",
+      "focus_areas": [
+        "E-Commerce"
+      ],
+      "enabled": true,
+      "rss": "https://cait.in/feed/"
+    },
+    {
+      "id": "indian_retailers_assoc",
+      "name": "Indian Retailers Association",
+      "url": "https://rai.net.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "E-Commerce"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "food_safety_india",
+      "name": "FSSAI",
+      "url": "https://www.fssai.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "E-Commerce",
+        "Consumer-Protection"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "advertising_standards",
+      "name": "ASCI",
+      "url": "https://ascionline.in",
+      "type": "industry_body",
+      "method": "rss",
+      "focus_areas": [
+        "Content-IP",
+        "Consumer-Protection"
+      ],
+      "enabled": true,
+      "rss": "https://www.ascionline.in/feed/"
+    },
+    {
+      "id": "press_council_india",
+      "name": "Press Council of India",
+      "url": "https://presscouncil.nic.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Content-IP",
+        "News-Digital-Media"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nba_india",
+      "name": "News Broadcasters Association",
+      "url": "https://nba.co.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Broadcasting-OTT",
+        "News-Digital-Media"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ibdf",
+      "name": "Indian Broadcasting Digital Foundation",
+      "url": "https://www.ibdf.tv",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Broadcasting-OTT"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "imai",
+      "name": "IMAI",
+      "url": "https://imai.org.in",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Telecom",
+        "5G"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "digital_news_publishers",
+      "name": "DNPA",
+      "url": "https://www.dnpa.in",
+      "type": "industry_body",
+      "method": "rss",
+      "focus_areas": [
+        "News-Digital-Media"
+      ],
+      "enabled": true,
+      "rss": "https://www.dnpa.in/feeds/posts/default"
+    },
+    {
+      "id": "indian_magazine_congress",
+      "name": "Indian Magazine Congress",
+      "url": "https://indianmagazinecongress.com",
+      "type": "industry_body",
+      "method": "webfetch",
+      "focus_areas": [
+        "Content-IP",
+        "News-Digital-Media"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cci_research",
+      "name": "CCI Research Portal",
+      "url": "https://www.cci.gov.in/research",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Digital-Competition"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "copyright_office",
+      "name": "Copyright Office India",
+      "url": "https://copyright.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Content-IP"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "patent_office_india",
+      "name": "Indian Patent Office",
+      "url": "https://ipindia.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Content-IP"
+      ],
+      "enabled": true
     }
   ]
 }

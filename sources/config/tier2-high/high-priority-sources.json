@@ -4,6 +4,7 @@
   "check_frequency": "daily",
   "description": "Important sources to check daily",
   "source_count": 65,
+  "actual_count": 65,
   "sources": [
     {
       "id": "karnataka_hc",
@@ -980,7 +981,7 @@
       "name": "Berkman Klein Center",
       "url": "https://cyber.harvard.edu",
       "type": "academic",
-      "method": "webfetch",
+      "method": "rss",
       "filter_keywords": [
         "India",
         "global south"
@@ -989,7 +990,8 @@
         "Internet-Governance",
         "Digital-Rights"
       ],
-      "enabled": true
+      "enabled": true,
+      "rss": "https://cyber.harvard.edu/news/feed"
     },
     {
       "id": "stanford_internet_observatory",
@@ -1018,6 +1020,19 @@
       "focus_areas": [
         "Internet-Governance",
         "Platform-Regulation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bis_india",
+      "name": "Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in",
+      "type": "regulator",
+      "method": "webfetch",
+      "focus_areas": [
+        "Cybersecurity",
+        "AI-Regulation",
+        "Standards"
       ],
       "enabled": true
     }

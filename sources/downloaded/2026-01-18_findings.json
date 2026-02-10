@@ -1,0 +1,173 @@
+{
+  "date": "2026-01-18",
+  "tier": 1,
+  "sources_checked": 25,
+  "findings_count": 12,
+  "findings": [
+    {
+      "id": "cci-apple-antitrust",
+      "title": "CCI Issues Final Warning to Apple in App Store Antitrust Case",
+      "source": "MediaNama / CCI",
+      "date": "2026-01-16",
+      "url": "https://www.medianama.com/2026/01/223-indias-competition-regulator-apple-antitrust-case-non-cooperation/",
+      "summary": "The Competition Commission of India rejected Apple's request to pause proceedings in the App Store antitrust case, stating 'repeated extensions undermine procedural discipline.' The case involves potential penalties up to $38 billion based on global turnover. Key hearing scheduled for January 27, 2026.",
+      "focus_areas": ["Competition-Antitrust", "Digital-Markets"],
+      "priority": "critical",
+      "action_required": true
+    },
+    {
+      "id": "dpdp-rules-implementation",
+      "title": "DPDP Rules 2025 Implementation Timeline in Effect",
+      "source": "MeitY",
+      "date": "2025-11-13",
+      "url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa",
+      "summary": "DPDP Rules now in Phase 1 (Data Protection Board establishment). Phase 2 (Consent Manager registration) deadline: November 13, 2026. Phase 3 (full compliance) deadline: May 13, 2027. Penalties up to ~$30 million for breaches.",
+      "focus_areas": ["Data-Protection", "DPDP"],
+      "priority": "critical",
+      "action_required": true
+    },
+    {
+      "id": "rbi-digital-banking-channels",
+      "title": "RBI Digital Banking Channels Authorisation Directions Now Effective",
+      "source": "RBI",
+      "date": "2026-01-01",
+      "url": "https://www.medianama.com/2025/12/223-rbi-digital-banking-channels-guidelines/",
+      "summary": "New RBI directions effective January 1, 2026 require banks to obtain explicit authorization for internet, mobile, USSD and SMS banking services. Banks must meet stricter financial (Rs 50cr net worth), infrastructure (IPv6/CBS), and cybersecurity (GAICA) requirements.",
+      "focus_areas": ["Fintech", "Digital-Payments"],
+      "priority": "high",
+      "action_required": false
+    },
+    {
+      "id": "rbi-digital-payment-auth",
+      "title": "RBI Digital Payment Authentication Framework Coming April 2026",
+      "source": "RBI",
+      "date": "2025-09-25",
+      "url": "https://www.ujjivansfb.bank.in/banking-blogs/personal-finance/rbi-digital-payment-authentication-rules",
+      "summary": "New authentication framework effective April 1, 2026 will require 2FA for all domestic digital payments. Banks expected to move away from SMS-based OTPs toward biometrics or app-based tokens.",
+      "focus_areas": ["Fintech", "Digital-Payments", "Cybersecurity"],
+      "priority": "high",
+      "action_required": true
+    },
+    {
+      "id": "it-rules-prior-restraint",
+      "title": "Analysis: 2025 IT Rules Amendments Constitute Prior Restraint",
+      "source": "Indian Constitutional Law & Philosophy",
+      "date": "2025-11-16",
+      "url": "https://indconlawphil.wordpress.com/2025/11/16/unconstitutional-by-design-prior-restraint-and-compelled-speech-in-the-2025-it-rules-draft-amendments/",
+      "summary": "Legal analysis argues proposed IT Rules amendments introduce 'mandatory pre-verification requirement' functioning as unlawful prior restraint on digital expression.",
+      "focus_areas": ["IT-Act", "Constitutional-Rights", "Platform-Regulation"],
+      "priority": "medium",
+      "action_required": false
+    },
+    {
+      "id": "sahyog-content-regime",
+      "title": "The Sahyog Regime: Digital Content Control Architecture",
+      "source": "Indian Constitutional Law & Philosophy",
+      "date": "2025-10-27",
+      "url": "https://indconlawphil.wordpress.com/2025/10/27/the-sahyog-regime-architecture-of-digital-control-and-censorship-guest-post/",
+      "summary": "Analysis of government's content removal portal, arguing it circumvents free speech protections by operating through alternate statutory mechanisms.",
+      "focus_areas": ["Platform-Regulation", "Constitutional-Rights", "Content-Moderation"],
+      "priority": "medium",
+      "action_required": false
+    },
+    {
+      "id": "spicyip-biosimilar-patent",
+      "title": "Delhi HC: Biosimilarity is Not Patent Infringement",
+      "source": "SpicyIP",
+      "date": "2026-01-17",
+      "url": "https://spicyip.com/2026/01/biosimilarity-is-not-infringement-full-stop.html",
+      "summary": "Delhi High Court allowed Zydus to manufacture a biosimilar, establishing that mapping of product to granted claim is indispensable for infringement finding.",
+      "focus_areas": ["IP-Copyright", "Healthtech"],
+      "priority": "medium",
+      "action_required": false
+    },
+    {
+      "id": "spicyip-trademark-warning",
+      "title": "CGPDTM Warning Against Unauthorized Online Trademark Services",
+      "source": "SpicyIP",
+      "date": "2026-01-15",
+      "url": "https://spicyip.com/2026/01/spicyip-tidbit-caution-trade-marks-protection-through-online-service-providers.html",
+      "summary": "Controller General of Patents, Designs & Trade Marks issued public notice warning against unauthorized online trademark registration services.",
+      "focus_areas": ["IP-Copyright"],
+      "priority": "low",
+      "action_required": false
+    },
+    {
+      "id": "ftc-rytr-reversal",
+      "title": "FTC Reverses Rytr AI Enforcement Action Under Trump AI Plan",
+      "source": "FTC",
+      "date": "2025-12-22",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-reopens-sets-aside-rytr-final-order-response-trump-administrations-ai-action-plan",
+      "summary": "FTC vacated 2024 consent order against Rytr LLC, first action implementing Trump's AI Action Plan. Signals shift away from preemptive bans on AI capabilities toward evidence-based enforcement.",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "priority": "high",
+      "action_required": false
+    },
+    {
+      "id": "us-ai-preemption",
+      "title": "Trump Executive Order Proposes Federal AI Preemption of State Laws",
+      "source": "White House",
+      "date": "2025-12-11",
+      "url": "https://www.kslaw.com/news-and-insights/new-state-ai-laws-are-effective-on-january-1-2026-but-a-new-executive-order-signals-disruption",
+      "summary": "Executive order proposes federal AI policy framework preempting inconsistent state AI laws. California and Texas AI laws took effect January 1, 2026.",
+      "focus_areas": ["AI-Regulation", "International-Comparative"],
+      "priority": "medium",
+      "action_required": false
+    },
+    {
+      "id": "delhi-hc-youtube-takedown",
+      "title": "Delhi HC Orders Takedown of Fake/Obscene YouTube Content",
+      "source": "Bar & Bench",
+      "date": "2026-01-17",
+      "url": "https://www.barandbench.com/news/delhi-high-court-directs-takedown-of-fake-obscene-content-on-member-of-youtube-channel-slayy-point",
+      "summary": "Delhi High Court directed takedown of fake and obscene content targeting member of YouTube channel Slayy Point.",
+      "focus_areas": ["Platform-Regulation", "Content-Moderation", "IT-Act"],
+      "priority": "low",
+      "action_required": false
+    },
+    {
+      "id": "wikipedia-ai-licensing",
+      "title": "Wikipedia Licenses AI Access to Microsoft, Meta Amid Rising Costs",
+      "source": "MediaNama",
+      "date": "2026-01-16",
+      "url": "https://www.medianama.com/2026/01/223-wikipedia-ai-licensing-deals-microsoft-meta-and-others-amid-rising-costs/",
+      "summary": "Wikimedia Foundation enters AI licensing deals with major tech companies to offset infrastructure costs from AI training access.",
+      "focus_areas": ["AI-Regulation", "IP-Copyright", "International-Comparative"],
+      "priority": "low",
+      "action_required": false
+    }
+  ],
+  "key_dates": [
+    {
+      "date": "2026-01-27",
+      "event": "CCI vs Apple App Store hearing",
+      "focus_area": "Competition-Antitrust"
+    },
+    {
+      "date": "2026-04-01",
+      "event": "RBI Digital Payment Authentication Framework effective",
+      "focus_area": "Fintech"
+    },
+    {
+      "date": "2026-11-13",
+      "event": "DPDP Phase 2 - Consent Manager registration deadline",
+      "focus_area": "Data-Protection"
+    },
+    {
+      "date": "2027-05-13",
+      "event": "DPDP Phase 3 - Full compliance deadline",
+      "focus_area": "Data-Protection"
+    }
+  ],
+  "summary": {
+    "critical_items": 2,
+    "high_priority": 3,
+    "medium_priority": 4,
+    "low_priority": 3,
+    "action_items": [
+      "Monitor CCI vs Apple hearing on January 27, 2026",
+      "Track DPDP Rules Phase 2 implementation guidance",
+      "Prepare for RBI Digital Payment Authentication Framework (April 1, 2026)"
+    ]
+  }
+}
