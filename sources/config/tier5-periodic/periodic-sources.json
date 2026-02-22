@@ -3,8 +3,8 @@
   "name": "Periodic Sources",
   "check_frequency": "monthly",
   "description": "Monthly monitoring - specialized sectors, research, and niche sources",
-  "source_count": 248,
-  "actual_count": 248,
+  "source_count": 220,
+  "actual_count": 220,
   "categories": {
     "specialized_drones": 18,
     "specialized_space": 15,
@@ -42,17 +42,6 @@
         "Drones-eVTOL"
       ],
       "enabled": true
-    },
-    {
-      "id": "drone_federation",
-      "name": "Drone Federation of India",
-      "url": "https://www.dronefederation.in",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Drones-eVTOL"
-      ],
-      "enabled": false
     },
     {
       "id": "ficci_drones",
@@ -153,17 +142,6 @@
       "enabled": true
     },
     {
-      "id": "indian_space_assoc",
-      "name": "Indian Space Association",
-      "url": "https://www.indianspaceassociation.com",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Space-Technology"
-      ],
-      "enabled": false
-    },
-    {
       "id": "space_news",
       "name": "SpaceNews",
       "url": "https://spacenews.com",
@@ -201,17 +179,6 @@
         "International-Comparative"
       ],
       "enabled": true
-    },
-    {
-      "id": "bacc_india",
-      "name": "BACC (Blockchain Association)",
-      "url": "https://bacc.co.in",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "enabled": false
     },
     {
       "id": "nasscom_blockchain",
@@ -881,19 +848,6 @@
       "rss": "https://journals.library.columbia.edu/index.php/stlr/gateway/plugin/WebFeedGatewayPlugin/atom"
     },
     {
-      "id": "nyu_jipel",
-      "name": "NYU Journal of IP & Entertainment Law",
-      "url": "https://jipel.law.nyu.edu",
-      "type": "academic_journal",
-      "method": "rss",
-      "focus_areas": [
-        "IP-Copyright",
-        "International-Comparative"
-      ],
-      "enabled": false,
-      "rss": "https://jipel.law.nyu.edu/feed/"
-    },
-    {
       "id": "oxford_jiplp",
       "name": "Journal of IP Law & Practice (Oxford)",
       "url": "https://academic.oup.com/jiplp",
@@ -1050,17 +1004,6 @@
       "enabled": true
     },
     {
-      "id": "delhi_it",
-      "name": "Delhi IT Department",
-      "url": "https://doitc.delhi.gov.in",
-      "type": "state_government",
-      "method": "webfetch",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
-    },
-    {
       "id": "rajasthan_it",
       "name": "Rajasthan IT Department",
       "url": "https://rajasthan.gov.in",
@@ -1120,17 +1063,6 @@
       ],
       "enabled": true,
       "rss": "https://odisha.gov.in/rss.xml"
-    },
-    {
-      "id": "andhra_it",
-      "name": "Andhra Pradesh IT Department",
-      "url": "https://it.ap.gov.in",
-      "type": "state_government",
-      "method": "webfetch",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
     },
     {
       "id": "assam_it",
@@ -1195,18 +1127,6 @@
         "International-Comparative"
       ],
       "enabled": true
-    },
-    {
-      "id": "israel_ppa",
-      "name": "Israel PPA",
-      "url": "https://www.gov.il/en/departments/the_privacy_protection_authority",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
     },
     {
       "id": "turkey_kvkk",
@@ -1322,18 +1242,6 @@
       "enabled": true
     },
     {
-      "id": "finland_dpa",
-      "name": "Finland DPA",
-      "url": "https://tietosuoja.fi",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "poland_uodo",
       "name": "Poland UODO",
       "url": "https://uodo.gov.pl",
@@ -1409,21 +1317,6 @@
       "enabled": true
     },
     {
-      "id": "drone_below",
-      "name": "Drone Below",
-      "url": "https://www.dronebelow.com",
-      "rss": "https://www.dronebelow.com/feed/",
-      "type": "news",
-      "method": "rss",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Drones-eVTOL"
-      ],
-      "enabled": false
-    },
-    {
       "id": "uas_vision",
       "name": "UAS Vision",
       "url": "https://www.uasvision.com",
@@ -1488,17 +1381,6 @@
         "Drones-eVTOL"
       ],
       "enabled": true
-    },
-    {
-      "id": "garuda_aerospace",
-      "name": "Garuda Aerospace",
-      "url": "https://garudaaerospace.com",
-      "type": "industry",
-      "method": "webfetch",
-      "focus_areas": [
-        "Drones-eVTOL"
-      ],
-      "enabled": false
     },
     {
       "id": "ideaforge",
@@ -1591,17 +1473,6 @@
       "enabled": true
     },
     {
-      "id": "bellatrix",
-      "name": "Bellatrix Aerospace",
-      "url": "https://www.bellatrixaerospace.com",
-      "type": "industry",
-      "method": "webfetch",
-      "focus_areas": [
-        "Space-Technology"
-      ],
-      "enabled": false
-    },
-    {
       "id": "dhruva_space",
       "name": "Dhruva Space",
       "url": "https://www.dhruvaspace.com",
@@ -1653,38 +1524,6 @@
         "Blockchain-Crypto"
       ],
       "enabled": true
-    },
-    {
-      "id": "wazirx_blog",
-      "name": "WazirX Blog",
-      "url": "https://blog.wazirx.com",
-      "rss": "https://blog.wazirx.com/feed/",
-      "type": "industry",
-      "method": "rss",
-      "filter_keywords": [
-        "regulation",
-        "policy"
-      ],
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "coindcx_blog",
-      "name": "CoinDCX Blog",
-      "url": "https://blog.coindcx.com",
-      "rss": "https://blog.coindcx.com/feed/",
-      "type": "industry",
-      "method": "rss",
-      "filter_keywords": [
-        "regulation",
-        "policy"
-      ],
-      "focus_areas": [
-        "Blockchain-Crypto"
-      ],
-      "enabled": false
     },
     {
       "id": "zebpay_blog",
@@ -1788,21 +1627,6 @@
         "Cybersecurity"
       ],
       "enabled": true
-    },
-    {
-      "id": "cisco_talos",
-      "name": "Cisco Talos",
-      "url": "https://blog.talosintelligence.com",
-      "rss": "https://blog.talosintelligence.com/feeds/posts/default",
-      "type": "news",
-      "method": "rss",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Cybersecurity"
-      ],
-      "enabled": false
     },
     {
       "id": "kaspersky_india",
@@ -1974,17 +1798,6 @@
       "enabled": true
     },
     {
-      "id": "meta_ai",
-      "name": "Meta AI",
-      "url": "https://ai.meta.com",
-      "type": "industry",
-      "method": "webfetch",
-      "focus_areas": [
-        "AI-Regulation"
-      ],
-      "enabled": false
-    },
-    {
       "id": "ibm_ai",
       "name": "IBM AI",
       "url": "https://www.ibm.com/artificial-intelligence",
@@ -2129,17 +1942,6 @@
       "enabled": true
     },
     {
-      "id": "ml_india",
-      "name": "ML India",
-      "url": "https://mlindia.org",
-      "type": "academic",
-      "method": "webfetch",
-      "focus_areas": [
-        "AI-Regulation"
-      ],
-      "enabled": false
-    },
-    {
       "id": "waymo",
       "name": "Waymo",
       "url": "https://waymo.com",
@@ -2171,17 +1973,6 @@
         "Autonomous-Vehicles"
       ],
       "enabled": true
-    },
-    {
-      "id": "argo_ai",
-      "name": "Argo AI",
-      "url": "https://www.argo.ai",
-      "type": "industry",
-      "method": "webfetch",
-      "focus_areas": [
-        "Autonomous-Vehicles"
-      ],
-      "enabled": false
     },
     {
       "id": "ola_electric",
@@ -2321,17 +2112,6 @@
       "rss": "https://www.nature.com/nbt.rss"
     },
     {
-      "id": "biotech_india",
-      "name": "Biotech India",
-      "url": "https://www.biotechindia.in",
-      "type": "news",
-      "method": "webfetch",
-      "focus_areas": [
-        "Biotechnology"
-      ],
-      "enabled": false
-    },
-    {
       "id": "genengnews",
       "name": "GEN",
       "url": "https://www.genengnews.com",
@@ -2345,32 +2125,6 @@
         "Biotechnology"
       ],
       "enabled": true
-    },
-    {
-      "id": "fiercebiotech",
-      "name": "Fierce Biotech",
-      "url": "https://www.fiercebiotech.com",
-      "rss": "https://www.fiercebiotech.com/feed",
-      "type": "news",
-      "method": "rss",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Biotechnology"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "biocon",
-      "name": "Biocon",
-      "url": "https://www.biocon.com",
-      "type": "industry",
-      "method": "webfetch",
-      "focus_areas": [
-        "Biotechnology"
-      ],
-      "enabled": false
     },
     {
       "id": "serum_institute",
@@ -2656,18 +2410,6 @@
       "enabled": true
     },
     {
-      "id": "lithuania_ada",
-      "name": "Lithuania ADA",
-      "url": "https://vdai.lrv.lt",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "cyprus_cdp",
       "name": "Cyprus CDP",
       "url": "https://www.dataprotection.gov.cy",
@@ -2755,18 +2497,6 @@
       "enabled": true
     },
     {
-      "id": "qatar_dp",
-      "name": "Qatar CDP",
-      "url": "https://www.cdp.gov.qa",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "bahrain_pdp",
       "name": "Bahrain PDP",
       "url": "https://www.pdp.gov.bh",
@@ -2777,18 +2507,6 @@
         "International-Comparative"
       ],
       "enabled": true
-    },
-    {
-      "id": "jordan_pdpc",
-      "name": "Jordan PDPC",
-      "url": "https://www.pdpc.gov.jo",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
     },
     {
       "id": "oman_ita",
@@ -2825,18 +2543,6 @@
         "International-Comparative"
       ],
       "enabled": true
-    },
-    {
-      "id": "senegal_cdp",
-      "name": "Senegal CDP",
-      "url": "https://www.cdp.sn",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
     },
     {
       "id": "botswana_dp",
@@ -2913,18 +2619,6 @@
       "enabled": true
     },
     {
-      "id": "ethiopia_eic",
-      "name": "Ethiopia ICT Authority",
-      "url": "https://www.mcit.gov.et",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "cameroon_antic",
       "name": "Cameroon ANTIC",
       "url": "https://www.antic.cm",
@@ -2995,18 +2689,6 @@
       "enabled": true
     },
     {
-      "id": "au_digital_transformation",
-      "name": "African Union Digital",
-      "url": "https://au.int/en/digital-transformation-strategy",
-      "type": "international_body",
-      "method": "rss",
-      "focus_areas": [
-        "International-Comparative"
-      ],
-      "enabled": false,
-      "rss": "https://au.int/rss.xml"
-    },
-    {
       "id": "unescap_ict",
       "name": "UNESCAP ICT",
       "url": "https://www.unescap.org/our-work/ict-disaster-risk-reduction",
@@ -3030,18 +2712,6 @@
       ],
       "enabled": true,
       "rss": "https://www.apnic.net/feed/"
-    },
-    {
-      "id": "icann_apac",
-      "name": "ICANN APAC",
-      "url": "https://www.icann.org/en/global-domains-division/apac",
-      "type": "international_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Telecom",
-        "International-Comparative"
-      ],
-      "enabled": false
     },
     {
       "id": "pacnog",

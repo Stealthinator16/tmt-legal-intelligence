@@ -3,8 +3,8 @@
   "name": "High Priority Sources",
   "check_frequency": "daily",
   "description": "Important sources to check daily",
-  "source_count": 65,
-  "actual_count": 65,
+  "source_count": 61,
+  "actual_count": 61,
   "sources": [
     {
       "id": "karnataka_hc",
@@ -132,19 +132,6 @@
       "enabled": true
     },
     {
-      "id": "asci",
-      "name": "Advertising Standards Council of India",
-      "url": "https://asci.online",
-      "type": "self_regulatory",
-      "method": "webfetch",
-      "focus_areas": [
-        "Platform-Regulation",
-        "Content-Moderation",
-        "Influencer-Marketing"
-      ],
-      "enabled": false
-    },
-    {
       "id": "dgca",
       "name": "DGCA - Drones",
       "url": "https://www.dgca.gov.in",
@@ -173,23 +160,6 @@
         "News-Media"
       ],
       "enabled": true
-    },
-    {
-      "id": "mca",
-      "name": "Ministry of Corporate Affairs",
-      "url": "https://www.mca.gov.in",
-      "type": "ministry",
-      "method": "webfetch",
-      "filter_keywords": [
-        "digital",
-        "technology",
-        "data"
-      ],
-      "focus_areas": [
-        "Corporate-Governance",
-        "ESG-Digital"
-      ],
-      "enabled": false
     },
     {
       "id": "mha_cyber",
@@ -512,19 +482,6 @@
       "rss": "https://oag.ca.gov/news/feed"
     },
     {
-      "id": "singapore_pdpc",
-      "name": "Singapore PDPC",
-      "url": "https://www.pdpc.gov.sg",
-      "rss": "https://www.pdpc.gov.sg/rss/news",
-      "type": "international_regulator",
-      "method": "rss",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "australia_oaic",
       "name": "Australia OAIC",
       "url": "https://www.oaic.gov.au",
@@ -733,25 +690,6 @@
       ],
       "enabled": true,
       "rss": "https://trilegal.com/feed/"
-    },
-    {
-      "id": "azb_tmt",
-      "name": "AZB & Partners - TMT",
-      "url": "https://www.azbpartners.com",
-      "type": "law_firm",
-      "method": "rss",
-      "filter_keywords": [
-        "technology",
-        "media",
-        "telecom",
-        "data",
-        "privacy"
-      ],
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false,
-      "rss": "https://www.azbpartners.com/feed/"
     },
     {
       "id": "cam_tmt",

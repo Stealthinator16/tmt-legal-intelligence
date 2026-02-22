@@ -3,8 +3,8 @@
   "name": "Standard Priority Sources",
   "check_frequency": "daily",
   "description": "Daily monitoring sources - comprehensive coverage",
-  "source_count": 180,
-  "actual_count": 180,
+  "source_count": 166,
+  "actual_count": 166,
   "categories": {
     "indian_high_courts": 21,
     "international_eu": 35,
@@ -416,18 +416,6 @@
       "enabled": true
     },
     {
-      "id": "dsb_austria",
-      "name": "DSB (Austria DPA)",
-      "url": "https://www.dsb.gv.at",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "edps",
       "name": "European Data Protection Supervisor",
       "url": "https://edps.europa.eu",
@@ -637,19 +625,6 @@
       "enabled": true
     },
     {
-      "id": "singapore_pdpc",
-      "name": "Singapore PDPC",
-      "url": "https://www.pdpc.gov.sg",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "AI-Regulation",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "singapore_imda",
       "name": "Singapore IMDA",
       "url": "https://www.imda.gov.sg",
@@ -712,18 +687,6 @@
         "International-Comparative"
       ],
       "enabled": true
-    },
-    {
-      "id": "hong_kong_pcpd",
-      "name": "Hong Kong PCPD",
-      "url": "https://www.pcpd.org.hk",
-      "type": "international_regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "International-Comparative"
-      ],
-      "enabled": false
     },
     {
       "id": "itu",
@@ -1299,23 +1262,6 @@
       "enabled": true
     },
     {
-      "id": "firstpost_tech",
-      "name": "Firstpost Tech",
-      "url": "https://www.firstpost.com/tech",
-      "rss": "https://www.firstpost.com/rss/tech.xml",
-      "type": "news",
-      "method": "rss",
-      "filter_keywords": [
-        "regulation",
-        "policy",
-        "law"
-      ],
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
-    },
-    {
       "id": "ndtv_gadgets",
       "name": "NDTV Gadgets 360",
       "url": "https://www.gadgets360.com",
@@ -1413,26 +1359,6 @@
       "rss": "https://www.asianage.com/google_feeds.xml"
     },
     {
-      "id": "print_tech",
-      "name": "The Print Tech",
-      "url": "https://theprint.in",
-      "rss": "https://theprint.in/feed/",
-      "type": "news",
-      "method": "rss",
-      "filter_keywords": [
-        "technology",
-        "data",
-        "privacy",
-        "cyber",
-        "AI",
-        "regulation"
-      ],
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
-    },
-    {
       "id": "news18_tech",
       "name": "News18 Tech",
       "url": "https://www.news18.com/tech",
@@ -1492,23 +1418,6 @@
         "all"
       ],
       "enabled": true
-    },
-    {
-      "id": "cnbc_tv18_tech",
-      "name": "CNBC-TV18 Tech",
-      "url": "https://www.cnbctv18.com/technology/",
-      "rss": "https://www.cnbctv18.com/rss/technology.xml",
-      "type": "news",
-      "method": "rss",
-      "filter_keywords": [
-        "regulation",
-        "policy",
-        "government"
-      ],
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
     },
     {
       "id": "bloomberg_quint_tech",
@@ -1686,19 +1595,6 @@
       "rss": "https://carnegieindia.org/rss/solr/"
     },
     {
-      "id": "brookings_india",
-      "name": "Brookings India",
-      "url": "https://www.brookings.edu/geo/india/",
-      "type": "think_tank",
-      "method": "rss",
-      "focus_areas": [
-        "all",
-        "International-Comparative"
-      ],
-      "enabled": false,
-      "rss": "https://www.brookings.edu/feed/"
-    },
-    {
       "id": "gateway_house",
       "name": "Gateway House",
       "url": "https://www.gatewayhouse.in",
@@ -1749,30 +1645,6 @@
       ],
       "enabled": true,
       "rss": "https://ncaer.org/feed/"
-    },
-    {
-      "id": "iim_bangalore_nsrcel",
-      "name": "IIM Bangalore NSRCEL",
-      "url": "https://nsrcel.iimb.ac.in",
-      "type": "academic",
-      "method": "webfetch",
-      "focus_areas": [
-        "Fintech",
-        "E-Commerce"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "iim_ahmedabad_ciie",
-      "name": "IIM Ahmedabad CIIE",
-      "url": "https://ciie.co",
-      "type": "academic",
-      "method": "webfetch",
-      "focus_areas": [
-        "Fintech",
-        "E-Commerce"
-      ],
-      "enabled": false
     },
     {
       "id": "iit_delhi_ai",
@@ -1846,17 +1718,6 @@
       "enabled": true
     },
     {
-      "id": "nlu_ranchi",
-      "name": "NLU Ranchi",
-      "url": "https://www.nluranchi.ac.in",
-      "type": "academic",
-      "method": "webfetch",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
-    },
-    {
       "id": "nliu_bhopal",
       "name": "NLIU Bhopal",
       "url": "https://www.nliu.ac.in",
@@ -1912,17 +1773,6 @@
       ],
       "enabled": true,
       "rss": "https://www.cnlu.ac.in/feed/"
-    },
-    {
-      "id": "nluja_assam",
-      "name": "NLUJA Assam",
-      "url": "https://www.nluja.ac.in",
-      "type": "academic",
-      "method": "webfetch",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
     },
     {
       "id": "nlu_odisha",
@@ -2049,18 +1899,6 @@
       ],
       "enabled": true,
       "rss": "https://www.nls.ac.in/feed/"
-    },
-    {
-      "id": "nlsiu_citapp",
-      "name": "NLSIU CITAPP",
-      "url": "https://citapp.nls.ac.in",
-      "type": "academic",
-      "method": "rss",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false,
-      "rss": "https://citapp.nls.ac.in/feed/"
     },
     {
       "id": "ars_technica",
@@ -2228,24 +2066,6 @@
       "enabled": true
     },
     {
-      "id": "acm_tech_news",
-      "name": "ACM TechNews",
-      "url": "https://technews.acm.org",
-      "rss": "https://technews.acm.org/rss.html",
-      "type": "academic",
-      "method": "rss",
-      "filter_keywords": [
-        "India",
-        "regulation",
-        "policy"
-      ],
-      "focus_areas": [
-        "all",
-        "International-Comparative"
-      ],
-      "enabled": false
-    },
-    {
       "id": "slashdot",
       "name": "Slashdot",
       "url": "https://slashdot.org",
@@ -2377,18 +2197,6 @@
         "Content-IP"
       ],
       "enabled": true
-    },
-    {
-      "id": "digital_rights_foundation",
-      "name": "Digital Rights Foundation",
-      "url": "https://digitalrightsfoundation.pk",
-      "type": "advocacy",
-      "method": "webfetch",
-      "focus_areas": [
-        "Data-Protection",
-        "Constitutional-Rights"
-      ],
-      "enabled": false
     },
     {
       "id": "ranking_digital_rights",

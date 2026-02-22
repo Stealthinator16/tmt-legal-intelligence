@@ -42,6 +42,8 @@ interface SidebarData {
   starredCount: number;
   sourcesByTier: Record<number, SidebarSource[]>;
   sourcesWithErrors: string[];
+  disabledSources: SidebarSource[];
+  disabledCount: number;
 }
 
 const TIER_LABELS: Record<number, string> = {
@@ -249,6 +251,54 @@ export function FeedlySidebar() {
               </div>
             );
           })}
+
+          {/* Disabled Sources Section */}
+          {data && data.disabledSources && data.disabledSources.length > 0 && (
+            <div className="mb-1">
+              <button
+                onClick={() => toggleTier(0)}
+                className="flex w-full items-center justify-between rounded-lg px-3 py-1.5 text-xs font-semibold text-muted-foreground hover:bg-sidebar-accent transition-colors"
+              >
+                <div className="flex items-center gap-2">
+                  {expandedTiers.has(0) ? (
+                    <ChevronDown className="h-3 w-3" />
+                  ) : (
+                    <ChevronRight className="h-3 w-3" />
+                  )}
+                  <span className="uppercase tracking-wider">Disabled</span>
+                </div>
+                <span className="text-muted-foreground">{data.disabledCount}</span>
+              </button>
+
+              {expandedTiers.has(0) && (
+                <div className="ml-2 mt-0.5 space-y-0.5">
+                  {data.disabledSources.map((source) => {
+                    const isActive = currentSource === source.id;
+                    const Icon = METHOD_ICONS[source.method] || Rss;
+
+                    return (
+                      <Link
+                        key={source.id}
+                        href={`/?source=${source.id}`}
+                        className={cn(
+                          "flex items-center justify-between rounded-md px-3 py-1.5 text-sm transition-colors",
+                          isActive
+                            ? "bg-primary/10 text-primary"
+                            : "text-muted-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground",
+                          !isActive && "opacity-50"
+                        )}
+                      >
+                        <div className="flex items-center gap-2 min-w-0">
+                          <Icon className="h-3.5 w-3.5 shrink-0 opacity-50" />
+                          <span className="truncate">{source.name}</span>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          )}
 
           {loading && (
             <div className="flex items-center justify-center py-8">

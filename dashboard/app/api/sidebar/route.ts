@@ -29,6 +29,8 @@ export interface SidebarData {
   starredCount: number;
   sourcesByTier: Record<number, SidebarSource[]>;
   sourcesWithErrors: string[];
+  disabledSources: SidebarSource[];
+  disabledCount: number;
 }
 
 export async function GET() {
@@ -36,6 +38,7 @@ export async function GET() {
     ensureInitialized();
 
     const sources = getAllSources({ enabled: true, blocklisted: false });
+    const disabledSourcesRaw = getAllSources({ enabled: false });
     const sourcesWithErrors = getSourcesWithErrors();
     const unreadBySource = getUnreadCountBySource();
     const itemStats = getItemStats();
@@ -71,12 +74,27 @@ export async function GET() {
       });
     }
 
+    // Map disabled sources
+    const disabledSources: SidebarSource[] = disabledSourcesRaw.map((source) => ({
+      id: source.id,
+      name: source.name,
+      tier: source.tier || 3,
+      method: source.method,
+      enabled: false,
+      blocklisted: source.blocklisted || false,
+      hasError: errorSourceIds.has(source.id),
+      unreadCount: unreadBySource[source.id] || 0,
+    }));
+    disabledSources.sort((a, b) => a.name.localeCompare(b.name));
+
     const sidebarData: SidebarData = {
       todayCount: itemStats.today,
       unreadCount: itemStats.unread,
       starredCount: itemStats.starred,
       sourcesByTier,
       sourcesWithErrors: Array.from(errorSourceIds),
+      disabledSources,
+      disabledCount: disabledSources.length,
     };
 
     return NextResponse.json(sidebarData);

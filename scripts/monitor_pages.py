@@ -106,7 +106,8 @@ def load_source_configs(tiers: list[int], source_id: str = None) -> list[dict]:
         2: "tier2-high",
         3: "tier3-standard",
         4: "tier4-regular",
-        5: "tier5-periodic"
+        5: "tier5-periodic",
+        0: "disabled"
     }
 
     sources = []

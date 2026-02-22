@@ -26,8 +26,13 @@ function SourcesContent() {
   const fetchSources = useCallback(async () => {
     try {
       setLoading(true);
-      const tierQuery = selectedTier !== "all" ? `?tier=${selectedTier}` : "";
-      const response = await fetch(`/api/sources${tierQuery}`);
+      let query = "";
+      if (selectedTier === "disabled") {
+        query = "?enabled=false";
+      } else if (selectedTier !== "all") {
+        query = `?tier=${selectedTier}`;
+      }
+      const response = await fetch(`/api/sources${query}`);
       if (response.ok) {
         const data = await response.json();
         setSources(data);
@@ -183,6 +188,9 @@ function SourcesContent() {
               T{tier} ({tierCounts[tier] || 0})
             </TabsTrigger>
           ))}
+          <TabsTrigger value="disabled">
+            Disabled
+          </TabsTrigger>
         </TabsList>
 
         <TabsContent value={selectedTier} className="mt-6">

@@ -3,8 +3,8 @@
   "name": "Regular Priority Sources",
   "check_frequency": "weekly",
   "description": "Weekly monitoring - comprehensive academic, law firm, and industry coverage",
-  "source_count": 220,
-  "actual_count": 220,
+  "source_count": 188,
+  "actual_count": 188,
   "categories": {
     "academic_journals": 45,
     "law_firms_india": 25,
@@ -120,19 +120,6 @@
         "International-Comparative"
       ],
       "enabled": true
-    },
-    {
-      "id": "nyu_engelberg",
-      "name": "NYU Engelberg Center",
-      "url": "https://www.law.nyu.edu/engelberg",
-      "type": "academic",
-      "method": "webfetch",
-      "focus_areas": [
-        "IP-Copyright",
-        "AI-Regulation",
-        "International-Comparative"
-      ],
-      "enabled": false
     },
     {
       "id": "georgetown_cdt",
@@ -383,19 +370,6 @@
       "rss": "https://trilegal.com/feed/"
     },
     {
-      "id": "azbpartners",
-      "name": "AZB & Partners",
-      "url": "https://www.azbpartners.com",
-      "type": "law_firm",
-      "method": "rss",
-      "search_query": "site:azbpartners.com (technology OR data OR digital OR fintech)",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false,
-      "rss": "https://www.azbpartners.com/feed/"
-    },
-    {
       "id": "cyrilshroff",
       "name": "Cyril Amarchand Mangaldas",
       "url": "https://www.cyrilshroff.com",
@@ -570,19 +544,6 @@
       "enabled": true
     },
     {
-      "id": "freshfields",
-      "name": "Freshfields",
-      "url": "https://www.freshfields.com",
-      "type": "law_firm_intl",
-      "method": "rss",
-      "search_query": "site:freshfields.com India technology",
-      "focus_areas": [
-        "International-Comparative"
-      ],
-      "enabled": false,
-      "rss": "https://www.freshfields.com/en/rss/news/"
-    },
-    {
       "id": "baker_mckenzie",
       "name": "Baker McKenzie",
       "url": "https://www.bakermckenzie.com",
@@ -715,17 +676,6 @@
         "Digital-Payments"
       ],
       "enabled": true
-    },
-    {
-      "id": "fintech_convergence",
-      "name": "Fintech Convergence Council",
-      "url": "https://www.fintechcc.in",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Fintech"
-      ],
-      "enabled": false
     },
     {
       "id": "rbi_fintech_dept",
@@ -943,17 +893,6 @@
       ],
       "enabled": true,
       "rss": "https://www.ibdf.com/rss.xml"
-    },
-    {
-      "id": "isan",
-      "name": "ISAN (Internet & Streaming Assoc)",
-      "url": "https://www.internetstreaming.in",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "OTT-Regulation"
-      ],
-      "enabled": false
     },
     {
       "id": "exchange4media",
@@ -1232,28 +1171,6 @@
         "all"
       ],
       "enabled": true
-    },
-    {
-      "id": "majumdar_partners",
-      "name": "Majumdar & Partners",
-      "url": "https://www.majumdarandpartners.com",
-      "type": "law_firm",
-      "method": "webfetch",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "verity",
-      "name": "Verity Law",
-      "url": "https://www.veritylaw.in",
-      "type": "law_firm",
-      "method": "webfetch",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
     },
     {
       "id": "algo_legal",
@@ -1587,17 +1504,6 @@
       "enabled": true
     },
     {
-      "id": "deity",
-      "name": "DeitY Portal",
-      "url": "https://www.deity.gov.in",
-      "type": "government",
-      "method": "webfetch",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false
-    },
-    {
       "id": "umang",
       "name": "UMANG",
       "url": "https://web.umang.gov.in",
@@ -1682,21 +1588,6 @@
       "enabled": true
     },
     {
-      "id": "fintech_futures",
-      "name": "FinTech Futures",
-      "url": "https://www.fintechfutures.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.fintechfutures.com/feed/",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Fintech"
-      ],
-      "enabled": false
-    },
-    {
       "id": "medici",
       "name": "MEDICI",
       "url": "https://gomedici.com",
@@ -1733,18 +1624,6 @@
         "Digital-Payments"
       ],
       "enabled": true
-    },
-    {
-      "id": "digital_payments_india",
-      "name": "Digital Payments India",
-      "url": "https://www.digitalpaymentsindia.com",
-      "type": "news",
-      "method": "webfetch",
-      "focus_areas": [
-        "Fintech",
-        "Digital-Payments"
-      ],
-      "enabled": false
     },
     {
       "id": "game_spot",
@@ -1828,21 +1707,6 @@
       "enabled": true
     },
     {
-      "id": "esportsobserver",
-      "name": "Esports Observer",
-      "url": "https://esportsobserver.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://esportsobserver.com/feed/",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Gaming-Gambling"
-      ],
-      "enabled": false
-    },
-    {
       "id": "animation_xpress",
       "name": "Animation Xpress",
       "url": "https://www.animationxpress.com",
@@ -1903,36 +1767,6 @@
       "enabled": true
     },
     {
-      "id": "mobihealthnews",
-      "name": "MobiHealthNews",
-      "url": "https://www.mobihealthnews.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.mobihealthnews.com/feed",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Healthtech"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "healthcareitnews",
-      "name": "Healthcare IT News",
-      "url": "https://www.healthcareitnews.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.healthcareitnews.com/home/feed",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Healthtech"
-      ],
-      "enabled": false
-    },
-    {
       "id": "medcity_news",
       "name": "MedCity News",
       "url": "https://medcitynews.com",
@@ -1961,29 +1795,6 @@
         "Healthtech"
       ],
       "enabled": true
-    },
-    {
-      "id": "ihs",
-      "name": "Indian Health Services",
-      "url": "https://main.mohfw.gov.in",
-      "type": "government",
-      "method": "webfetch",
-      "focus_areas": [
-        "Healthtech"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "ficci_flo",
-      "name": "FICCI Ladies Organisation",
-      "url": "https://www.ficciflo.com",
-      "type": "industry_body",
-      "method": "rss",
-      "focus_areas": [
-        "all"
-      ],
-      "enabled": false,
-      "rss": "https://ficciflo.org/feed/"
     },
     {
       "id": "tie_india",
@@ -2062,54 +1873,6 @@
         "IP-Copyright"
       ],
       "enabled": true
-    },
-    {
-      "id": "ott_play",
-      "name": "OTTplay",
-      "url": "https://www.ottplay.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.ottplay.com/feed",
-      "filter_keywords": [
-        "regulation",
-        "policy",
-        "government"
-      ],
-      "focus_areas": [
-        "OTT-Regulation"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "streaming_media",
-      "name": "Streaming Media",
-      "url": "https://www.streamingmedia.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.streamingmedia.com/rss/Articles.aspx",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "OTT-Regulation"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "rapidtvnews",
-      "name": "RapidTV News",
-      "url": "https://www.rapidtvnews.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.rapidtvnews.com/rss.xml",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "Broadcasting",
-        "OTT-Regulation"
-      ],
-      "enabled": false
     },
     {
       "id": "broadband_tv_news",
@@ -2202,17 +1965,6 @@
       "enabled": true
     },
     {
-      "id": "bccc",
-      "name": "BCCC",
-      "url": "https://www.broadcastingcontentcomplaints.com",
-      "type": "regulator",
-      "method": "webfetch",
-      "focus_areas": [
-        "Broadcasting"
-      ],
-      "enabled": false
-    },
-    {
       "id": "edtech_review",
       "name": "EdTech Review",
       "url": "https://edtechreview.in",
@@ -2268,29 +2020,6 @@
         "Edtech"
       ],
       "enabled": true
-    },
-    {
-      "id": "indian_edtech",
-      "name": "Indian EdTech",
-      "url": "https://www.indianedtech.com",
-      "type": "news",
-      "method": "webfetch",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "education_world",
-      "name": "Education World India",
-      "url": "https://www.educationworld.in",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.educationworld.in/feed/",
-      "focus_areas": [
-        "Edtech"
-      ],
-      "enabled": false
     },
     {
       "id": "ugc_india",
@@ -2360,45 +2089,6 @@
       "enabled": true
     },
     {
-      "id": "krishi_jagran",
-      "name": "Krishi Jagran",
-      "url": "https://krishijagran.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://krishijagran.com/feed/",
-      "filter_keywords": [
-        "technology",
-        "digital",
-        "drone"
-      ],
-      "focus_areas": [
-        "Agritech"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "agricultureworld",
-      "name": "Agriculture World",
-      "url": "https://www.agricultureworld.in",
-      "type": "news",
-      "method": "webfetch",
-      "focus_areas": [
-        "Agritech"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "agri_ministry",
-      "name": "Ministry of Agriculture",
-      "url": "https://agriculture.gov.in",
-      "type": "government",
-      "method": "webfetch",
-      "focus_areas": [
-        "Agritech"
-      ],
-      "enabled": false
-    },
-    {
       "id": "icar",
       "name": "ICAR",
       "url": "https://icar.org.in",
@@ -2443,18 +2133,6 @@
       "enabled": true
     },
     {
-      "id": "saur_energy",
-      "name": "Saur Energy",
-      "url": "https://www.saurenergy.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.saurenergy.com/feed",
-      "focus_areas": [
-        "Cleantech"
-      ],
-      "enabled": false
-    },
-    {
       "id": "mnre",
       "name": "MNRE",
       "url": "https://mnre.gov.in",
@@ -2496,23 +2174,6 @@
       "enabled": true
     },
     {
-      "id": "overdrive_india",
-      "name": "Overdrive",
-      "url": "https://www.overdrive.in",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.overdrive.in/feed/",
-      "filter_keywords": [
-        "electric",
-        "autonomous",
-        "policy"
-      ],
-      "focus_areas": [
-        "Autonomous-Vehicles"
-      ],
-      "enabled": false
-    },
-    {
       "id": "carwale",
       "name": "CarWale",
       "url": "https://www.carwale.com",
@@ -2524,18 +2185,6 @@
       ],
       "enabled": true,
       "rss": "https://www.carwale.com/rss/"
-    },
-    {
-      "id": "mobility_outlook",
-      "name": "Mobility Outlook",
-      "url": "https://mobilityoutlook.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://mobilityoutlook.com/feed/",
-      "focus_areas": [
-        "Autonomous-Vehicles"
-      ],
-      "enabled": false
     },
     {
       "id": "fada",
@@ -2573,21 +2222,6 @@
         "E-Commerce"
       ],
       "enabled": true
-    },
-    {
-      "id": "supply_chain_brain",
-      "name": "Supply Chain Brain",
-      "url": "https://www.supplychainbrain.com",
-      "type": "news",
-      "method": "rss",
-      "rss": "https://www.supplychainbrain.com/rss",
-      "filter_keywords": [
-        "India"
-      ],
-      "focus_areas": [
-        "E-Commerce"
-      ],
-      "enabled": false
     },
     {
       "id": "ecommerce_times",
@@ -2689,41 +2323,6 @@
       "enabled": true
     },
     {
-      "id": "nba_india",
-      "name": "News Broadcasters Association",
-      "url": "https://nba.co.in",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Broadcasting-OTT",
-        "News-Digital-Media"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "ibdf",
-      "name": "Indian Broadcasting Digital Foundation",
-      "url": "https://www.ibdf.tv",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Broadcasting-OTT"
-      ],
-      "enabled": false
-    },
-    {
-      "id": "imai",
-      "name": "IMAI",
-      "url": "https://imai.org.in",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Telecom",
-        "5G"
-      ],
-      "enabled": false
-    },
-    {
       "id": "digital_news_publishers",
       "name": "DNPA",
       "url": "https://www.dnpa.in",
@@ -2734,18 +2333,6 @@
       ],
       "enabled": true,
       "rss": "https://www.dnpa.in/feeds/posts/default"
-    },
-    {
-      "id": "indian_magazine_congress",
-      "name": "Indian Magazine Congress",
-      "url": "https://indianmagazinecongress.com",
-      "type": "industry_body",
-      "method": "webfetch",
-      "focus_areas": [
-        "Content-IP",
-        "News-Digital-Media"
-      ],
-      "enabled": false
     },
     {
       "id": "cci_research",

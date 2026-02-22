@@ -30,6 +30,7 @@ const TIER_DIRS: Record<number, string> = {
   3: "tier3-standard",
   4: "tier4-regular",
   5: "tier5-periodic",
+  0: "disabled",
 };
 
 interface SourceConfig {
@@ -49,6 +50,7 @@ interface SourceConfig {
     enabled?: boolean;
     critical?: boolean;
     priority_score?: number;
+    tier?: number;
   }>;
 }
 
@@ -144,11 +146,11 @@ function migrateSourceConfigs(db: Database.Database) {
 
   let totalSources = 0;
 
-  for (const [tier, tierDir] of Object.entries(TIER_DIRS)) {
+  for (const [dirKey, tierDir] of Object.entries(TIER_DIRS)) {
     const tierPath = path.join(SOURCES_CONFIG_DIR, tierDir);
 
     if (!fs.existsSync(tierPath)) {
-      log(`  Tier ${tier} directory not found: ${tierPath}`);
+      log(`  ${tierDir} directory not found: ${tierPath}`);
       continue;
     }
 
@@ -160,6 +162,9 @@ function migrateSourceConfigs(db: Database.Database) {
       const config: SourceConfig = JSON.parse(content);
 
       for (const source of config.sources || []) {
+        // Use source's own tier field if present (e.g. disabled sources retain original tier),
+        // otherwise use the directory key. Clamp to 1-5 for DB constraint.
+        const sourceTier = Math.max(1, Math.min(5, source.tier || parseInt(dirKey) || 3));
         if (!isDryRun) {
           insertStmt.run(
             source.id,
@@ -168,7 +173,7 @@ function migrateSourceConfigs(db: Database.Database) {
             source.rss || null,
             source.type || "blog",
             source.method,
-            parseInt(tier),
+            sourceTier,
             source.enabled !== false ? 1 : 0,
             JSON.stringify(source.focus_areas || []),
             source.search_query || null,
@@ -182,7 +187,7 @@ function migrateSourceConfigs(db: Database.Database) {
       }
     }
 
-    log(`  Tier ${tier}: processed config files`);
+    log(`  ${tierDir}: processed config files`);
   }
 
   log(`  Total sources migrated: ${totalSources}`);
